@@ -1,4 +1,4 @@
-## Hardware
+# Hardware
 - É tudo aquilo que se refere a parte física do computador (dispositivo). 
 > Placa de vídeo
 > Processador
@@ -9,7 +9,7 @@
 > Monitor
 Etc..
 
-## Periféricos
+# Periféricos
 - É tudo aquilo que recebe informações do computador. O termo "periférico" aplica-se a qualquer equipamento ou acessório que seja ligado à CPU, ou, em um sentido mais amplo, ao computador.
 > Teclado
 > Mouse
@@ -18,13 +18,13 @@ Etc..
 > Pen-drive
 Etc.. 
 ________________________________________________________________________________________________________________________
-## Sistema operacional 
+# Sistema operacional 
 Sua função é fazer o gerenciamento de todo o seu hardware, o sistema operacional quem faz a comunicação entre seus dispositivos.
 Exemplo: Quando mexemos o mouse, o mouse mexe no seu monitor.
 Quando executamos um programa, o sistema operacional quem vai controlar o quanto este programa irá utilizar de processamento, quanto ele irá utilizar de memória RAM, quando ele irá utilizar.. 
 se este programa vai aramazenar ou não algo no seu HD/SSD e etc.
 ________________________________________________________________________________________________________________________
-## Software
+# Software
 - É um cojunto de instruções que permite controlar um dispositivo eletrônico. 
 - É a parte lógica do computador
 
@@ -40,7 +40,7 @@ O software está tanto no controle, quanto no drone.
 
 
 ### Há vários tipos de software
-Program (Programa de computador/aplicativo):
+* Program:
 É um cojunto de instruções que descrevem uma tarefa e/ou um trabalho específico no seu computador.
 São ferramentas para o usuário realizar ações. 
 Exemplos: Discord, photoshop, paint..
