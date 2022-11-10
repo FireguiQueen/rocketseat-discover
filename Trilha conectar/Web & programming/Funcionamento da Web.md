@@ -48,15 +48,16 @@ ________________________________________________________________________________
 ### Pensamento simples
 <ol>
 <li> Digitar https://aternos.org/ </li>  
-2º - Pressionar enter
-3º - Visualizar o site
+<li> Pressionar enter  </li>  
+<li> Visualizar o site </li>  
 </ol>
 
 </br>
 
 
 ### Pensamento "avançado"
-1º - Você digita a URL https://aternos.org/ 
+<ol>
+<li>Você digita a URL https://aternos.org/ </li>
    
  URL:  URL é uma sigla para "Uniform Resource Locator"
        O Uniform Resource Locator é um localizador e identificador de recursos (conteúdos) na internet.
@@ -69,8 +70,7 @@ ________________________________________________________________________________
           Função: Trocar mensagens (informações) entre computadores. 
           Mensagens: São informações, e são enviadas de um computador para outro em diversos pedaços (chunks).   
 ________________________________________________________________________________________________ 
-2º Se inicia uma linha de comunicação, através do TCP.
-   Esta linha comunica seu computador (cliente) até o computador que armazena o conteúdo web (servidor)    
+<li>Se inicia uma linha de comunicação, através do TCP.Esta linha comunica seu computador (cliente) até o computador que armazena o conteúdo web (servidor) </li>
 
  >Cliente: É o computador, dispositivo ou aplicativo que faz o pedido para acessar o site.
            Neste caso, é o browser (Chrome, Opera, Edge, Brave..)
@@ -80,8 +80,8 @@ ________________________________________________________________________________
  TCP: Transmition Control Protocol 
    A  função do TCP é garantir que os pacotes (os dados) cheguem corretamente ao destino  
 _________________________________________________________________________________________________ 
-3º O endereço, ou seja, a URL colocada, é convertida em um endereço IP através do DNS.
-  IP: Internet protocol
+<li>O endereço, ou seja, a URL colocada, é convertida em um endereço IP através do DNS.
+  IP: Internet protocol</li>
       Endereço dos computadores (dispositivos conectados a internet), sendo eles clientes ou servidores.
    
   DNS: Domain name system (sistema de nomes de domínios)
@@ -92,26 +92,23 @@ ________________________________________________________________________________
            Exemplos: www.youtube.com.br (domínio)
                      45.42.52.74 (IP)  
 _________________________________________________________________________________________________
-4º Seu pedido (cliente) está percorrendo por diversos proxies.
-   Proxy: Qualquer dispositivo no caminho (entre cliente e servidor) -> Modem, roteador, outros computadores/dispositivos e etc..
-   Lembre-se: Proxies podem ser tanto do cliente quanto do servidor.
+<li>Seu pedido (cliente) está percorrendo por diversos proxies.
+   Proxy: Qualquer dispositivo no caminho (entre cliente e servidor) -> Modem, roteador, outros computadores/dispositivos e etc..</li>
+   Proxies podem ser tanto do cliente quanto do servidor.
    A função das proxies é encaminhar os pacotes (dados) até chegar ao cliente. 
    Os pacotes passam por diversos computadores do servidor (caso haja), da sua operadora de Internet, até seu roteador e assim chega no seu dispositivo. 	 
-    
 _________________________________________________________________________________________________ 
-5º Seu pedido chega ao servidor.
+<li>Seu pedido chega ao servidor.</li>
 _
-6º O servidor analisa seu pedido e dá uma resposta ao cliente.
-   Esta análise procura saber em qual lugar da máquina (cliente) que irá entender o que foi pedido, neste caso, o browser.
+<li>O servidor analisa seu pedido e dá uma resposta ao cliente. Esta análise procura saber em qual lugar da máquina (cliente) que irá entender o que foi pedido, neste caso, o browser.</li>
 _
-7º Se a resposta do servidor for positiva (permissão para acessar o conteúdo), 
-   o conteúdo pedido pelo cliente é retornado através de um caminho semelhente. 
-   Este mesmo conteúdo passa pela linha de comunicação (TCP) que foi criada anteriormente. 
+<li>Se a resposta do servidor for positiva (permissão para acessar o conteúdo), o conteúdo pedido pelo cliente é retornado através de um caminho semelhente. Este mesmo conteúdo passa pela linha de comunicação (TCP) que foi criada anteriormente.</li>
 _
-8º O browser recebe esses pedaços (conteúdos) e monta a tela do site para o cliente. 
+<li>O browser recebe esses pedaços (conteúdos) e monta a tela do site para o cliente. </li>
 __
-9º Todo este percurso é feito novamente. Pois para cada recurso (html, css, javascript..) é feito uma nova conexão.
-______________________________________________________________________________________________________________________
+<li>Todo este percurso é feito novamente. Pois para cada recurso (html, css, javascript..) é feito uma nova conexão.</li>
+</ol>
+
 * RESUMO 
 
 Protocol (protocolo):  
