@@ -63,8 +63,7 @@ ________________________________________________________________________________
      
 >HTTP (HyperText Transfer Protocol) </br> _Utilizamos do HTTP fazer a comunicação entre computadores._ 
 	  
->Função: Trocar mensagens (informações) entre computadores. 
->Mensagens: São informações, e são enviadas de um computador para outro em diversos pedaços (chunks).   
+>Função: Trocar mensagens (informações) entre computadores. </br> Mensagens: São informações, e são enviadas de um computador para outro em diversos pedaços (chunks).   
 
 ### <li>Se inicia uma linha de comunicação, através do TCP. Esta linha comunica seu computador (cliente) até o computador que armazena o conteúdo web (servidor) </li>
 
