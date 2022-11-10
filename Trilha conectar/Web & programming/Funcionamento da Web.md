@@ -15,8 +15,9 @@ Nada mais é do que uma página na web.
 - _JavaScript (interações da página)_
 
 >Hyper text: _Texto com imagens, vídeos, textos, hyper links e etc.._ 
-
 >Website: _É um agrupamento de WebPages._ 
+
+</br>
 
 ## Um Website pode ser.:
 ### Estático:
