@@ -13,6 +13,9 @@ Sua função é fazer o gerenciamento de todo o seu hardware, o sistema operacio
 Exemplo: Quando mexemos o mouse, o mouse mexe no seu monitor.
 Quando executamos um programa, o sistema operacional quem vai controlar o quanto este programa irá utilizar de processamento, quanto ele irá utilizar de memória RAM, quando ele irá utilizar.. 
 se este programa vai aramazenar ou não algo no seu HD/SSD e etc.
+
+</br>
+
 ________________________________________________________________________________________________________________________
 # Software
 - É um cojunto de instruções que permite controlar um dispositivo eletrônico. 
