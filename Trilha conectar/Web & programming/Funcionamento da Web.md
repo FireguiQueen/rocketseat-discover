@@ -79,7 +79,7 @@ ________________________________________________________________________________
 
 >TCP: _Transmition Control Protocol. A função do TCP é garantir que os pacotes (os dados) cheguem corretamente ao destino_  
  
-### <li> O endereço, ou seja, a URL colocada, é convertida em um endereço IP através do DNS.</li>
+### <li> A URL colocada é convertida em um endereço IP através do DNS</li>
 
 >IP: _Internet protocol é o endereço dos computadores (dispositivos conectados a internet), sendo eles clientes ou servidores._
    
@@ -87,11 +87,11 @@ ________________________________________________________________________________
 
 >Domínio: _Nome dado a um IP. Invés de digitarmos o endereço IP de uma máquina (servidor) para pedir acesso aos dados, nós iremos digitar seu domínio, e assim iniciar uma comunicação através do TCP. <br> Exemplos: www.youtube.com.br (domínio) 45.42.52.74 (IP)  
 
-<li>Seu pedido (cliente) está percorrendo por diversos proxies.
-   Proxy: Qualquer dispositivo no caminho (entre cliente e servidor) -> Modem, roteador, outros computadores/dispositivos e etc..</li>
-   Proxies podem ser tanto do cliente quanto do servidor.
-   A função das proxies é encaminhar os pacotes (dados) até chegar ao cliente. 
-   Os pacotes passam por diversos computadores do servidor (caso haja), da sua operadora de Internet, até seu roteador e assim chega no seu dispositivo. 	 
+### <li>Seu pedido (cliente) está percorrendo por diversos proxies. </li>
+
+> Proxy: _Qualquer dispositivo no caminho (entre cliente e servidor) -> Modem, roteador, outros computadores/dispositivos e etc.._
+
+>Proxies podem ser tanto do cliente quanto do servidor. A função das proxies é encaminhar os pacotes (dados) até chegar ao cliente.  Os pacotes passam por diversos computadores do servidor (caso haja), da sua operadora de Internet, até seu roteador e assim chega no seu dispositivo. 	 
  
 <li>Seu pedido chega ao servidor.</li>
 _
