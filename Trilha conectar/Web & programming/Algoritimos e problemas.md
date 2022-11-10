@@ -19,8 +19,8 @@ senha para acessar o usuário; navegador que será utilizado; link do Youtube..
  </br>
 
 # O computador pensa?
-- Não, o computador não pensa. 
-Podemos dizer que o computador é extremamente "burro", pois ele apenas recebe ordens, o computador é subimisso ao seu dono.
+Não, o computador não pensa. 
+Podemos dizer que o computador é "burro", pois ele apenas recebe ordens.
 Mas, mesmo sendo "burro", o computador possui uma capacidade absurda de armazenar, processar e calcular informações.
 Pelo fato do computador não pensar, devemos ser extremamente detalhistas ao nos comunicarmos com ele.
 
