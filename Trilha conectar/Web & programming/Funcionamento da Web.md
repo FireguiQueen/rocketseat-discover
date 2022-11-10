@@ -136,6 +136,5 @@ ________________________________________________________________________________
 <li>Abra o CMD </li>
 <li>Digite "ping" seguido do endereço do site desejado (sem o WWW) </li>
 <ol>
-> ping google.com 
-          terminar:
-          ping google.com
+          Função: Trocar mensagens (informações) entre computadores. 
+          Mensagens: São informações, e são enviadas de um computador para outro em diversos pedaços (chunks). 
