@@ -12,7 +12,7 @@ Exemplo: Assembly
 - Mais lenta, pois leva mais tempo para a máquina traduzir e entender. 
 Exemplos: JavaScript, Python, Rust.. 
 
-## Sintaxe:
+### Sintaxe:
 - Conjunto de regras de escrita
 - A maioria das linguages seguem o mesmo padrão de sintaxe
 . Símbolos: {} () ; == ++ -- 
