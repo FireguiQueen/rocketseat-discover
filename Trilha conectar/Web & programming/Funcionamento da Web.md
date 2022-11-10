@@ -38,18 +38,18 @@ perfil possui uma foto, uma biografia, vídeos e etc..
 - Alteração sem mexer no código (pois até mesmo o cliente pode fazer a alteração, como trocar uma foto em seu perfil)
 
 Recomendação de leitura: https://mydroulisblog.netlify.app/site-estatico-x-site-dinamico-x-spa/
-_____________________________________________________________________________________________________________
-# Quando acessamos qualquer site, há várias ações ocorrendo de maneira interna.
+_______________________________________________________________________________________________________________
+# Ações internas com um simples click
 Veja abaixo duas maneiras diferentes de pensarmos ao acessar um site. 
 
-Caminho simples:
+## Caminho simples
 1º Digitar https://aternos.org/   e   pressionar "enter"
 2º Visualizar o site
 
 
-__________________________________________________________________________________________________________________________________________________________________________________________________
-# Caminho "avançado": 
-1º Você digita a URL https://aternos.org/
+_______________________________________________________________________________________________________________
+## Caminho avançado
+1º - Você digita a URL https://aternos.org/ 
    
  URL:  URL é uma sigla para "Uniform Resource Locator"
        O Uniform Resource Locator é um localizador e identificador de recursos (conteúdos) na internet.
