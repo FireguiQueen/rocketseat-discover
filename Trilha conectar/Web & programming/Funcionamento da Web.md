@@ -59,17 +59,12 @@ ________________________________________________________________________________
 <ol>
 
 ### <li> Você digita a URL https://aternos.org/ </li>
-   
- URL:  URL é uma sigla para "Uniform Resource Locator"
-       O Uniform Resource Locator é um localizador e identificador de recursos (conteúdos) na internet.
-       URL se trata do endereço COMPLETO de um conteúdo (sites, documentos, imagens, vídeos..) localizado na internet.  
+> URL (Uniform Resource Locator) </br> _É um localizador e identificador de recursos (conteúdos) na internet. </br> URL se trata do endereço COMPLETO de um conteúdo (sites, documentos, imagens, vídeos..) localizado na internet._ 
      
- 
- HTTP:  O http é uma sigla para um protocolo (um conjunto de regras) chamado "HyperText Transfer Protocol"
-        Utilizamos do HTTP fazer a comunicação entre computadores. 
+>HTTP (HyperText Transfer Protocol) </br> _Utilizamos do HTTP fazer a comunicação entre computadores._ 
 	  
-          Função: Trocar mensagens (informações) entre computadores. 
-          Mensagens: São informações, e são enviadas de um computador para outro em diversos pedaços (chunks).   
+>Função: Trocar mensagens (informações) entre computadores. 
+>Mensagens: São informações, e são enviadas de um computador para outro em diversos pedaços (chunks).   
 
 ### <li>Se inicia uma linha de comunicação, através do TCP. Esta linha comunica seu computador (cliente) até o computador que armazena o conteúdo web (servidor) </li>
 
