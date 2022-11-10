@@ -43,8 +43,6 @@ Recomendação de leitura: https://mydroulisblog.netlify.app/site-estatico-x-sit
 
 _______________________________________________________________________________________________________________
 
-</br>
-
 # Ações internas com um simples click
 
 ### Pensamento simples
