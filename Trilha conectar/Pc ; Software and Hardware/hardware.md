@@ -1,4 +1,4 @@
-# Qual a função da memória RAM?
+# Memória RAM
 É uma pequena placa, e quase todo dispositivo tecnológico a usa.
 Ela é uma placa de memória, porém, uma memória temporária, ou seja, ela não serve para guardamos informações de maneira parmanente. 
 
@@ -10,7 +10,7 @@ Assim que salvamos o arquivo, o que digitamos anteriormente no word é transferi
 
 </br>
 
-# Qual a função do HD e SSD?
+# HD & SSD?
 A função de ambas as tecnologias é armazenar dados.
 O HD utiliza um pratos mecânico e um cabeçote móvel para leitura/gravação de informações	
 O SSD utiliza chips de memória, fazendo com que seja mais seguro utilizar um SSD para armazenar dados. 
@@ -20,7 +20,7 @@ Este cabeçote não encosta no prato, a leitura e a gravação de informações 
 
 </br>
 
-# Qual a função do processador?
+# Processador?
 É o cerébro do computador. 
 Quando fazemos uma ação, o processador traduz esta informação em binário para o computador compreender.  
 Transforma dados em informações: Carrega página, fazer downloads, abre programas e etc.. 
