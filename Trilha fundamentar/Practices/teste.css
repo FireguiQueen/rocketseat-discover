@@ -1,0 +1,20 @@
+div{ 
+    margin: 100px;
+    color: rgb(112, 200, 112);
+    border: 1px solid blue;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+div#um { 
+    padding: 20px;
+    box-sizing: content-box;
+}
+
+div#dois{
+    padding: 50px; 
+    box-sizing: border-box;
+
+}

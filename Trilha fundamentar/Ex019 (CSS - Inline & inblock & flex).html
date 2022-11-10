@@ -1,0 +1,123 @@
+<head>
+    <style> 
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background: linear-gradient(45deg, #084177, #687466, #cd8d7b);
+        }
+
+        header{
+            color:rgb(244, 163, 13);
+            display: flex;
+            justify-content: center;
+        }
+        h1{
+            width: fit-content;
+            margin: 25px 0px 50px;
+            border-bottom: 1px solid rgba(244, 201, 120, 0.857);
+        }
+        .displays{
+            margin: 15px auto;
+            width: 100px;
+            color:#F7DD43;;
+            border: 1.5px solid #e9d04476;
+            border-radius: 4px;
+            text-align: center;
+
+            display: flex;
+
+        }
+        #cont{
+            width: fit-content;
+
+            border: 1px solid red;
+            justify-content: center;
+            text-align: center;
+        }
+        div#block{
+            margin: 0px 0px 25px 15px;
+            border: 1.5px solid #e9cf39df;
+            background-color: #1D1C19;
+            border-radius: 8px;
+            color: beige;
+            width: 900px;
+        } #universal {
+            display: flex;
+        }
+    </style>
+</head> 
+<header>
+    <h1>Inblock, &nbsp;flex & inline  </h1>
+</header>
+<div id="universal">
+    <div id="block">
+        <h2 class="displays">Inblock </h2> 
+        <div id="cont">
+            <div>Olá pessoal! (tag div) </div> <q>Olá, amigo!</q> 
+            <p>
+                A frase "Olá, amigo" está ao lado da tag <code>&lt;div&gt;</code> em nosso código, mas em nossa página, 
+                esta mesma frase se encontra em outra linha. Isto ocorre pois a tag <code>&lt;div&gt;</code> é um display inblock, 
+                ou seja, o conteúdo desta tag irá ocupar um bloco próprio.
+            </p> 
+
+            <p style="font-size: 25px; margin-bottom: 4px"> Olá, isto é um parágrafo!</p> <q>Isto é uma frase ao lado do parágrafo (<code>&lt;p&gt;</code>)</q> 
+
+            <p style="font-size: 17px ; width: 600px; margin-bottom: 120px;">
+                Mesmo a frase estando ao lado da tag <code>&lt;p&gt;</code> em nosso código, o display inblock será respeitado. 
+                Logo, a frase "Isto é um parágrafo" irá possuir seu próprio espaço 
+            </p> 
+        </div>
+
+    </div>
+    <div id="block">
+        <h2 class="displays">Inline </h2> 
+        <span style="font-size: 25px;">Olá pessoal! (tag span) </span> <q>Olá, amigo! </q> 
+        <p style="font-size: 17px ; width: 600px; margin-bottom: 50px;">
+            Perceba que, a frase "Olá, amigo" está ao lado da tag <code>&lt;span&gt;</code> em nosso código, mas em nossa página, 
+            esta mesma frase se encontra na mesma linha. Isto ocorre pois a tag <code>&lt;span&gt;</code> é um display inline, 
+            ou seja, tags depois desta podem continuar no mesmo espaço.
+        </p> 
+
+        <div style="font-size: 20px;"> 
+        <a href="https://youtube.com.br">Youtube</a> <q> OI </q>
+        <p style="font-size: 17px ; width: 600px; margin-bottom: 50px;"> Acima temos uma tag de link e uma frase na mesma linha, isto ocorre pois ambas são "inline". </p>
+        </div>
+        <p style="font-size: 19px; margin-bottom: -25px;" >
+    </div>
+</div>
+Caso queira que uma tag seja inline, flex ou inblock, pode ser utilizado: <pre style="font-size: 18px;"><code> 
+h1{
+display: block;
+display: flex;
+display: inline; 
+}
+</code>
+</pre>
+</p>
+
+<!-- 
+- Comportamento das caixas em relação a outras caixas
+
+* Block  
+> Ocupa toda a linha, jogando a próxima tag para baixo.
+> Width e height são respeitadas
+> Padding, margin, border irão funcionar normalmente 
+
+* Inline 
+> Não ocupa toda a linha, a próxima tag irá continuar ao lado
+> Width e height não funcionam
+> Somente valores horizontais de padding, margin e border são respeitados. 
+
+
+* Flex
+> É bem flexível em relação a posição do conteúdo 
+> Adiciona mais proprieties 
+> Junta as tags irmãs, "gap: " será necessário.
+-->
+
+
+
+
+

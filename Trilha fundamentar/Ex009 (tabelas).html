@@ -1,0 +1,138 @@
+<!-- 
+    Vantages:
+    - Visualização de informações via linhas e colunas
+    - Boa acessibilidade para leitura
+
+    Desvantagens:
+    - Pouco flexível
+    - Necessita de estilização 
+    >> NÃO UTILIZE PARA CRIAR LAYOUTS!
+
+    Antes de tudo, para criamos linhas e colunas com informações, precisamos colocar a tag <table>
+    Iremos seguir a mesma lógica quando fazemos uma lista de descrição, colocando o título e a descrição do mesmo.
+--> 
+<table> <!-- Tabela: definir tabelas -->
+    <caption> Nomes e altura dos alunos.. </caption> <!-- Descrever o que a tabela irá mostrar -->
+    <thead> <!-- É o cabeçalho da tabela, armazena as informações que os dados irão se referir -->
+        <tr> <!-- Table row: definir linhas na tabela. Se utilizarmos somente um <tr> tudo ficará na mesma linha -->
+            <th> Nome </th> <!-- Table head: define a "cabeça" da tabela. -->
+            <th> Altura </th> <!-- É utilizado para mostrar ao que os dados abaixo se referem -->
+        </tr> <!-- O que está sendo escrito pula para outra linha quando colocamos esta tag --> 
+    </thead>
+    <tbody> <!-- Corpo da tabela, armazena os dados da tabela (irão se referir ao table head <th>)-->
+        <tr> 
+            <td> Guilherme </td>
+            <td> 1,75 </td> 
+        </tr>
+        <tr>
+            <td> Flora </td> 
+            <td> 1,65 </td> 
+        </tr>
+    </tbody>
+    <tfoot> <!-- Roda pé da tabela, armazena a informação final, caso haja. Exemplo: "Total de nomes: 2 ; Altura média: .."-->
+        <tr> <td> Total de nomes: 2 </td> </tr>
+        </tr><td> Média da altura: 1,70 </td> </tr>
+    </tfoot>
+</table> 
+
+</br> <!-- TAGS UTILIZADAS APENAS PELA PRATICIDADE, JAMAIS FARIA ISTO EM UM WEBSITE -->
+</br> <!-- TAGS UTILIZADAS APENAS PELA PRATICIDADE, JAMAIS FARIA ISTO EM UM WEBSITE -->
+</br> <!-- TAGS UTILIZADAS APENAS PELA PRATICIDADE, JAMAIS FARIA ISTO EM UM WEBSITE -->
+
+<table> 
+    <caption>Tabela com uma única tag tr // Fica muito desorganizado</caption>
+    <thead> 
+        <tr> 
+            <th> Nome </th>
+            <th> Idade </th> 
+        </tr>
+    </thead>
+    <tbody> 
+        <tr> 
+            <td> Guilherme </td>
+            <td> 1,75 </td> 
+
+            <td> Flora </td> 
+            <td> 1,65 </td>
+
+            <td> Neeko </td> 
+            <td> 1,65 </td>
+        </tr>
+    </tbody>
+</table>
+
+</br> <!-- TAGS UTILIZADAS APENAS PELA PRATICIDADE, JAMAIS FARIA ISTO EM UM WEBSITE -->
+</br> <!-- TAGS UTILIZADAS APENAS PELA PRATICIDADE, JAMAIS FARIA ISTO EM UM WEBSITE -->
+</br> <!-- TAGS UTILIZADAS APENAS PELA PRATICIDADE, JAMAIS FARIA ISTO EM UM WEBSITE -->
+
+<!-------------------------------------------------------------------------------------------------------------------------------->
+<table> 
+    <caption>Tabela de produção e vendas // Tabela final </caption> 
+    <colgroup> <!-- Tag para agrupar colunas-->
+        <col> 
+        <col span="2" style="background-color:red; ">
+        <col span="2" style="background-color:rgb(25, 124, 76); ">
+    </colgroup> 
+    <thead> 
+        <tr> 
+            <th rowspan="2"></th>
+            <th colspan="2" scope="colgroup">Jessie </th>
+            <th colspan="2" scope="colgroup">Tuco </th> 
+            <!--Iremos dizer que colspan="2" pois queremos que o nome "Jessie" ocupe 2 colunas
+                Iremos dizer que o escopo (scope) é colgroup pois esses nomes pertencem a um agrupamento de colunas
+                Há mais de uma informação que pertece a esses nomes, logo, é um agrupamento -->
+        </tr> 
+        <tr> 
+            <th scope="col">Produzido </th> 
+            <th scope="col">Vendido </th> 
+            <th scope="col">Produzido </th> 
+            <th scope="col">Vendido </th> 
+            <!--Iremos dizer que o escopo (scope) é col pois esses nomes pertencem a uma coluna somente
+                Ou seja, as informações ficarão abaixo desses nomes, logo, é uma coluna  -->
+        </tr> 
+    </thead>
+    </tbody> 
+        <tr> 
+            <th scope="row">Metanfetamina </th>
+            <td>1kg </td>
+            <td>640g </td>
+            <td>1kg</td>
+            <td>434g</td>
+        <tr> 
+            <th scope="row">Maconha </th> 
+            <td>22kg</td>
+            <td>10kg</td>
+            <td>24kg</td>
+            <td>9kg</td>
+        </tr>
+        <!--Iremos dizer que o escopo (scope) é row pois esses nomes pertecem a uma linha
+            Ou seja, as informações ficarão ao lado, na mesma linha, logo, o escopo é de linha -->
+    </tbody> 
+</table>
+
+<table> 
+    <caption> Tabela de produção e vendas // Tabela final </caption> 
+    <thead>  
+        <colgroup> 
+            <col span="1" rowspan="1" style="background-color: yellow;"> 
+            <col span="2" style="background:aqua">
+            <col span="2" style="background:red"> 
+        </colgroup>
+        <tr> 
+            <th rowspan="2">Produtos</th> 
+            <th colspan="2"> Jessie </th>
+            <th colspan="2"> Tuco </th> 
+        </tr> 
+        <tr>
+            <th>Produzido</th>
+            <th>Vendido</th>
+            <th>Produzido</th>
+            <th>Vendido</th>
+         <tbody> <!-- Table body -->
+        <tr> <!-- table row --> 
+            <th>Meta </th> <!-- Table head -->
+            <td> 1kg </td>
+            <td> 700g </td>
+            <td> 1kg </td>
+            <td> 450g </td>
+        </tr>

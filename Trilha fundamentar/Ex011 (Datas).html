@@ -1,0 +1,18 @@
+Redes sociais:
+Quando compartilhamos um link no Facebook, geralmente irá aparecer um card bonito abaixo do link compartilhado.: 
+Com uma descrição, imagem e título.
+
+Isto ocorre por conta do que colocamos na tag head.
+<head>
+    <meta property="og:image" content="https://cdn-images-1.medium.com/max/92/1*TkXVfLTwsHdwpUEjGzdi9w@2x.jpeg">
+    <!-- Quando compartilhamos um link, o link terá a imagem que está armzazenada no atributo "content" -->
+
+    <meta property="og:description" content="Aqui vem um texto para ser mostrado ao compartilhar no facebook">
+    <meta property="og:title" content="Aqui vem um título para ser mostrado ao compatilhar no facebook">
+
+    OBS:
+    Isto pode varir de site para site, no twitter por exemplo, nós usamos desta maneira:
+    <meta name="twitter:title" content="Aqui vem um título para ser mostrado ao compatilhar no twitter">
+    <meta name="twitter:image" content="Aqui vem um link da imagem do link compartilhado">
+</head> 
+

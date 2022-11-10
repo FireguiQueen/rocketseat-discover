@@ -1,0 +1,25 @@
+/* Titles   */ 
+h1#t1 {color: rgb(64, 64, 220);}
+h2,h3 {color: rgb(61, 61, 192);}
+
+
+dt {color: rgb(52, 52, 162)}
+dd {color:rgb(97, 97, 155)}
+
+
+div#div1{
+    font-size: 22px;
+    letter-spacing: 2.6px;
+}
+
+.desc{
+    color:rgb(142, 142, 215);
+    list-style-type: square;
+}
+
+abbr{
+    text-decoration: none;
+    color: rgb(49, 49, 175);
+}
+
+

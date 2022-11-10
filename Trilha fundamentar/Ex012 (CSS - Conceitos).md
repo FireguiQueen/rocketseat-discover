@@ -1,0 +1,88 @@
+# O que é CSS?
+* Cascading Style Sheet 
+* Utilizado para estilizar a página 
+* HTML é a estrutura do site, o CSS é o estilo, o visual
+* Não é uma linguagem de programação, e sim uma linguagem style sheet
+
+# Comentários 
+```css  
+/* Isto é um comentário em css */ 
+
+h1{ 
+    color: blue;
+    font-size: 60px;
+    background-color: red; 
+}
+``` 
+* Selector: elemento da página queremos estilizar.: h1{} ; p{} ; *{}
+* Declaration: tudo que está dentro das chaves do selector, tudo o que será estilizado 
+* Properties: estilizar determinada coisa do elemento.. color; font-size; background-color  
+* Property value: valor da propriedade.. color: "blue"; font-size: "60px". 
+
+
+# Caixas: 
+Quase toda tag do HTML é considerado uma caixa: 
+Posicionamentos, tamanhos, espaçamentos, bordas, cores, então, em suma, elementos HTML são caixas, assim como quase
+tudo no CSS.
+
+
+# Properties mais utilizadas: 
+```css 
+{ 
+    background-color: blue; /* Irá mudar o fundo da tag */ 
+    color: red; /* Irá mudar a cor do conteúdo da tag */
+    border: 1px solid red; /* Coloca uma borda em volta da tag */ 
+
+    margin: 42px; /* espaçamento fora da tag (isto vai para todos os lados) */
+    margin-bottom: 42px; /* Altera apenas para baixo por conta do "bottom" */ 
+    margin-left: 42px; /* Altera apenas para a esquerda por conta do "left"  */
+    margin-right: 42px; /* Altera apenas para a direita por conta do "right" */ 
+    margin-top: 42px; /* Altera apenas para cima por conta do "top" */
+    padding: 32px /* Espaçamento dentro da tag */
+}
+```
+
+* CSS interno:
+-> Estilização feita na tag <head> do arquivo HTML.. Não é uma boa prática! 
+<head>
+    <style>
+        h1{color: blue; }
+    </style>
+</head>
+
+
+* CSS inline: 
+-> Estilização feita na própria tag. Utiliza-se apenas para modificações pequenas, pela praticidade.
+<body>
+    <h1 style="color: blue">Este é um título com a cor azul </h1>
+    <p style="color: red ; font-size: 25px">Parágrafo com letra de 25px da cor vermelha </p>
+</body>
+
+
+* CSS externo: 
+-> Estilização feita de maneira externa. Linkamos nosso arquivo CSS em nossa tag <head>.
+<head>
+    <link rel="stylesheet" href="style.css" />
+    Rel = Relacionado (relacionado ao estilo em folha)
+    Href = Referência (aonde está este arquivo externo)
+</head>
+
+
+# Importando fontes
+Existem duas maneiras de se importar fontes para o nosso website.:
+
+* Não recomendada: 
+->Ir no arquivo externo CSS e digitar: 
+> @Import 'URL_da_fonte'
+
+
+* Recomendada:  
+-> Ir na tag <head> do arquivo HTML e digitar: 
+<head>
+    <link rel="stylesheet" href="URL_da_fonte">
+<head>
+
+
+Após importamos as fontes, podemos usar elas em nossa webpage 
+basta utilizar do:
+> font-family:..

@@ -1,0 +1,157 @@
+# O que significa "Web"? 
+- Traduzindo, a palavra "web" significa "rede". 
+Web é uma maneira de estrutarmos uma troca de dados entre computadores.
+
+Exemplo:
+Você possui um computador, e você deseja acessar algum site da web.
+Em outro lugar do mundo, há um computador onde armazena este site, onde guarda todos os dados. 
+E para se conectar a este computador, para receber as informações deste site, você precisa da web.
+Pois com a web iremos conseguir fazer esta troca de informações, esta troca de dados. 
+________________________________________________________________________________________________________________
+# WebPage:
+Nada mais é do que uma página na web.
+. Acessamos pelo navegador
+. Possui um endereço único 
+. Está armazenada no servidor, quando pedido, envia uma cópia da página para o cliente:
+ - HTML (Hyper Text Markup Language) <- Estruturação da página
+ - CSS (Cascading Style Sheet) <- Estilo da página 
+ - JavaScript <- Interações da página	
+
+Hyper text: 
+Texto com imagens, vídeos, textos, hyper links e etc.. 
+
+Website:
+É um agrupamento de WebPages. 
+Um Website pode ser..:
+
+Estático:
+Um página estática significa que, a página sempre será a mesma.
+Por exemplo, quando diversos clientes (usuários) solicitam ao servidor uma cópia da página, esta mesma cópia irá vir 
+igual para todo mundo.
+- Não interagem com um banco de dados
+- Alteração no código é feita de maneira direta e irá mudar para todos. 
+- Por não possuir interação com o backend (banco de dados) é quase impossível ser "hackeada"
+- Melhor em performance
+
+Dinâmica:
+Uma página dinâmica se altera conforme a solicitação.
+Por exemplo, quando acessamos o perfil de alguém no Facebook, estamos indo para uma página dinâmica, pois este mesmo 
+perfil possui uma foto, uma biografia, vídeos e etc..
+- Interage com um banco de dados 
+- Alteração sem mexer no código (pois até mesmo o cliente pode fazer a alteração, como trocar uma foto em seu perfil)
+
+Recomendação de leitura: https://mydroulisblog.netlify.app/site-estatico-x-site-dinamico-x-spa/
+_____________________________________________________________________________________________________________
+# Quando acessamos qualquer site, há várias ações ocorrendo de maneira interna.
+Veja abaixo duas maneiras diferentes de pensarmos ao acessar um site. 
+
+Caminho simples:
+1º Digitar https://aternos.org/   e   pressionar "enter"
+2º Visualizar o site
+
+
+__________________________________________________________________________________________________________________________________________________________________________________________________
+# Caminho "avançado": 
+1º Você digita a URL https://aternos.org/
+   
+ URL:  URL é uma sigla para "Uniform Resource Locator"
+       O Uniform Resource Locator é um localizador e identificador de recursos (conteúdos) na internet.
+       URL se trata do endereço COMPLETO de um conteúdo (sites, documentos, imagens, vídeos..) localizado na internet.  
+     
+ 
+ HTTP:  O http é uma sigla para um protocolo (um conjunto de regras) chamado "HyperText Transfer Protocol"
+        Utilizamos do HTTP fazer a comunicação entre computadores. 
+	  
+          Função: Trocar mensagens (informações) entre computadores. 
+          Mensagens: São informações, e são enviadas de um computador para outro em diversos pedaços (chunks).   
+________________________________________________________________________________________________ 
+2º Se inicia uma linha de comunicação, através do TCP.
+   Esta linha comunica seu computador (cliente) até o computador que armazena o conteúdo web (servidor)    
+
+ >Cliente: É o computador, dispositivo ou aplicativo que faz o pedido para acessar o site.
+           Neste caso, é o browser (Chrome, Opera, Edge, Brave..)
+
+ >Servidor: É o computador que recebe esses pedidos de acesso e envia respostas a esses pedidos.
+
+ TCP: Transmition Control Protocol 
+   A  função do TCP é garantir que os pacotes (os dados) cheguem corretamente ao destino  
+_________________________________________________________________________________________________ 
+3º O endereço, ou seja, a URL colocada, é convertida em um endereço IP através do DNS.
+  IP: Internet protocol
+      Endereço dos computadores (dispositivos conectados a internet), sendo eles clientes ou servidores.
+   
+  DNS: Domain name system (sistema de nomes de domínios)
+       A função é converter um domínio para um endereço de IP.
+
+  Domínio: Nome dado a um IP. Invés de digitarmos o endereço IP de uma máquina (servidor) para pedir acesso aos conteúdos,
+           nós iremos digitar seu domínio, e assim iniciar uma comunicação através do TCP.
+           Exemplos: www.youtube.com.br (domínio)
+                     45.42.52.74 (IP)  
+_________________________________________________________________________________________________
+4º Seu pedido (cliente) está percorrendo por diversos proxies.
+   Proxy: Qualquer dispositivo no caminho (entre cliente e servidor) -> Modem, roteador, outros computadores/dispositivos e etc..
+   Lembre-se: Proxies podem ser tanto do cliente quanto do servidor.
+   A função das proxies é encaminhar os pacotes (dados) até chegar ao cliente. 
+   Os pacotes passam por diversos computadores do servidor (caso haja), da sua operadora de Internet, até seu roteador e assim chega no seu dispositivo. 	 
+    
+_________________________________________________________________________________________________ 
+5º Seu pedido chega ao servidor.
+_
+6º O servidor analisa seu pedido e dá uma resposta ao cliente.
+   Esta análise procura saber em qual lugar da máquina (cliente) que irá entender o que foi pedido, neste caso, o browser.
+_
+7º Se a resposta do servidor for positiva (permissão para acessar o conteúdo), 
+   o conteúdo pedido pelo cliente é retornado através de um caminho semelhente. 
+   Este mesmo conteúdo passa pela linha de comunicação (TCP) que foi criada anteriormente. 
+_
+8º O browser recebe esses pedaços (conteúdos) e monta a tela do site para o cliente. 
+__
+9º Todo este percurso é feito novamente. Pois para cada recurso (html, css, javascript..) é feito uma nova conexão.
+______________________________________________________________________________________________________________________
+* RESUMO 
+
+Protocol (protocolo):  
+-> um conjunto de regras 
+
+URL (Uniform Resource locator): 
+-> localiza e identifica conteúdos na web
+
+HTTP (HyperText Protocol): 
+-> trocar informações entre computadores na web
+
+Client:
+-> computador, dispositivo ou aplicativo que deseja visualizar o conteúdo.
+o cliente quem faz os pedidos para acessar um site na web.
+
+Servidor:
+Computador que recebe esses pedidos (feitos pelo cliente) e da uma resposta a eles. 
+
+TCP (Transmition Control Protocol): 
+-> protocolo de controle de transmissão 
+a função é garantir que os pacotes cheguem corretamente ao destino (entre cliente e servidor). 
+
+IP (Internet Protocol):
+-> endereço dado aos dispositovs que estão conectados a internet (clientes e servidores)
+
+Domínio:
+-> nomeia um endereço IP (vários números) a um nome simples.
+ip aonde o google está localizado: 142.251.129.46
+o que digitamos para acessar o site da Google: Google.com 
+
+DNS (Domain Name System): 
+-> converte um domínio para um endereço IP (para ter acesso ao site).
+para acessar o site do Youtube por exemplo, seria NECESSÁRIO digitar o endereço IP onde se localiza o site (142.250.69.206).
+invés de digitarmos estes números, basta digitar "www.youtube.com". 
+isto ocorre pois, atráves da DNS, é feita a conversão de "www.youtube.com" para o IP onde se encontra o site youtube (142.250.69.206).
+
+Proxies/Proxy: 
+qualquer dispositivo conectado a internet entre cliente e servidor (modem, roteadores, computadores..). 
+o proxy garante que as informações sejam entregues tanto ao cliente quanto ao servidor. 
+OBS: as proxies são de ambos os lados, do servidor e do cliente.. Afinal, existem informações vindas do cliente e do servidor. 
+
+
+
+* Pegando o IP de um site pelo CMD 
+1º - Abra o CMD 
+2º - Digite "ping" seguido do endereço do site desejado (sem o WWW)
+> ping google.com 
