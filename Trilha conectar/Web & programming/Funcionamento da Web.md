@@ -45,7 +45,7 @@ ________________________________________________________________________________
 
 # Ações internas com um simples click
 
-### Pensamento simples
+## Pensamento simples
 <ol>
 <li> Digitar https://aternos.org/ </li>  
 <li> Pressionar enter  </li>  
@@ -55,9 +55,10 @@ ________________________________________________________________________________
 </br>
 
 
-### Pensamento "avançado"
+## Pensamento "avançado"
 <ol>
-<li>Você digita a URL https://aternos.org/ </li>
+
+### <li> Você digita a URL https://aternos.org/ </li>
    
  URL:  URL é uma sigla para "Uniform Resource Locator"
        O Uniform Resource Locator é um localizador e identificador de recursos (conteúdos) na internet.
@@ -70,7 +71,7 @@ ________________________________________________________________________________
           Função: Trocar mensagens (informações) entre computadores. 
           Mensagens: São informações, e são enviadas de um computador para outro em diversos pedaços (chunks).   
 ________________________________________________________________________________________________ 
-<li>Se inicia uma linha de comunicação, através do TCP.Esta linha comunica seu computador (cliente) até o computador que armazena o conteúdo web (servidor) </li>
+## <li>Se inicia uma linha de comunicação, através do TCP.Esta linha comunica seu computador (cliente) até o computador que armazena o conteúdo web (servidor) </li>
 
 >Cliente: _É o computador, dispositivo ou aplicativo que faz o pedido para acessar o site. </br> Neste caso, é o browser(Chrome, Opera, Edge, Brave..)_
 
@@ -78,7 +79,7 @@ ________________________________________________________________________________
 
 >TCP: _Transmition Control Protocol. A função do TCP é garantir que os pacotes (os dados) cheguem corretamente ao destino_  
 _________________________________________________________________________________________________ 
-<li>O endereço, ou seja, a URL colocada, é convertida em um endereço IP através do DNS.</li>
+## <li> O endereço, ou seja, a URL colocada, é convertida em um endereço IP através do DNS.</li>
 
 >IP: _Internet protocol é o endereço dos computadores (dispositivos conectados a internet), sendo eles clientes ou servidores._
    
