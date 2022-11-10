@@ -104,41 +104,27 @@ ________________________________________________________________________________
 #### <li>Todo este percurso é feito novamente. Pois para cada recurso (html, css, javascript..) é feito uma nova conexão.</li>
 </ol>
 
-* RESUMO 
+</br>
 
-Protocol (protocolo):  
--> um conjunto de regras 
+## RESUMO 
 
-URL (Uniform Resource locator): 
--> localiza e identifica conteúdos na web
+>Protocol </br> um conjunto de regras 
 
-HTTP (HyperText Protocol): 
--> trocar informações entre computadores na web
+>URL (Uniform Resource locator) </br> localiza e identifica conteúdos na web
 
-Client:
--> computador, dispositivo ou aplicativo que deseja visualizar o conteúdo.
-o cliente quem faz os pedidos para acessar um site na web.
+>HTTP (HyperText Protocol) </br> trocar informações entre computadores na web
 
-Servidor:
-Computador que recebe esses pedidos (feitos pelo cliente) e da uma resposta a eles. 
+>Client </br> computador, dispositivo ou aplicativo que deseja visualizar o conteúdo. o cliente quem faz os pedidos para acessar um site na web.
 
-TCP (Transmition Control Protocol): 
--> protocolo de controle de transmissão 
-a função é garantir que os pacotes cheguem corretamente ao destino (entre cliente e servidor). 
+> Servidor </br> Computador que recebe esses pedidos (feitos pelo cliente) e da uma resposta a eles. 
 
-IP (Internet Protocol):
--> endereço dado aos dispositovs que estão conectados a internet (clientes e servidores)
+>TCP (Transmition Control Protocol) </br> protocolo de controle de transmissão  a função é garantir que os pacotes cheguem corretamente ao destino (entre cliente e servidor). 
 
-Domínio:
--> nomeia um endereço IP (vários números) a um nome simples.
-ip aonde o google está localizado: 142.251.129.46
-o que digitamos para acessar o site da Google: Google.com 
+>IP (Internet Protocol) </br> endereço dado aos dispositovs que estão conectados a internet (clientes e servidores)
 
-DNS (Domain Name System): 
--> converte um domínio para um endereço IP (para ter acesso ao site).
-para acessar o site do Youtube por exemplo, seria NECESSÁRIO digitar o endereço IP onde se localiza o site (142.250.69.206).
-invés de digitarmos estes números, basta digitar "www.youtube.com". 
-isto ocorre pois, atráves da DNS, é feita a conversão de "www.youtube.com" para o IP onde se encontra o site youtube (142.250.69.206).
+>Domínio </br> nomeia um endereço IP (vários números) a um nome simples. </br>-> o ip aonde o google está localizado: 142.251.129.46 </br> -> o que digitamos para acessar o site da Google: Google.com 
+
+>DNS (Domain Name System) </br> converte um domínio para um endereço IP (para ter acesso ao site). </br> para acessar o site do Youtube por exemplo, seria NECESSÁRIO digitar o endereço IP onde se localiza o site (142.250.69.206). invés de digitarmos estes números, basta digitar "www.youtube.com". </br> isto ocorre pois, atráves da DNS, é feita a conversão de "www.youtube.com" para o IP onde se encontra o site youtube (142.250.69.206).
 
 Proxies/Proxy: 
 qualquer dispositivo conectado a internet entre cliente e servidor (modem, roteadores, computadores..). 
