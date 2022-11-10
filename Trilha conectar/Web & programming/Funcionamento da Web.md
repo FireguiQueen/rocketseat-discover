@@ -108,28 +108,25 @@ ________________________________________________________________________________
 
 ## RESUMO 
 
->Protocol </br> um conjunto de regras 
+>__Protocol__ </br> um conjunto de regras 
 
->URL (Uniform Resource locator) </br> localiza e identifica conteúdos na web
+>__URL (Uniform Resource locator)__ </br> Localiza e identifica conteúdos na web
 
->HTTP (HyperText Protocol) </br> trocar informações entre computadores na web
+>__HTTP__ (HyperText Protocol) </br> Trocar informações entre computadores na web
 
->Client </br> computador, dispositivo ou aplicativo que deseja visualizar o conteúdo. o cliente quem faz os pedidos para acessar um site na web.
+>__Client__ </br> Computador, dispositivo ou aplicativo que deseja visualizar o conteúdo. o cliente quem faz os pedidos para acessar um site na web.
 
-> Servidor </br> Computador que recebe esses pedidos (feitos pelo cliente) e da uma resposta a eles. 
+>__Servidor__ </br> Computador que recebe esses pedidos (feitos pelo cliente) e da uma resposta a eles. 
 
->TCP (Transmition Control Protocol) </br> protocolo de controle de transmissão  a função é garantir que os pacotes cheguem corretamente ao destino (entre cliente e servidor). 
+>__TCP (Transmition Control Protocol)__ </br> Protocolo de controle de transmissão  a função é garantir que os pacotes cheguem corretamente ao destino (entre cliente e servidor). 
 
->IP (Internet Protocol) </br> endereço dado aos dispositovs que estão conectados a internet (clientes e servidores)
+>__IP (Internet Protocol)__ </br> Endereço dado aos dispositovs que estão conectados a internet (clientes e servidores)
 
->Domínio </br> nomeia um endereço IP (vários números) a um nome simples. </br>-> o ip aonde o google está localizado: 142.251.129.46 </br> -> o que digitamos para acessar o site da Google: Google.com 
+>__Domínio__ </br> Nomeia um endereço IP (vários números) a um nome simples. </br>-> o ip aonde o google está localizado: 142.251.129.46 </br> -> o que digitamos para acessar o site da Google: Google.com 
 
->DNS (Domain Name System) </br> converte um domínio para um endereço IP (para ter acesso ao site). </br> para acessar o site do Youtube por exemplo, seria NECESSÁRIO digitar o endereço IP onde se localiza o site (142.250.69.206). invés de digitarmos estes números, basta digitar "www.youtube.com". </br> isto ocorre pois, atráves da DNS, é feita a conversão de "www.youtube.com" para o IP onde se encontra o site youtube (142.250.69.206).
+>__DNS (Domain Name System)__ </br> Converte um domínio para um endereço IP (para ter acesso ao site). </br> para acessar o site do Youtube por exemplo, seria NECESSÁRIO digitar o endereço IP onde se localiza o site (142.250.69.206). invés de digitarmos estes números, basta digitar "www.youtube.com". </br> isto ocorre pois, atráves da DNS, é feita a conversão de "www.youtube.com" para o IP onde se encontra o site youtube (142.250.69.206).
 
-Proxies/Proxy: 
-qualquer dispositivo conectado a internet entre cliente e servidor (modem, roteadores, computadores..). 
-o proxy garante que as informações sejam entregues tanto ao cliente quanto ao servidor. 
-OBS: as proxies são de ambos os lados, do servidor e do cliente.. Afinal, existem informações vindas do cliente e do servidor. 
+>__Proxies/Proxy__ </br> Qualquer dispositivo conectado a internet entre cliente e servidor (modem, roteadores, computadores etc). </br> O proxy garante que as informações sejam entregues tanto ao cliente quanto ao servidor. </br> As proxies são de ambos os lados, do servidor e do cliente.. Afinal, existem informações vindas do cliente e do servidor. 
 
 
 
