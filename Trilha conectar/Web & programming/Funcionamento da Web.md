@@ -2,13 +2,12 @@
 - Traduzindo, a palavra "web" significa "rede". 
 Web é uma maneira de estrutarmos uma troca de dados entre computadores.
 
-Exemplo:
-Você possui um computador, e você deseja acessar algum site da web.
-Em outro lugar do mundo, há um computador onde armazena este site, onde guarda todos os dados. 
-E para se conectar a este computador, para receber as informações deste site, você precisa da web.
-Pois com a web iremos conseguir fazer esta troca de informações, esta troca de dados. 
+>Você possui um computador, e você deseja acessar algum site da web. Em outro lugar do mundo, há um computador onde armazena este site, onde guarda todos os dados. E para se conectar a este computador, para receber as informações deste site, você precisa da web. Pois com a web iremos conseguir fazer esta troca de informações, esta troca de dados. 
+
+</br>
+
 ________________________________________________________________________________________________________________
-# WebPage:
+# WebPage
 Nada mais é do que uma página na web.
 . Acessamos pelo navegador
 . Possui um endereço único 
