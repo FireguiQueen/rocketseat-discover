@@ -14,23 +14,15 @@ Nada mais é do que uma página na web.
 - _CSS - Cascading Style Sheet (estilo da página)_
 - _JavaScript (interações da página)_
 
-Hyper text: 
-Texto com imagens, vídeos, textos, hyper links e etc.. 
+>Hyper text: _Texto com imagens, vídeos, textos, hyper links e etc.._ 
 
-Website:
-É um agrupamento de WebPages. 
+>Website: _É um agrupamento de WebPages._ 
 Um Website pode ser..:
 
-Estático:
-Um página estática significa que, a página sempre será a mesma.
-Por exemplo, quando diversos clientes (usuários) solicitam ao servidor uma cópia da página, esta mesma cópia irá vir 
-igual para todo mundo.
-- Não interagem com um banco de dados
-- Alteração no código é feita de maneira direta e irá mudar para todos. 
-- Por não possuir interação com o backend (banco de dados) é quase impossível ser "hackeada"
-- Melhor em performance
+## Estático:
+_Um página estática significa que, a página sempre será a mesma. Por exemplo, quando diversos clientes (usuários) solicitam ao servidor uma cópia da página, esta mesma cópia irá vir igual para todo mundo </br>-> Não interagem com um banco de dados </br>-> Alteração no código é feita de maneira direta e irá mudar para todos  </br>-> Por não possuir interação com o backend (banco de dados) é quase impossível ser "hackeada" </br>-> Melhor em performance_
 
-Dinâmica:
+## Dinâmica:
 Uma página dinâmica se altera conforme a solicitação.
 Por exemplo, quando acessamos o perfil de alguém no Facebook, estamos indo para uma página dinâmica, pois este mesmo 
 perfil possui uma foto, uma biografia, vídeos e etc..
