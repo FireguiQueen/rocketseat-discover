@@ -12,8 +12,7 @@ Algoritimo é um passo-a-passo para resolver um problema/realizar uma tarefa, é
 
 Acima foi citado um algoritimo padrão, porém, perceba que, o mesmo foi escrito de uma maneira que um ser humano consegue compreender.. Mas e se a gente pedisse para um robô seguir este mesmo algoritimo?
 Neste algoritimo, não foi digitado diversas ações que um robô precisa saber para executar corretamente, como: 
-onde está o gabinete; onde está o botão no gabinete; como pressionar o botão; 
-senha para acessar o usuário; navegador que será utilizado; link do Youtube..
+onde está o gabinete; onde está o botão no gabinete; como pressionar este botão; senha para acessar o usuário; navegador que será utilizado; link do Youtube..
 
  </br>
 
