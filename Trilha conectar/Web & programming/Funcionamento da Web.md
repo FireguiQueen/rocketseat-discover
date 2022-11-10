@@ -8,12 +8,12 @@ Web é uma maneira de estrutarmos uma troca de dados entre computadores.
 
 # WebPage
 Nada mais é do que uma página na web.
-. Acessamos pelo navegador
-. Possui um endereço único 
-. Está armazenada no servidor, quando pedido, envia uma cópia da página para o cliente:
- - HTML (Hyper Text Markup Language) <- Estruturação da página
- - CSS (Cascading Style Sheet) <- Estilo da página 
- - JavaScript <- Interações da página	
+- Acessamos pelo navegador
+- Possui um endereço único 
+- Está armazenada no servidor, quando requisitada, o servidor envia uma cópia da página para o cliente
+- HTML - Hyper Text Markup Language (estruturação da página)
+- CSS - Cascading Style Sheet (estilo da página) 
+- JavaScript (interações da página)	
 
 Hyper text: 
 Texto com imagens, vídeos, textos, hyper links e etc.. 
