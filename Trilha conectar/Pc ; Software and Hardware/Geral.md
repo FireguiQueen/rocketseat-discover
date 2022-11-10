@@ -1,4 +1,4 @@
-# O que significa "hardware?
+# Hardware
 - É tudo aquilo que se refere a parte física do computador (dispositivo). 
 > Placa de vídeo
 > Processador
@@ -9,7 +9,7 @@
 > Monitor
 Etc..
 
-# O que são "periféricos"?
+# Periféricos
 - É tudo aquilo que recebe informações do computador. O termo "periférico" aplica-se a qualquer equipamento ou acessório que seja ligado à CPU, ou, em um sentido mais amplo, ao computador.
 > Teclado
 > Mouse
@@ -18,7 +18,7 @@ Etc..
 > Pen-drive
 Etc.. 
 ________________________________________________________________________________________________________________________
-# Sistema operacional: 
+# Sistema operacional 
 Sua função é fazer o gerenciamento de todo o seu hardware, o sistema operacional quem faz a comunicação entre seus dispositivos.
 Exemplo: Quando mexemos o mouse, o mouse mexe no seu monitor.
 Quando executamos um programa, o sistema operacional quem vai controlar o quanto este programa irá utilizar de processamento, quanto ele irá utilizar de memória RAM, quando ele irá utilizar.. 
