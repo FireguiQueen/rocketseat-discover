@@ -13,9 +13,8 @@
 ________________________________________________________________________________________________________________________
 # Sistema operacional 
 Sua função é fazer o gerenciamento de todo o seu hardware, o sistema operacional quem faz a comunicação entre seus dispositivos.
-Exemplo: Quando mexemos o mouse, o mouse mexe no seu monitor.
-Quando executamos um programa, o sistema operacional quem vai controlar o quanto este programa irá utilizar de processamento, quanto ele irá utilizar de memória RAM, quando ele irá utilizar.. 
-se este programa vai aramazenar ou não algo no seu HD/SSD e etc.
+Quando mexemos o mouse, o mouse mexe no seu monitor.
+Quando executamos um programa, o sistema operacional quem vai controlar o quanto este programa irá utilizar de processamento, quanto ele irá utilizar de memória RAM, see este programa vai aramazenar ou não algo no seu HD/SSD e outras coisas
 
 </br>
 
@@ -29,17 +28,16 @@ ________________________________________________________________________________
 >OBS: 
 Até mesmo geladeiras, drones, lâmpadas podem possuir um software.
 
-Por exemplo:
 Quando vemos um drone, há uma pessoa controlando o mesmo por um controle.
 Quando esta pessoa desce o analógico do controle, o drone desce ou faz algum movimento, isto ocorre pois há um software fazendo esta comunicação. 
 O software está tanto no controle, quanto no drone.   
 
 
-### Há vários tipos de software
+### Há vários tipos de softwares
 * Program:
 É um cojunto de instruções que descrevem uma tarefa e/ou um trabalho específico no seu computador.
 São ferramentas para o usuário realizar ações. 
-Exemplos: Discord, photoshop, paint..
+Exemplos: Discord, Steam, Github, Photoshop, Paint..
 
 * Firmware:
 Sua função é armazenar todas as informações para que um equipamento funcione corretamente. O firmware está localizado no chip de memória do seu equipamento.
