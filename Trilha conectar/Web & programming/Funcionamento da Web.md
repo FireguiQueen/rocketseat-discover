@@ -135,8 +135,8 @@ ________________________________________________________________________________
 <ol>
 <li>Abra o CMD </li>
 <li>Digite "ping" seguido do endereço do site desejado (sem o WWW) </li>
-<ol>
+<ol> </br>
 
-```go
+```
 > ping google.com 
 ```
