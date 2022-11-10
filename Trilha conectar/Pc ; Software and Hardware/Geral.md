@@ -33,7 +33,7 @@ Quando esta pessoa desce o analógico do controle, o drone desce ou faz algum mo
 O software está tanto no controle, quanto no drone.   
 
 
-### Há vários tipos de softwares
+### -> Há vários tipos de softwares
 * __Program__ </br>
 _É um cojunto de instruções que descrevem uma tarefa e/ou um trabalho específico no seu computador.
 São ferramentas para o usuário realizar ações. 
