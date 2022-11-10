@@ -40,15 +40,14 @@ perfil possui uma foto, uma biografia, vídeos e etc..
 Recomendação de leitura: https://mydroulisblog.netlify.app/site-estatico-x-site-dinamico-x-spa/
 _______________________________________________________________________________________________________________
 # Ações internas com um simples click
-Veja abaixo duas maneiras diferentes de pensarmos ao acessar um site. 
 
-## Caminho simples
+### Pensamento simples
 1º Digitar https://aternos.org/   e   pressionar "enter"
 2º Visualizar o site
 
 
 _______________________________________________________________________________________________________________
-## Caminho avançado
+### Pensamento "avançado"
 1º - Você digita a URL https://aternos.org/ 
    
  URL:  URL é uma sigla para "Uniform Resource Locator"
