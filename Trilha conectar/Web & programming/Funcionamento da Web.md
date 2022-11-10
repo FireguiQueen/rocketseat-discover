@@ -72,7 +72,7 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________ 
 <li>Se inicia uma linha de comunicação, através do TCP.Esta linha comunica seu computador (cliente) até o computador que armazena o conteúdo web (servidor) </li>
 
->Cliente: É o computador, dispositivo ou aplicativo que faz o pedido para acessar o site.
+>Cliente: É o computador, dispositivo ou aplicativo que faz o pedido para acessar o site. </br>
 >Neste caso, é o browser (Chrome, Opera, Edge, Brave..)
 
 >Servidor: É o computador que recebe esses pedidos de acesso e envia respostas a esses pedidos.
