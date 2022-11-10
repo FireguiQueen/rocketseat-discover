@@ -129,8 +129,13 @@ ________________________________________________________________________________
 >__Proxies/Proxy__ </br> Qualquer dispositivo conectado a internet entre cliente e servidor (modem, roteadores, computadores etc). </br> O proxy garante que as informações sejam entregues tanto ao cliente quanto ao servidor. </br> As proxies são de ambos os lados, do servidor e do cliente.. Afinal, existem informações vindas do cliente e do servidor. 
 
 
+</br>
 
-* Pegando o IP de um site pelo CMD 
-1º - Abra o CMD 
-2º - Digite "ping" seguido do endereço do site desejado (sem o WWW)
+### Pegando o IP de um site pelo CMD 
+<ol>
+<li>Abra o CMD </li>
+<li>Digite "ping" seguido do endereço do site desejado (sem o WWW) </li>
+<ol>
 > ping google.com 
+          terminar:
+          ping google.com
