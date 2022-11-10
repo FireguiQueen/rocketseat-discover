@@ -6,7 +6,7 @@
 
  </br>
   
-# O que é um algoritimo? 
+# Algoritimo
 Algoritimo é um passo-a-passo para resolver um problema, é uma sequência de lógica. 
 > _Objetivo: Ligar o seu computador e entrar no Youtube. O resultado será o site do Youtube aberto, porém, é necessário uma sequência de passos para isto ocorrer. </br> 1º devemos apertar o botão do gabinete, assim ligamos o PC </br> 2º devemos colocar a senha de nosso usuário do computador. </br> 3º devemos entrar em nosso navegador </br> 4º devemos acessar o Youtube._
 
@@ -26,7 +26,7 @@ Pelo fato do computador não pensar (com excessão de machine learning), devemos
 
  </br>
 
-# Como se comunicar com o computador?
+# Comunição com o computador
 - Só é possível criar aplicativos desktop (jogos, editores de vídeo/imagem e etc..) e sites na web com uma comunicação 
   precisa entre humano e máquina. Atualmente, a única maneira de se comunicar com um computador de uma maneira precisa, 
   é através de uma linguagem de programação.
@@ -41,6 +41,6 @@ Pelo fato do computador não pensar (com excessão de machine learning), devemos
 
 
 
-## RESUMO:
-. Seja detalhista, o computador não pensa, apenas recebe ordens, calcula e processa. 
-. Algorítimo é uma sequência de ordens utilizando a lógica. 
+## Resumo:
+Seja detalhista, o computador não pensa, apenas recebe ordens, calcula e processa. 
+Algorítimo é uma sequência de ordens utilizando a lógica. 
