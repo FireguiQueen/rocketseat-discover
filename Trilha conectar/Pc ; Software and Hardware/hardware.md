@@ -2,7 +2,6 @@
 É uma pequena placa, e quase todo dispositivo tecnológico a usa.
 Ela é uma placa de memória, porém, uma memória temporária, ou seja, ela não serve para guardamos informações de maneira parmanente. 
 
-Exemplo:
 -Quando abrimos o Word e começamos a digatar algo, este algo não se apaga pois o Word está guardando essas informações na memóriam RAM. 
 Assim que salvamos o arquivo, o que digitamos anteriormente no word é transferido e salvo em nosso HD/SSD.
 -Quando abrimos um software de edição de foto/vídeo e começamos a editar, esta edição fica salva na memória RAM até salvarmos o arquivo png/mp4 em nosso HD/SSD.

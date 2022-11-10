@@ -26,12 +26,13 @@ ________________________________________________________________________________
 > Se você utiliza uma web-cam, há um software instalado fazendo esta comunicação, e assim é possível trazer as imagens para a tela do monitor.
 
 >OBS: 
-Até mesmo geladeiras, drones, lâmpadas podem possuir um software.
+Até mesmo geladeiras, drones, lâmpadas podem possuir software.
 
 Quando vemos um drone, há uma pessoa controlando o mesmo por um controle.
 Quando esta pessoa desce o analógico do controle, o drone desce ou faz algum movimento, isto ocorre pois há um software fazendo esta comunicação. 
 O software está tanto no controle, quanto no drone.   
 
+</br>
 
 ### -> Há vários tipos de softwares
 * __Program__ </br>
