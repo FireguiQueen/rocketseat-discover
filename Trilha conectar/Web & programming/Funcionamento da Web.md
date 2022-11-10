@@ -134,7 +134,11 @@ ________________________________________________________________________________
 ### Pegando o IP de um site pelo CMD 
 <ol>
 <li>Abra o CMD </li>
-<li>Digite "ping" seguido do endereço do site desejado (sem o WWW) </li>
+<li>Digite "ping" seguido do endereço do site desejado (sem o WWW) <li>
 <ol>
-          Função: Trocar mensagens (informações) entre computadores. 
-          Mensagens: São informações, e são enviadas de um computador para outro em diversos pedaços (chunks). 
+
+```go
+> ping google.com 
+          terminar:
+          ping google.com
+```
