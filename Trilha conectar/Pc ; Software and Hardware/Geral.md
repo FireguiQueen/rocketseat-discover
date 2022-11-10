@@ -1,9 +1,9 @@
 # Hardware
-- É tudo aquilo que se refere a parte física do computador, ou seja, um conjunto de aparatos eletrônicos, peças e equipamentos que fazem o computador funcionar. 
+É tudo aquilo que se refere a parte física do computador, ou seja, um conjunto de aparatos eletrônicos, peças e equipamentos que fazem o computador funcionar. 
 > Placa de vídeo, processador, placa mãe, memória RAM, HD, SSD, monitor..
 
 # Periféricos
-- É tudo aquilo que recebe informações do computador. O termo "periférico" aplica-se a qualquer equipamento ou acessório que seja ligado à CPU, ou, em um sentido mais amplo, ao computador.
+É tudo aquilo que recebe informações do computador. O termo "periférico" aplica-se a qualquer equipamento ou acessório que seja ligado à CPU, ou, em um sentido mais amplo, ao computador.
 > Teclado, mouse, headset, web-cam, pen-drive.. 
 ________________________________________________________________________________________________________________________
 # Sistema operacional 
