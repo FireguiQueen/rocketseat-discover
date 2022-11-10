@@ -8,6 +8,8 @@ Assim que salvamos o arquivo, o que digitamos anteriormente no word é transferi
 -> Toda vez que desligamos o PC, todas as informações que a memória RAM continha são apagadas. 
 -> Todos os programas utilizam da memória RAM, a partir do momento em que abrimos um programa, ele já começa a guardar informações na memória RAM.
 
+</br>
+
 # Qual a função do HD e SSD?
 A função de ambas as tecnologias é armazenar dados.
 O HD utiliza um pratos mecânico e um cabeçote móvel para leitura/gravação de informações	
@@ -15,6 +17,8 @@ O SSD utiliza chips de memória, fazendo com que seja mais seguro utilizar um SS
 O HD é bem parecido como uma vitrola.. Há um prato de metal no HD onde guardamos as informações.
 Acima deste prato existe um cabeçote móvel, seu objetivo é fazer a leitura e a gravação das informações guardadas no prato mecânico.
 Este cabeçote não encosta no prato, a leitura e a gravação de informações são feitas magnéticamente.
+
+</br>
 
 # Qual a função do processador?
 É o cerébro do computador. 
