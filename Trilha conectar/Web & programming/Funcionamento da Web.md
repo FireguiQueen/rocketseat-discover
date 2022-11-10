@@ -38,7 +38,13 @@ perfil possui uma foto, uma biografia, vídeos e etc..
 - Alteração sem mexer no código (pois até mesmo o cliente pode fazer a alteração, como trocar uma foto em seu perfil)
 
 Recomendação de leitura: https://mydroulisblog.netlify.app/site-estatico-x-site-dinamico-x-spa/
+
+</br>
+
 _______________________________________________________________________________________________________________
+
+</br>
+
 # Ações internas com um simples click
 
 ### Pensamento simples
