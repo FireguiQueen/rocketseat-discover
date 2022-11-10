@@ -20,8 +20,8 @@ senha para acessar o usuário; navegador que será utilizado; link do Youtube..
 
 # O computador pensa?
 Não, o computador não pensa. 
-Podemos dizer que o computador é "burro", pois ele apenas recebe ordens.
-Mas, mesmo sendo "burro", o computador possui uma capacidade absurda de armazenar, processar e calcular informações.
+Podemos dizer que o computador é "burro", pois ele apenas recebe ordens. </br>
+Mesmo sendo "burro", o computador possui uma capacidade absurda de armazenar, processar e calcular informações.
 Pelo fato do computador não pensar (com excessão de machine learning), devemos ser extremamente detalhistas ao nos comunicarmos com ele.
 
  </br>
