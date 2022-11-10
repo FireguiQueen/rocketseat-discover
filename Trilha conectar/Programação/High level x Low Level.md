@@ -14,9 +14,9 @@ Exemplos: JavaScript, Python, Rust..
 
 ### Sintaxe:
 - Conjunto de regras de escrita
-- A maioria das linguages seguem o mesmo padrão de sintaxe
+- A maioria das linguagens seguem o mesmo padrão de sintaxe
 . Símbolos: {} () ; == ++ -- 
-. Palavras: if, else, while, for, var, let const.. 
+. Palavras: if, else, while, for, var, let, const.. 
 - Cada linguagem tem suas próprias regras, sua própria sintaxe. 
 Por exemplo, no inglês utilizamos o verbo "can" antes para se fazer uma pergunta, enquanto no português é diferente:
 ; Você *pode* fazer isso?
