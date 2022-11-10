@@ -35,9 +35,9 @@ O software está tanto no controle, quanto no drone.
 
 ### Há vários tipos de softwares
 * Program </br>
-É um cojunto de instruções que descrevem uma tarefa e/ou um trabalho específico no seu computador.
+_É um cojunto de instruções que descrevem uma tarefa e/ou um trabalho específico no seu computador.
 São ferramentas para o usuário realizar ações. 
-Exemplos: Discord, Steam, Github, Photoshop, Paint..
+Exemplos: Discord, Steam, Github, Photoshop, Paint.._
 
 * Firmware </br>
 _Sua função é armazenar todas as informações para que um equipamento funcione corretamente. O firmware está localizado no chip de memória do seu equipamento.
@@ -47,10 +47,10 @@ Então quando digitamos, o firmware reconhece quais tecladas estamos apertando, 
 
 
 * Drivers </br>
-Sua função é ser uma ponte entre o sistema operacional e o firmware dos dispositivos. 
+_Sua função é ser uma ponte entre o sistema operacional e o firmware dos dispositivos. 
 A partir do momento que plugamos um dipositivo no computador, como um mouse, o computador passa a receber informações do firmware deste mesmo mouse. 
 Porém, o computador apenas recebe, por isso precisamos dos drivers, o driver irá pegar estas informações do firmware e traduzi-las em ações. 
--> Drivers são de extrema importância, são eles que fazem tudo funcionar corretamentre, entre o dispositivo e o computador.  
+-> Drivers são de extrema importância, são eles que fazem tudo funcionar corretamentre, entre o dispositivo e o computador._  
 
 
 
