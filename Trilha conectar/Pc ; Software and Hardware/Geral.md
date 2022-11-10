@@ -7,6 +7,9 @@
 # Periféricos
 É tudo aquilo que recebe informações do computador. O termo "periférico" aplica-se a qualquer equipamento ou acessório que seja ligado à CPU, ou, em um sentido mais amplo, ao computador.
 > Teclado, mouse, headset, web-cam, pen-drive.. 
+
+</br>
+
 ________________________________________________________________________________________________________________________
 # Sistema operacional 
 Sua função é fazer o gerenciamento de todo o seu hardware, o sistema operacional quem faz a comunicação entre seus dispositivos.
