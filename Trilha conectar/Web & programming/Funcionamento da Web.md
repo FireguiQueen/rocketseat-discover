@@ -1,4 +1,4 @@
-# O que significa "Web"? 
+# Web 
 - Traduzindo, a palavra "web" significa "rede". 
 Web é uma maneira de estrutarmos uma troca de dados entre computadores.
 
@@ -6,7 +6,6 @@ Web é uma maneira de estrutarmos uma troca de dados entre computadores.
 
 </br>
 
-________________________________________________________________________________________________________________
 # WebPage
 Nada mais é do que uma página na web.
 . Acessamos pelo navegador
