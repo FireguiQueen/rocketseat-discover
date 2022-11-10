@@ -8,7 +8,7 @@
   
 # O que é um algoritimo? 
 Algoritimo é um passo-a-passo para resolver um problema, é uma sequência de lógica. 
-> Objetivo: Ligar o seu computador e entrar no Youtube. O resultado será o site do Youtube aberto, porém, é necessário uma sequência de passos para isto ocorrer. </br> 1º devemos apertar o botão do gabinete, assim ligamos o PC </br> 2º devemos colocar a senha de nosso usuário do computador. </br> 3º devemos entrar em nosso navegador </br> 4º devemos acessar o Youtube.  
+> _Objetivo: Ligar o seu computador e entrar no Youtube. O resultado será o site do Youtube aberto, porém, é necessário uma sequência de passos para isto ocorrer. </br> 1º devemos apertar o botão do gabinete, assim ligamos o PC </br> 2º devemos colocar a senha de nosso usuário do computador. </br> 3º devemos entrar em nosso navegador </br> 4º devemos acessar o Youtube._
 
 Note que, acima foi citado um algoritimo padrão, porém, perceba que, o mesmo foi escrito de uma maneira que o ser humano 
 pensa. Mas, e se a gente pedisse para um robô seguir este mesmo algoritimo?
