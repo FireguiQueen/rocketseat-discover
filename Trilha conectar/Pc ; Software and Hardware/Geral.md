@@ -39,12 +39,12 @@ O software está tanto no controle, quanto no drone.
 São ferramentas para o usuário realizar ações. 
 Exemplos: Discord, Steam, Github, Photoshop, Paint..
 
-* Firmware
-<div style="font-size: italic;">Sua função é armazenar todas as informações para que um equipamento funcione corretamente. O firmware está localizado no chip de memória do seu equipamento.
+* Firmware </br>
+__Sua função é armazenar todas as informações para que um equipamento funcione corretamente. O firmware está localizado no chip de memória do seu equipamento.
 O chip de memória não é igual a um pen-drive (onde pdemos salvar arquivos/softwares do computador), este chip serve excluisivamente para armazenar o software firmware daquele componente. 
 Quando plugamos um teclado ao computador, o computador reconhece que aquele equipamento é um teclado, quem faz esta comunicação, dizendo que aquele dipositivo é um teclado, é o firmware. 
-Então quando digitamos, o firmware reconhece quais tecladas estamos apertando, e comunica ao computador.
-</div>
+Então quando digitamos, o firmware reconhece quais tecladas estamos apertando, e comunica ao computador.__
+
 
 * Drivers </br>
 Sua função é ser uma ponte entre o sistema operacional e o firmware dos dispositivos. 
