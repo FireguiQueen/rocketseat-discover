@@ -46,11 +46,13 @@ ________________________________________________________________________________
 # Ações internas com um simples click
 
 ### Pensamento simples
-1º Digitar https://aternos.org/   e   pressionar "enter"
-2º Visualizar o site
+1º - Digitar https://aternos.org/   
+2º - Pressionar enter
+3º - Visualizar o site
+
+</br>
 
 
-_______________________________________________________________________________________________________________
 ### Pensamento "avançado"
 1º - Você digita a URL https://aternos.org/ 
    
