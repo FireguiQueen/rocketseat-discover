@@ -4,6 +4,7 @@
 
 > Quando dizemos "problema", pensamos em algo que está falhando, aprensentando defeito.. Algo que precisa de conserto. Mas devemos pensar um pouco fora da caixa. Pode haver um problema e mesmo assim ninguém perceber. Antigamente, para se fazer uma ligação via telefone, era necessário ligar para uma linha e informar qual número você deseja conversar,  e assim, esta linha colocava ambas as pessoas no telefone. Isto era bem comum, mas com certeza era um problema. Além de não haver privacidade, não era nada prático. Felizmente a humanidade observou, e entendeu que havia um problema nisto, logo, foram criados métodos de ligação direta. Sendo assim, é importante pensar da seguinte maneira.: </br> 0 - Perceber que algo possui um problema </br> 1 - Entender o problema </br> 2 - Criar uma solução de maneira lógica e organizada
 
+ </br>
   
 # O que é um algoritimo? 
 -  Algoritimo é um passo-a-passo para resolver um problema, é uma sequência de lógica. 
