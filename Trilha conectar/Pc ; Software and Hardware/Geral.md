@@ -4,7 +4,7 @@
 
 </br>
 
-# Periféricos
+# Periférico
 É tudo aquilo que recebe informações do computador. O termo "periférico" aplica-se a qualquer equipamento ou acessório que seja ligado à CPU, ou, em um sentido mais amplo, ao computador.
 > Teclado, mouse, headset, web-cam, pen-drive.. 
 
