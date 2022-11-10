@@ -1,18 +1,8 @@
-# O que é programar?
+# Programar
 - Programar é resolver um ou vários problemas.
 - Não apenas resolver um problema, e sim observar algo e compreender que há um problema naquilo. 
 
->Quando dizemos "problema", pensamos em algo que está falhando, aprensentando defeito.. Algo que precisa de conserto.
-Mas devemos pensar um pouco fora da caixa. Pode haver um problema e mesmo assim ninguém perceber. 
-
-Antigamente, para se fazer uma ligação via telefone com fio, era necessário ligar para uma linha e informar 
-qual número você deseja conversar,  e assim, esta linha colocava ambas as pessoas no telefone.
-Isto era bem comum, mas com certeza era um problema. Além de não haver muita privacidade, não era nada prático. 
-Felizmente a humanidade observou, e entendeu que havia um problema nisto, logo, foram criados métodos de ligação direta.
-E como devemos resolver estes problemas? 
-0 - Perceber que algo possui um problema
-1 - Entender o problema
-2 - Criar uma solução de maneira lógica e organizada
+> Quando dizemos "problema", pensamos em algo que está falhando, aprensentando defeito.. Algo que precisa de conserto.Mas devemos pensar um pouco fora da caixa. Pode haver um problema e mesmo assim ninguém perceber. Antigamente, para se fazer uma ligação via telefone com fio, era necessário ligar para uma linha e informar qual número você deseja conversar,  e assim, esta linha colocava ambas as pessoas no telefone.Isto era bem comum, mas com certeza era um problema. Além de não haver muita privacidade, não era nada prático. Felizmente a humanidade observou, e entendeu que havia um problema nisto, logo, foram criados métodos de ligação direta.E como devemos resolver estes problemas? 0 - Perceber que algo possui um problema 1 - Entender o problema2 - Criar uma solução de maneira lógica e organizada
 
   
 # O que é um algoritimo? 
