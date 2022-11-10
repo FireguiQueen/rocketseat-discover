@@ -16,12 +16,15 @@ Neste algoritimo, não foi digitado diversas ações que um robô precisa saber 
 onde está o gabinete; onde está o botão no gabinete; como pressionar o botão; 
 senha para acessar o usuário; navegador que será utilizado; link do Youtube..
 
+ </br>
 
 # O computador pensa?
 - Não, o computador não pensa. 
 Podemos dizer que o computador é extremamente "burro", pois ele apenas recebe ordens, o computador é subimisso ao seu dono.
 Mas, mesmo sendo "burro", o computador possui uma capacidade absurda de armazenar, processar e calcular informações.
 Pelo fato do computador não pensar, devemos ser extremamente detalhistas ao nos comunicarmos com ele.
+
+ </br>
 
 # Como se comunicar com o computador?
 - Só é possível criar aplicativos desktop (jogos, editores de vídeo/imagem e etc..) e sites na web com uma comunicação 
