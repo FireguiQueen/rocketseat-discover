@@ -18,6 +18,7 @@ Exemplos: JavaScript, Python, Rust..
 - Cada linguagem tem suas próprias regras, sua própria sintaxe. 
 > Símbolos: _{} () ; == ++ --_  </br>
 > Palavras: _if, else, while, for, var, let, const.._ </br>
-Por exemplo, no inglês utilizamos o verbo "can" antes para se fazer uma pergunta, enquanto no português é diferente: </br>
-; Você *pode* fazer isso?  </br>
-; *Can* you do that?  <br/>
+
+>No inglês utilizamos o verbo "can" antes para se fazer uma pergunta, enquanto no português é diferente: </br>
+Você **pode** fazer isso?  </br>
+**Can** you do that?  <br/>
