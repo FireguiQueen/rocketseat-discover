@@ -72,10 +72,9 @@ ________________________________________________________________________________
 ________________________________________________________________________________________________ 
 <li>Se inicia uma linha de comunicação, através do TCP.Esta linha comunica seu computador (cliente) até o computador que armazena o conteúdo web (servidor) </li>
 
->Cliente: É o computador, dispositivo ou aplicativo que faz o pedido para acessar o site. </br>
->Neste caso, é o browser (Chrome, Opera, Edge, Brave..)
+>Cliente: _É o computador, dispositivo ou aplicativo que faz o pedido para acessar o site. </br> Neste caso, é o browser (Chrome, Opera, Edge, Brave..)_
 
->Servidor: É o computador que recebe esses pedidos de acesso e envia respostas a esses pedidos.
+>Servidor: _É o computador que recebe esses pedidos de acesso e envia respostas a esses pedidos._
 
 >TCP: Transmition Control Protocol. A função do TCP é garantir que os pacotes (os dados) cheguem corretamente ao destino  
 _________________________________________________________________________________________________ 
