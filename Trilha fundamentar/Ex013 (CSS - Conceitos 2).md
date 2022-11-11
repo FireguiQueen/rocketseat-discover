@@ -43,6 +43,7 @@ ________________________________________________________________________________
 >font: italic bold .8em/1.2 Arial, Sanserif;
 ```
 
+</br>
 
 # Coisas importantes: 
 #### Propriedades anteriores não serão consideradas (é lido de cima para baixo). Digamos que você coloque: 
