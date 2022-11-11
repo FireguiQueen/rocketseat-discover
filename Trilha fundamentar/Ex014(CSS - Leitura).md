@@ -1,4 +1,5 @@
 # Tipos de selector:  
+<span id="seletores">
 
 #### __Global selector:__ _irá estilizar de maneira global, ou seja, todas as tags que estão no HTML._
 ```css
@@ -26,6 +27,12 @@ h2{}
 .nome_da_class{} 
 ```
 
+#### __Inline:__ _irá estilizar somente tag onde o css foi aplicado_
+```html
+> <h1 style=""> </h1>
+```
+</span>
+
 </br>
 </br>
 
@@ -33,22 +40,16 @@ h2{}
 - No CSS, cada tipo de seletor representa um número. 
 - Este número será respeitado quando o browser ler o código style sheet.
 
-```css
-Global selector equivale ao número: 0  
-> *{}
+<a href="#seletores"> Global selector equivale ao número: 0   </a> 
 
-Tag selector equivale ao número: 1
-> h1{} ; p{}..
+<a href="#seletores"> Tag selector equivale ao número: 1 </a> 
 
-Class selector equivale ao número: 10 
-> .nome_da_class{}
+<a href="#seletores"> Class selector equivale ao número: 10  </a> 
 
-Id selector equivale ao número: 100 
-> #nome_da_id{}
+<a href="#seletores"> Id selector equivale ao número: 100  </a> 
 
-Inline selector equivale ao número: 1000 
-> <h1 style=""> </h1>
-``` 
+<a href="#seletores">Inline selector equivale ao número: 1000 </a> 
+
 
 # Sabemos a qual número cada tipo de seletor representa, mas e agora? 
 * Quando escrevemos um código, o mesmo é lido de cima para baixo, então se colocarmos: 
