@@ -6,10 +6,10 @@
 
 # Exemplos
 ```css
-@import ;  // Incluir um CSS externo, uma biblioteca
-@font-face: // Regras condicionais para dispositivos (alterar o tamnho do conteúdos de acordo com o aparelho) 
-@keyframes {} // Incluir fontes externas (de outros sites)
-@media {} // Animações de CSS
+@import ;      // Incluir um CSS externo, uma biblioteca
+@font-face     // Regras condicionais para dispositivos (alterar o tamnho do conteúdos de acordo com o aparelho) 
+@keyframes {}  // Incluir fontes externas (de outros sites)
+@media {}      // Animações de CSS
 ```
 </br>
 
