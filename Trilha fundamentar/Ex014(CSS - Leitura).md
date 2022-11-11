@@ -54,26 +54,35 @@ h2{}
 # Importância de saber o poder de cada um dos seletores
 * Quando escrevemos um código, o mesmo é lido de cima para baixo, então se colocarmos: 
 ```css
-h1 {color: blue; }
-h1 {color: red; }
+h1{
+    color: blue; 
+    }
+h1{
+    color: red; 
+    }
 ```
-Resultado: <h1 style="color:red;">Um Título </h1>
 
 No final, o título da sua página será vermelho, pois o código foi lido de cima para baixo (em formato cascata).
 E se colocarmos um seletor global por último?  
-> h1{color: blue;}
-> *{color: red;}
-
+```css
+h1{
+    color: blue;
+    }
+*{
+    color: red;
+    }
+```
 Em teoria, a página mostraria o título vermelho, pois o código é lido de cima para baixo.. Mas há um porém..
 O global selector representa o número 0, enquanto o tag selector representa o número 1.
 O número um é maior do que zero, logo, a página irá mostrar o título azul. 
 
 
-# Há um jeito de quebrar isto? 
+### Há um jeito de quebrar isto? 
 * Sim, usando !important 
-
->h1{color: blue;}
->*{color: red !important; }
+```css
+h1{color: blue;}
+*{color: red !important; }
+```
 
 Mesmo o h1 sendo mais forte do que o global selector, demos o !important ao global selector, logo, 
 toda essa regra de númeração será quebrada. 
