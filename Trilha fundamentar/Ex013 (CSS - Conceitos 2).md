@@ -65,5 +65,4 @@ font: italic bold .8em/1.2 Arial, Sanserif;
 font: .8em/1.2 Arial, Sanserif bold italic;
 ```
 
-->> Mas fique esperto caso haja muitas propriedades com valores semelhantes */ 
-```
+->> Mas fique esperto caso haja muitas propriedades com valores semelhantes 
