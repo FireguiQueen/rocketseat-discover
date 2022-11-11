@@ -69,7 +69,7 @@ ________________________________________________________________________________
 
 >Domínio: _Nome dado a um IP. Invés de digitarmos o endereço IP de uma máquina (servidor) para pedir acesso aos dados, nós iremos digitar seu domínio, e assim iniciar uma comunicação através do TCP. <br> Exemplos: www.youtube.com.br (domínio) 45.42.52.74 (IP)  
 
-### <li>Seu pedido (cliente) está percorrendo por diversos proxies. </li>
+### <li>Seu pedido (cliente) está percorrendo por diversos proxies </li>
 
 > Proxy: _Qualquer dispositivo no caminho (entre cliente e servidor) -> Modem, roteador, outros computadores/dispositivos e etc.._
 
