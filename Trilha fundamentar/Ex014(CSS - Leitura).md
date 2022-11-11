@@ -1,5 +1,6 @@
-# Tipos de selector:  
 <span id="seletores">
+
+# Tipos de selector:  
 
 #### __Global selector:__ _irá estilizar de maneira global, ou seja, todas as tags que estão no HTML._
 ```css
@@ -21,6 +22,7 @@ h2{}
 #nome_do_id{} 
 ```
 </br>
+</span>
 
 #### __Class selector:__ _irá estilizar as tags que possuem esta class. Class são usadas para estilizar mais de uma tag_
 ```css
@@ -31,7 +33,7 @@ h2{}
 ```html
 > <h1 style=""> </h1>
 ```
-</span>
+
 
 </br>
 </br>
