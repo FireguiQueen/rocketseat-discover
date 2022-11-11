@@ -48,6 +48,7 @@ tudo no CSS.
     padding: 32px /* Espaçamento dentro da tag */
 }
 ```
+</br>
 
 ## CSS interno
 - Estilização feita na tag <head> do arquivo HTML. Não é uma boa prática.
@@ -61,6 +62,7 @@ tudo no CSS.
 </head>
 ```
 
+</br>
 
 ## CSS inline 
 - Estilização feita na própria tag. Utiliza-se apenas para modificações pequenas, pela praticidade.
