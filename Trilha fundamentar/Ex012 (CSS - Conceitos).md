@@ -27,9 +27,8 @@ h1{
 </br>
 
 # Caixas
-Quase toda tag do HTML é considerado uma caixa: 
-Posicionamentos, tamanhos, espaçamentos, bordas, cores, então, em suma, elementos HTML são caixas, assim como quase
-tudo no CSS.
+Pense que toda tag HTML é uma caixa.: Divs, h1, p, inputs
+Sabendo disto, podemos compreender melhor as proprieties que usamos no css (margin, padding, display..)
 
 </br>
 
