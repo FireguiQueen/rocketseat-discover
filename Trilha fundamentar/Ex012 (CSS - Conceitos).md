@@ -31,6 +31,7 @@ Quase toda tag do HTML é considerado uma caixa:
 Posicionamentos, tamanhos, espaçamentos, bordas, cores, então, em suma, elementos HTML são caixas, assim como quase
 tudo no CSS.
 
+</br>
 
 # Properties mais utilizadas 
 ```css 
