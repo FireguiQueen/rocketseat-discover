@@ -1,12 +1,21 @@
-# O que é CSS?
+# CSS
 * Cascading Style Sheet 
 * Utilizado para estilizar a página 
 * HTML é a estrutura do site, o CSS é o estilo, o visual
 * Não é uma linguagem de programação, e sim uma linguagem style sheet
 
-# Comentários 
+</br>
+
+# Estilização
+<ol>
+<li> Selector: elemento da página queremos estilizar.: h1{} ; p{} ; *{} </li>
+<li> Declaration: tudo que está dentro das chaves do selector, tudo o que será estilizado </li>
+<li> Properties: estilizar determinada coisa do elemento.. color; font-size; background-color  </li>
+<li> Property value: valor da propriedade.. color: "blue"; font-size: "60px". </li>
+</ol>
+
 ```css  
-/* Isto é um comentário em css */ 
+/* Você pode fazer um comentário em CSS desta forma */ 
 
 h1{ 
     color: blue;
@@ -14,10 +23,6 @@ h1{
     background-color: red; 
 }
 ``` 
-* Selector: elemento da página queremos estilizar.: h1{} ; p{} ; *{}
-* Declaration: tudo que está dentro das chaves do selector, tudo o que será estilizado 
-* Properties: estilizar determinada coisa do elemento.. color; font-size; background-color  
-* Property value: valor da propriedade.. color: "blue"; font-size: "60px". 
 
 
 # Caixas: 
