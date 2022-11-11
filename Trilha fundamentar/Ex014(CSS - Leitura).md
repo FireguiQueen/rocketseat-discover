@@ -1,21 +1,22 @@
 # Tipos de selector:  
 
-- Global selector: irá estilizar de maneira global, ou seja, todas as tags que estão no HTML.
+#### __Global selector:__ _irá estilizar de maneira global, ou seja, todas as tags que estão no HTML._
 ```css
 *{} 
 ```
-- Tag selector: irá estilizar a tag colocada 
+
+#### __Tag selector:__ _irá estilizar a tag colocada_
 ```css
 h1{} ; p{} ; h2{}..  
 ```
 
-- Id selector: irá estilizar todas as tags que possuem este id. Geralmente é utilizado uma tag por ID.
+#### __Id selector:__ _irá estilizar todas as tags que possuem este id. Geralmente é utilizado uma tag por ID_
 ```css
 #nome_do_id{} 
 ```
 
 
-- Class selector: irá estilizar as tags que possuem esta class. Class são usadas para estilizar mais de uma tag.
+#### __Class selector:__ _irá estilizar as tags que possuem esta class. Class são usadas para estilizar mais de uma tag_
 ```css
 .nome_da_class{} 
 ```
