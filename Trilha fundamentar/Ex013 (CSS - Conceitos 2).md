@@ -20,10 +20,10 @@
 
 ```css
 /* Background proprieties */ 
-background-color: black; 
-background-image: url(images/bg.gif); 
-background-repeat: no-repeat;
-background-position: left top; 
+>background-color: black; 
+>background-image: url(images/bg.gif); 
+>background-repeat: no-repeat;
+>background-position: left top; 
 
 
 /* Background proprietis SHORTHAND */ 
