@@ -44,18 +44,20 @@ ________________________________________________________________________________
 ```
 
 
-# OBS ao usar shorthand: 
-* Não irá considerar propriedades anteriores (é lido de cima para baixo). Digamos que você coloque: 
+# Coisas importantes: 
+```css
+/* Propriedades anteriores não serão consideradas (é lido de cima para baixo). Digamos que você coloque: */
 >font-weight: bold; 
 >font: italic .8em/1.2 Arial, Sanserif;
 
-No final, o valor "bold" será ignorado, pois ele não foi colocado no shrothand.
+/* No final, o valor "bold" será ignorado, pois ele não foi colocado no shrothand. */
 Então, neste caso, seria necessário colocar:
 >font: italic bold .8em/1.2 Arial, Sanserif;
 
 
-* Em geral, tanto faz a ordem das propriedades. Poderíamos colocar: 
+/* Em geral, tanto faz a ordem das propriedades. Poderíamos colocar: */
 >font: italic bold .8em/1.2 Arial, Sanserif;
                   ou 
 >font: .8em/1.2 Arial, Sanserif bold italic;
 Mas fique esperto caso haja muitas propriedades com valores semelhanters 
+```
