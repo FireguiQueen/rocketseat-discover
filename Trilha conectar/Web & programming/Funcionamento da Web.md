@@ -19,7 +19,7 @@ Nada mais é do que uma página na web.
 </br>
 
 ## Um Website pode ser.:
-### Estático:
+### Estático
 _Um página estática significa que, a página sempre será a mesma. Por exemplo, quando diversos clientes (usuários) solicitam ao servidor uma cópia da página, esta mesma cópia irá vir igual para todo mundo </br>->&nbsp; Não interagem com um banco de dados </br>->&nbsp; Alteração no código é feita de maneira direta e irá mudar para todos </br>->&nbsp; Por não possuir interação com o backend (banco de dados) é quase impossível ser "hackeada" </br>->&nbsp; Melhor em performance_
 
 </br>
