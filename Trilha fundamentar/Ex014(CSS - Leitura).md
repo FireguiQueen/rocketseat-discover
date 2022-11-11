@@ -41,17 +41,13 @@ h2{}
 # "Poder" de cada selector: 
 - No CSS, cada tipo de seletor representa um número. 
 - Este número será respeitado quando o browser ler o código style sheet.
-
-<a href="#seletores"> Global selector equivale ao número: 0   </a> 
-
-<a href="#seletores"> Tag selector equivale ao número: 1 </a> 
-
-<a href="#seletores"> Class selector equivale ao número: 10  </a> 
-
-<a href="#seletores"> Id selector equivale ao número: 100  </a> 
-
-<a href="#seletores">Inline selector equivale ao número: 1000 </a> 
-
+<ul type="square">
+<a href="#seletores"> Global selector</a>  equivale ao número: 0  
+<a href="#seletores"> Tag selector</a>  equivale ao número: 1  
+<a href="#seletores"> Class selector</a>  equivale ao número: 10  
+<a href="#seletores"> Id selector</a>  equivale ao número: 100  
+<a href="#seletores">Inline selector</a>  equivale ao número: 1000 
+</ol>
 
 # Sabemos a qual número cada tipo de seletor representa, mas e agora? 
 * Quando escrevemos um código, o mesmo é lido de cima para baixo, então se colocarmos: 
