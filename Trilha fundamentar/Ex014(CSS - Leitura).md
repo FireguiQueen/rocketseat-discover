@@ -38,7 +38,7 @@ h2{}
 </br>
 </br>
 
-# "Poder" de cada selector: 
+# "Poder" de cada selector
 - No CSS, cada tipo de seletor representa um número. 
 - Este número será respeitado quando o browser ler o código style sheet.
 <ul type="square">
@@ -49,10 +49,15 @@ h2{}
 <li><a href="#seletores">Inline selector</a>  equivale ao número: 1000 </li>
 </ol>
 
-# Sabemos a qual número cada tipo de seletor representa, mas e agora? 
+</br> 
+
+# Importância de saber o poder de cada um dos seletores
 * Quando escrevemos um código, o mesmo é lido de cima para baixo, então se colocarmos: 
-> h1 {color: blue; }
-> h1 {color: red; }
+```css
+h1 {color: blue; }
+h1 {color: red; }
+```
+<h1> oi </h1>
 
 No final, o título da sua página será vermelho, pois o código foi lido de cima para baixo (em formato cascata).
 E se colocarmos um seletor global por último?  
