@@ -12,9 +12,10 @@ No 4G não há fios de maneira direta, porém, sua internet vem através de ante
 que se conectam a diversos outros até chegar em uma central, e esta central é conectada com os cabos submarinos.
 
 
-## Servidor:
+## Servidor
 Como o nome já sugere, o servidor está ali servir. 
-> -> Um servidor é um computador equipado com um ou mais processadores, portas de comunicação, softwares, hardwares para armazenamento (HD/SSD) e etc.. </br> -> Existem diversos tipos de servidores: hospedagem de site, provedor de emails, armazenamento de arquivos e etc..   
+> -> Um servidor é um computador equipado com um ou mais processadores, portas de comunicação, softwares, hardwares para armazenamento (HD/SSD) e etc.. </br> 
+> -> Existem diversos tipos de servidores: hospedagem de site, provedor de emails, armazenamento de arquivos e etc..   
 
 Como já sabemos, a internet só funciona por causa dos cabos. Então, quando enviamos um arquivo ao Google Drive por exemplo, este mesmo arquivo percorre por diversas proxies..
 Ou seja, o arquivo passa pelo seu fio, pelo seu modem, pelos fios dos postes... Até chegar nos servidores da Google.
