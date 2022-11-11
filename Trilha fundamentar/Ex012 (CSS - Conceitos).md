@@ -49,22 +49,27 @@ tudo no CSS.
 }
 ```
 
-* CSS interno:
--> Estilização feita na tag <head> do arquivo HTML.. Não é uma boa prática! 
+## CSS interno
+- Estilização feita na tag <head> do arquivo HTML. Não é uma boa prática.
+```html 
 <head>
     <style>
-        h1{color: blue; }
+        h1{
+            color: blue; 
+            }
     </style>
 </head>
+```
 
 
-* CSS inline: 
--> Estilização feita na própria tag. Utiliza-se apenas para modificações pequenas, pela praticidade.
+## CSS inline 
+- Estilização feita na própria tag. Utiliza-se apenas para modificações pequenas, pela praticidade.
+```html
 <body>
     <h1 style="color: blue">Este é um título com a cor azul </h1>
     <p style="color: red ; font-size: 25px">Parágrafo com letra de 25px da cor vermelha </p>
 </body>
-
+```
 
 * CSS externo: 
 -> Estilização feita de maneira externa. Linkamos nosso arquivo CSS em nossa tag <head>.
