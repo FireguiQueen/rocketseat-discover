@@ -7,12 +7,12 @@
 </br>
 
 # Estilização
-<ol>
+<ul>
 <li> Selector: elemento da página queremos estilizar.: h1{} ; p{} ; *{} </li>
 <li> Declaration: tudo que está dentro das chaves do selector, tudo o que será estilizado </li>
 <li> Properties: estilizar determinada coisa do elemento.. color; font-size; background-color  </li>
 <li> Property value: valor da propriedade.. color: "blue"; font-size: "60px". </li>
-</ol>
+</ul>
 
 ```css  
 /* Você pode fazer um comentário em CSS desta forma */ 
