@@ -60,7 +60,5 @@ font: italic bold .8em/1.2 Arial, Sanserif;
 Poderíamos colocar: */
 font: italic bold .8em/1.2 Arial, Sanserif;
                 
-                ou 
-
 font: .8em/1.2 Arial, Sanserif bold italic;
 ```
