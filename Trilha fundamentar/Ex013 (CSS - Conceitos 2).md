@@ -56,9 +56,11 @@ Então, neste caso, seria necessário colocar: */
 font: italic bold .8em/1.2 Arial, Sanserif;
 
 
-/* Em geral, tanto faz a ordem das propriedades. Poderíamos colocar: */
->font: italic bold .8em/1.2 Arial, Sanserif;
-                  ou 
->font: .8em/1.2 Arial, Sanserif bold italic;
-Mas fique esperto caso haja muitas propriedades com valores semelhanters 
+/* Em geral, tanto faz a ordem das propriedades. Mas fique esperto caso haja muitas propriedades com valores semelhantes
+Poderíamos colocar: */
+font: italic bold .8em/1.2 Arial, Sanserif;
+                
+                ou 
+
+font: .8em/1.2 Arial, Sanserif bold italic;
 ```
