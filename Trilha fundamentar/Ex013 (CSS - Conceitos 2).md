@@ -24,12 +24,13 @@ background-color: black;
 background-image: url(images/bg.gif); 
 background-repeat: no-repeat;
 background-position: left top; 
-```
+
 
 /* Background proprietis SHORTHAND */ 
 >background: #000 url(images/bg.gif) no-repeat left top; 
-
+```
 _____________________________________________________________________________________________________
+```css
 /* Font proprieties */ 
 >font-style: italic; 
 >font-weight: bold; 
@@ -37,9 +38,10 @@ ________________________________________________________________________________
 >font-size: .2em;
 >font-family: Arial, sans-serif;
 
+
 /* Font proprieties SHORTHAND */ 
 >font: italic bold .8em/1.2 Arial, Sanserif;
-
+```
 
 
 # OBS ao usar shorthand: 
