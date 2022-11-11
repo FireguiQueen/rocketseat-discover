@@ -51,7 +51,7 @@ tudo no CSS.
 </br>
 
 ## CSS interno
-- Estilização feita na tag <head> do arquivo HTML. Não é uma boa prática.
+- _Estilização feita na tag <head> do arquivo HTML. Não é uma boa prática._
 ```html 
 <head>
     <style>
@@ -62,10 +62,8 @@ tudo no CSS.
 </head>
 ```
 
-</br>
-
 ## CSS inline 
-- Estilização feita na própria tag. Utiliza-se apenas para modificações pequenas, pela praticidade.
+- _Estilização feita na própria tag. Utiliza-se apenas para modificações pequenas, pela praticidade._
 ```html
 <body>
     <h1 style="color: blue">Este é um título com a cor azul </h1>
@@ -74,7 +72,7 @@ tudo no CSS.
 ```
 
 ## CSS externo 
-- Estilização feita de maneira externa. Linkamos nosso arquivo CSS em nossa tag <head>.
+- _Estilização feita de maneira externa. Linkamos nosso arquivo CSS em nossa tag head._
 ```html
 <head>
     <link rel="stylesheet" href="style.css" />
@@ -86,7 +84,7 @@ tudo no CSS.
 </br>
 
 # Importando fontes
-- Existem duas maneiras de se importar fontes para o nosso website.:
+> Existem duas maneiras de se importar fontes para o nosso website.:
 
 ### Não recomendada
 Ir no arquivo externo CSS e digitar: 
@@ -95,7 +93,7 @@ Ir no arquivo externo CSS e digitar:
 ```
 
 
-# Recomendada:  
+### Recomendada:  
 ## Ir na tag <head> do arquivo HTML e digitar
 ```html
 <head>
