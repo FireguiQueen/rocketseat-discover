@@ -1,7 +1,7 @@
 ## Internet 
 São redes interligadas pelo mundo todo.
 Essas ligações são feitas através de cabos que atravessam os oceanos.
--> São esses cabos submarinos que permitem o transporte de todo o tipo de informação digital.
+</br>-> São esses cabos submarinos que permitem o transporte de todo o tipo de informação digital.
 
 ### Como uma provedora fornece internet a você: 
 É instalado um cabo em seu modem, o modem se conecta a um poste através de fios, este mesmo poste se conecta a diversos outros 
