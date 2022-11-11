@@ -81,8 +81,12 @@ O número um é maior do que zero, logo, a página irá mostrar o título azul.
 ## Há um jeito de quebrar isto? 
 * Sim, usando !important 
 ```css
-h1{color: blue;}
-*{color: red !important; }
+h1{
+    color: blue;
+    }
+*{
+    color: red !important; 
+    }
 ```
 
 Mesmo o h1 sendo mais forte do que o global selector, demos o !important ao global selector, logo, 
