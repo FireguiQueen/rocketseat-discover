@@ -8,7 +8,9 @@
 
 #### __Tag selector:__ _irá estilizar a tag colocada_
 ```css
-h1{} ; p{} ; h2{}..  
+h1{} 
+p{} 
+h2{}  
 ```
 
 </br>
