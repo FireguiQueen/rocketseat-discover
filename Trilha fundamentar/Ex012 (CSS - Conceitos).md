@@ -83,20 +83,26 @@ tudo no CSS.
 
 
 # Importando fontes
-Existem duas maneiras de se importar fontes para o nosso website.:
+- Existem duas maneiras de se importar fontes para o nosso website.:
 
-* Não recomendada: 
-->Ir no arquivo externo CSS e digitar: 
-> @Import 'URL_da_fonte'
+### Não recomendada
+Ir no arquivo externo CSS e digitar: 
+```css
+@Import 'URL_da_fonte'
+```
 
 
-* Recomendada:  
--> Ir na tag <head> do arquivo HTML e digitar: 
+# Recomendada:  
+## Ir na tag <head> do arquivo HTML e digitar
+```html
 <head>
     <link rel="stylesheet" href="URL_da_fonte">
 <head>
+```
 
-
-Após importamos as fontes, podemos usar elas em nossa webpage 
-basta utilizar do:
-> font-family:..
+>Após importamos as fontes, podemos usar elas em nossa webpage. 
+```css
+selector{ 
+    font-family:
+}
+```
