@@ -4,28 +4,34 @@
 ```css
 *{} 
 ```
+</br>
 
 #### __Tag selector:__ _irá estilizar a tag colocada_
 ```css
 h1{} ; p{} ; h2{}..  
 ```
 
+</br>
+
 #### __Id selector:__ _irá estilizar todas as tags que possuem este id. Geralmente é utilizado uma tag por ID_
 ```css
 #nome_do_id{} 
 ```
-
+</br>
 
 #### __Class selector:__ _irá estilizar as tags que possuem esta class. Class são usadas para estilizar mais de uma tag_
 ```css
 .nome_da_class{} 
 ```
 
+</br>
+</br>
+
 # "Poder" de cada selector: 
 - No CSS, cada tipo de seletor representa um número. 
 - Este número será respeitado quando o browser ler o código style sheet.
 
-```cs
+```css
 Global selector equivale ao número: 0  
 > *{}
 
