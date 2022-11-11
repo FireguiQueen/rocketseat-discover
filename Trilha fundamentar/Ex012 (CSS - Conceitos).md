@@ -24,14 +24,15 @@ h1{
 }
 ``` 
 
+</br>
 
-# Caixas: 
+# Caixas
 Quase toda tag do HTML é considerado uma caixa: 
 Posicionamentos, tamanhos, espaçamentos, bordas, cores, então, em suma, elementos HTML são caixas, assim como quase
 tudo no CSS.
 
 
-# Properties mais utilizadas: 
+# Properties mais utilizadas 
 ```css 
 { 
     background-color: blue; /* Irá mudar o fundo da tag */ 
