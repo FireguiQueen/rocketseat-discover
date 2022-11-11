@@ -18,11 +18,13 @@
 * Resume seu código em CSS 
 * Melhora a legibilidade de nosso código 
 
+```css
 /* Background proprieties */ 
->background-color: black; 
->background-image: url(images/bg.gif); 
->background-repeat: no-repeat;
->background-position: left top; 
+background-color: black; 
+background-image: url(images/bg.gif); 
+background-repeat: no-repeat;
+background-position: left top; 
+```
 
 /* Background proprietis SHORTHAND */ 
 >background: #000 url(images/bg.gif) no-repeat left top; 
