@@ -92,6 +92,7 @@ Ir no arquivo externo CSS e digitar:
 @Import 'URL_da_fonte'
 ```
 
+</br>
 
 ### Recomendada:  
 ## Ir na tag <head> do arquivo HTML e digitar
