@@ -5,8 +5,8 @@
 </br>
 
 # Exemplos
-- @import &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _// Incluir um CSS externo, uma biblioteca.._ 
-- @media  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+- @import &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _// Incluir um CSS externo, uma biblioteca.._ 
+- @media  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 _// Regras condicionais para dispositivos (alterar o tamnho do conteúdos de acordo com o aparelho)_
 - @font-face  &nbsp;&nbsp;&nbsp;&nbsp; _// Incluir fontes externas (de outros sites)_
 - @keyframes  &nbsp;&nbsp;&nbsp; _// Animações de CSS_
