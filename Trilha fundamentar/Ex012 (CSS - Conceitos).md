@@ -7,7 +7,7 @@
 </br>
 
 # Estilização
-<ul>
+<ul type="square">
 <li> Selector: elemento da página queremos estilizar.: h1{} ; p{} ; *{} </li>
 <li> Declaration: tudo que está dentro das chaves do selector, tudo o que será estilizado </li>
 <li> Properties: estilizar determinada coisa do elemento.. color; font-size; background-color  </li>
