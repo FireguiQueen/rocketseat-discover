@@ -27,10 +27,10 @@ Quanto mais perto o servidor estiver de você, mais rápido será sua conexão. 
 
 ## IP  &  Mac Address
 
-IP (Internet protocol) </br> 
+- IP (Internet protocol) </br> 
 _Serve para identificarmos um computador na internet. Quando conectamos um dispositivo a internet, este dispositivo recebe um IP, um endereço. Quando falamos de hospedagem site, sabemos que há um computador hosteando aquele site. E para acessarmos este mesmo site, precisamos do IP do computador que armazena este site._
 
-MAC address </br> 
+- MAC address </br> 
 _É um endereço único da sua placa de rede.. Exemplo: Placa de rede do seu computador, do seu celular, do seu modem e de outros aparelhos que possuem uma placa de rede. Todo dispositivo que se conecta a internet possui esta placa. A placa de rede possui um número identificador (Mac address), ele nunca irá mudar._
 
 </br>
