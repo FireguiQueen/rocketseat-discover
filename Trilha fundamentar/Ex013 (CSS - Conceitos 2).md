@@ -2,12 +2,15 @@
 * Está relcionada ao comportamento do CSS 
 * Começa com o sinal de "@" e em seguida o identificador e valor
 
+</br>
+
 # Exemplos
-- @import    // Incluir um CSS externo, uma biblioteca..  
+- @import    <!-- Incluir um CSS externo, uma biblioteca..  
 - @media     // Regras condicionais para dispositivos (alterar o tamnho do conteúdos de acordo com o aparelho)
 - @font-face // Incluir fontes externas (de outros sites)
 - @keyframes // Animações de CSS 
 
+</br>
 
 # Shorhand 
 * Junção de proprieties
