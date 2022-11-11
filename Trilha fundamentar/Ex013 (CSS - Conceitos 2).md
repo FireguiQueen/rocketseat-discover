@@ -5,10 +5,10 @@
 </br>
 
 # Exemplos
-- @import    <!-- Incluir um CSS externo, uma biblioteca..  
-- @media     // Regras condicionais para dispositivos (alterar o tamnho do conteúdos de acordo com o aparelho)
-- @font-face // Incluir fontes externas (de outros sites)
-- @keyframes // Animações de CSS 
+- @import     _// Incluir um CSS externo, uma biblioteca.._ 
+- @media      _// Regras condicionais para dispositivos (alterar o tamnho do conteúdos de acordo com o aparelho)_
+- @font-face  _// Incluir fontes externas (de outros sites)_
+- @keyframes  _// Animações de CSS_
 
 </br>
 
