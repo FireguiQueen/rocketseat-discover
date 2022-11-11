@@ -73,14 +73,15 @@ tudo no CSS.
 </body>
 ```
 
-* CSS externo: 
--> Estilização feita de maneira externa. Linkamos nosso arquivo CSS em nossa tag <head>.
+## CSS externo 
+- Estilização feita de maneira externa. Linkamos nosso arquivo CSS em nossa tag <head>.
+```html
 <head>
     <link rel="stylesheet" href="style.css" />
-    Rel = Relacionado (relacionado ao estilo em folha)
-    Href = Referência (aonde está este arquivo externo)
+    <!-- Href = Referência (aonde está este arquivo externo)  -->
+    <!-- Rel  = Relacionado (relacionado ao estilo em folha)  -->
 </head>
-
+```
 
 </br>
 
