@@ -42,10 +42,10 @@ h2{}
 - No CSS, cada tipo de seletor representa um número. 
 - Este número será respeitado quando o browser ler o código style sheet.
 <ul type="square">
-<li><a href="#seletores"> Global selector</a>  equivale ao número: 0  </li>
-<li><a href="#seletores"> Tag selector</a>  equivale ao número: 1  </li>
-<li><a href="#seletores"> Class selector</a>  equivale ao número: 10  </li>
-<li><a href="#seletores"> Id selector</a>  equivale ao número: 100  </li>
+<li><a href="#seletores">Global selector</a>  equivale ao número: 0  </li>
+<li><a href="#seletores">Tag selector</a>  equivale ao número: 1  </li>
+<li><a href="#seletores">Class selector</a>  equivale ao número: 10  </li>
+<li><a href="#seletores">Id selector</a>  equivale ao número: 100  </li>
 <li><a href="#seletores">Inline selector</a>  equivale ao número: 1000 </li>
 </ol>
 
