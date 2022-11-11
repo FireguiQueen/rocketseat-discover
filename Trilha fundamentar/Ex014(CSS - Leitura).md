@@ -57,7 +57,7 @@ h2{}
 h1 {color: blue; }
 h1 {color: red; }
 ```
-<h1> oi </h1>
+Resultado: <h1 style="color:red;">Um Título </h1>
 
 No final, o título da sua página será vermelho, pois o código foi lido de cima para baixo (em formato cascata).
 E se colocarmos um seletor global por último?  
