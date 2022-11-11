@@ -50,6 +50,7 @@ ________________________________________________________________________________
 >font-weight: bold; 
 >font: italic .8em/1.2 Arial, Sanserif;
 
+
 /* No final, o valor "bold" será ignorado, pois ele não foi colocado no shrothand. */
 Então, neste caso, seria necessário colocar:
 >font: italic bold .8em/1.2 Arial, Sanserif;
