@@ -48,6 +48,7 @@ Sabendo disto, podemos compreender melhor as proprieties que usamos no css (marg
 }
 ```
 </br>
+
 ________________________________________________________________________________________________________________
 
 ## CSS interno
