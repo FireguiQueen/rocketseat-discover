@@ -48,6 +48,7 @@ Sabendo disto, podemos compreender melhor as proprieties que usamos no css (marg
 }
 ```
 </br>
+_________________________________________________________________________________
 
 ## CSS interno
 - _Estilização feita na tag <head> do arquivo HTML. Não é uma boa prática._
