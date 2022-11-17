@@ -14,12 +14,12 @@
 </br>
 
 # Shorhand 
-* Junção de proprieties
+* Junção de properties
 * Resume seu código em CSS 
 * Melhora a legibilidade de nosso código 
 
 ```css
-/* Background proprieties */ 
+/* Background properties */ 
 >background-color: black; 
 >background-image: url(images/bg.gif); 
 >background-repeat: no-repeat;
