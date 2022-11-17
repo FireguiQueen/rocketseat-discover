@@ -24,10 +24,10 @@ ________________________________________________________________________________
 * São fixas, não alteram seu valor.
 > Exemplo: h1 {font-size: 16px; }
 
-__Unidades__ &nbsp;&nbsp;&nbsp;&nbsp; __Nome__ </br>
-cm&nbsp;&nbsp;&nbsp;&nbsp;centímetros </br> 
-in&nbsp;&nbsp;&nbsp;           inches </br>
-px&nbsp;&nbsp;&nbsp;           pixels </br>
+__Unidades__ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; __Nome__ </br>
+cm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;centímetros </br> 
+in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inches </br>
+px&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pixels </br>
 
 * O mais utilizado é o pixel
 * Não é recomendado usar em centímetros 
