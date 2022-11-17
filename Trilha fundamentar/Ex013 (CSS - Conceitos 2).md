@@ -45,7 +45,7 @@ ________________________________________________________________________________
 
 </br>
 
-# Coisas importantes: 
+# Observação: 
 #### Propriedades anteriores não serão consideradas (é lido de cima para baixo). Digamos que você coloque: 
 ```css
 font-weight: bold; 
