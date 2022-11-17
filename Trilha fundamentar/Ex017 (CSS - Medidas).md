@@ -33,16 +33,16 @@ ________________________________________________________________________________
 	</thead>
 	<tbody>
 		<tr>
-			<td>cm </td>
-			<td>centímetros </td>
+			<td>cm</td>
+			<td>centímetros</td>
 		</tr>
 		<tr>
-			<td>in </td>
+			<td>in</td>
 			<td>inches</td>
 		</tr>
 		<tr>
-			<td>px </td>
-			<td>pixels </td>
+			<td>px</td>
+			<td>pixels</td>
 		</tr>
 	</tbody>
 </table>
