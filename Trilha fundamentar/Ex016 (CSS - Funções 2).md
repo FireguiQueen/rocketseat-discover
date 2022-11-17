@@ -1,10 +1,10 @@
 # Funções 
 Funções são reconhecidas por causar um reaproveitamento de código. 
 Ou seja, usar um código que já foi feito por alguém. 
-* rgb()
-* hsl()
-* url()
-* calc()
+* ```rgb()```
+* ```hsl()```
+* ```url()```
+* ```calc() ```
 
 A tag <body> não possui uma altura definida.
 Logo, quando usamos a "%", é necessário dar um valor de altura para o <body>
