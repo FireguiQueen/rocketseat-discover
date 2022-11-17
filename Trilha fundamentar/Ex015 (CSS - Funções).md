@@ -10,10 +10,12 @@ body{
 }
 ```
 
-O "calc" é a nossa função, e esta função está na propriedade "widght" (largura).
+Temos duas funções nessa declaration, "calc"  e "url" 
+O "url" é uma função para localizar e extrair conteúdos de um endereço, como uma imagem por exemplo.
 O "calc" é uma função para cálculo, neste caso, estamos dizendo que devemos pegar 100% da página e diminuir 10px.
-> calc = função  </br>
-> (100% - 10px) = argumento
+
+> calc & url = função  </br>
+> ("https://urlaqui.com") & (100% - 10px) = argumento
 
 <br>
 
