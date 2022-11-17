@@ -4,9 +4,11 @@
 
 # Exemplos:
 ```css
-@import url("https://urlaqui.com/style.css");
-{ 
-    widght: calc(100% - 10px);
+body{
+	background-image: url("https://urlaqui.com);
+	{ 
+		widght: calc(100% - 10px);
+	}
 }
 ```
 
