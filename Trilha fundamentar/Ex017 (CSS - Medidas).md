@@ -31,15 +31,15 @@ ________________________________________________________________________________
 			<th>Nome</th>
 		</tr>
 	</thead>
+	<tbody>
+		<tr>
+			<td>cm </td>
+			<td>centímetros </td>
+		</tr>
+		ininches 
+		px pixels 
+	<tbody>
 </table>
-
-
-
-
-__Unidades__ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; __Nome__ </br>
-cm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;centímetros </br> 
-in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;inches </br>
-px&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pixels </br>
 
 * O mais utilizado é o pixel
 * Não é recomendado usar em centímetros 
