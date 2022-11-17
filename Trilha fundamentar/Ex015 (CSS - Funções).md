@@ -5,10 +5,8 @@
 ### Exemplos:
 ```css
 body{
-	background-image: url("https://urlaqui.com);
-	{ 
-		widght: calc(100% - 10px);
-	}
+	background-image: url("https://urlaqui.com");
+	background-size: calc(100% - 10px);
 }
 ```
 
@@ -24,7 +22,7 @@ Permite que browsers adicionem features a fim de colocar em uso alguma novidade 
 
 ### Exemplos:
 ```css
-p {
+p{
 	-webkit-background-clip: text;  /* Chrome, Safari, iOS e Android*/
 	-moz-background-clip: text;     /* Mozilla (Firefox) */
 	-ms-background-clip: text;      /* Internet Explorer ou Edge*/
