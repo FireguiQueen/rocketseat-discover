@@ -1,6 +1,6 @@
 # Funções
-* nome seguido de abre e fecha parentesis 
-* recebe argumento 
+* Nome seguido de abre e fecha parênteses 
+* Recebe argumento 
 
 # Exemplos:
 @import url("https://urlaqui.com/style.css");
