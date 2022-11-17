@@ -72,7 +72,7 @@ h1{
     color: red;
     }
 ```
-Em teoria, a página mostraria o título vermelho, pois o código é lido de cima para baixo.. Mas há um porém..
+Em teoria, a página mostraria o título vermelho, pois o código é lido de cima para baixo.. Mas há um porém!
 O global selector representa o número 0, enquanto o tag selector representa o número 1.
 O número um é maior do que zero, logo, a página irá mostrar o título azul. 
 
