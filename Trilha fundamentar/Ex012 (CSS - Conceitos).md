@@ -15,8 +15,6 @@
 </ul>
 
 ```css  
-/* Você pode fazer um comentário em CSS desta forma */ 
-
 h1{ /* Tudo o que está abaixo é a "declaration" */
     color: blue;                  
     font-size: 60px;  
