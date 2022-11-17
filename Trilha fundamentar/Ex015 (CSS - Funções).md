@@ -2,7 +2,7 @@
 * Nome seguido de abre e fecha parênteses 
 * Recebe argumento 
 
-# Exemplos:
+### Exemplos:
 ```css
 body{
 	background-image: url("https://urlaqui.com);
@@ -22,7 +22,7 @@ O "calc" é uma função para cálculo, neste caso, estamos dizendo que devemos 
 # Vendor Prefixes
 Permite que browsers adicionem features a fim de colocar em uso alguma novidade do CSS. Ou seja, colocar alguma nova atualização do CSS em browsers diversos e saber se eles já aceitam ou não essa atualização.
 
-# Exemplos:
+### Exemplos:
 p {
 	-webkit-background-clip: text;  /* Chrome, Safari, iOS e Android*/
 	-moz-background-clip: text;     /* Mozilla (Firefox) */
