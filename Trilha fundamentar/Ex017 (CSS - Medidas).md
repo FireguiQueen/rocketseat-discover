@@ -36,8 +36,14 @@ ________________________________________________________________________________
 			<td>cm </td>
 			<td>centímetros </td>
 		</tr>
-		ininches 
-		px pixels 
+		<tr>
+			<td>in </td>
+			<td>inches</td>
+		</tr>
+		<tr>
+			<td>px </td>
+			<td>pixels </td>
+		</tr>
 	<tbody>
 </table>
 
