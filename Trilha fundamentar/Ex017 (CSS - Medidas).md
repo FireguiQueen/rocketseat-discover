@@ -6,15 +6,15 @@
 ### __Tipos numéricos__ </br>
 ```<integer>``` número inteiro como: -10 ou 223 </br>
 ```<number>``` número decimal como: -2.4, 64 ou 0.234 </br> 
-```<dimension> ``` é um número com uma unidade de medida junto: 90deg, 2s, 8px (deg, px, s..) </br>
+```<dimension>``` é um número com uma unidade de medida junto: 90deg, 2s, 8px (deg, px, s..) </br>
 ```<percentage>``` representa uma fração de outro número: 50% 
 
 </br>
 
 ### __Unidades comuns__ </br>
 ```<length>``` é um dos mais usados no CSS e representa um valor de distância: px, em, vw </br>
-```<angle> ``` representa uma unidade de ângulo: deg, rad, turn </br>
-```<time> ```  representa uma unidade do tempo: s, ms </br>
+```<angle>``` representa uma unidade de ângulo: deg, rad, turn </br>
+```<time>``` representa uma unidade do tempo: s, ms </br>
 ```<resolution>``` representa resoluções para dispositivos: dpi </br>
 
 _________________________________________________________________________________________________________________
