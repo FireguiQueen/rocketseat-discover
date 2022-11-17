@@ -12,9 +12,9 @@
 
 O "calc" é a nossa função, e esta função está na propriedade "widght" (largura).
 O "calc" é uma função para cálculo, neste caso, estamos dizendo que devemos pegar 100% da página e diminuir 10px.
-> calc(100% - 10px) 
-   |        |-> Argumento 
- Função 
+> calc = função  </br>
+> (100% - 10px) = argumento
+
 
 
 # Vendor Prefixes
