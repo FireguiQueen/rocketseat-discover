@@ -23,7 +23,7 @@
 >background-color: black; 
 >background-image: url(images/bg.gif); 
 >background-repeat: no-repeat;
->background-position: left top; 
+>background-position: left; 
 
 
 /* Background proprietis SHORTHAND */ 
