@@ -44,7 +44,7 @@ ________________________________________________________________________________
 			<td>px </td>
 			<td>pixels </td>
 		</tr>
-	<tbody>
+	</tbody>
 </table>
 
 * O mais utilizado é o pixel
