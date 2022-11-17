@@ -36,7 +36,7 @@ ________________________________________________________________________________
 >font-weight: bold; 
 >line-height: 1.2;
 >font-size: .2em;
->font-family: Arial, sans-serif;
+>font-family: Arial;
 
 
 /* Font proprieties SHORTHAND */ 
