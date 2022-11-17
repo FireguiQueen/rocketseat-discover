@@ -5,8 +5,8 @@
 ### Exemplos:
 ```css
 body{
-	background-image: url("https://urlaqui.com");
-	background-size: calc(100% - 10px);
+  background-image: url("https://urlaqui.com");
+  background-size: calc(100% - 10px);
 }
 ```
 
