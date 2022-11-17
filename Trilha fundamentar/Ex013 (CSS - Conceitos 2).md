@@ -40,7 +40,7 @@ ________________________________________________________________________________
 
 
 /* Font proprieties SHORTHAND */ 
->font: italic bold .8em/1.2 Arial, Sanserif;
+>font: Arial .8em/1.2 Arial, Sanserif;
 ```
 
 </br>
