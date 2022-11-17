@@ -20,8 +20,9 @@ h1{ /* Tudo o que está abaixo é a "declaration" */
     font-size: 60px;  
     background: red; 
     /* 
-    h1 = Selector 
-    
+    h1    = selector 
+    color = property
+    blue  = property value
     */ 
 }
 ``` 
