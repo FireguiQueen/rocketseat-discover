@@ -4,21 +4,21 @@
 
 
 * Tipos numéricos
-<integer>     // número inteiro como: -10 ou 223
-<number>      // número decimal como: -2.4, 64 ou 0.234
-<dimension>   // é um número com uma unidade de medida junto: 90deg, 2s, 8px (deg, px, s..)
-<percentage>  // representa uma fração de outro número: 50%
+```<integer>```     // número inteiro como: -10 ou 223
+```<number>```      // número decimal como: -2.4, 64 ou 0.234
+```<dimension> ```  // é um número com uma unidade de medida junto: 90deg, 2s, 8px (deg, px, s..)
+```<percentage>```  // representa uma fração de outro número: 50%
 
 * Unidades comuns
-<length>      // é um dos mais usados no CSS e representa um valor de distância: px, em, vw
-<angle>       // representa um ângulo: deg, rad, turn
-<time>        // representa um tempo: s, ms
-<resolution>  // representa resoluções para dispositivos: dpi
+```<length>```      // é um dos mais usados no CSS e representa um valor de distância: px, em, vw
+```<angle> ```      // representa um ângulo: deg, rad, turn
+```<time> ```       // representa um tempo: s, ms
+```<resolution>```  // representa resoluções para dispositivos: dpi
 
 _________________________________________________________________________________________________________________
 # Distância Relativa x Absoluta
 
-# Distância absoluta
+## Distância absoluta
 * São fixas, não alteram seu valor.
 > Exemplo: h1 {font-size: 16px; }
 
@@ -33,7 +33,7 @@ Ex: colocar uma botão esperando que a tela do seu cliente tenha tantos centíme
 
 
 
-# Distância relativa
+## Distância relativa
 * São relativas a algum outro valor
 * Possui uma maior adaptação aos diferentes tamanhos de tela 
 
