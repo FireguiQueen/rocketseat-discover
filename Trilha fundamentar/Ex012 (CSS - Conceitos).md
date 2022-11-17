@@ -15,7 +15,7 @@
 </ul>
 
 ```css  
-h1{ /* Tudo o que está abaixo é a "declaration" */
+h1{ /* Declaration 👇 */
     color: blue;                  
     font-size: 60px;  
     background: red; 
