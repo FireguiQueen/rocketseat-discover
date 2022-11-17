@@ -3,10 +3,12 @@
 * Recebe argumento 
 
 # Exemplos:
+```css
 @import url("https://urlaqui.com/style.css");
 { 
     widght: calc(100% - 10px);
 }
+```
 
 O "calc" é a nossa função, e esta função está na propriedade "widght" (largura).
 O "calc" é uma função para cálculo, neste caso, estamos dizendo que devemos pegar 100% da página e diminuir 10px.
