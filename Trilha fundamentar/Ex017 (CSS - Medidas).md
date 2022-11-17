@@ -3,17 +3,19 @@
 * "Values" também podem ser chamados de "data types"
 
 
-* Tipos numéricos
-```<integer>```     // número inteiro como: -10 ou 223
-```<number>```      // número decimal como: -2.4, 64 ou 0.234
-```<dimension> ```  // é um número com uma unidade de medida junto: 90deg, 2s, 8px (deg, px, s..)
-```<percentage>```  // representa uma fração de outro número: 50%
+* __Tipos numéricos__ </br>
+```<integer>```     // número inteiro como: -10 ou 223 </br>
+```<number>```      // número decimal como: -2.4, 64 ou 0.234 </br> 
+```<dimension> ```  // é um número com uma unidade de medida junto: 90deg, 2s, 8px (deg, px, s..) </br>
+```<percentage>```  // representa uma fração de outro número: 50% 
 
-* Unidades comuns
-```<length>```      // é um dos mais usados no CSS e representa um valor de distância: px, em, vw
-```<angle> ```      // representa um ângulo: deg, rad, turn
-```<time> ```       // representa um tempo: s, ms
-```<resolution>```  // representa resoluções para dispositivos: dpi
+</br>
+
+* __Unidades comuns__ </br>
+```<length>```      // é um dos mais usados no CSS e representa um valor de distância: px, em, vw </br>
+```<angle> ```      // representa um ângulo: deg, rad, turn </br>
+```<time> ```       // representa um tempo: s, ms </br>
+```<resolution>```  // representa resoluções para dispositivos: dpi </br>
 
 _________________________________________________________________________________________________________________
 # Distância Relativa x Absoluta
