@@ -17,7 +17,7 @@ O "calc" é uma função para cálculo, neste caso, estamos dizendo que devemos 
 > calc = função  </br>
 > (100% - 10px) = argumento
 
-
+<br>
 
 # Vendor Prefixes
 Permite que browsers adicionem features a fim de colocar em uso alguma novidade do CSS. Ou seja, colocar alguma nova atualização do CSS em browsers diversos e saber se eles já aceitam ou não essa atualização.
