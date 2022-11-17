@@ -17,10 +17,14 @@
 ```css  
 /* Você pode fazer um comentário em CSS desta forma */ 
 
-h1{ 
-    color: blue;
-    font-size: 60px;
-    background-color: red; 
+h1{ /* Tudo o que está abaixo é a "declaration" */
+    color: blue;                  
+    font-size: 60px;  
+    background: red; 
+    /* 
+    h1 = Selector 
+    
+    */ 
 }
 ``` 
 
