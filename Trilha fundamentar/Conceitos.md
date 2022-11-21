@@ -70,11 +70,21 @@ produzindo assim a estrutura e o conteúdo visual da página. </p>
 <input type="button/text..">
 <img scr="link da imagem / diretório" alt=""> 
 ```
-Atributos globais mais utilizados: 
 
-- Id: classficar e alterar um conteúdo através do CSS/JS. 
+
+## Atributos globais 
+<ul type="square">
+
+<li>
+
+__Id:__ _classficar e alterar um conteúdo através do CSS/JS._
+
+</li>
+
+```html
 <p id="p1">Parágrafo 1</p>
 <p id="p2">Parágrafo 2</p>
+```
 
 - Class: classficar e alterar dois ou mais conteúdos através do CSS/JS.
 <h1 class="título1">Primeiro título</h1> 
