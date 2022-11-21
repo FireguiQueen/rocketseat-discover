@@ -5,6 +5,7 @@
     Posso colocar quantas linhas eu quiser.
 -->
 
+
 <script> 
     // Isto é um comentário em JavaScript, porém, só funciona utilizando uma única linha.
     
