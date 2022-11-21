@@ -49,6 +49,9 @@ produzindo assim a estrutura e o conteúdo visual da página. </p>
     Fechamento: </h1>
 -->
 ```
+
+</br>
+
 > Porém, vale lembrar que existem tags que não possuem fechamento, elas se chamam "tags self-closing", exemplos:
 ```html
 <img title="" alt="">
