@@ -30,7 +30,7 @@ ________________________________________________________________________________
 
 # Tags
 
-</span>
+
 <p>As tags são usadas para informar ao navegador a estrutura do site. 
 Ou seja: quando se escreve um código em HTML, as tags serão interpretadas pelo navegador, 
 produzindo assim a estrutura e o conteúdo visual da página. </p>
@@ -38,6 +38,8 @@ Uma tag é composta por:
 - Abertura da tag
 - Conteúdo da tag
 - Fechamento da tag
+
+</span>
 
 Tags mais utilizadas: 
 <h1> Esta é uma tag para se colocar um título </h1>
