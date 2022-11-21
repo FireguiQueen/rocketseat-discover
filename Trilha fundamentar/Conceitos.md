@@ -153,11 +153,12 @@ __Em:__ _deixar um conteúdo em itálico_
 
 __Br:__ _quebrar uma linha (não utilize para pular linhas em seu site, utilize do CSS)_
 </li>
+
 ```html
 <p> Isto é um texto.. <br> Isto é a continuação do texto, porém, em outras linha. </p>
 ```
 
-
+</br>
 
 ## Hierarquia 
 Cada tag acima da outra é o pai da mesma. Caso haja tags que pertencem ao mesmo pai, elas são tags irmãs. 
