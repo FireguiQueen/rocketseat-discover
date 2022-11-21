@@ -59,7 +59,7 @@ As tags são usadas para informar ao navegador a estrutura do site. Ou seja, qua
 
 </br>
 
-## Entendendo algumas tags
+### Entendendo algumas tags
 ```html
 <h1> Utiliza-se colocar um título </h1>
 <p> Utiliza-se colocar um parágrafo </p>
