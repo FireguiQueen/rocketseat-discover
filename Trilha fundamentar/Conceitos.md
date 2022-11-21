@@ -57,6 +57,7 @@ produzindo assim a estrutura e o conteúdo visual da página. </p>
 <input type="">
 ``` 
 
+</br>
 
 ## Entendendo algumas tags
 ```html
@@ -70,6 +71,7 @@ produzindo assim a estrutura e o conteúdo visual da página. </p>
 <img scr="link da imagem / diretório" alt=""> 
 ```
 
+</br>
 
 ## Atributos globais 
 <ul type="square">
