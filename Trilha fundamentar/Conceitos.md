@@ -1,6 +1,6 @@
 <span align="center"> 
 
-## Comentários 
+# Comentários 
 
 </span>
 
@@ -28,7 +28,7 @@ ________________________________________________________________________________
 </br>
 <span align="center">
 
-## Tags
+# Tags
 
 </span>
 <p>As tags são usadas para informar ao navegador a estrutura do site. 
