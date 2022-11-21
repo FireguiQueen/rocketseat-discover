@@ -1,6 +1,6 @@
-<div align="center">
+<span align="center"> 
 
-## Comentários
+## Comentários </span>
 ```html
 <!-- 
     Isto é um comentário em HTML.
@@ -18,7 +18,6 @@
     */ 
 </script>
 ```
-</div>
 
 </br>
 
