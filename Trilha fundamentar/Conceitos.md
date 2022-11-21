@@ -58,7 +58,7 @@ produzindo assim a estrutura e o conteúdo visual da página. </p>
 ``` 
 
 
-## Tags mais utilizadas
+## Entendendo algumas tags
 ```html
 <h1> Utiliza-se colocar um título </h1>
 <p> Utiliza-se colocar um parágrafo </p>
