@@ -1,3 +1,5 @@
+<div style="align: center">
+
 ## Comentários
 ```html
 <!-- 
@@ -16,6 +18,7 @@
     */ 
 </script>
 ```
+</div>
 
 </br>
 
