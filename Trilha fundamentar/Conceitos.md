@@ -108,8 +108,7 @@ __Hidden:__ _esconder por completa uma tag_
 
 __Style:__ _colocar estilo em um conteúdo (inline)_
 ```html
-</li>
-<h1 style="color:red; font-size: small; "> Título vermelho e pequeno</h1>
+<h1 style="color:red; font-size: small;"> Título vermelho e pequeno</h1>
 ```
 </br>
 <li>
@@ -148,17 +147,24 @@ __Contenteditable:__ _permite o usuário editar um conteúdo dentro da página_
 - Br: quebrar uma linha (não utilize para pular linhas em seu site, utilize do CSS)
 <p> Isto é um texto.. <br> Isto é outro texto</p>
 
-_________________________________________________________________________________________________________________________________________________________
-Hierarquia: 
-Basicamente, cada tag acima da outra é o pai da mesma.. Por exemplo:
+
+
+
+## Hierarquia 
+Cada tag acima da outra é o pai da mesma. Caso haja tags que pertencem ao mesmo pai, elas são tags irmãs. 
+Por exemplo:
+
+```html
 <body>
     <div> 
         <h1>Isto é um título</h1>
         <p>Isto é um parágrafo.</p>
     </div>
 </body>
-A tag DIV é filha da tag BODY, e a tag DIV é pai da tag H1 e da tag P.
-_________________________________________________________________________________________________________________________________________________________
+<!-- A tag DIV é filha da tag BODY, e a tag DIV é pai da tag H1 e da tag P. -->
+<!-- A tag h1 e P são irmãs.                                                -->
+```
+
 Colocar caracteres reservados em tags:
 Espaço(  ): &nbsp; 
 Sinal de maior (>): &gt; 
