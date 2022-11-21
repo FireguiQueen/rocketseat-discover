@@ -41,6 +41,19 @@ produzindo assim a estrutura e o conteúdo visual da página. </p>
 * Abertura da tag
 * Conteúdo da tag
 * Fechamento da tag
+```html
+<h1> Olá, mundo! </h1>
+<!-- 
+    Abertura da tag: <h1>
+    Conteúdo: "Olá mundo"
+    Fechamento: </h1>
+-->
+```
+> Porém, vale lembrar que existem tags que não possuem fechamento, elas se chamam "tags self-closing", exemplos:
+```html
+<img title="" alt="">
+<input type="">
+``` 
 
 
 Tags mais utilizadas: 
