@@ -77,7 +77,7 @@ produzindo assim a estrutura e o conteúdo visual da página. </p>
 
 <li>
 
-__Id:__ _classficar e alterar um conteúdo através do CSS/JS._
+__Id:__ _classficar e alterar UM conteúdo através do CSS/JS._
 </li>
 
 ```html
@@ -87,7 +87,7 @@ __Id:__ _classficar e alterar um conteúdo através do CSS/JS._
 
 <li> 
 
-__Class:__ _classficar e alterar dois ou mais conteúdos através do CSS/JS._
+__Class:__ _classficar e alterar DOIS ou MAIS conteúdos através do CSS/JS._
 </li>
 
 ```html
@@ -95,13 +95,17 @@ __Class:__ _classficar e alterar dois ou mais conteúdos através do CSS/JS._
 <h2 class="título">Segundo título</h2>
 ```
 
-- Hidden: esconder por completa uma tag
+__Hidden:__ _esconder por completa uma tag_
 ```html
 <h1 hidden="true">Este título não irá aparecer pois está com o atributo hidden :( </h1>
 ```
 
-- Style: colocar estilo em um conteúdo (estilo inline)
+<li>
+
+__Style:__ _colocar estilo em um conteúdo (inline)_
+````html
 <h1 style="color:red; font-size: small; "> Título vermelho e pequeno</h1>
+````
 
 - Tabindex: após o usuário apertar tab, será levado para o tabindex 1
 <h1 tabindex="1"> Usuário será levado para este título após pressionar tab</h1>
