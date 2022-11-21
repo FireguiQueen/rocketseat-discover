@@ -26,7 +26,11 @@
 
 _________________________________________________________________________________________________________________
 
+<span align="center">
+
 ## Tags
+
+</span>
 <p>As tags são usadas para informar ao navegador a estrutura do site. 
 Ou seja: quando se escreve um código em HTML, as tags serão interpretadas pelo navegador, 
 produzindo assim a estrutura e o conteúdo visual da página. </p>
