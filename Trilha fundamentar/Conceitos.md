@@ -1,4 +1,4 @@
-<div style="align: center">
+<div style="text-align: center">
 
 ## Comentários
 ```html
