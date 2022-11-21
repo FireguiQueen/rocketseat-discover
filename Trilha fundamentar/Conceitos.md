@@ -84,7 +84,7 @@ __Id:__ _classficar e alterar UM conteúdo através do CSS/JS._
 <p id="p1">Parágrafo 1</p>
 <p id="p2">Parágrafo 2</p>
 ```
-
+</br>
 <li> 
 
 __Class:__ _classficar e alterar DOIS ou MAIS conteúdos através do CSS/JS._
@@ -94,7 +94,7 @@ __Class:__ _classficar e alterar DOIS ou MAIS conteúdos através do CSS/JS._
 <h1 class="título">Primeiro título</h1> 
 <h2 class="título">Segundo título</h2>
 ```
-
+</br>
 <li>
 
 __Hidden:__ _esconder por completa uma tag_
@@ -103,17 +103,23 @@ __Hidden:__ _esconder por completa uma tag_
 ```html
 <h1 hidden="true">Este título não irá aparecer pois está com o atributo hidden :( </h1>
 ```
-
+</br>
 <li>
 
 __Style:__ _colocar estilo em um conteúdo (inline)_
-````html
+```html
 </li>
 <h1 style="color:red; font-size: small; "> Título vermelho e pequeno</h1>
-````
+```
+</br>
+<li>
 
-- Tabindex: após o usuário apertar tab, será levado para o tabindex 1
+__Tabindex:__ _após o usuário apertar tab, será levado para o tabindex 1_
+</li>
+
+```html
 <h1 tabindex="1"> Usuário será levado para este título após pressionar tab</h1>
+```
 
 - Tittle: definir um título a um elemento (quando o mouse ficar em cima)
 <h1 title="primeiro título"> Não coloque o mouse neste título</h1>   
