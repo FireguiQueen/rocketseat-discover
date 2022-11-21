@@ -78,7 +78,6 @@ produzindo assim a estrutura e o conteúdo visual da página. </p>
 <li>
 
 __Id:__ _classficar e alterar um conteúdo através do CSS/JS._
-
 </li>
 
 ```html
@@ -86,12 +85,20 @@ __Id:__ _classficar e alterar um conteúdo através do CSS/JS._
 <p id="p2">Parágrafo 2</p>
 ```
 
-- Class: classficar e alterar dois ou mais conteúdos através do CSS/JS.
-<h1 class="título1">Primeiro título</h1> 
-<h2 class="titulo2">Segundo título</h2>
+<li> 
+
+__Class:__ _classficar e alterar dois ou mais conteúdos através do CSS/JS._
+</li>
+
+```html
+<h1 class="título">Primeiro título</h1> 
+<h2 class="título">Segundo título</h2>
+```
 
 - Hidden: esconder por completa uma tag
-<h1 hidden="true">Este título não irá aparecer pois está com a tag hidden :( </h1>
+```html
+<h1 hidden="true">Este título não irá aparecer pois está com o atributo hidden :( </h1>
+```
 
 - Style: colocar estilo em um conteúdo (estilo inline)
 <h1 style="color:red; font-size: small; "> Título vermelho e pequeno</h1>
