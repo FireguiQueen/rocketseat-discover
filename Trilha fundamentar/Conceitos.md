@@ -59,18 +59,17 @@ produzindo assim a estrutura e o conteúdo visual da página. </p>
 ``` 
 
 
-Tags mais utilizadas: 
-<h1> Esta é uma tag para se colocar um título </h1>
-<p> Esta é uma tag para se colocar um parágrafo </p>
-<a href="www.google.com.br" title="isn't">Tag para se colocar um link</a> 
-<!-- Perceba que na TAG tittle foi utilizado aspas simples como string, para o browser interpretar maneira correta, 
-    pois o atributo TITLE já possuia as aspas duplas depois do sinal de igual
-    Sempre utilize aspas duplas nos atributos.. Title="" -->
+## Tags mais utilizadas
+```html
+<h1> Utiliza-se colocar um título </h1>
+<p> Utiliza-se colocar um parágrafo </p>
+<abbr title="significado da abreviação"> Uma abreviação </abrr>
 
-Há tags que não possuem fechamento (tags self-closing): 
-<input type="">
+<a href="www.google.com.br" title="isn't"> Utiliza-se para colocar um link </a> 
+
+<input type="button/text..">
 <img scr="link da imagem / diretório" alt=""> 
-_________________________________________________________________________________________________________________________________________________________
+```
 Atributos globais mais utilizados: 
 
 - Id: classficar e alterar um conteúdo através do CSS/JS. 
