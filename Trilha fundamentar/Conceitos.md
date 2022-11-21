@@ -1,4 +1,5 @@
-Comentários:
+## Comentários:
+```html
 <!-- 
     Isto é um comentário em HTML.
     Posso colocar quantas linhas eu quiser.
@@ -13,11 +14,15 @@ Comentários:
      Bacana, né?
     */ 
 </script>
-_________________________________________________________________________________________________________________________________________________________
-Tags: 
-As tags são usadas para informar ao navegador a estrutura do site. 
+```
+
+</br>
+_________________________________________________________________________________________________________________
+
+## Tags: 
+<p>As tags são usadas para informar ao navegador a estrutura do site. 
 Ou seja: quando se escreve um código em HTML, as tags serão interpretadas pelo navegador, 
-produzindo assim a estrutura e o conteúdo visual da página.
+produzindo assim a estrutura e o conteúdo visual da página. </p>
 Uma tag é composta por:
 - Abertura da tag
 - Conteúdo da tag
@@ -27,11 +32,11 @@ Tags mais utilizadas:
 <h1> Esta é uma tag para se colocar um título </h1>
 <p> Esta é uma tag para se colocar um parágrafo </p>
 <a href="www.google.com.br" title="isn't">Tag para se colocar um link</a> 
-<!--Perceba que na TAG tittle foi utilizado aspas simples como string, para o browser interpretar maneira correta, 
+<!-- Perceba que na TAG tittle foi utilizado aspas simples como string, para o browser interpretar maneira correta, 
     pois o atributo TITLE já possuia as aspas duplas depois do sinal de igual
     Sempre utilize aspas duplas nos atributos.. Title="" -->
 
-Há tags vazias, ou seja, elas não se fecham:
+Há tags que não possuem fechamento (tags self-closing): 
 <input type="">
 <img scr="link da imagem / diretório" alt=""> 
 _________________________________________________________________________________________________________________________________________________________
