@@ -34,7 +34,7 @@ ________________________________________________________________________________
 Ou seja: quando se escreve um código em HTML, as tags serão interpretadas pelo navegador, 
 produzindo assim a estrutura e o conteúdo visual da página. </p>
 
-<span align="">
+<span align="left">
 
 ### Uma tag é composta por
 * Abertura da tag
