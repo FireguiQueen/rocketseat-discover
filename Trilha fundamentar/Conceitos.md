@@ -139,14 +139,22 @@ __Contenteditable:__ _permite o usuário editar um conteúdo dentro da página_
 <h1 contenteditable="true"> Edite o título </h1> 
 ```
 </br>
+<li>
+
+__Em:__ _deixar um conteúdo em itálico_
 </li>
 
-- Em: deixar um conteúdo em itálico
+```html
 <p> Não <em>leia</em> este parágrafo.</p>
+```
+</br>
+<li>
 
-- Br: quebrar uma linha (não utilize para pular linhas em seu site, utilize do CSS)
-<p> Isto é um texto.. <br> Isto é outro texto</p>
-
+__Br:__ _quebrar uma linha (não utilize para pular linhas em seu site, utilize do CSS)_
+</li>
+```html
+<p> Isto é um texto.. <br> Isto é a continuação do texto, porém, em outras linha. </p>
+```
 
 
 
