@@ -131,7 +131,7 @@ __Tittle:__ _definir um título a um elemento (quando o mouse ficar em cima)_
 <h1 title="primeiro título"> Não coloque o mouse neste título</h1>   
 ```
 </br>
-</li>
+<li>
 
 __Contenteditable:__ _permite o usuário editar um conteúdo dentro da página_
 </li>
