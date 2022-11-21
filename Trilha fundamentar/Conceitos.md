@@ -1,6 +1,9 @@
 <span align="center"> 
 
-## Comentários </span>
+## Comentários 
+
+</span>
+
 ```html
 <!-- 
     Isto é um comentário em HTML.
