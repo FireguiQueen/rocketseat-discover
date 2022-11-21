@@ -119,13 +119,28 @@ __Tabindex:__ _após o usuário apertar tab, será levado para o tabindex 1_
 
 ```html
 <h1 tabindex="1"> Usuário será levado para este título após pressionar tab</h1>
+<p tabindex="2"> Usuário será levado para este parágrafo após pressionar tab novamente</p>
 ```
+</br>
+<li>
 
-- Tittle: definir um título a um elemento (quando o mouse ficar em cima)
+__Tittle:__ _definir um título a um elemento (quando o mouse ficar em cima)_
+</li>
+
+```html
 <h1 title="primeiro título"> Não coloque o mouse neste título</h1>   
+```
+</br>
+</li>
 
-- Contenteditable: permite o usuário editar um conteúdo
+__Contenteditable:__ _permite o usuário editar um conteúdo dentro da página_
+</li>
+
+```html
 <h1 contenteditable="true"> Edite o título </h1> 
+```
+</br>
+</li>
 
 - Em: deixar um conteúdo em itálico
 <p> Não <em>leia</em> este parágrafo.</p>
