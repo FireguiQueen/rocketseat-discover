@@ -36,10 +36,11 @@ Ou seja: quando se escreve um código em HTML, as tags serão interpretadas pelo
 produzindo assim a estrutura e o conteúdo visual da página. </p>
 
 ### Uma tag é composta por
-* Abertura da tag
+<ul>
+<li>Abertura da tag</li>
 * Conteúdo da tag
 * Fechamento da tag
-
+<ul>
 </span>
 
 Tags mais utilizadas: 
