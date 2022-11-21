@@ -36,7 +36,7 @@ As tags são usadas para informar ao navegador a estrutura do site. Ou seja, qua
 
 </br>
 
-### Uma tag é composta por
+### Composição
 * Abertura da tag
 * Conteúdo da tag
 * Fechamento da tag
