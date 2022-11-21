@@ -51,7 +51,7 @@ As tags são usadas para informar ao navegador a estrutura do site. Ou seja, qua
 
 </br>
 
-#### Porém, vale lembrar que existem tags que não possuem fechamento, elas se chamam "tags self-closing", exemplos:
+#### Porém, vale lembrar que existem tags que não possuem fechamento, elas se chamam "tags self-closing"
 ```html
 <img title="" alt="">
 <input type="">
