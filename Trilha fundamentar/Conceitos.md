@@ -1,4 +1,4 @@
-## Comentários:
+## Comentários
 ```html
 <!-- 
     Isto é um comentário em HTML.
@@ -18,9 +18,10 @@
 ```
 
 </br>
+
 _________________________________________________________________________________________________________________
 
-## Tags: 
+## Tags
 <p>As tags são usadas para informar ao navegador a estrutura do site. 
 Ou seja: quando se escreve um código em HTML, as tags serão interpretadas pelo navegador, 
 produzindo assim a estrutura e o conteúdo visual da página. </p>
