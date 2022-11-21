@@ -26,7 +26,7 @@
 
 _________________________________________________________________________________________________________________
 </br>
-<span align="center" color="blue">
+<span align="center">
 
 # Tags
 
@@ -34,10 +34,11 @@ ________________________________________________________________________________
 <p>As tags são usadas para informar ao navegador a estrutura do site. 
 Ou seja: quando se escreve um código em HTML, as tags serão interpretadas pelo navegador, 
 produzindo assim a estrutura e o conteúdo visual da página. </p>
-Uma tag é composta por:
-- Abertura da tag
-- Conteúdo da tag
-- Fechamento da tag
+
+### Uma tag é composta por
+* Abertura da tag
+* Conteúdo da tag
+* Fechamento da tag
 
 </span>
 
