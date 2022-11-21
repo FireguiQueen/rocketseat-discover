@@ -95,7 +95,11 @@ __Class:__ _classficar e alterar DOIS ou MAIS conteúdos através do CSS/JS._
 <h2 class="título">Segundo título</h2>
 ```
 
+<li>
+
 __Hidden:__ _esconder por completa uma tag_
+</li>
+
 ```html
 <h1 hidden="true">Este título não irá aparecer pois está com o atributo hidden :( </h1>
 ```
@@ -104,6 +108,7 @@ __Hidden:__ _esconder por completa uma tag_
 
 __Style:__ _colocar estilo em um conteúdo (inline)_
 ````html
+</li>
 <h1 style="color:red; font-size: small; "> Título vermelho e pequeno</h1>
 ````
 
