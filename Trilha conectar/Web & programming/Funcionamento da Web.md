@@ -63,7 +63,7 @@ ________________________________________________________________________________
    
 >DNS: _Domain name system (sistema de nomes de domínios). A função é converter um domínio para um endereço de IP_
 
->Domínio: _Nome dado a um IP. Invés de digitarmos o endereço IP de uma máquina (servidor) para pedir acesso aos dados, nós iremos digitar seu domínio, e assim iniciar uma comunicação através do TCP. <br> Exemplos: www.youtube.com.br (domínio) 45.42.52.74 (IP)  
+>Domínio: _Nome dado a um IP. Invés de digitarmos o endereço IP de uma máquina (servidor) para pedir acesso aos dados, nós iremos digitar seu domínio, e assim iniciar uma comunicação através do TCP. <br> O que digitamos: www.youtube.com.br (domínio) </br> Para onde vai: 45.42.52.74 (IP)_  
 
 </br>
 
