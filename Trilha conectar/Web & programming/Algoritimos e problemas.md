@@ -10,9 +10,9 @@
 - É um passo-a-passo para resolver um problema/realizar uma tarefa, é uma sequência de lógica 
 > _Objetivo: Ligar o seu computador e entrar no Youtube. O resultado será o site do Youtube aberto, porém, é necessário uma sequência de passos para isto ocorrer. </br> 1º &nbsp;  devemos apertar o botão do gabinete, assim ligamos o PC </br> 2º &nbsp; devemos colocar a senha de nosso usuário do computador. </br> 3º &nbsp;  devemos entrar em nosso navegador </br> 4º &nbsp;  devemos acessar o Youtube._
 
-Acima foi citado um algoritimo padrão, porém, perceba que, o mesmo foi escrito de uma maneira que um ser humano consegue compreender.. Mas e se a gente pedisse para um robô seguir este mesmo algoritimo?
+Acima foi citado um algoritimo simples, porém, perceba que, o mesmo foi escrito de uma maneira em que apenas um ser humano compreende. Mas e se a gente pedisse para um robô seguir este mesmo algoritimo?
 Neste algoritimo, não foi digitado diversas ações que um robô precisa saber para executar corretamente, como: 
-onde está o gabinete; onde está o botão no gabinete; como pressionar este botão; senha para acessar o usuário; navegador que será utilizado; link do Youtube e entre outras informações necessárias..
+onde está o gabinete; o que é um gabinete ; onde está o botão do gabinete; como pressionar este botão; a senha para acessar o usuário; navegador que será utilizado; link do Youtube e entre outras informações..
 
  </br>
 
