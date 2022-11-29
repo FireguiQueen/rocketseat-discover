@@ -53,7 +53,7 @@ ________________________________________________________________________________
 #### <li> Você digita a URL https://aternos.org/ </li> <!-- 1  -->
 > URL (Uniform Resource Locator) </br> _É um localizador e identificador de recursos (conteúdos) na internet. </br> URL se trata do endereço COMPLETO de um conteúdo (sites, documentos, imagens, vídeos..) localizado na internet._ 
      
->HTTP (HyperText Transfer Protocol) </br> _Utilizamos do HTTP fazer a comunicação entre computadores. Ele quem faz a troca de mensagens (informações) entre computadores. </br> Mensagens: São informações, e são enviadas de um computador para outro em diversos pedaços (chunks)._  
+>HTTP (HyperText Transfer Protocol) </br> _Utilizamos do HTTP fazer a comunicação entre computadores. Ele quem faz a troca de mensagens (informações) entre computadores. Mensagens são informações, e são enviadas de um computador para outro em diversos pedaços (chunks)._  
 
 </br>
 
