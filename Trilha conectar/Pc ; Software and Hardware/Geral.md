@@ -14,7 +14,7 @@ ________________________________________________________________________________
 # Sistema operacional 
 Sua função é fazer o gerenciamento de todo o seu hardware, o sistema operacional quem faz a comunicação entre seus dispositivos.
 Quando mexemos o mouse, o mouse mexe no seu monitor.
-Quando executamos um programa, o sistema operacional quem vai controlar o quanto este programa irá utilizar de processamento, quanto ele irá utilizar de memória RAM, see este programa vai aramazenar ou não algo no seu HD/SSD e outras coisas
+Quando executamos um programa, o sistema operacional quem vai controlar o quanto este programa irá utilizar de processamento, quanto ele irá utilizar de memória RAM, se este programa vai armazenar ou não algo no seu HD/SSD e entre outras coisas.
 
 </br>
 
