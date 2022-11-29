@@ -50,14 +50,14 @@ ________________________________________________________________________________
 ### Pensamento "avançado"
 <ol>
 
-#### <li> Você digita a URL https://aternos.org/ </li>
+#### <li> Você digita a URL https://aternos.org/ </li> <!-- 1  -->
 > URL (Uniform Resource Locator) </br> _É um localizador e identificador de recursos (conteúdos) na internet. </br> URL se trata do endereço COMPLETO de um conteúdo (sites, documentos, imagens, vídeos..) localizado na internet._ 
      
 >HTTP (HyperText Transfer Protocol) </br> _Utilizamos do HTTP fazer a comunicação entre computadores._ 
 	  
 >Função: Trocar mensagens (informações) entre computadores. </br> Mensagens: São informações, e são enviadas de um computador para outro em diversos pedaços (chunks).   
 
-#### <li>Se inicia uma linha de comunicação, através do TCP. Esta linha comunica seu computador (cliente) até o computador que armazena o conteúdo web (servidor) </li>
+#### <li>Se inicia uma linha de comunicação, através do TCP. Esta linha comunica seu computador (cliente) até o computador que armazena o conteúdo web (servidor) </li>  <!-- 2  -->
 
 >Cliente: _É o computador, dispositivo ou aplicativo que faz o pedido para acessar o site. </br> Neste caso, é o browser(Chrome, Opera, Edge, Brave..)_
 
