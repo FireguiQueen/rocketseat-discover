@@ -12,11 +12,11 @@ Quando abrimos um software de edição de foto/vídeo e começamos a editar, est
 
 # HD & SSD
 A função de ambas as tecnologias é armazenar dados.
-O HD utiliza um pratos mecânico e um cabeçote móvel para leitura/gravação de informações	
+O HD utiliza um prato mecânico e um cabeçote móvel para leitura/gravação de informações.	
 O SSD utiliza chips de memória, fazendo com que seja mais seguro utilizar um SSD para armazenar dados. 
 O HD é bem parecido como uma vitrola.. Há um prato de metal no HD onde guardamos as informações.
-Acima deste prato existe um cabeçote móvel, seu objetivo é fazer a leitura e a gravação das informações guardadas no prato mecânico.
-Este cabeçote não encosta no prato, a leitura e a gravação de informações são feitas magnéticamente.
+Acima deste prato existe um cabeçote móvel que faz a leitura e a gravação das informações.
+Este cabeçote não encosta no prato, a leitura e a gravação são feitas magnéticamente.
 
 </br>
 
