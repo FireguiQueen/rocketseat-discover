@@ -65,7 +65,7 @@ ________________________________________________________________________________
 
 >TCP: _Transmition Control Protocol. A função do TCP é garantir que os pacotes (os dados) cheguem corretamente ao destino_  
  
-#### <li> A URL colocada é convertida em um endereço IP através do DNS</li>
+#### <li> A URL colocada é convertida em um endereço IP através do DNS</li>  <!-- 3  -->
 
 >IP: _Internet protocol é o endereço dos computadores (dispositivos conectados a internet), sendo eles clientes ou servidores._
    
@@ -73,21 +73,21 @@ ________________________________________________________________________________
 
 >Domínio: _Nome dado a um IP. Invés de digitarmos o endereço IP de uma máquina (servidor) para pedir acesso aos dados, nós iremos digitar seu domínio, e assim iniciar uma comunicação através do TCP. <br> Exemplos: www.youtube.com.br (domínio) 45.42.52.74 (IP)  
 
-#### <li>Seu pedido (cliente) está percorrendo por diversos proxies </li>
+#### <li>Seu pedido (cliente) está percorrendo por diversos proxies </li> <!-- 4  -->
 
 > Proxy: _Qualquer dispositivo no caminho (entre cliente e servidor) -> Modem, roteador, outros computadores/dispositivos e etc.._
 
 >Proxies podem ser tanto do cliente quanto do servidor. A função das proxies é encaminhar os pacotes (dados) até chegar ao cliente.  Os pacotes passam por diversos computadores do servidor (caso haja), da sua operadora de Internet, até seu roteador e assim chega no seu dispositivo. 	 
  
-#### <li>Seu pedido chega ao servidor</li>
+#### <li>Seu pedido chega ao servidor</li>  <!-- 5  -->
 
-#### <li>O servidor analisa seu pedido e dá uma resposta ao cliente. Esta análise procura saber em qual lugar da máquina (cliente) que irá entender o que foi pedido, neste caso, o browser</li>
+#### <li>O servidor analisa seu pedido e dá uma resposta ao cliente. Esta análise procura saber em qual lugar da máquina (cliente) que irá entender o que foi pedido, neste caso, o browser</li>  <!-- 6  -->
 
-#### <li>Se a resposta do servidor for positiva (permissão para acessar o conteúdo), o conteúdo pedido pelo cliente é retornado através de uma cópia e por um caminho semelhente. Este mesmo conteúdo passa pela linha de comunicação (TCP) que foi criada anteriormente</li>
+#### <li>Se a resposta do servidor for positiva (permissão para acessar o conteúdo), o conteúdo pedido pelo cliente é retornado através de uma cópia e por um caminho semelhente. Este mesmo conteúdo passa pela linha de comunicação (TCP) que foi criada anteriormente</li>  <!-- 7  -->
 
-#### <li>O browser recebe esses pedaços (conteúdos) e monta a tela do site para o cliente </li>
+#### <li>O browser recebe esses pedaços (conteúdos) e monta a tela do site para o cliente </li>  <!-- 8  -->
 
-#### <li>Todo este percurso é feito novamente. Pois para cada recurso (html, css, javascript..) é feito uma nova conexão</li>
+#### <li>Todo este percurso é feito novamente. Pois para cada recurso (html, css, javascript..) é feito uma nova conexão</li>  <!-- 9  -->
 </ol>
 
 </br>
