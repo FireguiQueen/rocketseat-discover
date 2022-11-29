@@ -57,23 +57,24 @@ ________________________________________________________________________________
 
 </br>
 
-#### <li>Se inicia uma linha de comunicação através do TCP.</li>  <!-- 2  -->
-
->TCP: _Transmition Control Protocol. A função do TCP é garantir que os pacotes (os dados) cheguem corretamente ao destino. Esta linha comunica seu computador (cliente) até o computador que armazena o conteúdo web (servidor)_
-
->Cliente: _É o computador, dispositivo ou aplicativo que faz o pedido para receber uma cópia e informações do site. </br> Neste caso, é o browser (Chrome, Opera, Edge, Brave..)_
-
->Servidor: _É o computador que armazena todas as informações do site, ele recebe esses pedidos de acesso e envia respostas a esses pedidos._
-
-</br>
  
-#### <li> A URL colocada é convertida em um endereço IP através do DNS</li>  <!-- 3  -->
+#### <li> A URL colocada é convertida em um endereço IP através do DNS</li>  <!-- 2  -->
 
 >IP: _Internet protocol é o endereço dos computadores (dispositivos conectados a internet), sendo eles clientes ou servidores._
    
 >DNS: _Domain name system (sistema de nomes de domínios). A função é converter um domínio para um endereço de IP_
 
 >Domínio: _Nome dado a um IP. Invés de digitarmos o endereço IP de uma máquina (servidor) para pedir acesso aos dados, nós iremos digitar seu domínio, e assim iniciar uma comunicação através do TCP. <br> Exemplos: www.youtube.com.br (domínio) 45.42.52.74 (IP)  
+
+</br>
+
+#### <li>Se inicia uma linha de comunicação através do TCP.</li>  <!-- 3  -->
+
+>TCP: _Transmition Control Protocol. A função do TCP é garantir que os pacotes (os dados) cheguem corretamente ao destino. Esta linha comunica seu computador (cliente) até o computador que armazena o conteúdo web (servidor)_
+
+>Cliente: _É o computador, dispositivo ou aplicativo que faz o pedido para receber uma cópia e informações do site. </br> Neste caso, é o browser (Chrome, Opera, Edge, Brave..)_
+
+>Servidor: _É o computador que armazena todas as informações do site, ele recebe esses pedidos de acesso e envia respostas a esses pedidos._
 
 </br>
 
