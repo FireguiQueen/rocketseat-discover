@@ -105,13 +105,13 @@ ________________________________________________________________________________
 
 >__URL (Uniform Resource locator)__ </br> Localiza e identifica conteúdos na web
 
->__HTTP__ (HyperText Protocol) </br> Trocar informações entre computadores na web
+>__HTTP__ (HyperText Protocol) </br> Troca informações entre computadores na web
 
 >__Client__ </br> Computador, dispositivo ou aplicativo que deseja visualizar o conteúdo. o cliente quem faz os pedidos para acessar um site na web.
 
 >__Servidor__ </br> Computador que recebe esses pedidos (feitos pelo cliente) e da uma resposta a eles. 
 
->__TCP (Transmition Control Protocol)__ </br> Protocolo de controle de transmissão  a função é garantir que os pacotes cheguem corretamente ao destino (entre cliente e servidor). 
+>__TCP (Transmition Control Protocol)__ </br> A função do protocolo de controle de transmissão é garantir que os pacotes cheguem corretamente ao destino (entre cliente e servidor). 
 
 >__IP (Internet Protocol)__ </br> Endereço dado aos dispositovs que estão conectados a internet (clientes e servidores)
 
