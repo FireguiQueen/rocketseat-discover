@@ -115,7 +115,7 @@ ________________________________________________________________________________
 
 >__IP (Internet Protocol)__ </br> Endereço dado aos dispositovs que estão conectados a internet (clientes e servidores)
 
->__Domínio__ </br> Nomeia um endereço IP (vários números) a um nome simples. </br>-> o ip aonde o google está localizado: 142.251.129.46 </br> -> o que digitamos para acessar o site da Google: Google.com 
+>__Domínio__ </br> Nomeia um endereço IP (vários números) a um nome simples. </br> -> O ip aonde o google está localizado: 142.251.129.46 </br> -> O que digitamos para acessar o site da Google: Google.com 
 
 >__DNS (Domain Name System)__ </br> Converte um domínio para um endereço IP. </br> Para acessar o site do Youtube por exemplo, seria NECESSÁRIO digitar o endereço IP onde se localiza o Youtube (142.250.69.206). </br> Invés de digitarmos estes números, basta digitar "www.youtube.com". </br> Isto ocorre pois, atráves da DNS, é feita a conversão de "www.youtube.com" para o IP onde se encontra o site youtube (142.250.69.206).
 
