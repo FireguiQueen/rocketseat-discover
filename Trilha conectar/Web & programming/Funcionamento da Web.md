@@ -6,8 +6,7 @@
 </br>
 
 # WebPage
-<ul> <li> Nada mais é do que uma página na web. </li> </ul>
-
+Nada mais é do que uma página na web.
 - _Acessamos pelo navegador_
 - _Possui um endereço único_
 - _Está armazenada no servidor, quando requisitada, o servidor envia uma cópia da página para o cliente_
