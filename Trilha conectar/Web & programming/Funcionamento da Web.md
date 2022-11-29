@@ -5,7 +5,7 @@
 
 </br>
 
-# WebPage
+# Webpage
 Nada mais é do que uma página na web.
 - _Acessamos pelo navegador_
 - _Possui um endereço único_
