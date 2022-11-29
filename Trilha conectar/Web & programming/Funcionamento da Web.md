@@ -47,7 +47,7 @@ ________________________________________________________________________________
 </br>
 
 
-## Pensamento "avançado"
+### Pensamento "avançado"
 <ol>
 
 ### <li> Você digita a URL https://aternos.org/ </li>
