@@ -37,7 +37,7 @@ ________________________________________________________________________________
 
 # Ações internas com um simples click
 
-## Pensamento simples
+### Pensamento simples
 <ol>
 <li> Digitar https://aternos.org/ </li>  
 <li> Pressionar enter  </li>  
