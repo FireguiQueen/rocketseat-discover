@@ -71,7 +71,7 @@ ________________________________________________________________________________
 
 > Proxy: _Qualquer dispositivo no caminho (entre cliente e servidor) <br> -> Modem, roteador, outros computadores/dispositivos e etc.._
 
->Proxies podem ser tanto do cliente quanto do servidor. A função das proxies é encaminhar os pacotes (dados) até chegar ao cliente.  Os pacotes passam por diversos computadores do servidor (caso haja), da sua operadora de Internet, até seu roteador e assim chega no seu dispositivo. 	 
+>Proxies podem ser tanto do cliente quanto do servidor. A função das proxies é encaminhar os pacotes (dados) até chegar ao cliente. Os pacotes passam por diversos computadores do servidor (caso haja), da sua operadora de Internet, até seu roteador e assim chega no seu dispositivo. 	 
 
 </br>
 
@@ -88,7 +88,7 @@ ________________________________________________________________________________
  
 #### <li>_Seu pedido chega ao servidor_</li>  <!-- 5  -->
 
-#### <li>_O servidor analisa seu pedido e dá uma resposta ao cliente. Esta análise procura saber em qual lugar da máquina (cliente) que irá entender o que foi pedido, neste caso, o browser_</li>  <!-- 6  -->
+#### <li>_O servidor analisa seu pedido e dá uma resposta ao cliente. Esta análise procura saber em qual lugar da máquina (cliente) que irá receber o que foi pedido, neste caso, o browser_</li>  <!-- 6  -->
 
 #### <li>_Se a resposta do servidor for positiva (permissão para acessar o conteúdo), o conteúdo pedido pelo cliente é retornado através de uma cópia e por um caminho semelhente. Este mesmo conteúdo passa pela linha de comunicação (TCP) que foi criada anteriormente_</li>  <!-- 7  -->
 
