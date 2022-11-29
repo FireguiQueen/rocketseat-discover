@@ -69,7 +69,7 @@ ________________________________________________________________________________
 
 #### <li>Seu pedido está percorrendo por diversos proxies </li> <!-- 3  -->
 
-> Proxy: _Qualquer dispositivo no caminho (entre cliente e servidor) -> Modem, roteador, outros computadores/dispositivos e etc.._
+> Proxy: _Qualquer dispositivo no caminho (entre cliente e servidor) <br> -> Modem, roteador, outros computadores/dispositivos e etc.._
 
 >Proxies podem ser tanto do cliente quanto do servidor. A função das proxies é encaminhar os pacotes (dados) até chegar ao cliente.  Os pacotes passam por diversos computadores do servidor (caso haja), da sua operadora de Internet, até seu roteador e assim chega no seu dispositivo. 	 
 
