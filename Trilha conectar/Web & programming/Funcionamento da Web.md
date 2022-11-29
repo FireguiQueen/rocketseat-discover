@@ -93,9 +93,9 @@ ________________________________________________________________________________
 
 #### <li>_Se a resposta do servidor for positiva (permissão para acessar o conteúdo), o conteúdo pedido pelo cliente é retornado através de uma cópia e por um caminho semelhente. Este mesmo conteúdo passa pela linha de comunicação (TCP) que foi criada anteriormente_</li>  <!-- 7  -->
 
-#### <li>O browser recebe esses pedaços (conteúdos) e monta a tela do site para o cliente </li>  <!-- 8  -->
+#### <li>_O browser recebe esses pedaços (conteúdos) e monta a tela do site para o cliente_ </li>  <!-- 8  -->
 
-#### <li>Todo este percurso é feito novamente. Pois para cada recurso (html, css, javascript..) é feito uma nova conexão</li>  <!-- 9  -->
+#### <li>_Todo este percurso é feito novamente. Pois para cada recurso (html, css, javascript..) é feito uma nova conexão_</li>  <!-- 9  -->
 </ol>
 
 </br>
