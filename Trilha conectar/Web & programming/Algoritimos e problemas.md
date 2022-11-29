@@ -35,7 +35,7 @@ Pelo fato do computador não pensar (com excessão de machine learning), devemos
    Não podemos simplesmente criar um código dizendo "pegue o café em pó que se localiza no pote, e jogue-o na cafeteira 
    com água". É necessário detalhar que, devemos abrir o pote primeiro, e depois pegar uma quantia especifica de café, 
    e este café irá ir em um local diferente da água. Não foi mostrado todas as ações que deveriam acontecer, mas já é 
-   possível perceber que não devemos esquecer dos detalhes em nosso algoritimo                                                          (até mesmo para fazer um café haha).   	
+   possível perceber que não devemos esquecer dos detalhes em nosso algoritimo _(até mesmo para fazer um café haha)._   	
 
 
 
