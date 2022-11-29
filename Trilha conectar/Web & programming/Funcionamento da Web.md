@@ -14,7 +14,10 @@ Nada mais é do que uma página na web.
 - _CSS - Cascading Style Sheet (estilo da página)_
 - _JavaScript (interações da página)_
 
->Hyper text: _Texto com imagens, vídeos, textos, hyper links e etc.. <br> Website: É um agrupamento de WebPages._ 
+
+## Website e Hyper text : 
+Um website é um agrupamento de WebPages, ou seja, um agrupamento de páginas. </br>
+O hypertext é um texto que possui vídeos, imagens, hyper links e etc..   
 
 </br>
 
