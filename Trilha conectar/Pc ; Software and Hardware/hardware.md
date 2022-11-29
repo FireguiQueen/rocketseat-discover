@@ -6,7 +6,7 @@ Quando abrimos o Word e começamos a digitar algo, este algo não se apaga pois 
 Assim que salvamos o arquivo, o que digitamos anteriormente no word é transferido e salvo em nosso HD/SSD.
 Quando abrimos um software de edição de foto/vídeo e começamos a editar, esta edição fica salva na memória RAM até salvarmos o arquivo png/mp4 em nosso HD/SSD.
 - Toda vez que desligamos o PC, todas as informações que a memória RAM continha são apagadas. 
-- Todos os programas utilizam da memória RAM, a partir do momento em que abrimos um programa, ele já começa a guardar informações na memória RAM.
+- A partir do momento em que abrimos um programa, ele já começa a guardar informações na memória RAM.
 
 </br>
 
