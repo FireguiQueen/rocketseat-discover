@@ -23,5 +23,5 @@ Este cabeçote não encosta no prato, a leitura e a gravação são feitas magn�
 # Processador
 É o cerébro do computador. 
 Quando fazemos uma ação, o processador traduz esta informação em binário para o computador compreender.  
-Transforma informações em uma linguagem que o computador entenda (binário). 
+Transforma informações (como abrir, executar e mexer em programas) em uma linguagem que o computador entenda (binário). 
 
