@@ -16,7 +16,7 @@ Nada mais é do que uma página na web.
 
 </br>
 
-## Website e Hyper text : 
+## Website e Hyper text 
 Um website é um agrupamento de WebPages, ou seja, um agrupamento de páginas. </br>
 O hypertext é um texto que possui vídeos, imagens, hyper links e etc..   
 
