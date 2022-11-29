@@ -61,7 +61,7 @@ ________________________________________________________________________________
 
 >TCP: _Transmition Control Protocol. A função do TCP é garantir que os pacotes (os dados) cheguem corretamente ao destino. Esta linha comunica seu computador (cliente) até o computador que armazena o conteúdo web (servidor)_
 
->Cliente: _É o computador, dispositivo ou aplicativo que faz o pedido para receber uma cópia e informações do site. </br> Neste caso, é o browser(Chrome, Opera, Edge, Brave..)_
+>Cliente: _É o computador, dispositivo ou aplicativo que faz o pedido para receber uma cópia e informações do site. </br> Neste caso, é o browser (Chrome, Opera, Edge, Brave..)_
 
 >Servidor: _É o computador que armazena todas as informações do site, ele recebe esses pedidos de acesso e envia respostas a esses pedidos._
 
