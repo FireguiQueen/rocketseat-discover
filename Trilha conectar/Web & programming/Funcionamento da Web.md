@@ -67,7 +67,7 @@ ________________________________________________________________________________
 
 </br>
 
-#### <li>Seu pedido (cliente) está percorrendo por diversos proxies </li> <!-- 3  -->
+#### <li>Seu pedido está percorrendo por diversos proxies </li> <!-- 3  -->
 
 > Proxy: _Qualquer dispositivo no caminho (entre cliente e servidor) -> Modem, roteador, outros computadores/dispositivos e etc.._
 
