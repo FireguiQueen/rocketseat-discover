@@ -55,7 +55,9 @@ ________________________________________________________________________________
      
 >HTTP (HyperText Transfer Protocol) </br> _Utilizamos do HTTP fazer a comunicação entre computadores._ 
 	  
->Função: Trocar mensagens (informações) entre computadores. </br> Mensagens: São informações, e são enviadas de um computador para outro em diversos pedaços (chunks).   
+>Função: Trocar mensagens (informações) entre computadores. </br> Mensagens: São informações, e são enviadas de um computador para outro em diversos pedaços (chunks).  
+
+</br>
 
 #### <li>Se inicia uma linha de comunicação, através do TCP. Esta linha comunica seu computador (cliente) até o computador que armazena o conteúdo web (servidor) </li>  <!-- 2  -->
 
@@ -64,6 +66,8 @@ ________________________________________________________________________________
 >Servidor: _É o computador que recebe esses pedidos de acesso e envia respostas a esses pedidos._
 
 >TCP: _Transmition Control Protocol. A função do TCP é garantir que os pacotes (os dados) cheguem corretamente ao destino_  
+
+</br>
  
 #### <li> A URL colocada é convertida em um endereço IP através do DNS</li>  <!-- 3  -->
 
@@ -72,6 +76,8 @@ ________________________________________________________________________________
 >DNS: _Domain name system (sistema de nomes de domínios). A função é converter um domínio para um endereço de IP_
 
 >Domínio: _Nome dado a um IP. Invés de digitarmos o endereço IP de uma máquina (servidor) para pedir acesso aos dados, nós iremos digitar seu domínio, e assim iniciar uma comunicação através do TCP. <br> Exemplos: www.youtube.com.br (domínio) 45.42.52.74 (IP)  
+
+</br>
 
 #### <li>Seu pedido (cliente) está percorrendo por diversos proxies </li> <!-- 4  -->
 
