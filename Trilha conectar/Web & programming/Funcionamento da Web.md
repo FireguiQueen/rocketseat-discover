@@ -75,7 +75,7 @@ ________________________________________________________________________________
 
 </br>
 
-#### <li>Se inicia uma linha de comunicação através do TCP.</li>  <!-- 4  -->
+#### <li>Se inicia uma linha de comunicação através do TCP</li>  <!-- 4  -->
 
 >TCP: _Transmition Control Protocol. A função do TCP é garantir que os pacotes (os dados) cheguem corretamente ao destino. Esta linha comunica seu computador (cliente) até o computador que armazena o conteúdo web (servidor)_
 
