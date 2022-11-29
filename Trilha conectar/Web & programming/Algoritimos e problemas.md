@@ -40,5 +40,6 @@ Pelo fato do computador não pensar (com excessão de machine learning), devemos
 
 
 ## Resumo:
-Seja detalhista, o computador não pensa, apenas recebe ordens, calcula e processa. 
-Algorítimo é uma sequência de ordens utilizando a lógica e a organização, softwares irão necessitar de um algoritimo. 
+- Seja detalhista 
+- o computador não pensa, apenas recebe ordens, calcula e processa. 
+- Algorítimo é uma sequência de ordens utilizando a lógica e a organização, softwares irão necessitar de um algoritimo. 
