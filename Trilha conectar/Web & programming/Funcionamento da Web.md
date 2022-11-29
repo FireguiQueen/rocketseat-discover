@@ -56,23 +56,22 @@ ________________________________________________________________________________
 >HTTP (HyperText Transfer Protocol) </br> _Utilizamos do HTTP fazer a comunicação entre computadores. Ele quem faz a troca de mensagens (informações) entre computadores. Mensagens são informações, e são enviadas de um computador para outro em diversos pedaços (chunks)._  
 
 </br>
-
-#### <li>Seu pedido (cliente) está percorrendo por diversos proxies </li> <!-- 2  -->
-
-> Proxy: _Qualquer dispositivo no caminho (entre cliente e servidor) -> Modem, roteador, outros computadores/dispositivos e etc.._
-
->Proxies podem ser tanto do cliente quanto do servidor. A função das proxies é encaminhar os pacotes (dados) até chegar ao cliente.  Os pacotes passam por diversos computadores do servidor (caso haja), da sua operadora de Internet, até seu roteador e assim chega no seu dispositivo. 	 
-
-</br>
-
  
-#### <li> A URL colocada é convertida em um endereço IP através do DNS</li>  <!-- 3  -->
+#### <li> A URL colocada é convertida em um endereço IP através do DNS</li>  <!-- 2  -->
 
 >IP: _Internet protocol é o endereço dos computadores (dispositivos conectados a internet), sendo eles clientes ou servidores._
    
 >DNS: _Domain name system (sistema de nomes de domínios). A função é converter um domínio para um endereço de IP_
 
 >Domínio: _Nome dado a um IP. Invés de digitarmos o endereço IP de uma máquina (servidor) para pedir acesso aos dados, nós iremos digitar seu domínio, e assim iniciar uma comunicação através do TCP. <br> Exemplos: www.youtube.com.br (domínio) 45.42.52.74 (IP)  
+
+</br>
+
+#### <li>Seu pedido (cliente) está percorrendo por diversos proxies </li> <!-- 3  -->
+
+> Proxy: _Qualquer dispositivo no caminho (entre cliente e servidor) -> Modem, roteador, outros computadores/dispositivos e etc.._
+
+>Proxies podem ser tanto do cliente quanto do servidor. A função das proxies é encaminhar os pacotes (dados) até chegar ao cliente.  Os pacotes passam por diversos computadores do servidor (caso haja), da sua operadora de Internet, até seu roteador e assim chega no seu dispositivo. 	 
 
 </br>
 
