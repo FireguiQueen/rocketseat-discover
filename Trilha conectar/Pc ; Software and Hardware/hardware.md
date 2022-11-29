@@ -14,7 +14,7 @@ Quando abrimos um software de edição de foto/vídeo e começamos a editar, est
 A função de ambas as tecnologias é armazenar dados.
 O HD utiliza um prato mecânico e um cabeçote móvel para leitura/gravação de informações.	
 O SSD utiliza chips de memória, fazendo com que seja mais seguro utilizar um SSD para armazenar dados. 
-O HD é bem parecido como uma vitrola.. Há um prato de metal no HD onde guardamos as informações.
+O HD é bem parecido como uma vitrola. Há um prato de metal no HD onde guardamos as informações.
 Acima deste prato existe um cabeçote móvel que faz a leitura e a gravação das informações.
 Este cabeçote não encosta no prato, a leitura e a gravação são feitas magnéticamente.
 
@@ -23,7 +23,5 @@ Este cabeçote não encosta no prato, a leitura e a gravação são feitas magn�
 # Processador
 É o cerébro do computador. 
 Quando fazemos uma ação, o processador traduz esta informação em binário para o computador compreender.  
-Transforma dados em informações: Carrega página, fazer downloads, abre programas e etc.. 
 Transforma informações em uma linguagem que o computador entenda (binário). 
--> 011100100101101010001
 
