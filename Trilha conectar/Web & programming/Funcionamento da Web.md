@@ -57,8 +57,16 @@ ________________________________________________________________________________
 
 </br>
 
+#### <li>Seu pedido (cliente) está percorrendo por diversos proxies </li> <!-- 2  -->
+
+> Proxy: _Qualquer dispositivo no caminho (entre cliente e servidor) -> Modem, roteador, outros computadores/dispositivos e etc.._
+
+>Proxies podem ser tanto do cliente quanto do servidor. A função das proxies é encaminhar os pacotes (dados) até chegar ao cliente.  Os pacotes passam por diversos computadores do servidor (caso haja), da sua operadora de Internet, até seu roteador e assim chega no seu dispositivo. 	 
+
+</br>
+
  
-#### <li> A URL colocada é convertida em um endereço IP através do DNS</li>  <!-- 2  -->
+#### <li> A URL colocada é convertida em um endereço IP através do DNS</li>  <!-- 3  -->
 
 >IP: _Internet protocol é o endereço dos computadores (dispositivos conectados a internet), sendo eles clientes ou servidores._
    
@@ -68,7 +76,7 @@ ________________________________________________________________________________
 
 </br>
 
-#### <li>Se inicia uma linha de comunicação através do TCP.</li>  <!-- 3  -->
+#### <li>Se inicia uma linha de comunicação através do TCP.</li>  <!-- 4  -->
 
 >TCP: _Transmition Control Protocol. A função do TCP é garantir que os pacotes (os dados) cheguem corretamente ao destino. Esta linha comunica seu computador (cliente) até o computador que armazena o conteúdo web (servidor)_
 
@@ -78,13 +86,6 @@ ________________________________________________________________________________
 
 </br>
 
-#### <li>Seu pedido (cliente) está percorrendo por diversos proxies </li> <!-- 4  -->
-
-> Proxy: _Qualquer dispositivo no caminho (entre cliente e servidor) -> Modem, roteador, outros computadores/dispositivos e etc.._
-
->Proxies podem ser tanto do cliente quanto do servidor. A função das proxies é encaminhar os pacotes (dados) até chegar ao cliente.  Os pacotes passam por diversos computadores do servidor (caso haja), da sua operadora de Internet, até seu roteador e assim chega no seu dispositivo. 	 
-
-</br>
  
 #### <li>_Seu pedido chega ao servidor_</li>  <!-- 5  -->
 
