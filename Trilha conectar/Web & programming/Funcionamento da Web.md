@@ -6,14 +6,11 @@
 </br>
 
 # WebPage
-- Nada mais é do que uma página na web.
-&nbsp;
+<ul> <li> Nada mais é do que uma página na web. </li> </ul>
+
 - _Acessamos pelo navegador_
-&nbsp;
 - _Possui um endereço único_
-&nbsp;
 - _Está armazenada no servidor, quando requisitada, o servidor envia uma cópia da página para o cliente_
-&nbsp;
 - _HTML - Hyper Text Markup Language (estruturação da página)_
 - _CSS - Cascading Style Sheet (estilo da página)_
 - _JavaScript (interações da página)_
