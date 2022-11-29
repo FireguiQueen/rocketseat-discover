@@ -29,7 +29,7 @@ _Um página estática significa que, a página sempre será a mesma. Por exemplo
 </br>
 
 ### Dinâmico
-_Uma página dinâmica se altera conforme a solicitação. Por exemplo, quando acessamos o perfil de alguém no Facebook, estamos indo para uma página dinâmica, pois este mesmo perfil possui uma foto, uma biografia, vídeos e etc.. <br>->&nbsp; Interage com um banco de dados <br>->&nbsp; Alteração sem mexer no código (pois até mesmo o cliente pode fazer a alteração, como trocar uma foto em seu perfil </br> Recomendação de leitura: https://mydroulisblog.netlify.app/site-estatico-x-site-dinamico-x-spa/_
+_Uma página dinâmica se altera conforme a solicitação. Por exemplo, quando acessamos o perfil de alguém no Facebook, estamos indo para uma página dinâmica, pois este mesmo perfil possui uma foto, uma biografia, vídeos e etc.. <br>->&nbsp; Interage com um banco de dados <br>->&nbsp; Alteração sem mexer no código (pois até mesmo o cliente pode fazer a alteração, como trocar uma foto em seu perfil). </br> Recomendação de leitura: https://mydroulisblog.netlify.app/site-estatico-x-site-dinamico-x-spa/_
 
 </br>
 
