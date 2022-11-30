@@ -64,6 +64,31 @@ em          tamanho da fonte do pai (da tag pai)
 rem         tamanho da fonte do elemento raiz (root/html)
 vw          1% da viewport widght
 vh          1% da viewport height
+<table>
+	<thead>
+		<tr>
+			<th>Unidade</th>
+			<th>Refarente a</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Em</td>
+			<td>tamanho da fonte do pai (da tag pai)</td>
+		</tr>
+		<tr>
+			<td>Rem</td>
+			<td>tamanho da fonte do elemento raiz (root/html)</td>
+		</tr>
+		<tr>
+			<td>Vw</td>
+			<td>1% da viewport widght (largura da página que está sendo exibida)</td>
+		</tr>
+		<tr>
+			<td>Vh</td>
+			<td>1% da viewport height (altura da página que está sendo exibida, ou seja, 1% dessa altura)</td>
+		</tr>
+
 
 
 * em
