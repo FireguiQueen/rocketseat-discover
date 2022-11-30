@@ -38,9 +38,11 @@ div{
 * Assim o valor inicial de 100px de largura será respeitado.                                                      
 * Pois não iremos somar 20px do lado esquerdo do conteúdo da div, e sim pegar a borda dessa div e diminuir 20px;  
 * Caso o preenchimento se baseie no conteúdo, ele irá localizar o conteúdo e adicionar 20px ao lado esquerdo dele 
+
 ```css 
 div{
- box-sizing: border-box;
+
+box-sizing: border-box;
     
                            box-sizing: border-box;                
                            |-------------------|
