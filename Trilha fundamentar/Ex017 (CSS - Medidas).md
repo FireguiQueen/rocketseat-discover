@@ -53,7 +53,7 @@ h1{
 > O mais utilizado é o pixel </br>
 > Não é recomendado usar em centímetros. Imagine colocar uma botão esperando que a tela do seu cliente tenha tantos centímetros para visualizar o botão no tamanho que você deseja, o conteúdo do seu site não será adaptável.
 
-
+</br>
 
 ## Distância relativa
 * São relativas a algum outro valor
