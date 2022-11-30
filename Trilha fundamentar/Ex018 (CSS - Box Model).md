@@ -19,16 +19,15 @@
 Como será calculado o tamanho final da caixa? 
 ```css
 div{ 
-    height: 100px;             /* Colocando 100px de altura na div */ 
     width: 100px;              /* Colocando 100px de largura na div */
     border: 1px solid red;     /* Colocando uma borda vermelha de 1px na div */ 
     margin: 10px;              /* Colocando um espaçamento externo na div */ 
-    padding: 0px 0px 0px 20px; /* Colocando um espaçamento interno no lado esquerdo na div */ 
-    
-    /* Colocamos que a <div> terá 100px de largura, porém, o total não será mais de 100px de largura. */ 
-    /* Pois o padding somará 20px para o lado esquerdo. No final, a largua da <div> será de 120px     */ 
+    padding-left: 20px;        /* Colocando um espaçamento interno no lado esquerdo na div */ 
 }
 ```
+
+* Colocamos que a <div> terá 100px de largura, porém, o total não será mais de 100px de largura. */ 
+* Pois o padding somará 20px para o lado esquerdo. No final, a largua da <div> será de 120px     */ 
 
 ### Para respeitarmos a largura de 100px e não alterarmos ela, iremos adicionar uma outra propriedade:
 ```css 
