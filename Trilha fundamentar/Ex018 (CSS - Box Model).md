@@ -4,7 +4,7 @@
 - A maioria dos elementos em HTML fazem parte deste modelo.
 
 ## O que é? 
-* Uma caixa retangular. 
+- Uma caixa retangular. 
 - Essa caixa possui propriedades de uma caixa 2d.
 - Cada elemento na sua página será considerado uma caixa. 
 
