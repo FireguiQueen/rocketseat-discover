@@ -51,7 +51,9 @@ h1{
 </table>
 
 > O mais utilizado é o pixel </br>
-> Não é recomendado usar em centímetros. Imagine colocar uma botão esperando que a tela do seu cliente tenha tantos centímetros para visualizar o botão no tamanho que você deseja, o conteúdo do seu site não será adaptável.
+
+> Não é recomendado usar em centímetros. 
+> Imagine colocar uma botão esperando que a tela do seu cliente tenha tantos centímetros para visualizar o botão no tamanho que você deseja, o conteúdo do seu site não será adaptável.
 
 </br>
 </br>
@@ -143,7 +145,7 @@ html{
 ```
 
 
-* vw & vh 
+## Unidades viewport: height & widght 
 Viewport é a parte branca do nosso site, é a parte onde vemos a página web.
 Podemos usar essas unidades para alterar o tamanho das tags de acordo com o tamanho da viewport..
 Seja na altura ou na largura.
