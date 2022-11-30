@@ -21,7 +21,9 @@ ________________________________________________________________________________
 # Distância Relativa x Absoluta
 
 ## Distância absoluta
-* São fixas, não alteram seu valor.
+* São fixas, não alteram seu valor
+* O mais utilizado é o pixel, não é recomendado usar em centímetros
+> Imagine colocar uma botão esperando que a tela do cliente tenha tantos centímetros para visualizar o botão no tamanho que você deseja, o conteúdo do seu site não será adaptável.
 ```css
 h1{
  font-size: 16px; 
@@ -49,11 +51,6 @@ h1{
 		</tr>
 	</tbody>
 </table>
-
-> O mais utilizado é o pixel </br>
-> Não é recomendado usar em centímetros. 
-
-> Imagine colocar uma botão esperando que a tela do cliente tenha tantos centímetros para visualizar o botão no tamanho que você deseja, o conteúdo do seu site não será adaptável.
 
 </br>
 </br>
