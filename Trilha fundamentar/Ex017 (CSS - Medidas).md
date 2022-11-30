@@ -22,8 +22,11 @@ ________________________________________________________________________________
 
 ## Distância absoluta
 * São fixas, não alteram seu valor.
-> Exemplo: h1 {font-size: 16px; }
-
+```css
+h1{
+	font-size: 16px; 
+	}
+```
 <table>
 	<thead>
 		<tr>

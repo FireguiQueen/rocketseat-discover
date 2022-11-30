@@ -10,7 +10,7 @@ A tag body não possui uma altura definida. Logo, quando usamos a "%", é necess
 
 ```HTML 
 <body style="height: 100vh;"> <!-- 100% da viewport, ou seja, toda a altura da parte vísivel da página -->
-    <h1 id="box">Titúlo poderoso! </h1>
+    <h1 id="box">Titúlo poderoso!</h1>
 </body>
 ```
 
