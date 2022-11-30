@@ -106,6 +106,7 @@ h1{
  /*  A tag h1 terá seu tamanho de 36px (pois são 2em, ou seja, a fonte-size padrão 18 vezes dois) */
 }
 ```
+</br>
 
 #### Consideremos que o h1 está dentro da tag body
 ```html
