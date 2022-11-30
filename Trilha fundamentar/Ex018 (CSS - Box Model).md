@@ -25,27 +25,31 @@ div{
     margin: 10px;              /* Colocando um espaçamento externo na div */ 
     padding: 0px 0px 0px 20px; /* Colocando um espaçamento interno no lado esquerdo na div */ 
     
-    / O padding irá fazer com que a div cresça 20px para o lado esquerdo.
-    / Colocamos que a <div> terá 100px de largura, porém, o total não será mais de 100px de largura. 
-    / Pois o padding somará 20px para o lado esquerdo. No final, a largua da <div> será de 120px, por conta do padding. 
+    /* Colocamos que a <div> terá 100px de largura, porém, o total não será mais de 100px de largura. */ 
+    /* Pois o padding somará 20px para o lado esquerdo. No final, a largua da <div> será de 120px     */ 
+}
+```
 
-    >> Para respeitarmos a largura de 100px e não alterarmos ela, iremos adicionar uma outra propriedade.;
-    box-sizing: border-box;
+### Para respeitarmos a largura de 100px e não alterarmos ela, iremos adicionar uma outra propriedade:
+```css 
+div{
+ box-sizing: border-box;
+ 
+   /* Esta propriety value fará com que o preenchimento se baseie na borda, não no conteúdo (oi).                     */
+   /* Assim o valor inicial de 100px de largura será respeitado.                                                      */
+   /* Pois não iremos somar 20px do lado esquerdo do conteúdo da div, e sim pegar a borda dessa div e diminuir 20px;  */
+   /* Caso o preenchimento se baseie no conteúdo, ele irá localizar o conteúdo e adicionar 20px ao lado esquerdo dele */
 
-    <:> 
-    Esta propriety value fará com que o preenchimento se baseie na borda, não no conteúdo.
-    Assim o valor inicial de 100px de largura será respeitado.
-    Pois não iremos somar 20px do lado esquerdo do conteúdo da div, e sim pegar a borda dessa div e diminuir 20px
     
-                         box-sizing: border-box                
-                            |-------------------|
-                            |                   |
-                            | (20px) oi         |
-                            |___________________|
+                           box-sizing: border-box                
+                           |-------------------|
+                           |                   |
+                           | (20px) oi         |
+                           |___________________|
 
 
-                         box-sizing: content-box 
-                        |-----------------------|
-                        |                       |
-                        | (20px) oi             |
-                        |_______________________|
+                           box-sizing: content-box 
+                           |-----------------------|
+                           |                       |
+                           | (20px) oi             |
+                           |_______________________|
