@@ -166,6 +166,7 @@ body{
  /* O valor fixo da fonte no HTML é de 16px, 50% de 16px são 8px. */
 } 
 ```
+
 </br>
 
 ### Exemplo 2
