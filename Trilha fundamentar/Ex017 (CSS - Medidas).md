@@ -51,9 +51,9 @@ h1{
 </table>
 
 > O mais utilizado é o pixel </br>
-
 > Não é recomendado usar em centímetros. 
-> Imagine colocar uma botão esperando que a tela do seu cliente tenha tantos centímetros para visualizar o botão no tamanho que você deseja, o conteúdo do seu site não será adaptável.
+
+> Imagine colocar uma botão esperando que a tela do cliente tenha tantos centímetros para visualizar o botão no tamanho que você deseja, o conteúdo do seu site não será adaptável.
 
 </br>
 </br>
