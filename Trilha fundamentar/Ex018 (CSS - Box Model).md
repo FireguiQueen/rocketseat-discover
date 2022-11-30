@@ -15,6 +15,7 @@ border
 padding  
 margin  
 
+</br>
 
 # Box-sizing 
 Como será calculado o tamanho final da caixa? 
