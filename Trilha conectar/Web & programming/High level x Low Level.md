@@ -13,6 +13,8 @@
 - Mais lenta, pois leva mais tempo para a máquina traduzir e entender. 
 > Exemplos: _JavaScript, Python, Rust.._ 
 
+</br>
+
 #### Sintaxe:
 - Conjunto de regras de escrita
 - A maioria das linguagens seguem o mesmo padrão de sintaxe
