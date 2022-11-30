@@ -6,10 +6,9 @@ Essas ligações são feitas através de cabos que atravessam os oceanos.
 </br>
 
 ### Como uma provedora fornece internet a você
-É instalado um cabo em seu modem, o modem se conecta a um poste através de fios, este mesmo poste se conecta a diversos outros 
-até chegar em uma central", e esta "central" é conectada com os cabos submarinos.
+É instalado um cabo em seu modem, o modem se conecta a um poste através de fios, este mesmo poste se conecta a diversos outros até chegar em uma central, e esta "central" é conectada com os cabos submarinos.
 
-Como funciona o 4G do seu celular:
+#### Como funciona o 4G do seu celular
 No 4G não há fios de maneira direta, porém, sua internet vem através de antenas, essas mesmas antenas são conectadas aos postes que se conectam a diversos outros até chegar em uma central, e esta central é conectada com os cabos submarinos.
 
 </br>
