@@ -9,7 +9,7 @@
 
 # High level
 - Uma linguagem de high-level é uma linguagem próxima da comunicação humana, e logo, longe da linguagem da máquina. <br>
-- -> Utilizamos If, Else, Function, Class.. 
+- Utilizamos If, Else, Function, Class.. 
 - Mais lenta, pois leva mais tempo para a máquina traduzir e entender. 
 > Exemplos: _JavaScript, Python, Rust.._ 
 
