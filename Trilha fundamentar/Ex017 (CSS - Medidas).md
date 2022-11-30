@@ -107,6 +107,7 @@ h1{
 }
 ```
 
+#### Consideremos que o h1 está dentro da tag body
 ```html
 <body> 
  <h1 style="font-size: 2em;">Título</h1> 
