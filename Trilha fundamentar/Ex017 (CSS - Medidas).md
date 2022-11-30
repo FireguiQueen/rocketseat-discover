@@ -129,13 +129,15 @@ h1{
 }
 ```
 
+</br>
+
 #### Caso queira alterar o valor padrão do HTML
 ```css
 html{
  font-size: 20px;
  /* Agora a <h1> terá 20px na propriedade font-size, pois o valor padrão se tornou 20px */
 } 
-
+```
 
 
 * vw & vh 
