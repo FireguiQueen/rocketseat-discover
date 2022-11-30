@@ -8,12 +8,10 @@
 - Essa caixa possui propriedades de uma caixa 2d.
 - Cada elemento na sua página será considerado uma caixa. 
 
-Propriedades que podem alterar o tamanho da sua caixa: 
-weidht
-height   
-border   
-padding  
-margin  
+## Propriedades que podem alterar o tamanho da sua caixa:   
+- border   
+- padding  
+- margin  
 
 </br>
 
