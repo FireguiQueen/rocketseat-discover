@@ -1,5 +1,5 @@
 # Box model
-- Fundamental para fazer layoutes bonitos e funcionais para a página
+- Fundamental para fazer layouts bonitos e funcionais para a página
 - Maior facilidade para aplicar o CSS 
 - A maioria dos elementos em HTML fazem parte deste modelo.
 

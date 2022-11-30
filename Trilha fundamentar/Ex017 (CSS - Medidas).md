@@ -24,8 +24,8 @@ ________________________________________________________________________________
 * São fixas, não alteram seu valor.
 ```css
 h1{
-	font-size: 16px; 
-	}
+ font-size: 16px; 
+  }
 ```
 <table>
 	<thead>
