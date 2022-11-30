@@ -32,7 +32,7 @@ div{
 </br>
 
 ### Para respeitarmos a largura de 100px, iremos adicionar uma outra propriedade:
-#### -> Border-box;
+#### -> box-sizing: Border-box;
 
 * Esta propriety value fará com que o preenchimento se baseie na borda, não no conteúdo.                          */
 * Assim o valor inicial de 100px de largura será respeitado.                                                      */
