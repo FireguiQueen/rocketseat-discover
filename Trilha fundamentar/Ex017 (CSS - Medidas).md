@@ -17,6 +17,8 @@
 ```<time>``` representa uma unidade do tempo: s, ms </br>
 ```<resolution>``` representa resoluções para dispositivos: dpi </br>
 
+</br>
+
 _________________________________________________________________________________________________________________
 # Distância Relativa x Absoluta
 
