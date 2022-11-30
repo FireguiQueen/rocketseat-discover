@@ -29,6 +29,8 @@ div{
 * Colocamos que a div terá 100px de largura, porém, o total não será mais de 100px de largura
 * Pois o padding somará 20px para o lado esquerdo. No final, a largua da div será de 120px     
 
+</br>
+
 ### Para respeitarmos a largura de 100px e não alterarmos ela, iremos adicionar uma outra propriedade:
 ```css 
 div{
