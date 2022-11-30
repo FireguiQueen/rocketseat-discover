@@ -88,9 +88,9 @@ h1{
 </br>
 
 ### Unidade: em
-- "Em" é sempre relativo ao valor da tag pai. 
+- A unidade "em" é sempre relativo ao valores que a tag pai possui. 
 
-#### Consideremos que o h1 está dentro de uma div.:
+#### Consideremos que o h1 está dentro de uma div
 ```css
 div{ 
  font-size: 18px; 
