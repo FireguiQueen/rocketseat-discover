@@ -30,7 +30,7 @@ h1{ /* Declaration 👇 */
 </br>
 
 # Caixas
-Pense que toda tag HTML é uma caixa.: Divs, h1, p, inputs
+Pense que toda tag HTML é uma caixa.: Divs, h1, p, inputs.
 Sabendo disto, podemos compreender melhor as properties que usamos no css (margin, padding, display..)
 
 </br>
