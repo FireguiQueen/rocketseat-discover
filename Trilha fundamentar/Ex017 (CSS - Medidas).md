@@ -116,6 +116,7 @@ h1{
  <!-- Quando não atribuimos nenhum valor a tag body, o padrão de fonte é de 18px -->
 </body>
 ```
+____________________________________________________________________________________________
 
 * rem
 > h1 { font-size: 1rem}
