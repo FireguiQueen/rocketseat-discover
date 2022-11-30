@@ -1,16 +1,17 @@
 # Low level
 - Uma linguagem de low-level é uma linguagem muito mais próxima da linguagem da máquina (binário).
 - Muito mais díficil de ler e compreender.
-- Mais rápida (pois haverá pouca interfêrencia de "tradução").
+- Mais rápida pois haverá pouca interfêrencia de "tradução".
 - A programação começou em low-level
-Exemplo: Assembly
+> Exemplo: _Assembly_
 
+</br>
 
 # High level
 - Uma linguagem de high-level é uma linguagem próxima da comunicação humana, e logo, longe da linguagem da máquina. <br>
 -> Utilizamos If, Else, Function, Class.. 
 - Mais lenta, pois leva mais tempo para a máquina traduzir e entender. 
-Exemplos: JavaScript, Python, Rust.. 
+> Exemplos: _JavaScript, Python, Rust.._ 
 
 ### Sintaxe:
 - Conjunto de regras de escrita
