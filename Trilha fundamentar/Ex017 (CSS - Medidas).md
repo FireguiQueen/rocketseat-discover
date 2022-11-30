@@ -87,15 +87,32 @@ h1{
 
 
 
-* em
-> div { font-size: 18px }
-> h1 { font-size: 1em}
-Estamos dizendo que o tamanho do título irá se basear no tamanho padrão que foi colocado na div. 
-<h1 style="font-size: 2em"> A tag h1 terá seu tamanho de 36px (pois são 2em, ou seja, 18px.2)
-"Em" é sempre relativo ao valor da tag pai. Então, caso seja feito:
-<body> <h1 style="font-size: 2em">Título </h1> </body>
-A font size da tag H1 irá se basear no tamanho padrão de fonte da tag <body>, pois <body> é a tag pai.
+#### em
+- "Em" é sempre relativo ao valor da tag pai. Então, caso seja feito:
 
+```css
+div{ 
+ font-size: 18px; 
+}
+
+h1{
+ font-size: 1em;
+ /*  O tamanho do título irá se basear no tamanho padrão que foi colocado na div. */ 
+}
+
+h1{ 
+ font-size: 2em;
+ /*  A tag h1 terá seu tamanho de 36px (pois são 2em, ou seja, a fonte-size padrão 18 vezes dois) */
+}
+```
+
+```html
+<body> 
+ <h1 style="font-size: 2em;">Título</h1> 
+ <!-- A font-size da tag <h1> irá se basear no tamanho de fonte da tag <body>, pois <body> é a tag pai -->
+ <!-- Quando não atribuimos nenhum valor a tag body, o padrão de fonte é de 18px -->
+</body>
+```
 
 * rem
 > h1 { font-size: 1rem}
