@@ -85,7 +85,7 @@ h1{
 	</tbody>
 </table>
 
-
+</br>
 
 #### em
 - "Em" é sempre relativo ao valor da tag pai. Então, caso seja feito:
