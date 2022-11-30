@@ -150,10 +150,8 @@ Viewport é a parte branca do nosso site, é a parte onde vemos a página web.
 Podemos usar essas unidades para alterar o tamanho das tags de acordo com o tamanho da viewport..
 Seja na altura ou na largura.
 
-________________________________________________________________________________________________
-
 </br>
-
+________________________________________________________________________________________________
 
 ## Porcentagem 
 * A porcentagem é tratada quase da mesma maneira que a unidade "em" 
