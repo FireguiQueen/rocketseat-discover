@@ -26,7 +26,7 @@
 >background-position: left; 
 
 
-/* Background proprietis SHORTHAND */ 
+/* Background SHORTHAND */ 
 >background: #000 url(images/bg.gif) no-repeat left top; 
 ```
 _____________________________________________________________________________________________________
@@ -39,7 +39,7 @@ ________________________________________________________________________________
 >font-family: Arial;
 
 
-/* Font proprieties SHORTHAND */ 
+/* Font SHORTHAND */ 
 >font: Arial .8em/1.2 Arial, Sanserif;
 ```
 
