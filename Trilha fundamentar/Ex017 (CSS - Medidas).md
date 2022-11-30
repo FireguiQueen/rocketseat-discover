@@ -119,6 +119,8 @@ h1{
 ```
 ____________________________________________________________________________________________
 
+</br>
+
 ## Unidade: rem
 - A unidade "rem" faz com que o tamanho do conteúdo se baseie no tamanho padrão do HTML (root).
 - O tamanho de fonte padrão do HTML é de 16px. 
