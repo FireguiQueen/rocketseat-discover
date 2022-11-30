@@ -7,7 +7,7 @@
 # Exemplos
 ```css
 @import ;      // Incluir um CSS externo, uma biblioteca
-@font-face ;   // Regras condicionais para dispositivo.. Alterar o tamnho do conteúdos de acordo com o aparelho 
+@font-face ;   // Regras condicionais para dispositivo. Alterar o tamnho do conteúdos de acordo com o aparelho 
 @keyframes{}   // Animações de CSS
 @media{}       // Adaptação de layout para tamanhos de tela e tipos de mídia diferentes
 ```
