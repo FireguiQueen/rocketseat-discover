@@ -82,12 +82,14 @@ vh          1% da viewport height
 		</tr>
 		<tr>
 			<td>Vw</td>
-			<td>1% da viewport widght (largura da página que está sendo exibida)</td>
+			<td>1% da viewport widght (largura da página que está sendo exibida, ou seja, 1% dessa largura)</td>
 		</tr>
 		<tr>
 			<td>Vh</td>
 			<td>1% da viewport height (altura da página que está sendo exibida, ou seja, 1% dessa altura)</td>
 		</tr>
+	</tbody>
+</table>
 
 
 
