@@ -168,6 +168,16 @@ body{
 ```
 
 ### Exemplo 2
+```css
+li{
+ font-size: 80%; 
+}
+/* Cada tag <li> será 80% de outra tag            */
+/* Então a primeira <li> será 80% de 16px = 12px  */
+/* A próxima <li> será 80% de 12.8px = 9.6px      */
+/* A próxima <li> será 80% de 9.6px = 7px         */
+```
+
 <ul> <!--Lista um -->
 	<li>One</li>
 	<li>Two</li>
@@ -181,9 +191,3 @@ body{
 		</ul>
 	</li>
 </ul>
-
-> li {font-size: 80%; }
-Cada tag <li> será 80% de outra tag
-Então a primeira <li> será 80% de 16px = 12px
-A próxima <li> será 80% de 12.8px = 9.6px
-A próxima <li> será 80% de 9.6px = 7px
