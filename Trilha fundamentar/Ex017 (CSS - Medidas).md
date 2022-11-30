@@ -58,12 +58,6 @@ h1{
 ## Distância relativa
 * São relativas a algum outro valor
 * Possui uma maior adaptação aos diferentes tamanhos de tela 
-
-Unidade     Referente a
-em          tamanho da fonte do pai (da tag pai)
-rem         tamanho da fonte do elemento raiz (root/html)
-vw          1% da viewport widght
-vh          1% da viewport height
 <table>
 	<thead>
 		<tr>
