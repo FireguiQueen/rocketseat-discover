@@ -41,14 +41,14 @@ div{
    /* Caso o preenchimento se baseie no conteúdo, ele irá localizar o conteúdo e adicionar 20px ao lado esquerdo dele */
 
     
-                           box-sizing: border-box                
+                           box-sizing: border-box;                
                            |-------------------|
                            |                   |
                            | (20px) oi         |
                            |___________________|
 
 
-                           box-sizing: content-box 
+                           box-sizing: content-box; 
                            |-----------------------|
                            |                       |
                            | (20px) oi             |
