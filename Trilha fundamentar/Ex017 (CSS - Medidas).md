@@ -141,33 +141,44 @@ html{
 } 
 ```
 
+</br>
+
+________________________________________________________________________________________________
 
 ## Unidades viewport: height & widght 
 Viewport é a parte branca do nosso site, é a parte onde vemos a página web.
 Podemos usar essas unidades para alterar o tamanho das tags de acordo com o tamanho da viewport..
 Seja na altura ou na largura.
 
-______________________________________________________________________________________________________________
-# Porcentagem 
-* A porcentagem é tratada da mesma maneira que a unidade "em" explicada acima
+________________________________________________________________________________________________
+
+</br>
+
+
+## Porcentagem 
+* A porcentagem é tratada quase da mesma maneira que a unidade "em" 
 * A porcentagem será relativa a algum valor
 
-- Exemplo 1: 
-> body {font-size: 50%;} 
-Estamos dizendo que o tamanho da fonte será de 50%, mas 50% de qual valor? 
-O valor fixo da fonte no HTML é de 16px, então, 50% de 16px são 8px. 
+### Exemplo 1
+```css 
+body{
+ font-size: 50%;
+ /* Estamos dizendo que o tamanho da fonte será de 50%, mas 50% de qual valor? */ 
+ /* O valor fixo da fonte no HTML é de 16px, 50% de 16px são 8px. */
+} 
+```
 
-- Exemplo 2:
+### Exemplo 2
 <ul> <!--Lista um -->
 	<li>One</li>
 	<li>Two</li>
-	<li>Three
+	<li>Three</li>
 		<ul> <!-- Lista dois -->
 			<li>Three A</li>
 			<li>Three B</li>
-			<ul> <!-- Lista três -->
-				<li>Three B 2</li>
-			</ul>
+				<ul> <!-- Lista três -->
+					<li>Three B 2</li>
+				</ul>
 		</ul>
 	</li>
 </ul>
