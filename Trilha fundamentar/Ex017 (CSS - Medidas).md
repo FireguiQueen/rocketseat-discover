@@ -118,10 +118,14 @@ h1{
 ```
 ____________________________________________________________________________________________
 
-* rem
-> h1 { font-size: 1rem}
-Estamos dizendo que o tamanho do título irá se basear no tamanho padrão do HTML, do Root.
-O tamanho de fonte padrão do HTML é de 16px. 
+## Unidade: rem
+- A unidade "rem" faz com que o tamanho do conteúdo se baseie no tamanho padrão do HTML (root).
+- O tamanho de fonte padrão do HTML é de 16px. 
+```css
+h1{ 
+ font-size: 1rem;
+}
+
 Então se colocarmos: <h1 style="font-size: 1rem">, a tag <h1> terá seu tamanho de 16px. 
 Caso queira alterar o valor padrão do HTML, pode ser usar:
 > html {font-size: 20px} 
