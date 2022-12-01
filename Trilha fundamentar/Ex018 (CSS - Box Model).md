@@ -37,8 +37,8 @@ div{
 
 * Esta propriety value fará com que o preenchimento se baseie na borda, não no conteúdo da div.                          
 * Assim o valor inicial de 100px de largura será respeitado.                                                      
-* Pois não iremos somar 20px do lado esquerdo do conteúdo da div, e sim pegar a borda dessa div e acrescentar 20px
-* Caso o preenchimento se baseie no conteúdo, ele irá localizar o conteúdo e adicionar 20px ao lado esquerdo dele 
+* Pois não iremos somar 10px do lado esquerdo do conteúdo da div, e sim pegar a borda dessa div e acrescentar 10px
+* Caso o preenchimento se baseie no conteúdo, ele irá localizar o conteúdo e adicionar 10px ao lado esquerdo dele 
 
 
 ![image](https://user-images.githubusercontent.com/98475125/205141732-15b9af3c-2c88-4031-90d7-c05215288b1b.png)
