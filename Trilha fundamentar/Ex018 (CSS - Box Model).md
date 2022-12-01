@@ -21,9 +21,9 @@ Como será calculado o tamanho final da caixa?
 ```css
 div{ 
     width: 100px;              /* Colocando 100px de largura na div                        */
-    border: 1px solid red;     /* Colocando uma borda vermelha de 1px na div               */ 
+    border: 1px solid black;     /* Colocando uma borda vermelha de 1px na div               */ 
     margin: 10px;              /* Colocando um espaçamento externo na div                  */ 
-    padding-left: 20px;        /* Colocando um espaçamento interno no lado esquerdo na div */ 
+    padding-left: 10px;        /* Colocando um espaçamento interno no lado esquerdo na div */ 
 }
 ```
 
@@ -58,3 +58,4 @@ box-sizing: border-box;
                            | (20px) oi             |
                            |_______________________|
 }
+<img>
