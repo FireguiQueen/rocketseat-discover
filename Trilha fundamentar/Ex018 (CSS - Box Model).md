@@ -12,7 +12,7 @@
 - border   
 - padding  
 - height
-- widght
+- width
 
 </br>
 
