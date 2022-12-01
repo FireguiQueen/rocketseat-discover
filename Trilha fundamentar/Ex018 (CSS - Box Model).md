@@ -11,7 +11,8 @@
 ## Propriedades que podem alterar o tamanho da sua caixa:   
 - border   
 - padding  
-- margin  
+- height
+- widght
 
 </br>
 
