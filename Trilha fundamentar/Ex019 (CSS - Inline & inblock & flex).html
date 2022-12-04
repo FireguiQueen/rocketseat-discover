@@ -1,148 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <style> 
-        *{
-            margin-left: 10px;
-            padding: 0;
-        }
-        body {
-            background: linear-gradient(45deg, rgb(244, 163, 13), #d95d15, #0f77b3d5, #540375, #10A19D);
-            background-size: 300% 300%;
-            animation:change_bc 13s ease infinite;
-        }
-
-
-        header{
-            color:rgb(244, 163, 13);
-            display: flex;
-            justify-content: center;
-        }
-        h1{
-            margin: 25px 0px 50px;
-            border-bottom: 1px solid rgba(244, 201, 120, 0.857);
-        } 
-        div#block{
-            box-sizing: border-box;
-            margin: 0px 0px 25px 15px;
-            border: 1.5px solid #e9cf39df;
-            background-color: #1D1C19;
-            border-radius: 8px;
-            color: beige;
-            width: 900px;
-            padding-inline: 14.4px 9px;
-        } 
-        .identify{
-            display: flex;
-            justify-content: center;
-            margin: 15px auto;
-            width: 100px;
-            color:#F7DD43;;
-            border: 1.5px solid #e9d04476;
-            border-radius: 9.4px;
-            text-align: center;
-            margin-bottom: 25px;
-        }
-
-        .explication{
-            text-align: center; 
-            font-size: 19px;
-            margin-bottom: 20px;
-        }
-
-        #universal {
-            display: flex;
-            gap: 15px;
-        }
-        .demons{ 
-            font-size: 1.5rem;
-        }
-
-
-
-        /* ANIMATIONS */ 
-        #block{
-            transition: 200ms transform cubic-bezier(.42, 0, .65, 1.7);
-        }
-        #block:hover{
-            transform: scale(1.032);
-            transition: 200ms transform cubic-bezier(.42, 0, .65, 1.7);
-        }
-
-
-        @keyframes change_bc{
-            0%{
-                background-position: 0% 50%;
-            } 50%{
-                background-position: 100% 50%;
-            } 100% {
-                background-position: 0% 50%;
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline, inblock & flex</title>
+    <head>
+        <style> 
+            *{
+                margin: 0;
+                padding: 0;
             }
-        }
-    </style>
-</head> 
-<header>
-    <h1>Inblock, &nbsp;flex & inline  </h1>
-</header>
-<div id="universal">
-    <div id="block">
-        <h2 class="identify">Inblock </h2> 
-        <div id="cont">
-            <p class="explication"> A declaração display: block faz com que o elemento HTML seja renderizado como bloco, tal como os parágrafos e os cabeçalhos o são. Um bloco contém um espaço em branco tanto em cima como embaixo e não permite outros elementos HTML ao lado. </p>
-            <div class="demons"> <code> &lt;div&gt; Olá pessoal! &lt;&sol;div&gt;</div> <q class="demons">Olá, amigo!</q> </code>
-            <p>
-                A frase "Olá, amigo" está ao lado da tag <code>&lt;div&gt;</code> em nosso código, mas em nossa página, 
-                esta mesma frase se encontra em outra linha. Isto ocorre pois a tag <code>&lt;div&gt;</code> é um display inblock, 
-                ou seja, o conteúdo desta tag irá ocupar um bloco próprio.
-            </p> 
-            <p style="font-size: 25px; margin-bottom: 4px"> Olá, isto é um parágrafo!</p> <q>Isto é uma frase ao lado do parágrafo (<code>&lt;p&gt;</code>)</q> 
+            body {
+                background: linear-gradient(45deg, rgb(244, 163, 13), #d95d15, #0f77b3d5, #540375, #10A19D);
+                background-size: 300% 300%;
+                animation:change_bc 13s ease infinite;
+            }
+    
+    
+            header{
+                color:rgb(244, 163, 13);
+                display: flex;
+                justify-content: center;
+            } h1 {
+                margin: 25px 0px 50px;
+                border-bottom: 1px solid rgba(244, 201, 120, 0.857);
+            } 
 
-            <p style="font-size: 17px ; width: 600px; margin-bottom: 120px;">
-                Mesmo a frase estando ao lado da tag <code>&lt;p&gt;</code> em nosso código, o display inblock será respeitado. 
-                Logo, a frase "Isto é um parágrafo" irá possuir seu próprio espaço 
-            </p> 
+
+            div.block{
+                box-sizing: border-box;
+                margin: 0px 0px 25px 15px;
+                border: 1.5px solid #e9cf39df;
+                background-color: #1D1C19;
+                border-radius: 8px;
+                color: beige;
+                width: 900px;
+                padding-inline: 11px;
+            } 
+
+            .identify{ 
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;               
+                margin: 15px auto;
+                margin-bottom: 25px;
+                background-color: #1D1C19;
+
+                height: 30px;
+                width: 100px;
+                color:#F7DD43;
+                border: 1.5px solid #e9d04476;
+                border-radius: 9.4px;
+                text-align: center;                
+            }
+    
+            .explication{
+                text-align: center; 
+                font-size: 22px;
+                margin-bottom: 20px;
+            }
+    
+            #universal {
+                margin-inline: 150px;
+                display: flex;
+                gap: 55px;
+            }
+            .demons{ 
+                font-size: 1.5rem;
+            }
+    
+
+    
+            /* ANIMATIONS */ 
+
+            /* Cards */ 
+            .block{
+                transition: 200ms transform cubic-bezier(.42, 0, .65, 1.7);
+            }
+            .block:hover{
+                transform: scale(1.1);
+                margin-inline: 3px;
+                transition: 200ms transform cubic-bezier(.42, 0, .65, 1.7);
+            }
+    
+
+
+            /* Background */
+            @keyframes change_bc{
+                0%{
+                    background-position: 0% 50%;
+                } 50%{
+                    background-position: 100% 50%;
+                } 100% {
+                    background-position: 0% 50%;
+                }
+            }
+
+
+            /* Border */ 
+            .identify::before, .identify::after{
+                content: "";
+                position: absolute;
+                width: calc(100% + 5px);
+                height: calc(100% + 5px);
+                background: linear-gradient(45deg, #1D1C19, #3b322a, #FD841F, #E14D2A, #db1252);
+                z-index: -2;
+                background-size: 300%;
+                border-radius: 9.4px;
+                animation: border_animation 2s linear alternate 0.4s infinite;[
+                border:;
+                ]
+
+            }
+
+            @keyframes border_animation{
+                0%{
+                    background-position: 0%;
+
+                }
+                50%{
+                    background-position: 50%;
+                }
+                100%{
+                    background-position: 100%;
+                }
+            }
+            .identify::after{
+                filter: blur(20px);
+            }
+        </style>
+    </head> 
+<body>
+    <header>
+        <h1>Inblock, &nbsp;flex & inline  </h1>
+    </header>
+    <div id="universal">
+    
+    
+        <!-- CARD DO INBLOCK -->
+        <div class="block"> 
+            <h2 class="identify">Inblock </h2> 
+            <div id="cont">
+                <p class="explication"> A declaração display: block faz com que o elemento HTML seja renderizado como bloco, tal como os parágrafos e os cabeçalhos o são. Um bloco contém um espaço em branco tanto em cima como embaixo e não permite outros elementos HTML ao lado. </p>
+                <div class="demons"> <code> &lt;div&gt; Olá pessoal! &lt;&sol;div&gt;</div> <q class="demons">Olá, amigo!</q> </code>
+                <p> A frase "Olá, amigo" está ao lado da tag <code>&lt;div&gt;</code> em nosso código, mas em nossa página, esta mesma frase se encontra em outra linha. Isto ocorre pois a tag <code>&lt;div&gt;</code> é um display inblock, ou seja, o conteúdo desta tag irá ocupar um bloco próprio.</p> 
+                <p style="font-size: 25px; margin-bottom: 4px"> Olá, isto é um parágrafo!</p> <q>Isto é uma frase ao lado do parágrafo (<code>&lt;p&gt;</code>)</q> 
+                <p style="font-size: 17px ; width: 600px; margin-bottom: 120px;">Mesmo a frase estando ao lado da tag <code>&lt;p&gt;</code> em nosso código, o display inblock será respeitado. Logo, a frase "Isto é um parágrafo" irá possuir seu próprio espaço</p> 
+            </div>
+        </div>
+    
+    
+        <!-- Card do INLINE-->
+        <div class="block">
+            <h2 class="identify">Inline</h2> 
+            <p class="explication"> A propriedade display: inline faz com que o elemento HTML seja renderizado inline, dentro do bloco na mesma linha. Geralmente tags usadas em texto são fazem parte do "display inline", uma delas seria a tag de abreviação, tag para negrito e entre outras..</p>
+            <span style="font-size: 25px;">Olá pessoal! (tag span) </span> <q>Olá, amigo! </q> 
+            <p style="font-size: 17px ; width: 600px; margin-bottom: 50px;">Perceba que, a frase "Olá, amigo" está ao lado da tag <code>&lt;span&gt;</code> em nosso código, mas em nossa página, esta mesma frase se encontra na mesma linha. Isto ocorre pois a tag <code>&lt;span&gt;</code> é um display inline, ou seja, tags depois desta podem continuar no mesmo espaço.</p> 
+            <div style="font-size: 20px;"> 
+                <a href="https://youtube.com.br">Youtube</a> <q> OI </q>
+                <p style="font-size: 17px ; width: 600px; margin-bottom: 50px;"> Acima temos uma tag de link e uma frase na mesma linha, isto ocorre pois ambas são "inline". </p>
+            </div>
         </div>
 
+    
     </div>
-    <div id="block">
-        <h2 class="identify">Inline </h2> 
-        <p class="explication"> 
-            A propriedade display: inline faz com que o elemento HTML seja renderizado inline, dentro do bloco na mesma linha. 
-            Geralmente tags usadas em texto são fazem parte do "display inline", uma delas seria a tag de abreviação, tag para negrito e entre outras..
-        </p>
-        <span style="font-size: 25px;">Olá pessoal! (tag span) </span> <q>Olá, amigo! </q> 
-        <p style="font-size: 17px ; width: 600px; margin-bottom: 50px;">
-            Perceba que, a frase "Olá, amigo" está ao lado da tag <code>&lt;span&gt;</code> em nosso código, mas em nossa página, 
-            esta mesma frase se encontra na mesma linha. Isto ocorre pois a tag <code>&lt;span&gt;</code> é um display inline, 
-            ou seja, tags depois desta podem continuar no mesmo espaço.
-        </p> 
-
-        <div style="font-size: 20px;"> 
-        <a href="https://youtube.com.br">Youtube</a> <q> OI </q>
-        <p style="font-size: 17px ; width: 600px; margin-bottom: 50px;"> Acima temos uma tag de link e uma frase na mesma linha, isto ocorre pois ambas são "inline". </p>
-        </div>
-        <p style="font-size: 19px; margin-bottom: -25px;" >
-    </div>
-</div>
 
 
-<!-- 
-- Comportamento das caixas em relação a outras caixas
-
-* Block  
-> Ocupa toda a linha, jogando a próxima tag para baixo.
-> Width e height são respeitadas
-> Padding, margin, border irão funcionar normalmente 
-
-* Inline 
-> Não ocupa toda a linha, a próxima tag irá continuar ao lado
-> Width e height não funcionam
-> Somente valores horizontais de padding, margin e border são respeitados. 
-
-
-* Flex
-> É bem flexível em relação a posição do conteúdo 
-> Adiciona mais proprieties 
-> Junta as tags irmãs, "gap: " será necessário.
--->
+    
+    <!-- 
+    - Comportamento das caixas em relação a outras caixas
+    
+    * Block  
+    > Ocupa toda a linha, jogando a próxima tag para baixo.
+    > Width e height são respeitadas
+    > Padding, margin, border irão funcionar normalmente 
+    
+    * Inline 
+    > Não ocupa toda a linha, a próxima tag irá continuar ao lado
+    > Width e height não funcionam
+    > Somente valores horizontais de padding, margin e border são respeitados. 
+    
+    
+    * Flex
+    > É bem flexível em relação a posição do conteúdo 
+    > Adiciona mais proprieties 
+    > Junta as tags irmãs, "gap: " será necessário.
+    -->
+    
+</body>
+</html>
 
 
 
