@@ -1,14 +1,15 @@
 <head>
     <style> 
         *{
-            margin: 0;
+            margin-left: 10px;
             padding: 0;
         }
         body {
-            background: linear-gradient(45deg, rgb(244, 163, 13), #d95d15, #540375, #10A19D);
-            background-size: 500% 500%;
-            animation:change_color 15s ease infinite;
+            background: linear-gradient(45deg, rgb(244, 163, 13), #d95d15, #0f77b3d5, #540375, #10A19D);
+            background-size: 300% 300%;
+            animation:change_bc 13s ease infinite;
         }
+
 
         header{
             color:rgb(244, 163, 13);
@@ -18,8 +19,18 @@
         h1{
             margin: 25px 0px 50px;
             border-bottom: 1px solid rgba(244, 201, 120, 0.857);
-        }
-        .displays{
+        } 
+        div#block{
+            box-sizing: border-box;
+            margin: 0px 0px 25px 15px;
+            border: 1.5px solid #e9cf39df;
+            background-color: #1D1C19;
+            border-radius: 8px;
+            color: beige;
+            width: 900px;
+            padding-inline: 14.4px 9px;
+        } 
+        .identify{
             display: flex;
             justify-content: center;
             margin: 15px auto;
@@ -30,27 +41,34 @@
             text-align: center;
             margin-bottom: 25px;
         }
- 
-        div#block{
-            box-sizing: border-box;
-            margin: 0px 0px 25px 15px;
-            border: 1.5px solid #e9cf39df;
-            background-color: #1D1C19;
-            border-radius: 8px;
-            color: beige;
-            width: 900px;
-            padding-inline: 14.4px 9px;
-        } #universal {
+
+        .explication{
+            text-align: center; 
+            font-size: 19px;
+            margin-bottom: 20px;
+        }
+
+        #universal {
             display: flex;
+            gap: 15px;
         }
         .demons{ 
             font-size: 1.5rem;
         }
-        .explication{
-            text-align: center; 
-            font-size: 19px;
+
+
+
+        /* ANIMATIONS */ 
+        #block{
+            transition: 200ms transform cubic-bezier(.42, 0, .65, 1.7);
         }
-        @keyframes change_color{
+        #block:hover{
+            transform: scale(1.032);
+            transition: 200ms transform cubic-bezier(.42, 0, .65, 1.7);
+        }
+
+
+        @keyframes change_bc{
             0%{
                 background-position: 0% 50%;
             } 50%{
@@ -60,13 +78,13 @@
             }
         }
     </style>
-</head> z'
+</head> 
 <header>
     <h1>Inblock, &nbsp;flex & inline  </h1>
 </header>
 <div id="universal">
     <div id="block">
-        <h2 class="displays">Inblock </h2> 
+        <h2 class="identify">Inblock </h2> 
         <div id="cont">
             <p class="explication"> A declaração display: block faz com que o elemento HTML seja renderizado como bloco, tal como os parágrafos e os cabeçalhos o são. Um bloco contém um espaço em branco tanto em cima como embaixo e não permite outros elementos HTML ao lado. </p>
             <div class="demons"> <code> &lt;div&gt; Olá pessoal! &lt;&sol;div&gt;</div> <q class="demons">Olá, amigo!</q> </code>
@@ -85,8 +103,11 @@
 
     </div>
     <div id="block">
-        <h2 class="displays">Inline </h2> 
-        <p class="explication"> A propriedade display: inline faz com que o elemento HTML seja renderizado inline, dentro do bloco na mesma linha. </p>
+        <h2 class="identify">Inline </h2> 
+        <p class="explication"> 
+            A propriedade display: inline faz com que o elemento HTML seja renderizado inline, dentro do bloco na mesma linha. 
+            Geralmente tags usadas em texto são fazem parte do "display inline", uma delas seria a tag de abreviação, tag para negrito e entre outras..
+        </p>
         <span style="font-size: 25px;">Olá pessoal! (tag span) </span> <q>Olá, amigo! </q> 
         <p style="font-size: 17px ; width: 600px; margin-bottom: 50px;">
             Perceba que, a frase "Olá, amigo" está ao lado da tag <code>&lt;span&gt;</code> em nosso código, mas em nossa página, 
