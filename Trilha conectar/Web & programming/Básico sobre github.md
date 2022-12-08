@@ -12,6 +12,8 @@ Pode haver diversos outros arquivos, como imagens, vídeos, ícones e etc.. Talv
 em diferentes pastas, porém, todos irão pertencer a página principal. 
 Logo, podemos dizer que a pasta que agrupa todos esses arquivos é um repositório local.
 
+</br>
+
 #### Remotos
 Um repositório remoto nada mais é do que pegar seu repositório local, ou seja, o repositório da sua máquina
 e armazená-lo na internet. Há diversas vantagens ao fazermos isto, tais como:
