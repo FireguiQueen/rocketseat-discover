@@ -1,5 +1,6 @@
-### O que são repositórios? 
-Repositórios são usados para armazenar conteúdos
+## O que são repositórios? 
+Um repositório contém todos os arquivos do seu projeto e o histórico de revisão de cada arquivo. Você pode discutir e gerenciar o trabalho do projeto dentro do repositório.
+
 
 </br>
 
