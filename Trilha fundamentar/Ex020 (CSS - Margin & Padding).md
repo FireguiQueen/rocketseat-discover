@@ -2,7 +2,7 @@
 O CSS margin é uma propriedade utilizada para adicionar um distanciamento na parte externa, ao redor do elemento. Ela pode ser definida com diferentes unidades de medidas e deve ser utilizada com atenção, pois como altera o posicionamento dos elementos, pode desestruturar o layout da página HTML.
 
 
-- __Properties:__   margin-top   |   margin-right | margin-bottom | margin-left  
+- __Properties:__   margin-top &nbsp;&nbsp;|&nbsp;&nbsp; margin-right &nbsp;&nbsp;|&nbsp;&nbsp; margin-bottom &nbsp;&nbsp;|&nbsp;&nbsp; margin-left  
 
 - __Values:__ `<length>`    |   `<percentage>` | auto 
 
