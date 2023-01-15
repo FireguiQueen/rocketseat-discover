@@ -2,7 +2,7 @@
 margin-top | margin-right | margin-bottom | margin-left  
 - Values: `<length>` | `<percentage>` | auto 
 
-> __Lenght__: são valores como "10px", "5rem", "3em" e etc..
+> __Lenght__: são valores como "10px", "5rem", "3em" e etc.. </br>
 > __Percantage__: Literalmente porcentagem, "10%".. Ela irá se basear no tamanho do bloco que está mexendo
 
 ```c#
