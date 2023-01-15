@@ -1,5 +1,5 @@
 # Border
-- __Valores (define o tipo de borda):__  solid&nbsp;&nbsp;|&nbsp;&nbsp;dotted&nbsp;&nbsp;|&nbsp;&nbsp;dashed&nbsp;&nbsp;|&nbsp;&nbsp;double&nbsp;&nbsp;|&nbsp;&nbsp;groov&nbsp;e&nbsp;|&nbsp;&nbsp;ridge&nbsp;&nbsp;|&nbsp;&nbsp;inset|&nbsp;&nbsp;outset&nbsp;&nbsp;|&nbsp;&nbsp;hidden&nbsp;&nbsp;|&nbsp;&nbsp;none
+- __Valores (define o tipo de borda):__  solid&nbsp;&nbsp;|&nbsp;&nbsp;dotted&nbsp;&nbsp;|&nbsp;&nbsp;dashed&nbsp;&nbsp;|&nbsp;&nbsp;double&nbsp;&nbsp;|&nbsp;&nbsp;groove&nbsp;&nbsp;|&nbsp;&nbsp;ridge&nbsp;&nbsp;|&nbsp;&nbsp;inset|&nbsp;&nbsp;outset&nbsp;&nbsp;|&nbsp;&nbsp;hidden&nbsp;&nbsp;|&nbsp;&nbsp;none
 - __width:__  `<length>` (px, cm, em, medium, small, large..)
 - __color:__  `<color>`  (nome da cor / número da cor)
 
