@@ -50,14 +50,21 @@ Como o número 20 é maior, haverá um espaço de 20px entre as divs.
 * O margin collapsing ocorre somente quando o elemento está acima do outro (tags display: block).
 * O margin collapsing não corre quando há um elemento ao lado do outro (tags display: inline).
 
-<span id="1"> Olá, mundo </span>
-<span id="2"> Olá, pessoas </span>
+
 
 ```css
-span#1{ margin-right: 20px;}
-span#2{ margin-left: 20px;}
+span#1{ 
+    margin-right: 25px;
+    }
+span#2{ 
+    margin-left: 20px;
+    }
 ```
-No final, haverá um espaço de 40px entre as tags <span>
+```html
+<span id="1"> Olá, mundo    </span>
+<span id="2"> Olá, pessoas  </span>
+```
+No final, haverá um espaço de 25px entre as tags 
 Pois a primeira possui 20px para a direita, e a segunda possui 20px para a esquerda
 
 
