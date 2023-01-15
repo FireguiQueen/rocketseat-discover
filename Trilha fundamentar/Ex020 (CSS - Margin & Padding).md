@@ -71,9 +71,9 @@ Pois a primeira possui 20px para a direita, e a segunda possui 20px para a esque
 
 _____________________________________________________________________
 # Padding
-padding-top | padding-right | padding-bottom | padding-left  
-- Values: `<length>` | `<percentage>` 
+- __Properties:__   margin-top &nbsp;&nbsp;|&nbsp;&nbsp; margin-right &nbsp;&nbsp;|&nbsp;&nbsp; margin-bottom &nbsp;&nbsp;|&nbsp;&nbsp; margin-left  
 
+- __Values:__ `<length>`&nbsp;&nbsp;|&nbsp;&nbsp;`<percentage>` &nbsp;&nbsp;|&nbsp;&nbsp;auto 
 ```cs
 Shorthand
 > padding: 12px 16px 10px 4px (top ; right; bottom; left)
