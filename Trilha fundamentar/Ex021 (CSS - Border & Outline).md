@@ -1,5 +1,5 @@
 # Border
-- style:  solid | dotted | dashed | double | groove | ridge | inset | outset | hidden | none
+- Valores (define o tipo de borda):  solid&nbsp;|&nbsp;dotted&nbsp;|&nbsp;dashed&nbsp;|&nbsp;double&nbsp;|&nbsp;groove&nbsp;|&nbsp;ridge&nbsp;|&nbsp;inset|&nbsp;outset&nbsp;|&nbsp;hidden&nbsp;|&nbsp;none
 - width:  `<length>` (px, cm, em, medium, small, large..)
 - color:  `<color>`  (nome da cor / número da cor)
 
