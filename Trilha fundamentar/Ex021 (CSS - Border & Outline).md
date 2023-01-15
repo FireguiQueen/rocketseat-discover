@@ -27,7 +27,7 @@ h1{
 }
 ```
 
-* Quando aumentamos o tamanho da borda, a mesma irá começar a crescer para fora da tag, deixando um visual não agrádavel, para fazer a borda crescer para dentro, utilize `box-sizing: border-box`
+* Quando aumentamos o tamanho da borda, a mesma irá começar a crescer para fora da tag, deixando um visual não agrádavel. Para fazer a borda crescer para dentro e não para fora, utilize `box-sizing: border-box`
 * Seguimos a mesma lógica do {padding/margin}, a propriedade {border} também está no model-box.
 * Então, para não aumentarmos o tamanho do elemento ao usarmos o border, devemos usar: {box-sizing: border-box;}
 ```
