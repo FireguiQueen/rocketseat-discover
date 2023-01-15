@@ -31,6 +31,8 @@ h1{
 * Seguimos a mesma lógica do {padding/margin}, a propriedade {border} também está no model-box.
 * Então, para não aumentarmos o tamanho do elemento ao usarmos o border, devemos usar: {box-sizing: border-box;}
 
+</br>
+
 __________________________________________________________________
 
 # Outline 
