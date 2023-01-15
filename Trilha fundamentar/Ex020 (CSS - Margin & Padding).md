@@ -67,6 +67,7 @@ span#2{
 No final, haverá um espaço de 25px entre as tags 
 Pois a primeira possui 20px para a direita, e a segunda possui 20px para a esquerda
 
+</br>
 
 _____________________________________________________________________
 # Padding
