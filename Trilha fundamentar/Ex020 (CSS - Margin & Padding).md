@@ -1,12 +1,15 @@
 # Margin 
+O CSS margin é uma propriedade utilizada para adicionar um distanciamento na parte externa, ao redor do elemento. Ela pode ser definida com diferentes unidades de medidas e deve ser utilizada com atenção, pois como altera o posicionamento dos elementos, pode desestruturar o layout da página HTML.
+
+## Propriedades
 margin-top | margin-right | margin-bottom | margin-left  
 - Values: `<length>` | `<percentage>` | auto 
 
 > __Lenght__: são valores como "10px", "5rem", "3em", "10vw" e etc.. </br>
 > __Percantage__: Literalmente porcentagem, "10%".. Ela irá se basear no tamanho do bloco que está mexendo
 
+## Shorthand
 ```c#
-SHORTAND 
 
 > margin: 12px 16px 10px 4px (top ; right; bottom; left)
 // 12px para cima, 16px para direita, 10px para baixo e 4px para esquerda
