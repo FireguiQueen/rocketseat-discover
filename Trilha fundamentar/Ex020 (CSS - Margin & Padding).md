@@ -21,16 +21,22 @@ SHORTAND
 // 20px para todos os lados
 ```
 
-* Cuidado com margin collapsing      //    A margin do top não se soma com a do bottom 
-<div id="1"> Olá, mundo </div>
-<div id="2"> Olá, pessoas </div>
+```html
+<div id="1"> Olá, mundo!    </div>
+<div id="2"> Olá, pessoas!  </div>
+```
 
 ```css
-div#1{ margin-bottom: 10px;}
-div#2{ margin-top: 20px;}
+div#1{ 
+    margin-bottom: 10px;
+    }
+div#2{ 
+    margin-top: 20px;
+    }
 ```
-> Neste momento pensamos: 
-Foi colocado 10px para baixo na primeira DIV, e na segunda, foi colocado 20px. Logo, haverá um espaço de 30px entre as divs.. Errado! 
+
+### Neste momento pensamos: 
+Na DIV um foi colocado 10px para baixo, na segunda segunda DIV foi colocado 20px de margin para cima.. Logo, haverá um espaço de 30px entre as divs? Errado! 
 Irá ocorrer a margin collapsing, ou seja, haverá somente um valor de espaço entre as tags.
 Como o número 20 é maior, haverá um espaço de 20px entre as divs. 
 
