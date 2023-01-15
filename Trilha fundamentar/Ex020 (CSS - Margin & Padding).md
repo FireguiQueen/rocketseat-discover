@@ -4,7 +4,7 @@ O CSS margin é uma propriedade utilizada para adicionar um distanciamento na pa
 
 - __Properties:__   margin-top &nbsp;&nbsp;|&nbsp;&nbsp; margin-right &nbsp;&nbsp;|&nbsp;&nbsp; margin-bottom &nbsp;&nbsp;|&nbsp;&nbsp; margin-left  
 
-- __Values:__ `<length>`    |   `<percentage>` | auto 
+- __Values:__ `<length>`&nbsp;&nbsp;|&nbsp;&nbsp;`<percentage>` &nbsp;&nbsp;|&nbsp;&nbsp;auto 
 
 > __Lenght__: são valores como "10px", "5rem", "3em", "10vw" e etc.. </br>
 > __Percantage__: Literalmente porcentagem, "10%".. Ela irá se basear no tamanho do bloco que está mexendo
