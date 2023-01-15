@@ -2,6 +2,9 @@
 margin-top | margin-right | margin-bottom | margin-left  
 - Values: `<length>` | `<percentage>` | auto 
 
+> __Lenght__: são valores como "10px", "5rem", "3em" e etc..
+> __Percantage__: Literalmente porcentagem, "10%".. Ela irá se basear no tamanho do bloco que está mexendo
+
 ```c#
 Shorthand 
 > margin: 12px 16px 10px 4px (top ; right; bottom; left)
