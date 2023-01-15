@@ -16,22 +16,24 @@ Usamos do CSS para alterar cores do nosso documento.
 
 
 ```css
-element{ 
+    /* PALAVRA CHAVE */
     h1{
     color: transparent; /* A cor do h1 irá ficar transparente */
     }
 
+    /* NOME DA COR */
     h1{
-    color: red; /* A cor do h1 irá ficar vermelha */
+    color: red;  /* A cor do h1 irá ficar vermelha */
     color: blue; /* A cor do h1 irá ficar azul */
     }
 
 
+    /* HEXADECIMAL */
     h1{
     color: #090;   /* Verde, pois é 0 para a cor vermelha, 9 para verde e 0 par azul.                      */ 
     color: #009900;   /* Verde novamente, porém, com esta quantidade de números, podemos alterar mais a cor    */ 
     color: #090f;     /* Verde transparente. Quando vemos uma letra, estamos trabalhando com a transparência   */
-    color: #009900aa; /* Podemos alterar mais ainda a cor e sua transparência                                  */ 
+    color: #009900aa;   /* Podemos alterar mais ainda a cor e sua transparência                                  */ 
 
     /* Para mudarmos a cor, temos "0" até "9"  &  para a transparência (opacidade), temos de "a" até "f"
     Sendo "a" pouca transparência, e conforme subimos a letra, deixamos mais transparente. */ 
