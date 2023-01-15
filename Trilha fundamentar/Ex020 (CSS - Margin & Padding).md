@@ -25,11 +25,6 @@ SHORTAND
 
 
 ## Margin collapsing
-```html
-<div id="1"> Olá, mundo!    </div>
-<div id="2"> Olá, pessoas!  </div>
-```
-
 ```css
 div#1{ 
     margin-bottom: 10px;
@@ -37,6 +32,10 @@ div#1{
 div#2{ 
     margin-top: 20px;
     }
+```
+```html
+<div id="1"> Olá, mundo!    </div>
+<div id="2"> Olá, pessoas!  </div>
 ```
 
 ### Neste momento pensamos: 
