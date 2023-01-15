@@ -8,7 +8,7 @@ Usamos do CSS para alterar cores do nosso documento.
 * color (cor dos textos)
 
 ## Valores
-##### Podemos definir o valor por: 
+#### Podemos definir o valor por: 
 - palavra chave // transparent..
 - nome da cor // red, blue.. 
 - hexadecimal (#00 00 00 ) // #red green blue)
