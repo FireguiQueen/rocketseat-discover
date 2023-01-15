@@ -68,7 +68,7 @@ No final, haverá um espaço de 25px entre as tags
 Pois a primeira possui 20px para a direita, e a segunda possui 20px para a esquerda
 
 
-<!------------------------------------------------------------------------------------------------------------------------->
+_____________________________________________________________________
 # Padding
 padding-top | padding-right | padding-bottom | padding-left  
 - Values: `<length>` | `<percentage>` 
