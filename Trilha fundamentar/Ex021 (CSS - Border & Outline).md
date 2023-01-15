@@ -11,16 +11,24 @@
 > __none__ -> Tira a borda ()</br>
 
 ```css
-Padrão: 
-{Border-top-width: values}
-{Border-right-width: values}
-{Border-bottom-width: values}
-{Border-left-width: values}
+/* Padrão */ 
+h1{
+Border-top-width: values;
+Border-right-width: values;
+Border-bottom-width: values;
+Border-left-width: values;
+}
 
-## Shorthand
-{border: 10px solid red} /* 10px de borda (top, right, bottom, left); borda sólida; borda da cor vermelha. */
 
-* Quando aumentamos o tamanho da borda, a mesma tag que possui a borda, tem um aumento de tamanho.
+/* Shorthand */
+h1{
+ border: 10px solid red;
+ /* 10px de borda (top, right, bottom, left); borda sólida; borda da cor vermelha. */
+}
+```
+
+* Quando aumentamos o tamanho da borda, a mesma irá começar a crescer para fora da tag, deixando um visual feio
+
 * Seguimos a mesma lógica do {padding/margin}, a propriedade {border} também está no model-box.
 * Então, para não aumentarmos o tamanho do elemento ao usarmos o border, devemos usar: {box-sizing: border-box;}
 ```
