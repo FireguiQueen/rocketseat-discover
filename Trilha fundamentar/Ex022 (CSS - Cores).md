@@ -40,10 +40,10 @@ Usamos do CSS para alterar cores do nosso documento.
     color: #990000aa; 
     color: #990000dd; 
     color: #990000ff; 
-    /* Caso você utilize da maneira mais extensa (#00 00 00), será necessário colocar a letra alfabética duas vezes. 
+
+    color: #109900;  /* Caso você utilize da maneira mais extensa (#00 00 00), será necessário colocar a letra alfabética duas vezes. 
     Cada vez que subimos o número de cada cor, mais forte ela fica, então mesmo haja 10 para o vermelho, a cor final 
     não será vermelha, e sim um verde alterado, pois o número da cor verde está mais forte. */ 
-    color: #109900;     
     }
 
 
