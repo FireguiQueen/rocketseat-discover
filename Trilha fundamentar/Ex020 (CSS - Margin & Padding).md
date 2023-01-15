@@ -42,7 +42,7 @@ div#2{
 <div id="2"> Olá, pessoas!  </div>
 ```
 
-### Neste momento pensamos: 
+#### Neste momento pensamos: 
 Na primeira DIV foi colocado 10px de margin para baixo, na segunda segunda DIV foi colocado 20px de margin para cima.. Logo, haverá um espaço de 30px entre as divs? Errado! 
 Irá ocorrer a margin collapsing, ou seja, haverá somente um valor de espaço entre as tags.
 Como o número 20 é maior, haverá um espaço de 20px entre as divs. 
