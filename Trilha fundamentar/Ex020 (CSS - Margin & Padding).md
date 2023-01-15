@@ -21,6 +21,10 @@ SHORTAND
 // 20px para todos os lados
 ```
 
+</br>
+
+
+## Margin collapsing
 ```html
 <div id="1"> Olá, mundo!    </div>
 <div id="2"> Olá, pessoas!  </div>
