@@ -9,10 +9,10 @@ Usamos do CSS para alterar cores do nosso documento.
 
 ## Valores
 #### Podemos definir o valor por: 
-- palavra chave // transparent..
-- nome da cor // red, blue.. 
-- hexadecimal (#00 00 00 ) // #red green blue)
-- funções: rgb, rgb, hsl, hsla
+- palavra chave: _transparent.._
+- nome da cor: _green, red, blue.._ 
+- hexadecimal: _#000000  (red green blue)_
+- funções: _rgb, hsl, hsla_
 
 
 ```css
