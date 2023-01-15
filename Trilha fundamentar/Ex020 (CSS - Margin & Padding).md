@@ -6,7 +6,8 @@ margin-top | margin-right | margin-bottom | margin-left
 > __Percantage__: Literalmente porcentagem, "10%".. Ela irá se basear no tamanho do bloco que está mexendo
 
 ```c#
-Shorthand 
+SHORTAND 
+
 > margin: 12px 16px 10px 4px (top ; right; bottom; left)
 // 12px para cima, 16px para direita, 10px para baixo e 4px para esquerda
 
