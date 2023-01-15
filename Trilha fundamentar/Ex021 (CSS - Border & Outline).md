@@ -3,11 +3,11 @@
 - __width:__  `<length>` (px, cm, em, medium, small, large..)
 - __color:__  `<color>`  (nome da cor / número da cor)
 
-> dotted - Define uma borda pontilhada (....)
-> dashed - Define uma borda tracejada  (----)
-> solid  - Define uma borda sólida (_____)
-> double - Define uma borda dupla (=====)
-> hidden - Define uma borda escondida (   )    ;    none - Tira a borda ()
+> dotted - Define uma borda pontilhada (....)  </br>
+> dashed - Define uma borda tracejada  (----)</br>
+> solid  - Define uma borda sólida (_____)</br>
+> double - Define uma borda dupla (=====)</br>
+> hidden - Define uma borda escondida (   )    ;    none - Tira a borda ()</br>
 
 ```css
 Padrão: 
