@@ -1,6 +1,6 @@
 # Cores
 Usamos do CSS para alterar cores do nosso documento.
-
+<a href="https://codepen.io/FireguiQueen/pen/KKBXwgW">Leia mais aqui </a>
 
 ## Tipos 
 * background-color (cor do fundo das caixas)
@@ -12,7 +12,7 @@ Usamos do CSS para alterar cores do nosso documento.
 - palavra chave: _transparent.._
 - nome da cor: _green, red, blue.._ 
 - hexadecimal: _#000000  (red green blue)_
-- funções: _rgb, hsl, hsla_
+- funções: _rgb, rgba , hsl, hsla_
 
 
 ```css
@@ -29,7 +29,6 @@ Usamos do CSS para alterar cores do nosso documento.
 
 
     /* HEXADECIMAL */
-
     h1{
     /* Verde, pois é 0 para a cor vermelha, 9 para verde e 0 par azul.  */ 
     color: #090; 
@@ -58,25 +57,25 @@ Usamos do CSS para alterar cores do nosso documento.
 
 
 
-    /* RGB */
+    /* RGB (Red Green Blue)*/
     h1{
     color: rgb(200, 00, 00); 
     /*  RGB significa: Red - Green - Blue                               */    
     /*  O RGB vai de 0 até 225, ou seja, do mais escuro ao mais claro   */ 
-    /*  "0.7" seria o nível da transparência                            */    
     }            
 
 
-    /* RGBA */
+    /* RGBA (Red - Green - Blue - Alpha) */
     h1{
     color: rgb(200, 00, 00, 0.7); 
+    /*  O alpha significa opacidade.                                                    */
     /*  O RGBA é igual o RGB normal, porém você pode trabalhar com a opacidade da cor   */ 
     /*  "0.7" seria o nível da transparência (opacidade) desta cor                      */    
     }            
 
 
 
-    /* HSL */
+    /* HSL  (hue - saturaion - lumiance/lightness) */
     h1{
         color: hsl(100, 100%, )
     }
