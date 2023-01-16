@@ -13,16 +13,16 @@
 ```css
 /* Padrão */ 
 h1{
-Border-top-width: values;
-Border-right-width: values;
-Border-bottom-width: values;
-Border-left-width: values;
+    Border-top-width: values;
+    Border-right-width: values;
+    Border-bottom-width: values;
+    Border-left-width: values;
 }
 
 
 /* Shorthand */
 h1{
- border: 10px solid red;
+    border: 10px solid red;
  /* 10px de borda (top, right, bottom, left); borda sólida; borda da cor vermelha. */
 }
 ```
@@ -36,8 +36,11 @@ h1{
 __________________________________________________________________
 
 # Outline 
-````css
-{outline: yellow 4px solid;}
+```css
+h1{
+    outline: yellow 4px solid;
+
+}
 
 * O outline é muito semelhante ao border, mas difere em 4 sentidos:
 - Não modifica o tamanho da caixa, pois não é parte do Box Model
