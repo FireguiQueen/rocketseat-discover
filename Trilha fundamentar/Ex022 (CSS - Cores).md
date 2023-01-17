@@ -78,8 +78,8 @@ Usamos do CSS para alterar cores do nosso documento.
     /* HSL  (hue - saturaion - lumiance/lightness) */
     h1{
         color: hsl(100, 100%, )
-
-        /*  Os dois primeiros elementos representam a intensidade de vermelho}         */
-        /*  O terceiro e quarto elementos representam a intensidade de verd            */
-        /*  Os dois últimos a intensidade de azul                                      */
+        /*  As cores são expressas em graus de 0° até 360º, representando uma volta completa na borda do círculo cromático */  
+        /*  Os dois primeiros elementos representam a intensidade de vermelho}                                             */
+        /*  O terceiro e quarto elementos representam a intensidade de verd                                                */
+        /*  Os dois últimos a intensidade de azul                                                                          */
     }
