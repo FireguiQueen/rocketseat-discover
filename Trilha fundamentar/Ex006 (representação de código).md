@@ -32,14 +32,14 @@
 ### Entity 
 Uma "entity" HTML é um pedaço de texto ("string") que começa com um e comercial (&) e termina com um ponto-e-vírgula (;). As "entities" são frequentemente usadas para exibir caracteres reservados (que de outra forma seriam interpretados como código HTML) e caracteres invisíveis (como espaços não separáveis). Você também pode usá-los no lugar de outros caracteres que são difíceis de digitar com um teclado padrão.
 
-Será interpretado como código.:
+>Será interpretado como código.:
 ```html
 <p>
     A tag <p> é uma tag utilizada para a criação de parágrafos 
 </p>
 ```
 
-Não será interpretada como código.:
+>Não será interpretada como código.:
 ```html
 <p>
     A tag &lt;p&gt; é uma tag utilizada para a criação de parágrafos
