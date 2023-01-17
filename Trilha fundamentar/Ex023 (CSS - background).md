@@ -10,10 +10,9 @@ background-color: limegreen;
 
 /* Palavra chave */
 background-color: transparent;  /*( vem assim por padrão) */
-background-color: 
 
 /* Funções */ 
-background-color: rgb(255, 55, 55);
+background-color: rgb (255, 55, 55);
 background-color: rgba (255, 55, 55, 0.4);
 background-color: hsl (45, 100%, 50%);
 ```
@@ -23,5 +22,7 @@ background-color: hsl (45, 100%, 50%);
 * Define uma imagem ao seu background 
 ```css
 /*  Definindo a imagem */
-background-image: url('https://')  /* utilize aspas simples ('') para imagens da web */
-background-image: url(./images/ .png) /* não utilize aspas se possuir a imagem no repositório */    
+background-image: url('https://')  /* Define uma imagem que está salva na web */
+background-image: url(./image.png) /* Define uma imagem que está salva no repositório */     
+background-image: linear-gradient() /* Define uma cor que vai até a outra de forma linear */
+background-image: 
