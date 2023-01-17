@@ -77,7 +77,12 @@ Usamos do CSS para alterar cores do nosso documento.
 
     /* HSL  (hue - saturaion - lumiance/lightness) */
     h1{
-        color: hsl(100, 100%, )
+        color: hsl( 45, 100%, 50%)
         /*  As cores são expressas em graus de 0° até 360º, representando uma volta completa na borda do círculo cromático */  
+        /* O primeiro valor é o HUE, o HUE é a matiz (o termo matiz significa que eu consigo especificar a cor, como verde, amarelo, azul e etc). */
+        /* O segundo valor é a saturação. É basicamente a quantia de leite você pôe no seu achocolatado. Os valores são mostrados em porcentagem, uma cor 100% saturada é viva, enquanto uma cor menos insaturada é uma cor mais morta. */
+        /* O terceiro valor é a luminiosidade que esta cor vai receber. Quanto mais luz, mais clara esta cor será. 100% de luz será branco, independente da matiz e da saturação. Assim como 0% de luz sempre será preto, pois não há luz para a cor. */
+
+
 
     }
