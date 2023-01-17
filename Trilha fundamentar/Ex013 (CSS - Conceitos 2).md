@@ -6,9 +6,9 @@
 
 # Exemplos
 ```css
-@import ;      // Incluir um CSS externo, uma biblioteca
-@font-face ;   // Regras condicionais para dispositivo - alterar o tamnho do conteúdos de acordo com o aparelho 
 @keyframes{}   // Animações de CSS
+@import ;      // Inclui um CSS externo, uma biblioteca
+@font-face ;   // Regras condicionais para dispositivo - alterar o tamnho do conteúdos de acordo com o aparelho 
 @media{}       // Adaptação de layout para tamanhos de tela e tipos de mídia diferentes
 ```
 </br>
