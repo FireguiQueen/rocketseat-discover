@@ -43,8 +43,11 @@ Uma "entity" HTML é um pedaço de texto ("string") que começa com um e comerci
 ```html
 <p>
     A tag &lt;p&gt; é uma tag utilizada para a criação de parágrafos
-    <!-- A entity "&lt;" é responsável por criar o sinal de menor "<"        -->
-    <!-- A entity "&gt;" é responsável por criar o sinal de maior ">"        -->
+    <!-- A entity "&lt;" é responsável por criar o sinal de menor "<"                                 -->
+    <!-- A entity "&gt;" é responsável por criar o sinal de maior ">"                                 -->
+    <!-- Em situações como está é recomendado usar a tag "code": <code> &lt; p &gt; </code>           -->
+
+
 </p>
 ```
 
