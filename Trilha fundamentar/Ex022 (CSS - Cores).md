@@ -41,7 +41,7 @@ Usamos do CSS para alterar cores do nosso documento.
     /* 
     Para mudarmos a cor, temos "0" até "9"  
     Para a transparência (opacidade) desta cor, temos de "a" até "f".
-    Sendo "a" pouca transparência, e conforme subimos a letra, deixamos mais transparente. 
+    Sendo "a" com muita opacidade, e conforme subimos a letra, com menos opacidade, ou seja, menos transparente. 
     */ 
     color: #990000aa; 
     color: #990000dd; 
@@ -57,19 +57,21 @@ Usamos do CSS para alterar cores do nosso documento.
 ```
 
 
-
-    /* RGB (Red Green Blue)*/
+## RGB 
+```css
     h1{
     color: rgb(200, 00, 00); 
-    /*  RGB significa: Red - Green - Blue                               */    
+    /*  RGB: Red - Green - Blue                                         */    
     /*  O RGB vai de 0 até 225, ou seja, do mais escuro ao mais claro   */ 
     }            
+```
 
-
-    /* RGBA (Red - Green - Blue - Alpha) */
+## RGBA
+```css
     h1{
-    color: rgb(200, 00, 00, 0.7); 
-    /*  O alpha significa opacidade.                                                    */
+    color: rgb(200, 00, 00, 0.7);
+    /*  RGBA: Red - Green - Blue - Alpha                                                */
+    /*  O alpha significa opacidade                                                     */
     /*  O RGBA é igual o RGB normal, porém você pode trabalhar com a opacidade da cor   */ 
     /*  "0.7" seria o nível da transparência (opacidade) desta cor                      */    
     }            
