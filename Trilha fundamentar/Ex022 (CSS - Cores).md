@@ -31,8 +31,7 @@ Usamos do CSS para alterar cores do nosso documento.
 ## HEX (HEXADECIMAL) 
 ```css
     h1{
-    /* Verde, pois é 0 para a cor vermelha, 9 para verde e 0 par azul.  */ 
-    color: #090; 
+    color: #090;  /* Verde, pois é 0 para a cor vermelha, 9 para verde e 0 par azul.  */ 
     
     /* Verde novamente, mas com esta quantidade de números temos um controle maior em relação a esta cor */ 
     color: #009900;   
