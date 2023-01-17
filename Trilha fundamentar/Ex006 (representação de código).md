@@ -21,15 +21,18 @@ ______________________________________________________________________________
 - Quando for necessário uma representação de muitas linhas de código, utiliza-se &lt;pre&gt; e &lt;code&gt; juntas
 
 ```html
-    <pre> 
-        <code>
-            (nome => console.log(nome)) ('Flora');
-            const sum = (a,b) => console.log(a + b);
-            sum(4, 5);
-        </code>
-    </pre>
+    <p> Uma simples function arrow e anonymous function em Javascript.:
+        <pre> 
+            <code>
+                (nome => console.log(nome)) ('Flora');
+                const sum = (a,b) => console.log(a + b);
+                sum(4, 5);
+            </code>
+        </pre>
+    </p>
 ```
 
+</br>
 
 ### Entity 
 Uma "entity" HTML é um pedaço de texto ("string") que começa com um e comercial (&) e termina com um ponto-e-vírgula (;). As "entities" são frequentemente usadas para exibir caracteres reservados (que de outra forma seriam interpretados como código HTML) e caracteres invisíveis (como espaços não separáveis). Você também pode usá-los no lugar de outros caracteres que são difíceis de digitar com um teclado padrão.
