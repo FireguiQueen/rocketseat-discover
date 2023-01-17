@@ -40,13 +40,18 @@
     <p>
         <q cite="Nikolas Tesla">Se você quiser descobrir os segredos do Universo, pense em termos de energia, frequência e vibração.” “Não creio que haja uma emoção mais intensa para um inventor do que ver suas criações funcionando. Essas emoções fazem você esquecer de comer, de dormir, de tudo.” </q>
     </p>
+```
 
-   
- 
---------------------------------------------------------------------------------------------------------------------------------------->
-    <!-- Abreviação:
-    Utilize o <abbr>, e o atributo <title> para descrever o significado da sigla. -->
+</br>
+____________________________________________________________
+
+# Abreviação
+- Utilize o <abbr> para fazer uma abreviação
+- Utilize o atributo `title=" "` para descrever o significado desta abreviação
+
+````html
     <abbr title="Hyper Text Markup language">HTML</abbr> 
+```
 
 <!--------------------------------------------------------------------------------------------------------------------------------------->
     <!-- Endereço:
