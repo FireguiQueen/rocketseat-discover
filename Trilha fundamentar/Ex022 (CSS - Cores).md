@@ -32,28 +32,28 @@ Usamos do CSS para alterar cores do nosso documento.
 ## HEX (HEXADECIMAL) 
 ```css
     h1{
-    color: #090;  /* Verde, pois é 0 para a cor vermelha, 9 para verde e 0 para o azul.  */ 
-    
-     
-    color: #009900;     /* Verde novamente, mas com esta quantidade de números temos um controle maior em relação a esta cor */   
-    color: #090f;       /* Verde transparente. Quando vemos uma letra no HEX, estamos trabalhando com a com sua opacidade    */
+        color: #090;  /* Verde, pois é 0 para a cor vermelha, 9 para verde e 0 para o azul.  */ 
+        
+        
+        color: #009900;     /* Verde novamente, mas com esta quantidade de números temos um controle maior em relação a esta cor */   
+        color: #090f;       /* Verde transparente. Quando vemos uma letra no HEX, estamos trabalhando com a com sua opacidade    */
 
 
-    /* 
-    Para mudarmos a cor, temos "0" até "9"  
-    Para a transparência (opacidade) desta cor, temos de "a" até "f".
-    Sendo "a" com muita opacidade, e conforme subimos a letra, com menos opacidade, ou seja, menos transparente. 
-    */ 
-    color: #990000aa; 
-    color: #990000dd; 
-    color: #990000ff; 
+        /* 
+        Para mudarmos a cor, temos "0" até "9"  
+        Para a transparência (opacidade) desta cor, temos de "a" até "f".
+        Sendo "a" com muita opacidade, e conforme subimos a letra, com menos opacidade, ou seja, menos transparente. 
+        */ 
+        color: #990000aa; 
+        color: #990000dd; 
+        color: #990000ff; 
 
-    /* Caso você utilize da maneira mais curta (#0 0 0), você deve colocar somente uma letra alfabética ou três. */
-    color: #600f;
-    color: #600fff;
+        /* Caso você utilize da maneira mais curta (#0 0 0), você deve colocar somente uma letra alfabética ou três. */
+        color: #600f;
+        color: #600fff;
 
-    /* Caso você utilize da maneira mais extensa (#00 00 00), será necessário colocar a letra alfabética duas vezes. */
-    color: #109900ff;  
+        /* Caso você utilize da maneira mais extensa (#00 00 00), será necessário colocar a letra alfabética duas vezes. */
+        color: #109900ff;  
     }
 ```
 
@@ -61,20 +61,20 @@ Usamos do CSS para alterar cores do nosso documento.
 ## RGB 
 ```css
     h1{
-    color: rgb(200, 00, 00); 
-    /*  RGB: Red - Green - Blue                                         */    
-    /*  O RGB vai de 0 até 225, ou seja, do mais escuro ao mais claro   */ 
+        color: rgb(200, 00, 00); 
+        /*  RGB: Red - Green - Blue                                         */    
+        /*  O RGB vai de 0 até 225, ou seja, do mais escuro ao mais claro   */ 
     }            
 ```
 
 ## RGBA
 ```css
     h1{
-    color: rgb(200, 00, 00, 0.7);
-    /*  RGBA: Red - Green - Blue - Alpha                                                */
-    /*  O alpha significa opacidade                                                     */
-    /*  O RGBA é igual o RGB normal, porém você pode trabalhar com a opacidade da cor   */ 
-    /*  "0.7" seria o nível da transparência (opacidade) desta cor                      */    
+        color: rgb(200, 00, 00, 0.7);
+        /*  RGBA: Red - Green - Blue - Alpha                                                */
+        /*  O alpha significa opacidade                                                     */
+        /*  O RGBA é igual o RGB normal, porém você pode trabalhar com a opacidade da cor   */ 
+        /*  "0.7" seria o nível da transparência (opacidade) desta cor                      */    
     }            
 ```
 
