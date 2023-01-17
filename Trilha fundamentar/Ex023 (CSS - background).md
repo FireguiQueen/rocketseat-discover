@@ -24,9 +24,9 @@ background-color: hsl (45, 100%, 50%);
 * Define uma imagem ao seu background 
 ```css
 /*  Funções */
-background-image: url('https://')    /* Com aspas, define uma imagem que está salva na web */
-background-image: url(./image.png)   /* Sem aspas, define uma imagem que está salva no repositório */     
+background-image: url('https://');    /* Com aspas, define uma imagem que está salva na web */
+background-image: url(./image.png);  /* Sem aspas, define uma imagem que está salva no repositório */     
 
-background-image: linear-gradient() /* Define uma cor que vai até a(s) outra(s) em forma de linha */
-background-image: radial-gradient() /* Define uma cor que vai até a(s) outra(s) em forma de círculo
+background-image: linear-gradient(); /* Define uma cor que vai até a(s) outra(s) em forma de linha */
+background-image: radial-gradient(); /* Define uma cor que vai até a(s) outra(s) em forma de círculo
 ```
