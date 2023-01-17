@@ -3,7 +3,7 @@
 - Servem para avisar que estamos pegando determinado conteúdo de outro lugar, de outra pessoa
 - Utilizamos a tag <cite> (que também pode ser um atributo) para mostrar de onde pegamos o conteúdo 
 
-- Utilizada para citar.: 
+    >Utilizada para citar.: </br>
     Um trabalho criativo deve conter a citação de um livro, um documento,um ensaio,um poema,um filme,um programa de televisão,um video game,uma escultura,uma pintura,uma produção cinematográfica,um jogo,uma opera,um musical,uma exibição,um relatório de um caso legal,um programa de computador,um website,uma página da web,um post de um blog ou comentário,um post em um forum ou um comentário no mesmo,um tweet,uma obra ou discurso,etc.
 
 </br>
