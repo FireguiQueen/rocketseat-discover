@@ -1,10 +1,10 @@
 # Funções 
-Funções são reconhecidas por causar um reaproveitamento de código. 
-Ou seja, usar um código que já foi feito por alguém. 
-* ```rgb()```
-* ```hsl()```
-* ```url()```
-* ```calc() ```
+Através das funções incluídas no código CSS é possível trabalhar com algumas variáveis e operações lógicas que podem facilitar muito a maneira como o construímos 
+
+* `rgb()`
+* `hsl()`
+* `url()`
+* `calc()`
 
 A tag body não possui uma altura definida. Logo, quando usamos a "%", é necessário dar um valor de altura para o body. Pois a "%" é sempre referente a algum valor. 
 
