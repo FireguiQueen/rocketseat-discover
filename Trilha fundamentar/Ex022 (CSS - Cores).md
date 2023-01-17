@@ -117,3 +117,6 @@ Usamos do CSS para alterar cores do nosso documento.
         color: unset;   /* Unset significa não definido/setado. Mas a cor acabaria sendo herdada da tag pai */
     }
 ```
+
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color">Saiba mais </a>
