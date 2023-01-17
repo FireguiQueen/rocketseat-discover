@@ -28,5 +28,8 @@ background-image: url('https://');    /* Com aspas, define uma imagem que está 
 background-image: url(./image.png);  /* Sem aspas, define uma imagem que está salva no repositório */     
 
 background-image: linear-gradient(); /* Define uma cor que vai até a(s) outra(s) em forma de linha */
-background-image: radial-gradient(); /* Define uma cor que vai até a(s) outra(s) em forma de círculo
+background-image: radial-gradient(); /* Define uma cor que vai até a(s) outra(s) em forma de círculo */
+
+/* Também é possível juntar uma imagem com o linear gradient */ 
+background-image: url(./image.png), linear gradient ()
 ```
