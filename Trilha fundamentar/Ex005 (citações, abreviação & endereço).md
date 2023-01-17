@@ -31,7 +31,7 @@
 
 ```
 
-## <q> & cite 
+## <code>&lt;q&gt; & cite 
 - A tag <q> serve para citações curtas que não precisam de parágrafos ou quebras de linha
 - O conteúdo dentro da tag receberá aspas duplas de maneira automática por conta da tag <q>
 - Utilize o atributo cite para dizer de onde a frase veio
