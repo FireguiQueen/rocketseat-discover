@@ -26,9 +26,10 @@ Usamos do CSS para alterar cores do nosso documento.
     color: red;  /* A cor do h1 irá ficar vermelha */
     color: blue; /* A cor do h1 irá ficar azul */
     }
+```
 
-
-    /* HEX (HEXADECIMAL) */
+## HEX (HEXADECIMAL) 
+```css
     h1{
     /* Verde, pois é 0 para a cor vermelha, 9 para verde e 0 par azul.  */ 
     color: #090; 
@@ -54,6 +55,7 @@ Usamos do CSS para alterar cores do nosso documento.
     /* Caso você utilize da maneira mais extensa (#00 00 00), será necessário colocar a letra alfabética duas vezes. */
     color: #109900ff;  
     }
+```
 
 
 
@@ -76,13 +78,14 @@ Usamos do CSS para alterar cores do nosso documento.
 
 
     /* HSL  (hue - saturaion - lumiance/lightness) */
+
+    ```css
     h1{
         color: hsl( 45, 100%, 50%)
         /*  As cores são expressas em graus de 0° até 360º, representando uma volta completa na borda do círculo cromático */  
         /* O primeiro valor é o HUE, o HUE é a matiz (o termo matiz significa que eu consigo especificar a cor, como verde, amarelo, azul e etc). */
-        /* O segundo valor é a saturação. É basicamente a quantia de leite você pôe no seu achocolatado. Os valores são mostrados em porcentagem, uma cor 100% saturada é viva, enquanto uma cor menos insaturada é uma cor mais morta. */
+        /* O segundo valor é a saturação. É basicamente a quantia de leite você pôe no seu achocolatado.
+        Os valores são mostrados 
+        em porcentagem, uma cor 100% saturada é viva, enquanto uma cor menos insaturada é uma cor mais morta. */
         /* O terceiro valor é a luminiosidade que esta cor vai receber. Quanto mais luz, mais clara esta cor será. 100% de luz será branco, independente da matiz e da saturação. Assim como 0% de luz sempre será preto, pois não há luz para a cor. */
-
-
-
-    }
+    ```
