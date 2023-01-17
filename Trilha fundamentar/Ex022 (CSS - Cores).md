@@ -28,7 +28,7 @@ Usamos do CSS para alterar cores do nosso documento.
     }
 
 
-    /* HEXADECIMAL */
+    /* HEX (HEXADECIMAL) */
     h1{
     /* Verde, pois é 0 para a cor vermelha, 9 para verde e 0 par azul.  */ 
     color: #090; 
@@ -79,7 +79,5 @@ Usamos do CSS para alterar cores do nosso documento.
     h1{
         color: hsl(100, 100%, )
         /*  As cores são expressas em graus de 0° até 360º, representando uma volta completa na borda do círculo cromático */  
-        /*  Os dois primeiros elementos representam a intensidade de vermelho}                                             */
-        /*  O terceiro e quarto elementos representam a intensidade de verd                                                */
-        /*  Os dois últimos a intensidade de azul                                                                          */
+
     }
