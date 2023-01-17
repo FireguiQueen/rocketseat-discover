@@ -12,6 +12,8 @@
 
 </br>
 
+______________________________________________________________________________
+
 ## <code>&lt;pre&gt;</code>
 - É a tag utilizada para representar texto pré-formatado.
 - Um texto dentro desse elemento é tipicamente exibido em uma fonte não proporcional da mesma maneira em que o texto original foi disposto no arquivo. 
