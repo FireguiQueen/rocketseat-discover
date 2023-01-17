@@ -23,8 +23,9 @@ Usamos do CSS para alterar cores do nosso documento.
 
     /* NOME DA COR */
     h1{
-    color: red;  /* A cor do h1 irá ficar vermelha */
-    color: blue; /* A cor do h1 irá ficar azul */
+    color: red;      /* A cor do h1 irá ficar vermelha    */
+    color: blue;     /* A cor do h1 irá ficar azul        */
+    color: limegreen /* A cor do h1 irá ficar verde limão */
     }
 ```
 
@@ -104,6 +105,7 @@ Usamos do CSS para alterar cores do nosso documento.
         100% de luz será branco, independente da matiz e da saturação. Assim como 0% de luz sempre será preto, pois não há luz para a cor.
         --> hsl(0, 0%, terceiro valor);
         */
+    }
 ```
 
 
