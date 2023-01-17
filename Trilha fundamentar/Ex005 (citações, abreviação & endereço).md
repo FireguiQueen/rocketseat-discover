@@ -79,11 +79,14 @@ ____________________________________________________________
 >
 
 ```html
-    <address>
-        <p> 
-            Criador da página: <br/>
-            Guilherme P. </br>
-            <strong>Volta Redonda, RJ </strong>
-        </p>
-    </address>
+  <address>
+    Voce pode contatar o autor em <a href="http://www.somedomain.com/contact">www.somedomain.com</a>. <br>
+    Se encontrar qualquer bug, por favor <a href="mailto:webmaster@somedomain.com">contate o administrador do site</a>.<br>
+    Você tambem pode querer nos visitar:<br>
+    Mozilla Foundation <br>
+    1981 Landings Drive <br>
+    Building K <br>
+    Mountain View, CA 94043-0801<br>
+    USA
+  </address>
 ```
