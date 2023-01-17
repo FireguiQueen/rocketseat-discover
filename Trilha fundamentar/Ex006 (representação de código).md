@@ -9,6 +9,8 @@
     <p> No javascript, o <code>console.log() é utilizado para escrever no console </p>
 ```
 
+</br>
+
 ## <code>&lt;pre&gt;</code> 
 - Utilizado para representar muitas linhas de código
 - O elemento &lt;code&gt; por si só representa somente uma única senteça ou linha de código
