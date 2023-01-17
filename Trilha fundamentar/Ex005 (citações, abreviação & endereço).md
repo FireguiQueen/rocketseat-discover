@@ -3,6 +3,7 @@
 - Servem para avisar que estamos pegando determinado conteúdo de outro lugar, de outra pessoa
 - Utilizamos a tag <cite> (que também pode ser um atributo) para mostrar de onde pegamos o conteúdo 
 
+</br>
 
 ## Blockquote & cite 
 - Cria um bloco para citar um conteúdo relativamente grande que vem de outro lugar 
