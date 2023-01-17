@@ -110,7 +110,7 @@ Usamos do CSS para alterar cores do nosso documento.
 ## Globa values
 ```css
     h1{
-        color: inherit; /* inherit significa herdar. Neste caso estamos herdando a cor do pai do h1. */
-        color: initial; /* Initial significa inicial. Ou seja, a cor inicial do documento            */
+        color: inherit; /* inherit significa herdar. Neste caso estamos herdando a cor do pai do h1.     */
+        color: initial; /* Initial significa inicial. Ou seja, a cor inicial do documento                */
         color: unset;   /* Unset significa não definido/setado. Mas a cor acabaria sendo herdada da tag pai */
     }
