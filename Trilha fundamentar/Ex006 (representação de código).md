@@ -15,9 +15,18 @@
 ## <code>&lt;pre&gt;</code>
 - É a tag utilizada para representar texto pré-formatado.
 - Um texto dentro desse elemento é tipicamente exibido em uma fonte não proporcional da mesma maneira em que o texto original foi disposto no arquivo. 
-- Espaços em branco são mantidos no texto da mesma forma em que este foi digitado.
+- Espaços em branco no editor de código são mantidos no texto
 - Quando for necessário uma representação de muitas linhas de código, utiliza-se &lt;pre&gt; e &lt;code&gt; juntas
-- Mantem a formatação feita no editor de código (identações e espaços)
+
+```html
+    <pre> 
+        <code>
+            (nome => console.log(nome)) ('Flora');
+            const sum = (a,b) => console.log(a + b);
+            sum(4, 5);
+        </code>
+    </pre>
+
 
 
 Para colocarmos as tags HTML dentro de dessa tag, podemos utilizar do &..; 
