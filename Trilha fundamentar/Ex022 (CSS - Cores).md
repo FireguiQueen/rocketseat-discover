@@ -97,6 +97,7 @@ Usamos do CSS para alterar cores do nosso documento.
 
 
         /* 
-        O terceiro valor é a luminiosidade que esta cor vai receber. Quanto mais luz, mais clara esta cor será. 100% de luz será branco, independente da matiz e da saturação. Assim como 0% de luz sempre será preto, pois não há luz para a cor. 
+        O terceiro valor é a luminiosidade que esta cor vai receber. Quanto mais luz, mais clara esta cor será. 
+        100% de luz será branco, independente da matiz e da saturação. Assim como 0% de luz sempre será preto, pois não há luz para a cor. 
         */
 ```
