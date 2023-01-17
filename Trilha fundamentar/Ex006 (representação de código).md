@@ -16,7 +16,7 @@
 - É a tag utilizada para representar texto pré-formatado.
 - Um texto dentro desse elemento é tipicamente exibido em uma fonte não proporcional da mesma maneira em que o texto original foi disposto no arquivo. 
 - Espaços em branco são mantidos no texto da mesma forma em que este foi digitado.
-- Quando for necessário uma representação de muitas linhas de código, utiliza-se &lt;pre&gt; e &gt;code&lt; juntas
+- Quando for necessário uma representação de muitas linhas de código, utiliza-se &lt;pre&gt; e &lt;code&gt; juntas
 - Mantem a formatação feita no editor de código (identações e espaços)
 
 
