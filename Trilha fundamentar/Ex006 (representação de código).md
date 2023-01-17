@@ -18,7 +18,7 @@ ______________________________________________________________________________
 - É a tag utilizada para representar texto pré-formatado.
 - Um texto dentro desse elemento é tipicamente exibido em uma fonte não proporcional da mesma maneira em que o texto original foi disposto no arquivo. 
 - Espaços em branco no editor de código são mantidos no texto
-- Quando for necessário uma representação de muitas linhas de código, utiliza-se as duas tags juntas &lt;pre&gt; e &lt;code&gt;
+- Quando for necessário uma representação de muitas linhas de código, utiliza-se as duas tags juntas.: &lt;pre&gt; e &lt;code&gt;
 
 ```html
     <p> Uma simples function arrow e anonymous function em Javascript.:
