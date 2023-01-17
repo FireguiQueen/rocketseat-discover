@@ -13,12 +13,14 @@
             O <strong><em>ELEMENTO HTML<em></strong> de tabela, foi muito utilizado durante anos para a construção de layouts. Mas bla bla bla..  
         </p> 
     </blockquote>
-<!--------------------------------------------------------------------------------------------------------------------------------------->
-    <!--Perceba que, usando a tag <cite> ou não, a página irá mostrar a mesma coisa.
-        Porém, quando estamos nos referindo a um site ou a um conteúdo externo, é de extrema importância 
-        usar a tag <cite>  -->
-    <p> De acordo com a <a href="https://google.com"><cite>Google</cite></a>, o nosso planeta é grande</p>
+```
 
+## Cite
+- Usando a tag <cite> ou não, a página irá mostrar a mesma coisa
+- Utilize-a sempre que for citar uma pessoa/empresa em seu texto
+```html
+    <p> De acordo com a <a href="https://google.com"><cite>Google</cite></a>, o nosso planeta é grande</p>
+```
 --------------------------------------------------------------------------------------------------------------------------------------> 
     <!--A tag <q> serve para citações curtas que não precisam de parágrafos ou quebras de linha.
         O conteúdo dentro da tag receberá aspas duplas de maneira automática.      -->
