@@ -2,11 +2,11 @@
     
 - Servem para avisar que estamos pegando determinado conteúdo de outro lugar, de outra pessoa
 - Utilizamos a tag <cite> (que também pode ser um atributo) para mostrar de onde pegamos o conteúdo 
-</br>
 
-- Notas importantes.: 
-    >Utilizada para citar.: </br>
-    Um trabalho criativo deve conter a citação de um livro, um documento,um ensaio,um poema,um filme,um programa de televisão,um video game,uma escultura,uma pintura,uma produção cinematográfica,um jogo,uma opera,um musical,uma exibição,um relatório de um caso legal,um programa de computador,um website,uma página da web,um post de um blog ou comentário,um post em um forum ou um comentário no mesmo,um tweet,uma obra ou discurso,etc.
+### Notas importantes
+
+> Utilizada para citar.: </br>
+> Um trabalho criativo deve conter a citação de um livro, um documento,um ensaio,um poema,um filme,um programa de televisão,um video game,uma escultura,uma pintura,uma produção cinematográfica,um jogo,uma opera,um musical,uma exibição,um relatório de um caso legal,um programa de computador,um website,uma página da web,um post de um blog ou comentário,um post em um forum ou um comentário no mesmo,um tweet,uma obra ou discurso,etc.
 
 </br>
 
@@ -55,15 +55,21 @@ ____________________________________________________________
 - Utilize o <abbr> para fazer uma abreviação
 - Utilize o atributo `title=" "` para descrever o significado desta abreviação
 
-````html
+```html
     <abbr title="Hyper Text Markup language">HTML</abbr> 
 ```
 
-<!--------------------------------------------------------------------------------------------------------------------------------------->
-    <!-- Endereço:
-    Para especificar o outor da página, localização do mesmo ou localização da empresa dona do site  -->
+</br>
+
+____________________________________________________________
+
+# Endereço
+- Para especificar o outor da página, a localização do mesmo
+
+```html
     <address>
-        <p> Criador da página: <br/>
+        <p> 
+            Criador da página: <br/>
             Guilherme P. </br>
             <strong>Volta Redonda, RJ </strong>
         </p>
