@@ -35,8 +35,8 @@ Usamos do CSS para alterar cores do nosso documento.
     
      
     color: #009900;     /* Verde novamente, mas com esta quantidade de números temos um controle maior em relação a esta cor */   
-    color: #090f;       /* Verde transparente. Quando vemos uma letra, estamos trabalhando com a transparência   */
-    color: #009900aa;   /* Podemos alterar mais ainda a cor e sua transparência                                  */ 
+    color: #090f;       /* Verde transparente. Quando vemos uma letra no HEX, estamos trabalhando com a com sua opacidade  */
+
 
     /* 
     Para mudarmos a cor, temos "0" até "9"  
