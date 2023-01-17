@@ -69,7 +69,7 @@ ____________________________________________________________
 ### Notas importantes
 >A informação de contato fornecida por um conteúdo do elemento <address> pode tomar qualquer forma que é apropriada para o contexto, e pode incluir qualquer tipo de informação de contato necessária, como endereço físico, URL, email, telefone, mídia social, coordenadas geográficas, por aí vai. Deve incluir o nome da pessoa, grupo, ou organização para qual as informações de contato se referem.
 
-><address> pode ser usado em uma variedade de contextos, como fornecer informação de contato de uma empresa no header da página, ou indicar o autor de um artigo incluindo um elemento <address> dentro do <article>.
+> A tag &lt;address&gt; pode ser usado em uma variedade de contextos, como fornecer informação de contato de uma empresa no header da página, ou indicar o autor de um artigo incluindo um elemento &lt;address&gt; dentro do &lt;article&gt;.
 
 ```html
     <address>
