@@ -67,17 +67,6 @@ ____________________________________________________________
 - Para especificar o outor da página, a localização do mesmo
 - Para mostrar informações para contato e localidade da empresa
 
-### Notas importantes
->A informação de contato fornecida por um conteúdo do elemento &lt;address&gt; pode tomar qualquer forma que é apropriada para o contexto, e pode incluir qualquer tipo de informação de contato necessária, como endereço físico, URL, email, telefone, mídia social, coordenadas geográficas, por aí vai. Deve incluir o nome da pessoa, grupo, ou organização para qual as informações de contato se referem.
-
-> A tag &lt;address&gt; pode ser usado em uma variedade de contextos, como fornecer informação de contato de uma empresa no header da página, ou indicar o autor de um artigo incluindo um elemento &lt;address&gt; dentro do &lt;article&gt;.
-
->Para representar um endereço arbitrário, um que não é relacionado à informação para contato, use um elemento &lt;p&gt; ao invés do elemento &lt;address&gt;
-
->Este elemento não deve conter mais informação além da informação de contato, como uma data de publicação (a qual pertence ao elemento &lt;time&gt;). Tipicamente um elemento &lt;address&gt; pode ser posicionado dentro do elemento &lt;footer&gt; da seção atual, se houver um.
-
->
-
 ```html
     <address>
         Voce pode contatar o autor em <a href="http://www.somedomain.com/contact">www.somedomain.com</a>. <br>
@@ -90,3 +79,11 @@ ____________________________________________________________
         USA
     </address>
 ```
+### Notas importantes
+>A informação de contato fornecida por um conteúdo do elemento &lt;address&gt; pode tomar qualquer forma que é apropriada para o contexto, e pode incluir qualquer tipo de informação de contato necessária, como endereço físico, URL, email, telefone, mídia social, coordenadas geográficas, por aí vai. Deve incluir o nome da pessoa, grupo, ou organização para qual as informações de contato se referem.
+
+> A tag &lt;address&gt; pode ser usado em uma variedade de contextos, como fornecer informação de contato de uma empresa no header da página, ou indicar o autor de um artigo incluindo um elemento &lt;address&gt; dentro do &lt;article&gt;.
+
+>Para representar um endereço arbitrário, um que não é relacionado à informação para contato, use um elemento &lt;p&gt; ao invés do elemento &lt;address&gt;
+
+>Este elemento não deve conter mais informação além da informação de contato, como uma data de publicação (a qual pertence ao elemento &lt;time&gt;). Tipicamente um elemento &lt;address&gt; pode ser posicionado dentro do elemento &lt;footer&gt; da seção atual, se houver um.
