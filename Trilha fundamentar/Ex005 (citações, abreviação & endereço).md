@@ -5,7 +5,7 @@
 
 </br>
 
-## Blockquote & cite 
+## <code>Blockquote</code> & cite 
 - Cria um bloco para citar um conteúdo relativamente grande que vem de outro lugar 
 - Para se dizer de onde estamos pegando o conteúdo, devemos colocar o atributo "cite"       
 ```html
@@ -16,7 +16,7 @@
     </blockquote>
 ```
 
-## Cite
+## <code>Cite</code>
 - Usando a tag <cite> ou não, a página irá mostrar a mesma coisa
 - Utilize-a sempre que for citar uma pessoa/empresa em seu texto
 ```html
