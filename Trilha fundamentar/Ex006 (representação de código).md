@@ -3,10 +3,11 @@
 ## <code>code</code> 
 - Para representar um pequeno fragmento de código 
 - Altera a cor e exibe o fragmento de código em uma fonte monoespaçada
+- O elemento &lt;code&gt; por si só representa somente uma única senteça ou linha de código
 
 ```html
     <p> No HTML, o <code>&lt;p&gt;</code> é utilizado para fazer parágrafos </p> <!-- Note que foi necessário o uso de Entity, saiba mais aqui.: https://developer.mozilla.org/en-US/docs/Glossary/Entity> -->
-    <p> No javascript, o <code>console.log() é utilizado para escrever no console </p>
+    <p> No javascript, o <code>console.log()</code> é utilizado para escrever no console </p>
 ```
 
 </br>
@@ -15,9 +16,7 @@
 - É a tag utilizada para representar texto pré-formatado.
 - Um texto dentro desse elemento é tipicamente exibido em uma fonte não proporcional da mesma maneira em que o texto original foi disposto no arquivo. 
 - Espaços em branco são mantidos no texto da mesma forma em que este foi digitado.
-- Em si, não é utilizado para representar códigos
-- Utiliza-se quando precisa representar muitas linhas de código, mas para isto é necessário usar 
-- O elemento &lt;code&gt; por si só representa somente uma única senteça ou linha de código
+- Quando for necessário uma representação de muitas linhas de código, utiliza-se <pre> e <code> juntas
 - Mantem a formatação feita no editor de código (identações e espaços)
 
 
