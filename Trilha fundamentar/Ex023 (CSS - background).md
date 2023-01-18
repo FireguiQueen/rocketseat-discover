@@ -21,7 +21,7 @@ background-color: hsl (45, 100%, 50%);
 
 </br>
 
-## Background-image:
+## Background-image
 * Define uma imagem ao seu background 
 * Por padrão, a imagem irá se repetir, você pode utilizar do `background-repeat: no-repeat`
 
@@ -41,7 +41,7 @@ background-image: url(./image.png), linear gradient(..);
 
 </br>
 
-## Background-position:
+## Background-position
 * Altera a posição do seu background 
 #### Notas importantes
 > O eixo X só trabalha com três valores.: left, center, right. </br>
@@ -74,3 +74,20 @@ background-position: 50px; /* 50px para o eixo X e Y, logo teremos um background
 background-position: -10px 20px; /* -10px para o eixo X (vai para esquerda) e 20px para o eixo Y (vai pra baixo) */
 background-position: left top; /* Eixo X para a esquerda, eixo Y para o topo */
 ``` 
+
+
+## Background-size
+* Altera o tamanho do background
+
+```css
+background-size: cover; 
+/* cobre TODO o espaço disponível de um elemento com a imagem de fundo */
+/* Se as proporções do plano de fundo forem diferentes do elemento, a imagem será cortada vertical ou horizontalmente. */ 
+
+background-size: contain; 
+/* Dimensiona a imagem o maior possível dentro de seu contêiner sem cortar ou esticar a imagem. */
+/* Para preservar a qualidade, se a altura da imagem for maior que a largura, o contain fará com que o espaço vertical seja ocupado. Se a largura for maior que a altura, o espaço horizontal será o cupado. */
+
+
+background-size: auto;
+/* Dimensiona a imagem de plano de fundo na direção correspondente de modo que suas proporções intrínsecas sejam mantidas. */
