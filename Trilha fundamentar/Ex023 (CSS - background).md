@@ -146,4 +146,4 @@ background-clip: content-box;
 /* O background fica dentro do container, exatamente o preenchimeto interno está */
 background-clip: padding-box;
 ```
-<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip">Leia mais sobre aqui</a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip">Leia mais sobre</a>
