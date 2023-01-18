@@ -20,6 +20,8 @@ background-color: hsl (45, 100%, 50%);
 ```
 
 </br>
+</br>
+
 
 ## Background-image
 * Define uma imagem ao seu background 
@@ -40,6 +42,8 @@ background-image: url(./image.png), linear gradient(..);
 ```
 
 </br>
+</br>
+
 
 ## Background-position
 * Altera a posição do seu background 
@@ -78,6 +82,8 @@ background-position: left top;   /* Eixo X para a esquerda, eixo Y para o topo *
 ``` 
 
 </br>
+</br>
+
 
 ## Background-size
 * Altera o tamanho do background
@@ -114,6 +120,8 @@ background-size: 10% 20%; /* 10% para o eixo X e 20%¨para o Y */
 ```
 
 </br>
+</br>
+
 
 ## Background-clip
 * Define se o background de um elemento se estende abaixo de sua caixa de borda, caixa de preenchimento ou caixa de conteúdo.
