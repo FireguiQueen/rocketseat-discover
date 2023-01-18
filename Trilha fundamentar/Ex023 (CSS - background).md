@@ -160,7 +160,7 @@ background-origin: padding-box;
 #### Notas importantes
 > Se dizermos que o clip é `content-box`, toda a area fora do `content` será retirada. Diferentemente do background-origin, onde se falarmos que é `content-box`, estamos dizendo que a imagem começa a partir do conteúdo </br>
 
-> De forma curta e grossa, o clip corta a imagem (com excessão do do ponto escolhido. Enquanto o origin faz com que o nosso background comece a partir de uma determinada posição
+> De forma curta e grossa, o clip corta a imagem (com excessão do ponto escolhido. Enquanto o origin faz com que o nosso background comece a partir de uma determinada posição).
 
 ```css
 /* Não recorta nada (pois pega a partir da borda) */ 
