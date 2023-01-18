@@ -39,6 +39,8 @@ background-image: radial-gradient(); /* Define uma cor que vai até a(s) outra(s
 background-image: url(./image.png), linear gradient(..);
 ```
 
+</br>
+
 ## Background-position:
 * Altera a posição do seu background 
 #### Notas importantes
@@ -54,11 +56,14 @@ background-position-x: left;   /* alinha o background do eixo X a esquerda */
 background-position-x: 30px;   /* positivo vai para a direita */ 
 background-position-x: -30px;  /* negativo vai para a esquerda */  
 
+
+
 /* Para alterar o eixo Y (vertical) */
-background-position-x: center; /* alinha o background do eixo Y ao centro */ 
-background-position-x: right;  /* alinha o background do eixo Y a direita */ 
-background-position-x: 30px;   /* positivo vai para cima */ 
-background-position-x: -30px;  /* negativo vai para baixo */  
+background-position-y: center; /* alinha o background do eixo Y ao centro */ 
+background-position-y: right;  /* alinha o background do eixo Y a direita */ 
+background-position-y: 30px;   /* positivo vai para cima */ 
+background-position-y: -30px;  /* negativo vai para baixo */  
+
 
 
 /* Shorthand */ 
