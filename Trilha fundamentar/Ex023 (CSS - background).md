@@ -77,6 +77,7 @@ background-position: -10px 20px; /* -10px para o eixo X (vai para esquerda) e 20
 background-position: left top;   /* Eixo X para a esquerda, eixo Y para o topo */
 ``` 
 
+</br>
 
 ## Background-size
 * Altera o tamanho do background
@@ -101,7 +102,7 @@ background-size: auto;
 /* Dimensiona a imagem de plano de fundo na direção correspondente de modo que suas proporções intrínsecas sejam mantidas. */
 /* Se a imagem é menor do que o contêiner, ela será mostrada em tamanho original, enquanto se a imagem é maior do que o contêiner, ela será escalada para caber dentro dele. */
 /* Talvez nem toda a imagem será visível, mas não haverá distorções */
-/* Por conta disto talvez seja necessário o background-position: ; parece espeficicar uma parte que deseja ver da image */
+/* Por conta disto talvez seja necessário o background-position: ; parece espeficicar uma parte que deseja ver da imagem */
 
 
 
@@ -112,7 +113,7 @@ background-size: 50%; /* 50% para o eixo X e 'auto' para o Y */
 background-size: 10% 20%; /* 10% para o eixo X e 20%¨para o Y */ 
 ```
 
-
+</br>
 
 ## Background-clip
 * Define se o background de um elemento se estende abaixo de sua caixa de borda, caixa de preenchimento ou caixa de conteúdo.
