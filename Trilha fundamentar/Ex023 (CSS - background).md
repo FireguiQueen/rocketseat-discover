@@ -44,9 +44,10 @@ background-image: url(./image.png), linear gradient(..);
 ## Background-position:
 * Altera a posição do seu background 
 #### Notas importantes
-> O eixo X só trabalha com três valores.: left, center, right. O eixo Y só trabalha com três valores.: Top, center e bottom
-> Jamais tente colocar.: background-position-x: top; &nbsp;ou&nbsp;  background-position-x: bottom (pois não irá funcionar)
-> Assim como o shorthand, pois o primeiro valor 
+> O eixo X só trabalha com três valores.: left, center, right. O eixo Y só trabalha com três valores.: Top, center e bottom. </br>
+>Jamais tente colocar: background-position-x: top; &nbsp;ou&nbsp;  background-position-x: bottom; (pois não irá funcionar).
+> Como o primeiro valor se refere ao eixo X e o segundo valor para o eixo Y, o exemplo abaixo também não irá funcionar: </br>
+> background-position: top left;
 
 ```css
 /* Para alterar o eixo X (horizontal) */
