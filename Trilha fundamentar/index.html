@@ -22,12 +22,17 @@
 
         #bc{
             background-image: url('https://img.freepik.com/fotos-gratis/um-homem-com-uma-arma-jogando-paintball_169016-4994.jpg?w=1380&t=st=1674019325~exp=1674019925~hmac=c4502b143f545de08bfd87e6537a12cf9c39aa9b3b82961c422bce817ecfd22b');
-            width: 200px;
-            height: 200px;
+            box-sizing: content-box;
+            width: 1300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 230px;
+            height: 900px;
+
             background-repeat: no-repeat;
-            background-size: auto;
-            overflow: hidden;
-            border: 10px solid red;
+            background-clip: content-box;
+            border: 10px dashed red;
         }
         span{
             width: 530px;
@@ -36,6 +41,8 @@
 
 </head>
 <body>
-    <div id="bc"> <span> A MELHOR ARENA DE PAINTBALL DA REGIÃO SUL-FLUMINENSE </span> </div>      
+    <div id="bc">
+         <!-- <h1> A MELHOR ARENA DE PAINTBALL DA REGIÃO SUL-FLUMINENSE </h1> -->
+    </div>      
 </body>
 </html>
