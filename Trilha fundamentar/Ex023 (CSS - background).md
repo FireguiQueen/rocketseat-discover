@@ -72,9 +72,9 @@ background-position-y: -30px;   /* negativo vai para cima */
 
 
 /* Shorthand */ 
-background-position: 50px; /* 50px para o eixo X e Y, logo teremos um background para baixo e direita */ 
+background-position: 50px;       /* 50px para o eixo X e Y, logo teremos um background para baixo e direita */ 
 background-position: -10px 20px; /* -10px para o eixo X (vai para esquerda) e 20px para o eixo Y (vai pra baixo) */
-background-position: left top; /* Eixo X para a esquerda, eixo Y para o topo */
+background-position: left top;   /* Eixo X para a esquerda, eixo Y para o topo */
 ``` 
 
 
