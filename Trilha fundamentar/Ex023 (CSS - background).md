@@ -128,9 +128,9 @@ background-size: 10% 20%; /* 10% para o eixo X e 20%¨para o Y */
 
 
 ## Background-origin 
-* Define ondo irá começar a posição inicial do background (a partir do canto superior esquerdo)
+* Define onde irá começar a posição inicial do background (a partir do canto superior esquerdo)
 * A posição pode ser a partir da borda, a partir do padding ou a partir do conteúdo do container
-* Muito utilizado com o background-clip
+* Muito utilizado com o background-clip (SÃO PARECIDOS, MAS SÃO DIFERENTES)
 
 
 #### Notas importantes
@@ -143,11 +143,11 @@ background-origin: border-box;
 
 /* O background começa onde o conteúdo do container começa */ 
 /* Este conteúdo nada mais é do que o espaço que vem primeiro que o padding (caso haja padding no seu container) */
-background-clip: content-box;
+background-origin: content-box;
 
 
 /* O background começa a partir do padding, exatamente o preenchimeto interno está */
-background-clip: padding-box;
+background-origin: padding-box;
 ```
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip">Leia mais sobre</a>
 
@@ -155,5 +155,19 @@ background-clip: padding-box;
 ## Background-clip
 * Recorta a area que não será utilizada
 
+
 #### Notas importantes
-> Se dizermos que o clip é `content-box`, toda a area fora do `content` será retirada. Diferentemente do background-origin, onde se falarmos que é `content-box`, estamos dizendo que a imagem começa a partir do conteúdo 
+> Se dizermos que o clip é `content-box`, toda a area fora do `content` será retirada. Diferentemente do background-origin, onde se falarmos que é `content-box`, estamos dizendo que a imagem começa a partir do conteúdo </br>
+
+> De forma curta e grossa, o clip corta a imagem (com excessão do do ponto escolhido. Enquanto o origin faz com que o nosso background comece a partir de uma determinada posição
+
+```css
+/* Não recorta nada (pois pega a partir da borda) */ 
+background-clip: border-box;
+
+
+/* Recorta o background que está atras da borda (pois irá recortar tudo depois do padding */
+background-clip: padding-box;  
+
+/* Recorta todo o background, exceto a parte do background que se encontra no content-box do container */
+background-clip: content-box;

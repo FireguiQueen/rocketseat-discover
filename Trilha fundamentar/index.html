@@ -12,6 +12,7 @@
             padding: 0;
             /* box-sizing: border-box; */
             background-repeat: no-repeat;
+            font-size: 30px;
         }
         body{
             height: 100vh;
@@ -19,35 +20,62 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            gap: 40px;
+        }
+        .diff{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
         }
 
         #bc{
-            border: 3px dashed red;
-            padding: 50px;
+            border: 9px dashed red;
+            padding: 200px;
             background-image: url('https://blog.cobasi.com.br/wp-content/webpc-passthru.php?src=https://blog.cobasi.com.br/wp-content/uploads/2020/11/malamute-uivando.png&nocache=1');
-            width: 550px;
-            height: 550px;
-
-            background-clip: content-box;
+            background-origin: content-box;
+            width: 350px;
+            height: 350px;
         }
 
         #bc1{
-            border: 3px dashed red;
+            border: 9px dashed red;
             padding: 200px;
             background-image: url('https://blog.cobasi.com.br/wp-content/webpc-passthru.php?src=https://blog.cobasi.com.br/wp-content/uploads/2020/11/malamute-uivando.png&nocache=1');
-            width: 550px;
-            height: 550px;
+            width: 350px;
+            height: 350px;
+        }
 
-            background-clip: content-box;
+        
+        #bc2{
+            border: 9px dashed red;
+            padding: 200px;
+            background-image: url('https://blog.cobasi.com.br/wp-content/webpc-passthru.php?src=https://blog.cobasi.com.br/wp-content/uploads/2020/11/malamute-uivando.png&nocache=1');
+            width: 350px;
+            height: 350px;
+            background-clip: padding-box;
         }
     </style>
 
 </head>
 <body>
-    <div id="bc">
-         <!-- <h1> A MELHOR ARENA DE PAINTBALL DA REGIÃO SUL-FLUMINENSE </h1> -->
+
+    
+    <div class="diff">
+        <h2> <code>background-origin: content-box; </code> </h2>
+        <div id="bc">
+             <!-- <h1> A MELHOR ARENA DE PAINTBALL DA REGIÃO SUL-FLUMINENSE </h1> -->
+        </div>
     </div>  
     
-    <div id="bc1"> </div>
+    <div class="diff">
+        <h2> IMAGEM NORMAL (apenas width/height definidas) </h2>
+        <div id="bc1"> </div>
+    </div>
+
+    <div class="diff">
+        <h2> <code>background-clip: content-box; </code> </h2>
+        <div id="bc2"> </div>
+    </div>
 </body>
 </html>
