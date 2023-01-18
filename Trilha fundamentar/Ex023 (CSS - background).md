@@ -35,6 +35,34 @@ background-image: url(./image.png);  /* Sem aspas, define uma imagem que está s
 background-image: linear-gradient(); /* Define uma cor que vai até a(s) outra(s) em forma de linha */
 background-image: radial-gradient(); /* Define uma cor que vai até a(s) outra(s) em forma de círculo */
 
-/* Também é possível juntar uma imagem com o linear gradient */ 
+/* Também é possível juntar uma imagem com o linear gradient/radial-gradient */ 
 background-image: url(./image.png), linear gradient(..);
 ```
+
+## Background-position:
+* Altera a posição do seu background 
+#### Notas importantes
+> O eixo X só trabalha com três valores.: left, center, right. O eixo Y só trabalha com três valores.: Top, center e bottom
+> Jamais tente colocar.: 
+> background-position-x: top   ou   background-position-x: bottom (pois não irá funcionar)
+> Assim como o shorthand, pois o primeiro valor 
+
+```css
+/* Para alterar o eixo X (horizontal) */
+background-position-x: center; /* alinha o background do eixo X ao centro */ 
+background-position-x: left;   /* alinha o background do eixo X a esquerda */ 
+background-position-x: 30px;   /* positivo vai para a direita */ 
+background-position-x: -30px;  /* negativo vai para a esquerda */  
+
+/* Para alterar o eixo Y (vertical) */
+background-position-x: center; /* alinha o background do eixo Y ao centro */ 
+background-position-x: right;  /* alinha o background do eixo Y a direita */ 
+background-position-x: 30px;   /* positivo vai para cima */ 
+background-position-x: -30px;  /* negativo vai para baixo */  
+
+
+/* Shorthand */ 
+background-position: 50px; /* 50px para o eixo X e Y, logo teremos um background para baixo e direita */ 
+background-position: -10px 20px; /* -10px para o eixo X (vai para esquerda) e 20px para o eixo Y (vai pra baixo) */
+background-position: left top; /* Eixo X para a esquerda, eixo Y para o topo */
+``` 
