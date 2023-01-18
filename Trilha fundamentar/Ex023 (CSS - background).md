@@ -127,7 +127,7 @@ background-clip: border-box;
 
 
 /* O background se adapta ao tamanho do conteúdo que está no container */ 
-/* Este conteúdo nada mais é do que o espaço que não foi colocado pelo padding */ 
+/* Este conteúdo nada mais é do que o espaço que vem primeiro que o padding (caso haja padding no seu container) */
 background-clip: content-box;
 
 
