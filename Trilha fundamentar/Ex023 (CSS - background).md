@@ -94,7 +94,7 @@ background-size: contain;
 /* Dimensiona a imagem o maior possível dentro de seu contêiner sem cortar ou esticar a imagem. */
 /* Para preservar a qualidade, se a altura da imagem for maior que a largura, o contain fará com que o espaço vertical seja ocupado. */
 /* Se a largura da imagem for maior que a altura dela, o espaço horizontal será o cupado. */
-/* Dependendo da situação, nem todas as partes da imagem serão visíveis */
+/* Independente da situação, toda a imagem será vísivel. Mesmo se width/height forem extremamente pequenas, a imagem irá continuar completa */
 
 
 background-size: auto;
