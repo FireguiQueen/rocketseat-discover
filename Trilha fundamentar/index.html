@@ -10,7 +10,8 @@
         *{
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+            /* box-sizing: border-box; */
+            background-repeat: no-repeat;
         }
         body{
             height: 100vh;
@@ -21,19 +22,23 @@
         }
 
         #bc{
-            background-image: url('https://img.freepik.com/fotos-gratis/um-homem-com-uma-arma-jogando-paintball_169016-4994.jpg?w=1380&t=st=1674019325~exp=1674019925~hmac=c4502b143f545de08bfd87e6537a12cf9c39aa9b3b82961c422bce817ecfd22b');
-            box-sizing: content-box;
-            width: 132px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 900px;
-            background-size: contain;
-            background-repeat: no-repeat;
-            border: 10px dashed red;
+            border: 3px dashed red;
+            padding: 50px;
+            background-image: url('https://blog.cobasi.com.br/wp-content/webpc-passthru.php?src=https://blog.cobasi.com.br/wp-content/uploads/2020/11/malamute-uivando.png&nocache=1');
+            width: 550px;
+            height: 550px;
+
+            background-clip: content-box;
         }
-        span{
-            width: 530px;
+
+        #bc1{
+            border: 3px dashed red;
+            padding: 200px;
+            background-image: url('https://blog.cobasi.com.br/wp-content/webpc-passthru.php?src=https://blog.cobasi.com.br/wp-content/uploads/2020/11/malamute-uivando.png&nocache=1');
+            width: 550px;
+            height: 550px;
+
+            background-clip: content-box;
         }
     </style>
 
@@ -41,6 +46,8 @@
 <body>
     <div id="bc">
          <!-- <h1> A MELHOR ARENA DE PAINTBALL DA REGIÃO SUL-FLUMINENSE </h1> -->
-    </div>      
+    </div>  
+    
+    <div id="bc1"> </div>
 </body>
 </html>

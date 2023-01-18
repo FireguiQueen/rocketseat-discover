@@ -127,23 +127,33 @@ background-size: 10% 20%; /* 10% para o eixo X e 20%¨para o Y */
 </br>
 
 
-## Background-clip
-* Define se o background de um elemento se estende abaixo de sua caixa de borda, caixa de preenchimento ou caixa de conteúdo.
+## Background-origin 
+* Define ondo irá começar a posição inicial do background (a partir do canto superior esquerdo)
+* A posição pode ser a partir da borda, a partir do padding ou a partir do conteúdo do container
+* Muito utilizado com o background-clip
+
 
 #### Notas importantes
-> O background-clip NÃO altera o tamanho da imagem. O background clip é responsável por nos dizer onde o background começa. Se ele vai começar a partir da borda, a partir do padding ou a partir do conteúdo. </br>
+> O background-origin NÃO altera o tamanho da imagem. O background origin é responsável por nos dizer onde o background começa. Se ele vai começar a partir da borda, a partir do padding ou a partir do conteúdo. </br>
 > O conteúdo nada mais é do que o tamanho ORIGINAL criado. Supondo que você crie um container, e neste container acrescente um padding de 20px para todos os lados, o conteúdo NÃO se refere ao padding, o padding é apenas um preenchimento, não é considerado o conteúdo.  
 ```css
 /* O background começa junto a borda (utilize uma borda dashed para perceber isto) */ 
-background-clip: border-box; 
+background-origin: border-box; 
 
 
-/* O background se adapta ao tamanho do conteúdo que está no container */ 
+/* O background começa onde o conteúdo do container começa */ 
 /* Este conteúdo nada mais é do que o espaço que vem primeiro que o padding (caso haja padding no seu container) */
 background-clip: content-box;
 
 
-/* O background fica dentro do container, exatamente o preenchimeto interno está */
+/* O background começa a partir do padding, exatamente o preenchimeto interno está */
 background-clip: padding-box;
 ```
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip">Leia mais sobre</a>
+
+
+## Background-clip
+* Recorta a area que não será utilizada
+
+#### Notas importantes
+> Se dizermos que o clip é `content-box`, toda a area fora do `content` será retirada. Diferentemente do background-origin, onde se falarmos que é `content-box`, estamos dizendo que a imagem começa a partir do conteúdo 
