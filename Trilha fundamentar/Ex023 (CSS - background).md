@@ -20,6 +20,7 @@ background-color: hsl (45, 100%, 50%);
 ```
 
 </br>
+
 </br>
 
 
@@ -42,6 +43,7 @@ background-image: url(./image.png), linear gradient(..);
 ```
 
 </br>
+
 </br>
 
 
@@ -82,6 +84,7 @@ background-position: left top;   /* Eixo X para a esquerda, eixo Y para o topo *
 ``` 
 
 </br>
+
 </br>
 
 
@@ -120,6 +123,7 @@ background-size: 10% 20%; /* 10% para o eixo X e 20%¨para o Y */
 ```
 
 </br>
+
 </br>
 
 
