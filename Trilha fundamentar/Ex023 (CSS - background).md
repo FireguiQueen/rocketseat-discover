@@ -19,6 +19,7 @@ background-color: rgba (255, 55, 55, 0.4);
 background-color: hsl (45, 100%, 50%);
 ```
 
+</br>
 
 ## Background-image:
 * Define uma imagem ao seu background 
