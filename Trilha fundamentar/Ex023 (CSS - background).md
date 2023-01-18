@@ -80,14 +80,27 @@ background-position: left top; /* Eixo X para a esquerda, eixo Y para o topo */
 * Altera o tamanho do background
 
 ```css
+/* Palavra chave */
+
 background-size: cover; 
 /* cobre TODO o espaço disponível de um elemento com a imagem de fundo */
 /* Se as proporções do plano de fundo forem diferentes do elemento, a imagem será cortada vertical ou horizontalmente. */ 
 
-background-size: contain; 
+
+background-size: contain;
+/* Sempre irá preencher um dos lados, seja a width ou height */  
 /* Dimensiona a imagem o maior possível dentro de seu contêiner sem cortar ou esticar a imagem. */
 /* Para preservar a qualidade, se a altura da imagem for maior que a largura, o contain fará com que o espaço vertical seja ocupado. Se a largura for maior que a altura, o espaço horizontal será o cupado. */
+/* Dependendo da situação, nem toda a imagem será visível */
 
 
 background-size: auto;
 /* Dimensiona a imagem de plano de fundo na direção correspondente de modo que suas proporções intrínsecas sejam mantidas. */
+/* Se a imagem é menor do que o contêiner, ela será mostrada em tamanho original, enquanto se a imagem é maior do que o contêiner, ela será escalada para caber dentro dele. */
+/* Toda a imagem será visível e não haverá distorções */
+
+/* Por tamanho */
+
+/* A porcentagem irá se basear no tamanho da imagem */ 
+background-size: 50%; /* 50% para o eixo X e 'auto' para o Y */
+background-size: 10% 20%; /* 10% para o eixo X e 20%¨para o Y */ 
