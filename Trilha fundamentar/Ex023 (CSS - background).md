@@ -20,7 +20,7 @@ background-color: hsl (45, 100%, 50%);
 ```
 
 </br>
-
+</br>
 </br>
 
 
@@ -43,7 +43,7 @@ background-image: url(./image.png), linear gradient(..);
 ```
 
 </br>
-
+</br>
 </br>
 
 
@@ -84,7 +84,7 @@ background-position: left top;   /* Eixo X para a esquerda, eixo Y para o topo *
 ``` 
 
 </br>
-
+</br>
 </br>
 
 
@@ -123,7 +123,7 @@ background-size: 10% 20%; /* 10% para o eixo X e 20%¨para o Y */
 ```
 
 </br>
-
+</br>
 </br>
 
 
@@ -151,6 +151,7 @@ background-origin: padding-box;
 ```
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-clip">Leia mais sobre</a>
 
+</br>
 
 ## Background-clip
 * Recorta a area que não será utilizada
