@@ -48,7 +48,7 @@ background-image: url(./image.png), linear gradient(..);
 > O eixo Y só trabalha com três valores.: Top, center e bottom. </br>
 >Jamais tente colocar: background-position-x: top; &nbsp;ou&nbsp;  background-position-x: bottom; (pois não irá funcionar). </br>
 
-> Como o primeiro valor se refere ao eixo X e o segundo valor para o eixo Y, por conta disto, os exemplos abaixo não irão funcionar (pois não faz sentido): </br>
+> No shorthand, o primeiro valor se refere ao eixo X e o segundo valor para o eixo Y. Por conta disto, os exemplos abaixo não irão funcionar (pois não fazem sentido): </br>
 > background-position: top left; </br>
 > background-position: bottom right;
 
