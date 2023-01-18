@@ -54,18 +54,20 @@ background-image: url(./image.png), linear gradient(..);
 
 ```css
 /* Para alterar o eixo X (horizontal) */
-background-position-x: center; /* alinha o background do eixo X ao centro */ 
+background-position-x: center; /* alinha o background do eixo X ao centro  */ 
 background-position-x: left;   /* alinha o background do eixo X a esquerda */ 
-background-position-x: 30px;   /* positivo vai para a direita */ 
-background-position-x: -30px;  /* negativo vai para a esquerda */  
+background-position-x: 30px;   /* positivo vai para a direita              */ 
+background-position-x: -30px;  /* negativo vai para a esquerda             */  
 
 
 
 /* Para alterar o eixo Y (vertical) */
-background-position-y: center; /* alinha o background do eixo Y ao centro */ 
-background-position-y: right;  /* alinha o background do eixo Y a direita */ 
-background-position-y: 30px;   /* positivo vai para cima */ 
-background-position-y: -30px;  /* negativo vai para baixo */  
+background-position-y: center;  /* alinha o background do eixo Y ao centro */ 
+background-position-y: top;     /* alinha o background do eixo Y o topo    */ 
+background-position-y: bottom;  /* alinha o background do eixo Y o bottom  */ 
+
+background-position-y: 30px;    /* positivo vai para baixo */ 
+background-position-y: -30px;   /* negativo vai para cima */  
 
 
 
