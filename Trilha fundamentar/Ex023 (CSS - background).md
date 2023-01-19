@@ -213,7 +213,7 @@ background: #000 url(images/bg.gif) no-repeat left top;
 /* OBS.:
    Caso sua shorthand algum valor da propriedade "background-size", é necessário colocar uma barra (/) antes. Por exemplo.: 
    background: #000 url(images/bg.gif) no-repeat left top / cover;
-
+*/
 ```
 
 
