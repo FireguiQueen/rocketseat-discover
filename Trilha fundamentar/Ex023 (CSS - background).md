@@ -195,3 +195,22 @@ background-attchment: fixed;
 ```
 
 
+### Shorthand
+```css
+/* Sem o shorthand */ 
+background-color: #000;
+background-image: url(images/bg.gif);
+background-repeat: no-repeat;
+background-position: left top;
+
+/* Shorthand */ 
+background: #000 url(images/bg.gif) no-repeat left top;
+
+
+/* OBS.:
+   Caso sua shorthand algum valor da propriedade "background-size", é necessário colocar uma barra (/) antes. Por exemplo.: 
+   background: #000 url(images/bg.gif) no-repeat left top / cover;
+
+```
+
+
