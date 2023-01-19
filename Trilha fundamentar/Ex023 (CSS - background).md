@@ -172,3 +172,23 @@ background-clip: padding-box;
 
 /* Recorta todo o background, exceto a parte do background que se encontra no content-box do container */
 background-clip: content-box;
+
+/* Recorta tudo, exceto o background para os textos */
+background-clip: text;
+```
+
+</br>
+</br>
+</br>
+
+
+## Background-attchment 
+* Attchment significa vínculo, ou seja, qual o vínculo que nosso background terá com nossa viewport
+
+```css
+/* Faz com que o background fique fixo. Mesmo você usando o scroll, apenas o conteúdo da página irá se mexer. */
+background-attchment: fixed;
+
+/* Faz com o que o background possua rolagem. É definido por padrão assim */
+background-attchment: scroll; 
+
