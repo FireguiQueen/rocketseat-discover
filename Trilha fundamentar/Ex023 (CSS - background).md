@@ -186,9 +186,12 @@ background-clip: text;
 * Attchment significa vínculo, ou seja, qual o vínculo que nosso background terá com nossa viewport
 
 ```css
-/* Faz com que o background fique fixo. Mesmo você usando o scroll, apenas o conteúdo da página irá se mexer. */
-background-attchment: fixed;
 
 /* Faz com o que o background possua rolagem. É definido por padrão assim */
 background-attchment: scroll; 
+
+
+/* Faz com que o background fique fixo. Mesmo você usando o scroll, apenas o conteúdo da página irá se mexer, o background será fixo. */
+background-attchment: fixed;
+
 
