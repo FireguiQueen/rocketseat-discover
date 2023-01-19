@@ -194,6 +194,9 @@ background-attchment: scroll;
 background-attchment: fixed;
 ```
 
+</br>
+</br>
+
 
 ### Shorthand
 ```css
