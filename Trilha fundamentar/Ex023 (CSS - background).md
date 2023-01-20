@@ -38,7 +38,7 @@ background-image: url(./image.png);  /* Sem aspas, define uma imagem que está s
 background-image: linear-gradient(); /* Define uma cor que vai até a(s) outra(s) em forma de linha */
 background-image: radial-gradient(); /* Define uma cor que vai até a(s) outra(s) em forma de círculo */
 
-/* Fará com que o gradiente comece de baixo vá para cima, ou seja, a cor de baixo será "black", e a de cima "blue" */
+/* Fará com que o gradiente comece de baixo vá para cima, ou seja, a cor de baixo será "black", e de cima "blue" */
 background: linear-gradient(to top, black, blue);
 
 /* Fará com que o gradiente comece de cima e vá para baixo.. Ou seja, a cor de cima será "black", e a de baixo "blue" */ 
@@ -46,11 +46,11 @@ background: linear-gradient(to bottom, black, blue);
 
 
 
-/* Fará com que o gradiente comece da esquerda e vá para a direita.. Ou seja, a cor da esquerda será "black", e a cor da direita será "blue"  */
+/* Fará com que o gradiente comece da esquerda e vá para a direita.. Ou seja, a cor da esquerda será "black", e da direita será "blue"  */
 background: linear-gradient(to right, black, blue);
 
 
-/* Fará com que o gradiente comece da direita e vá para a esquerda.. Ou seja, a cor da direita será "black", e a cor da esquerda será "blue"  */
+/* Fará com que o gradiente comece da direita e vá para a esquerda.. Ou seja, a cor da direita será "black", e da esquerda será "blue"  */
 background: linear-gradient(to left, black, blue);
 
 
