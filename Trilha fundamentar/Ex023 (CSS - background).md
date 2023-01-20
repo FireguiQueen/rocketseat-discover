@@ -71,7 +71,8 @@ background-image: linear-gradient(to top, red, blue 10%);
 /* OBSERVAÇÕES.:
 -> Pode-se usar infintias cores com a função linear/radial-gradient
 -> Você pode usar "degs" invés de palavras chaves "to top, to bottom.." 
--> Radial-gradient NÃO pode trabalhar com palavras chaves ou "degs" "50deg, to top, to left". Mas pode usar porcentagem (%) 
+-> Radial-gradient NÃO pode trabalhar com palavras chaves ou "degs" "50deg, to top, to left". Mas pode usar porcentagem (%)
+/* 
 ```
 
 </br>
