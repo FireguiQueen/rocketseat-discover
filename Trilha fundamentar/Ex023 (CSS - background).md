@@ -45,7 +45,6 @@ background: linear-gradient(to top, black, blue);
 background: linear-gradient(to bottom, black, blue);
 
 
-
 /* Fará com que o gradiente comece da esquerda e vá para a direita.. Ou seja, a cor da esquerda será "black", e da direita será "blue" */
 background: linear-gradient(to right, black, blue);
 
@@ -56,8 +55,22 @@ background: linear-gradient(to left, black, blue);
 
 
 /* Também é possível juntar uma imagem com o linear gradient/radial-gradient */ 
-background-image: linear gradient(..), url(./image.png);
-/* LEMBRE-SE DE SEMPRE COLOCAR O GRADIENT PRIMEIRO, SE NÃO A IMAGEM IRÁ COBRIR TODO O GRADIENT */
+/* Sempre coloque sua imagem primeiro, se não a imagem irá cobrir o gradient */
+background-image: linear-gradient(..), url(./image.png);
+
+
+/* Também é possível usar % no linear/radial-gradient */
+
+
+/* Significa que o vermelho irá começar a partir de 50% da caixa onde o background-image está. E só apartir dos 50% o "gradient blue" irá começar */
+background-image: linear-gradient(to top, red 50%, blue);
+
+/* Significa que o vermelho irá começar a partir de 10% da caixa onde o background-image está. Então haverá muito pouco espaço pro "gradient red" ser trabalhado, tome cuidado */ 
+background-image: linear-gradient(to top, red, blue 10%);
+
+/* OBSERVAÇÕES.:
+-> Pode-se usar infintias cores com a função linear/radial-gradient
+-> Você pode usar "degs" invés de palavras chaves "to top, to bottom.."  
 ```
 
 </br>
