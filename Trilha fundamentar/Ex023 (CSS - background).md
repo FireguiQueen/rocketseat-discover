@@ -46,17 +46,18 @@ background: linear-gradient(to bottom, black, blue);
 
 
 
-/* Fará com que o gradiente comece da esquerda e vá para a direita.. Ou seja, a cor da esquerda será "black", e da direita será "blue"  */
+/* Fará com que o gradiente comece da esquerda e vá para a direita.. Ou seja, a cor da esquerda será "black", e da direita será "blue" */
 background: linear-gradient(to right, black, blue);
 
 
-/* Fará com que o gradiente comece da direita e vá para a esquerda.. Ou seja, a cor da direita será "black", e da esquerda será "blue"  */
+/* Fará com que o gradiente comece da direita e vá para a esquerda.. Ou seja, a cor da direita será "black", e da esquerda será "blue" */
 background: linear-gradient(to left, black, blue);
 
 
 
 /* Também é possível juntar uma imagem com o linear gradient/radial-gradient */ 
-background-image: url(./image.png), linear gradient(..);
+background-image: linear gradient(..), url(./image.png);
+/* LEMBRE-SE DE SEMPRE COLOCAR O GRADIENT PRIMEIRO, SE NÃO A IMAGEM IRÁ COBRIR TODO O GRADIENT */
 ```
 
 </br>
