@@ -31,7 +31,7 @@
 
 
 ## <code>Source</code>
-* O elemento HTML <code>&lt;source&gt;</code> especifica vários recursos de mídia para o elemento <code>&gt;picture&gt;</code>, o audio ou o elemento <code>&lt;video&gt;</code>
+* O elemento HTML <code>&lt;source&gt;</code> especifica vários recursos de mídia para o elemento <code>&lt;picture&gt;</code>, o <code>&lt;audio&gt;</code> ou o elemento <code>&lt;video&gt;</code>
 * É comumente usado para oferecer o mesmo conteúdo de mídia em vários formatos diferentes, a fim de fornecer compatibilidade com uma ampla gama de navegadores, dado o seu suporte diferente para formatos de arquivo de imagem e formatos de arquivo de mídia.
 
 #### Iremos trabalhar com um formato e um vídeo específico
