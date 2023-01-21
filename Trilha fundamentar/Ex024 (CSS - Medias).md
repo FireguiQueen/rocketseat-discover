@@ -12,7 +12,7 @@
 * height (define a altura do vídeo) 
 * controls (permite o usuário "mexer" no vídeo.: som, pausa, minuto do vídeo..)
 * src (diretório onde se encontra o vídeo. Isto é opcional; ao invés disso você pode usar o elemento <code>&lt;source&gt;</code> dentro do bloco do vídeo para especificar o vídeo a ser incorporado)
-* autoplay (fará com que o vídeo comece automaticamente. Quase nenhum browser aceita isto, e caso aceite, você provavelmente terá que fazer uso da tag "muted" junto a "autoplay". Para conseguir fazer o vídeo ser desmutado, adicionar o atributo "controls" ou fazer um botão utilizando JS que desmute o vídeo.
+* autoplay (fará com que o vídeo comece automaticamente. Quase nenhum browser aceita isto, e caso aceite, você provavelmente terá que fazer uso da tag "muted" junto a "autoplay". Para conseguir fazer o vídeo ser desmutado, adicione o atributo "controls" ou faça um botão utilizando JS que desmute o vídeo.
 * muted (vídeo irá ficar mutado; o usuário pode desmutar através do controls ou de um botão de unmute feito pelo javascript)
 * type (importante para dizer qual o tipo de arquivo.. Exemplo: "video/mp4")
 * preload (none: indica que o vídeo não deve ser pré-carregado (não carrega nada sobre o vídeo) ; metadata: indica o browser pegar dados sobre o vídeo, por exemplo sua duração ; auto: indica que o usuário necessita ter prioridade; em outros termos isso indicou que, se necessário, o vídeo inteiro pode ser baixado, mesmo que não seja esperado a reprodução)
