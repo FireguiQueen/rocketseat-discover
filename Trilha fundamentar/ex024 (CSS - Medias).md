@@ -6,7 +6,8 @@
 
 
 ### Atributos
-* loop ()
+* Poster (o que será mostrado enquanto o vídeo não carregar)
+* loop (faz com que seu vídeo se repita após acabar)
 * width (define a largura do vídeo)
 * height (define a altura do vídeo) 
 * controls (permite o usuário "mexer" no vídeo.: som, pausa, minuto do vídeo..)
@@ -29,6 +30,8 @@
 ## <code>Source</code>
 
 * Possui todos os atributos da tag <code>&lt;video&gt;</code>
+* Uso do atributo <code>srcset</code> é obrigatório se o pai do elemento for um elemento <code>&lt;picture&gt;</code>, mas não permitido se o pai do elemento for um elemento <audio> ou <video>.sourcesource
+> É uma lista de uma ou mais cadeias de caracteres, separadas por vírgulas, indicando um conjunto de >imagens possíveis representadas pela origem para o navegador usar. Em outras palavras, você pode defiir que caso a tela do usuário seja até 800px, ele usará determinada imagem.
 * É quase igual utilizar da meneira abaixo.:
 
 #### Só podemos colocar um vídeo
