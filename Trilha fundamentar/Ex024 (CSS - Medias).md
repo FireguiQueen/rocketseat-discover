@@ -14,7 +14,7 @@
 * src (diretório onde se encontra o vídeo. Isto é opcional; ao invés disso você pode usar o elemento <code>&lt;source&gt;</code> dentro do bloco do vídeo para especificar o vídeo a ser incorporado)
 * autoplay (fará com que o vídeo comece automaticamente. Quase nenhum browser aceita isto, e caso aceite, você provavelmente terá que fazer uso da tag "muted" junto a "autoplay". Como solução você pode adicionar o atributo "controls" ou fazer um botão utilizando JS que desmute o vídeo.
 * muted (após adicionado na tag, seu valor é "true", mas você pode alterar colocando: muted="false")
-* type (importante para dizer qual o tipo de arquivo.. ex: ".mp4")
+* type (importante para dizer qual o tipo de arquivo.. Exemplo: "video/mp4")
 
 ### Observações
 
@@ -54,3 +54,5 @@
 ##### Notas importantes
 >Uso do atributo <code>srcset</code> é obrigatório se o pai do elemento for um elemento <code>&lt;>picture&gt;</code>, mas não permitido se o pai do elemento for um elemento <code>&lt;audio&gt;</code> ou <code>&lt;video&gt;</code>.
 > É uma lista de uma ou mais cadeias de caracteres, separadas por vírgulas, indicando um conjunto de >imagens possíveis representadas pela origem para o navegador usar. Em outras palavras, você pode defiir que caso a tela do usuário seja até 800px, ele usará determinada imagem.
+
+> Colocamos o atributo "media" junto ao <code>srcset</code> para podermos trabalhar com a responsividade. Será o atributo <code>media</code> que irá nos dizer até qual tamanho determinada imagem deve ser colocada. 
