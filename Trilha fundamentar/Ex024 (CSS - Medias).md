@@ -65,8 +65,9 @@
 
 ## Áudio
 * src ou a tag <code>&lt;source&gt;</code>
-* controls 
-* type
-* loop
-* autoplay (raramente irá funcionar na maioria dos browsers)
-* muted
+* controls (atributo obrigatório para a maioria dos browsers)
+* type (tipo do áudio.. Exemplo: '.mp4')
+* loop (deixa o áudio em loop)
+* autoplay (fará com o que raramente irá funcionar na maioria dos browsers)
+* muted (deixa o áudio mutado quando começar)
+* preload (none: não carrega nada do áudio ; metadata: carrega informações do áudio como o seu comprimento ; auto: infica que o áudio tem alta propriedade e deve ser baixado assim que abrir a página)
