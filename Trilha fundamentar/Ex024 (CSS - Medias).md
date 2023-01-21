@@ -15,6 +15,7 @@
 * autoplay (fará com que o vídeo comece automaticamente. Quase nenhum browser aceita isto, e caso aceite, você provavelmente terá que fazer uso da tag "muted" junto a "autoplay". Para conseguir fazer o vídeo ser desmutado, adicionar o atributo "controls" ou fazer um botão utilizando JS que desmute o vídeo.
 * muted (após adicionado na tag, seu valor é "true", mas você pode alterar colocando: muted="false")
 * type (importante para dizer qual o tipo de arquivo.. Exemplo: "video/mp4")
+* preload (none: indica que o vídeo não deve ser pré-carregado ; metadata: indica o browser pegar dados sobre o vídeo, por exemplo sua duração ; auto: indica que o usuário necessita ter prioridade; em outros termos isso indicou que, se necessário, o vídeo inteiro pode ser baixado, mesmo que não seja esperado a reprodução)
 
 ### Observações
 
