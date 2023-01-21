@@ -17,10 +17,12 @@
 <video src="./videos/pentakill.mp4" type="video/mp4">
     <p>Este browser não suporta vídeo </p> <!-- Tag que irá aparecer caso o vídeo não seja carregado-->
 </video> 
+```
 
 </br> 
 
 ## <code>Source</code>
+
 * src 
 * type
 
