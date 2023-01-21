@@ -31,7 +31,7 @@
 
 
 ## <code>Source</code>
-
+* O elemento HTML <code>&lt;source&gt;</code> especifica vários recursos de mídia para o elemento <code>&gt;picture&gt;</code>, o audio ou o elemento <code>&lt;video&gt;</code>.
 * Possui todos os atributos da tag <code>&lt;video&gt;</code>
 * É quase igual utilizar da meneira abaixo.:
 
