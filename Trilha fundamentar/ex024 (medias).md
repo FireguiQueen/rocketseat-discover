@@ -2,6 +2,8 @@
 
 
 ## <code>Video</code>
+* Elemento para vídeos que precisam ser baixados, renderizados.. Utiliza-se vídeos que já estão no repositório. 
+
 
 ### Atributos 
 * controls (permite o usuário "mexer" no vídeo.: som, pausa, minuto do vídeo..)
