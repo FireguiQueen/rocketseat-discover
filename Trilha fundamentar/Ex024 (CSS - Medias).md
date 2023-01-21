@@ -30,8 +30,6 @@
 ## <code>Source</code>
 
 * Possui todos os atributos da tag <code>&lt;video&gt;</code>
-* Uso do atributo <code>srcset</code> é obrigatório se o pai do elemento for um elemento <code>&lt;picture&gt;</code>, mas não permitido se o pai do elemento for um elemento <code>&lt;audio&gt;</code> ou <code>&lt;video&gt;</code>.
-> É uma lista de uma ou mais cadeias de caracteres, separadas por vírgulas, indicando um conjunto de >imagens possíveis representadas pela origem para o navegador usar. Em outras palavras, você pode defiir que caso a tela do usuário seja até 800px, ele usará determinada imagem.
 * É quase igual utilizar da meneira abaixo.:
 
 #### Só podemos colocar um vídeo por tag
@@ -50,3 +48,7 @@
     ..
 </video> 
 ```
+
+##### Notas importantes
+>Uso do atributo <code>srcset</code> é obrigatório se o pai do elemento for um elemento <code>&lt;>picture&gt;</code>, mas não permitido se o pai do elemento for um elemento <code>&lt;audio&gt;</code> ou <code>&lt;video&gt;</code>.
+> É uma lista de uma ou mais cadeias de caracteres, separadas por vírgulas, indicando um conjunto de >imagens possíveis representadas pela origem para o navegador usar. Em outras palavras, você pode defiir que caso a tela do usuário seja até 800px, ele usará determinada imagem.
