@@ -6,7 +6,7 @@
 
 
 ### Atributos
-* Poster (o que será mostrado enquanto o vídeo não carregar)
+* Poster (que imagem/gif será mostrado enquanto o vídeo não carrega)
 * loop (faz com que seu vídeo se repita após acabar)
 * width (define a largura do vídeo)
 * height (define a altura do vídeo) 
@@ -15,7 +15,7 @@
 * autoplay (fará com que o vídeo comece automaticamente. Quase nenhum browser aceita isto, e caso aceite, você provavelmente terá que fazer uso da tag "muted" junto a "autoplay". Para conseguir fazer o vídeo ser desmutado, adicionar o atributo "controls" ou fazer um botão utilizando JS que desmute o vídeo.
 * muted (após adicionado na tag, seu valor é "true", mas você pode alterar colocando: muted="false")
 * type (importante para dizer qual o tipo de arquivo.. Exemplo: "video/mp4")
-* preload (none: indica que o vídeo não deve ser pré-carregado ; metadata: indica o browser pegar dados sobre o vídeo, por exemplo sua duração ; auto: indica que o usuário necessita ter prioridade; em outros termos isso indicou que, se necessário, o vídeo inteiro pode ser baixado, mesmo que não seja esperado a reprodução)
+* preload (none: indica que o vídeo não deve ser pré-carregado (não carrega nada sobre o vídeo) ; metadata: indica o browser pegar dados sobre o vídeo, por exemplo sua duração ; auto: indica que o usuário necessita ter prioridade; em outros termos isso indicou que, se necessário, o vídeo inteiro pode ser baixado, mesmo que não seja esperado a reprodução)
 
 ### Observações
 
@@ -56,3 +56,10 @@
 >Uso do atributo <code>srcset</code> é obrigatório se o pai do elemento for um elemento <code>&lt;picture&gt;</code>, mas não permitido se o pai do elemento for um elemento <code>&lt;audio&gt;</code> ou <code>&lt;video&gt;</code>. </br> O srcset é uma lista de uma ou mais cadeias de caracteres, separadas por vírgulas, indicando um conjunto de imagens possíveis representadas pela origem para o navegador usar. Caso você não utilize a tag <code>img</code> dentro da <code>picture</code>, você userá a tarce <code>source</code> e nela será necessário passar o atributo "srcset" para setar a imagem que deseja. 
 
 > Colocamos o atributo "media" junto ao <code>srcset</code> para podermos trabalhar com a responsividade. Será o atributo <code>media</code> que irá nos dizer até qual tamanho determinada imagem deve ser colocada. 
+
+</br> 
+</br> 
+</br> 
+</br> 
+
+## Áudio
