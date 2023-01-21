@@ -31,25 +31,26 @@
 
 
 ## <code>Source</code>
-* O elemento HTML <code>&lt;source&gt;</code> especifica vários recursos de mídia para o elemento <code>&gt;picture&gt;</code>, o audio ou o elemento <code>&lt;video&gt;</code>.
-* É comumente usado para oferecer o mesmo conteúdo de mídia em vários formatos de arquivo, a fim de fornecer compatibilidade com uma ampla gama de navegadores, dado o seu suporte diferente para formatos de arquivo de imagem e formatos de arquivo de mídia.
-* Possui todos os atributos da tag <code>&lt;video&gt;</code>
-* É quase igual utilizar da meneira abaixo.:
+* O elemento HTML <code>&lt;source&gt;</code> especifica vários recursos de mídia para o elemento <code>&gt;picture&gt;</code>, o audio ou o elemento <code>&lt;video&gt;</code>
+* É comumente usado para oferecer o mesmo conteúdo de mídia em vários formatos diferentes, a fim de fornecer compatibilidade com uma ampla gama de navegadores, dado o seu suporte diferente para formatos de arquivo de imagem e formatos de arquivo de mídia.
 
-#### Só podemos colocar um vídeo por tag
+#### Iremos trabalhar com um formato e um vídeo específico
 ```html
 <video src="./videos/pentakill.mp4" type="video/mp4"> 
 
 </video> 
 ```
 
-#### Podemos colocar infinitos vídeos com diferentes atributos
+#### Iremos trabalhar com vários formatos
 ```html
-<video type="video/mp4"> 
-    <source src="./videos/Flor.mp4" muted="true" autoplay>
-    <source src="./videos/Rosa.mp4">
-    <source src="./videos/Flor.mp4" controls="true">
-    ..
+<video muted autoplay> 
+    <source type="video/mp4" src="./videos/Flor.mp4">
+
+    <!-- Caso o browser não consiga renderizar o vídeo acima, este será colocado-->
+    <source type="video/wmv" src="./videos/Flor.wmv">
+
+    <!-- Caso o browser não consiga renderizar o vídeo acima, este será colocado-->
+    <source type="video/flv" src="./videos/Flor.flv">
 </video> 
 ```
 
@@ -64,6 +65,7 @@
 </br> 
 
 ## Áudio
+* tag muito utilizada junto ao JS para fazer controles mais avançados e bonitos
 * src ou a tag <code>&lt;source&gt;</code>
 * controls (atributo obrigatório para a maioria dos browsers)
 * type (tipo do áudio.. Exemplo: '.mp4')
@@ -71,3 +73,19 @@
 * autoplay (fará com o que raramente irá funcionar na maioria dos browsers)
 * muted (deixa o áudio mutado quando começar)
 * preload (none: não carrega nada do áudio ; metadata: carrega informações do áudio como o seu comprimento ; auto: infica que o áudio tem alta propriedade e deve ser baixado assim que abrir a página)
+
+#### Só podemos trabalhar com um formato de vídeo (e caso não renderize, uma tag p será mostrada)
+```html
+<audio src="./videos/miau.mp4" type="audio/mp3">
+    <p>Sorry, your audio cant be loaded </p>
+</audio>
+```
+
+#### Podemos trabalhar com diversos formatos de áudio (e caso não renderize, o browser irá tentar renderizar outro formato de áudio)
+<audio controls>
+    <source src="./videos/papagaio.mp3" loop muted>
+</audio>
+```
+
+
+
