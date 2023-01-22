@@ -89,8 +89,14 @@
 <audio controls>
     <source src="./videos/papagaio.mp3" loop muted>
 </audio>
-```
 
+
+</br>
+</br>
+</br>
+</br>
+
+__________________________________________________________________________________
 
 ## <code>IFRAME</code>
 O elemento HTML <code>&lt;iframe&gt;</code> (ou elemento HTML inline frame) representa um contexto de navegação aninhado, efetivamente incorporando outra página HTML para a página atual.
@@ -116,6 +122,7 @@ O elemento HTML <code>&lt;iframe&gt;</code> (ou elemento HTML inline frame) repr
 </br> 
 </br> 
 
+__________________________________________________________________________________
 
 ## <code>IMG</code>
 O elemento <code>&lt;img&gt;</code> (ou HTML Image Element) representa a inserção de imagem no documento, sendo implementado também pelo HTML5 para uma melhor experiência com o elemento <code>&lt;figure&gt;</code> e <code>&lt;figcaption&gt;</code>.
@@ -174,6 +181,7 @@ Em geral, utilizamos o atributo "title" e "alt" para maior acessibilidade, poré
 </br> 
 </br> 
 
+__________________________________________________________________________________
 
 ## <code>SVG</code>
 Em resumo, utilizamos do SVG para criar imagens extremamente detalhadas.
