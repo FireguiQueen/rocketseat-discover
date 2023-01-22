@@ -112,3 +112,11 @@ O elemento HTML <code>&lt;iframe&gt;</code> (ou elemento HTML inline frame) repr
 </br> 
 </br> 
 
+
+## <code>IMG</code>
+O elemento <code>&lt;img&gt;</code> (ou HTML Image Element) representa a inserção de imagem no documento, sendo implementado também pelo HTML5 para uma melhor experiência com o elemento <code>&lt;figure&gt;</code> e <code>&lt;figcaption&gt;</code>.
+
+### Atributos
+* src (onde se encontra o caminho para a imagem: pode ser da web ou do seu repositório)
+
+
