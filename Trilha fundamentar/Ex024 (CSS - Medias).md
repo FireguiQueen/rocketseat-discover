@@ -199,7 +199,7 @@ A imagem rasterizada é aquela imagem feita por pixel.
 Você pode ver isto abrindo o paint do seu computador e habilitando a opção "grid", você verá diversas
 linhas horizontas e vertificais, e o quadrado feito por isso são os pixeis.
 Uma imagem rasterizada pode funcionar como logotipo caso seja usada em somente um local e as dimensões sejam sempre as mesmas, como em um cartão de visita. Caso o logotipo precise ser redimensionado para outros usos impressos ou online (por exemplo, páginas da Web), um arquivo vetorial seria mais adequado, pois ele não perde a resolução. 
-* PNG, JPG, JPEG, GIF.. 
+> PNG, JPG, JPEG, GIF.. 
 
 ##### Vantagens
 * Atenção ao detalhe
@@ -223,7 +223,7 @@ Um arquivo rasterizado pode incluir milhões de pixels. Embora isso crie uma ima
 
 ### Imagem vetorizada
 Os vetores são formas que tem suas informações de cor, dimensões, linhas e curvas armazenadas em equações. Essas equações são traduzidas para desenhos e podem ter sua forma, cor ou tamanho alterados sem agredir sua resolução, pois não são formados por pixels.
-* SVG.. 
+> SVG 
 
 ##### Vantagens
 * Acessibilidade
