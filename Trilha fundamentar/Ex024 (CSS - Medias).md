@@ -2,7 +2,7 @@
 
 
 ## <code>VIDEO</code>
-* Elemento para vídeos que precisam ser baixados, renderizados.. Utiliza-se vídeos que já estão no repositório. 
+* Utilizado para incorporar conteúdo de vídeo (salvo no repositório) em um documento HTML ou XHTML.
 
 
 ### Atributos
