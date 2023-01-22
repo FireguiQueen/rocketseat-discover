@@ -116,7 +116,22 @@ O elemento HTML <code>&lt;iframe&gt;</code> (ou elemento HTML inline frame) repr
 ## <code>IMG</code>
 O elemento <code>&lt;img&gt;</code> (ou HTML Image Element) representa a inserção de imagem no documento, sendo implementado também pelo HTML5 para uma melhor experiência com o elemento <code>&lt;figure&gt;</code> e <code>&lt;figcaption&gt;</code>.
 
+
 ### Atributos
 * src (onde se encontra o caminho para a imagem: pode ser da web ou do seu repositório)
+* alt (o que será mostrado caso a imagem não carregue ; utilizado também para acessilibidade, por exemplo se sua imagem for de um urso, tente colocar <code>alt="Imagem de urso"</code>)
+* title (título da imagem, quando o mouse descansar por cima o título será mostrado)
+* height (definir o altura da imagem)
+* width (definar a largura da imagem)
 
+#### Nortas importantes
+> É uma tag self-closing, ou seja, você não pode colocar <code>&lt;img&gt;</code> para fechar a tag
+
+```html
+<!-- Usando imagem online -->
+<img src="https://imgur.com/t/beans/yqgbl46" alt="Dog's image"/>
+
+<!-- Imagem do diretório -->
+<img src="./images/cavalos/cavaloPreto.png" alt="Black horse's image" />
+```
 
