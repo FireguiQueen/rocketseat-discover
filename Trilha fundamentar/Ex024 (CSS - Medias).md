@@ -90,6 +90,10 @@
 
 ## Iframe
 
-
-
+### Atributos 
+* src (onde o conteúdo externo se encontra)
+* height (altura do conteúdo)
+* width (largura do conteúdo)
+* title (pra acessibilidade)
+* allowfullscreen
 
