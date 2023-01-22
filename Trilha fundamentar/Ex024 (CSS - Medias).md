@@ -68,7 +68,9 @@
 </br> 
 </br> 
 
-## <code>&lt;Áudio&gt;</code>
+__________________________________________________________________________________
+
+## <code>&lt;AUDIO&gt;</code>
 * tag muito utilizada junto ao JS para fazer controles mais avançados e bonitos
 * src ou a tag <code>&lt;source&gt;</code>
 * controls (atributo obrigatório para a maioria dos browsers)
