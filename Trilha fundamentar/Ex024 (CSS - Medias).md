@@ -184,7 +184,7 @@ Sendo um formato para gráficos vetoriais, imagens SVG podem ser redimensionadas
 ### Imagem rasterizada & imagem vetorizada
 
 
-#### Imagem rasterizada
+### Imagem rasterizada
 A imagem rasterizada é aquela imagem feita por pixel. 
 Você pode ver isto abrindo o paint do seu computador e habilitando a opção "grid", você verá diversas
 linhas horizontas e vertificais, e o quadrado feito por isso são os pixeis.
@@ -209,8 +209,9 @@ Diferentemente de imagens vetoriais, arquivos rasterizados não mantêm a resolu
 Um arquivo rasterizado pode incluir milhões de pixels. Embora isso crie uma imagem altamente detalhada, também aumenta o tamanho e o tempo de carregamento do arquivo.
  
 </br>
+</br>
 
-#### Imagem vetorizada
+### Imagem vetorizada
 Os vetores são formas que tem suas informações de cor, dimensões, linhas e curvas armazenadas em equações. Essas equações são traduzidas para desenhos e podem ter sua forma, cor ou tamanho alterados sem agredir sua resolução, pois não são formados por pixels.
 * SVG.. 
 
@@ -228,4 +229,3 @@ Pode ser mais difícil e complexo criar imagens vetorizadas, mas para isto você
  
 
 
-##### Desvantagens 
