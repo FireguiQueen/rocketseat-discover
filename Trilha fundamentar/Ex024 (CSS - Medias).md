@@ -193,7 +193,6 @@ Sendo um formato para gráficos vetoriais, imagens SVG podem ser redimensionadas
 
 ### Imagem rasterizada & imagem vetorizada
 
-
 ### Imagem rasterizada
 A imagem rasterizada é aquela imagem feita por pixel. 
 Você pode ver isto abrindo o paint do seu computador e habilitando a opção "grid", você verá diversas
@@ -201,7 +200,7 @@ linhas horizontas e vertificais, e o quadrado feito por isso são os pixeis.
 Uma imagem rasterizada pode funcionar como logotipo caso seja usada em somente um local e as dimensões sejam sempre as mesmas, como em um cartão de visita. Caso o logotipo precise ser redimensionado para outros usos impressos ou online (por exemplo, páginas da Web), um arquivo vetorial seria mais adequado, pois ele não perde a resolução. 
 > PNG, JPG, JPEG, GIF.. 
 
-##### Vantagens
+#### Vantagens
 * Atenção ao detalhe:
 Quando exibidos nas dimensões corretas, arquivos rasterizados podem mostrar todos os mínimos detalhes e cores presentes em fotos de alta resolução. Quanto mais pixels um arquivo tiver, maior será a qualidade da imagem.
  
@@ -211,7 +210,7 @@ Você pode alterar individualmente cada pixel ao editar uma imagem ou uma foto r
 * Amplamente compatível:
 Arquivos rasterizados podem ser abertos em diferentes programas e navegadores, facilitando a exibição, a edição e o compartilhamento das suas imagens.
 
-##### Desvantagens 
+#### Desvantagens 
 * Resolução limitada:
 Diferentemente de imagens vetoriais, arquivos rasterizados não mantêm a resolução quando redimensionados. Suas cores e detalhes podem sofrer distorção quando ampliados, reduzindo as maneiras como as imagens podem ser usadas.
  
@@ -220,12 +219,13 @@ Um arquivo rasterizado pode incluir milhões de pixels. Embora isso crie uma ima
  
 </br>
 </br>
+</br>
 
 ### Imagem vetorizada
 Os vetores são formas que tem suas informações de cor, dimensões, linhas e curvas armazenadas em equações. Essas equações são traduzidas para desenhos e podem ter sua forma, cor ou tamanho alterados sem agredir sua resolução, pois não são formados por pixels.
 > SVG 
 
-##### Vantagens
+#### Vantagens
 * Acessibilidade: 
 Dispoisitivos com resoluções diversas podem ver a imagem gerada da mesma maneira com a mesma qualidade 
 
@@ -233,7 +233,7 @@ Dispoisitivos com resoluções diversas podem ver a imagem gerada da mesma manei
 Maior acessilibidade: 
 para o SEO da página pois o conteúdo gerado é feito por código e cálculos.
 
-##### Desvantagens
+#### Desvantagens
 * Dificuldade:
 Pode ser mais difícil e complexo criar imagens vetorizadas, mas para isto você pode uar ferramentas como o figma por exemplo.
 
