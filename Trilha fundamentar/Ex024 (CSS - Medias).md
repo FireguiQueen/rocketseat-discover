@@ -121,9 +121,30 @@ Em geral, utilizamos o atributo "title" e "alt" para maior acessibilidade, poré
 ```html
 <figure>
     <img src="./images/foguete.png" alt="Rocket's image">
-    <figcaption>Foguete dando ré em uma imagem </figcaption>
+    <figcaption>Foguete dando ré</figcaption>
 <figure>
 ```
+
+* Também podemos usar do <code>figure</code> e <code>figcaption</code> para dar títulos a outras coisas além de imagens
+```html
+<figure>
+    <figcaption>Function expression & arrow</figcaption>
+    <pre>
+        <code>
+            const soma = (n1, n2) => console.log(n1 + n2);
+            soma(1, 3);
+        </code>
+    </pre>
+<figure>
+```
+
+```html
+<figure>
+    <figcaption>Voltaire</figcaption>
+    <q> Posso não concordar com o que você diz, mas defenderei até a morte o seu direito de dizê-lo</q>
+<figure>
+```
+
 
 ### Atributos
 * src (onde se encontra o caminho para a imagem: pode ser da web ou do seu repositório)
