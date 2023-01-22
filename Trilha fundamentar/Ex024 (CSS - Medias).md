@@ -229,8 +229,7 @@ Os vetores são formas que tem suas informações de cor, dimensões, linhas e c
 * __Acessibilidade:__ 
 _dispoisitivos com resoluções diversas podem ver a imagem gerada da mesma maneira com a mesma qualidade_
 
-* Web
-__Maior acessilibidade:__ 
+* __Web:__ 
 _ajuda o SEO da página pois o conteúdo gerado é feito por código e cálculos e não uma imagem já feita através de pixels._
 
 #### Desvantagens
