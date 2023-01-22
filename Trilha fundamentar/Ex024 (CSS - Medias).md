@@ -236,6 +236,51 @@ _ajuda o SEO da página pois o conteúdo gerado é feito por código e cálculos
 * __Dificuldade:__
 _Pode ser mais difícil e complexo criar imagens vetorizadas, mas para isto você pode uar ferramentas como o figma por exemplo._
 
+
+## Fazendo o próprio SVG
+A desvantagem de criar seu próprio SVG dentro do arquivo .html é.:
+<ol>
+    <li>Leva tempo</li>
+    <li>"Suja" seu código do HTML </li>
+    <li>Não irá ficar salvo no cache do usuário </li>
+</ol>
+
+A vantagem é.:
+<ol>
+    <li>Tempo de resposta mais rápido, pois não é algo externo</li>
+    <li>Mais fácil para se fazer alterações </li>
+</ol>
+
+* Mas em geral é recomendado fazer seu SVG utilizando ferramentas como o figma, e depois copiar o código que o figma nos dá e colocar num arquivo ".svg"
+
+### Círculo
+```html
+<svg width="100" height="100" style="background: red;">
+    <circle cx="50" cy="100" r="41" stroke="green" stroke-width="4" fill="yellow" /> 
+</svg>
+<!--
+width: define a largura que será mostrada (recomendo utilizar um background color para ver como funciona)
+height: define a altura que será mostrada (recomendo utilizar um background color para ver como funciona)
+! ESTES ATRIBUTOS ACIMA NÃO IRÃO INTERFERIR NO TAMANHO DO SVG, APENAS DO SEU PLANO DE FUNDO
+
+Tag circle: para se criar um círculo
+cx: posição do círculo no eixo X dentro da width definida pela tag SVG
+cy = posição do círculo no eixo Y dentro da height definida pela tag SVG
+r = radius
+stroke: cor da borda do SVG
+stroke-width: espessura da borda do SVG
+fill: qual cor irá ser o SVG
+-->
+```
+
+### Retângulo 
+```html
+<svg width="100" height="100">
+    <rect cx="50" cy="100" height="100px" 
+    width="100" stroke="green" stroke-width="4" fill="yellow"/>  
+</svg>
+<!-- Neste caso a width e height alteram o tamanho do quadrado/retângulo, mas não podem ser usado na tag <circle>. Mas lembre-se, a width e a height que estão na tag SVG não irão alterar o tamanho da imagem vetorizada, o height e a width que estão na tag de criação da figura geométrica (<rect>) que vão alterar o tamanho. 
+```
  
 
 
