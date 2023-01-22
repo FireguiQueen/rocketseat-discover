@@ -117,7 +117,7 @@ O elemento HTML <code>&lt;iframe&gt;</code> (ou elemento HTML inline frame) repr
 O elemento <code>&lt;img&gt;</code> (ou HTML Image Element) representa a inserção de imagem no documento, sendo implementado também pelo HTML5 para uma melhor experiência com o elemento <code>&lt;figure&gt;</code> e <code>&lt;figcaption&gt;</code>.
 
 ### Dando título a imagem 
-O elemento <code>&lt;figure&gt;</code> HTML representa conteúdo autocontido, potencialmente com uma legenda opcional, que é especificada usando o elemento <code>&lt;figcaption&gt;</code>. A figura, sua legenda e seu conteúdo são referenciados como uma única unidade, sendo assim, a imagem e a sua legenda feita pelo <code>&lt;figcaption&gt;</code> devem estar dentro do elemento <code>&lt;figure&gt;</code>.
+Em geral, utilizamos o atributo "title" e "alt" para maior acessibilidade, porém, caso seja necessário definir VISUALMENTE o título da imagem, você deve usar os elementos.: <code>&lt;figure&gt;</code> e <code>&lt;figcaption&gt;</code>. O elemento <code>&lt;figure&gt;</code> HTML representa conteúdo autocontido, potencialmente com uma legenda opcional, que é especificada usando o elemento <code>&lt;figcaption&gt;</code>. A figura, sua legenda e seu conteúdo são referenciados como uma única unidade, sendo assim, a imagem e a sua legenda feita pelo <code>&lt;figcaption&gt;</code> devem estar dentro do elemento <code>&lt;figure&gt;</code>.
 ```html
 <figure>
     <img src="./images/foguete.png" alt="Rocket's image">
