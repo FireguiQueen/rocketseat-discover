@@ -169,4 +169,60 @@ Em geral, utilizamos o atributo "title" e "alt" para maior acessibilidade, poré
 <img src="./images/cavalos/cavaloPreto.png" alt="Black horse's image" />
 ```
 
+</br> 
+</br> 
+</br> 
+</br> 
 
+
+## <code>SVG</code>
+Em resumo, utilizamos do SVG para criar imagens extremamente detalhadas.
+Gráficos Vetoriais Escaláveis (SVG) é uma linguagem de marcação XML para descrever gráficos vetoriais bidimensionais. Essencialmente, SVG é para gráficos o que o XHTML é para texto.
+Sendo um formato para gráficos vetoriais, imagens SVG podem ser redimensionadas infinitamente, tendo um valor inestimável em design responsivo (en-US), já que você pode criar elementos de interface e gráficos que se comportam bem em qualquer tamanho de tela. SVG também traz um conjunto de funcionalidades úteis, como clipping, máscaras, filtros e animações.
+
+
+### Imagem rasterizada & imagem vetorizada
+
+
+#### Imagem rasterizada
+A imagem rasterizada é aquela imagem feita por pixel. 
+Você pode ver isto abrindo o paint do seu computador e habilitando a opção "grid", você verá diversas
+linhas horizontas e vertificais, e o quadrado feito por isso são os pixeis.
+Uma imagem rasterizada pode funcionar como logotipo caso seja usada em somente um local e as dimensões sejam sempre as mesmas, como em um cartão de visita. Caso o logotipo precise ser redimensionado para outros usos impressos ou online (por exemplo, páginas da Web), um arquivo vetorial seria mais adequado, pois ele não perde a resolução. 
+* PNG, JPG, JPEG, GIF.. 
+
+##### Vantagens
+* Atenção ao detalhe
+Quando exibidos nas dimensões corretas, arquivos rasterizados podem mostrar todos os mínimos detalhes e cores presentes em fotos de alta resolução. Quanto mais pixels um arquivo tiver, maior será a qualidade da imagem.
+ 
+* Edição precisa
+Você pode alterar individualmente cada pixel ao editar uma imagem ou uma foto rasterizada. Isso permite aprimorar e ajustar a imagem conforme suas necessidades.
+
+* Amplamente compatível
+Arquivos rasterizados podem ser abertos em diferentes programas e navegadores, facilitando a exibição, a edição e o compartilhamento das suas imagens.
+
+##### Desvantagens 
+* Resolução limitada
+Diferentemente de imagens vetoriais, arquivos rasterizados não mantêm a resolução quando redimensionados. Suas cores e detalhes podem sofrer distorção quando ampliados, reduzindo as maneiras como as imagens podem ser usadas.
+ 
+* Tamanhos de arquivo maiores
+Um arquivo rasterizado pode incluir milhões de pixels. Embora isso crie uma imagem altamente detalhada, também aumenta o tamanho e o tempo de carregamento do arquivo.
+ 
+</br>
+
+#### Imagem vetorizada
+Os vetores são formas que tem suas informações de cor, dimensões, linhas e curvas armazenadas em equações. Essas equações são traduzidas para desenhos e podem ter sua forma, cor ou tamanho alterados sem agredir sua resolução, pois não são formados por pixels.
+* SVG.. 
+
+##### Vantagens
+* Acessibilidade
+Dispoisitivos com resoluções diversas podem ver a imagem gerada da mesma maneira com a mesma qualidade 
+
+* Web
+Maior acessilibidade para o SEO da página pois o conteúdo gerado é feito por código e cálculos.
+
+
+ 
+
+
+##### Desvantagens 
