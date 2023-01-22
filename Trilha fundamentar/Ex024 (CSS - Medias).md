@@ -96,7 +96,19 @@ O elemento HTML <code>&lt;iframe&gt;</code> (ou elemento HTML inline frame) repr
 * height (altura do conteúdo)
 * width (largura do conteúdo)
 * title (pra acessibilidade)
-* allowfullscreen (permitir full screen se for um vídeo do youtube)
-* 
+* allowfullscreen (permitir full screen se for um vídeo do youtube por exemplo)
 
+#### Notas imporantes
+> Lembre-se, o iframe é uma tag que se "comunica" com o site externo. Ou seja, não é só pegar a URL de uma foto/vídeo que e o iframe irá colocar no seu site. É necessário que o site que você está pegando a foto/vídeo possua suporte a esta tag. Então é importante se lembrar que, caso você queira pegar um conteúdo externo, vá no site que deseja pegar e procure onde você pode copiar o código do iframe dele. O Youtube da esta opção no botão de compartilhamento, a mesma coisa vale para o imgur e Google maps por exemplo.
+
+```html
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2191.0428008580243!2d-44.067306417406805!3d-22.54616476857401!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1674363002459!5m2!1spt-BR!2sbr" width="50%" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+```
+
+
+</br> 
+</br> 
+</br> 
+</br> 
 
