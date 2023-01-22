@@ -34,23 +34,27 @@
 * O elemento HTML <code>&lt;source&gt;</code> especifica vários recursos de mídia para o elemento <code>&lt;picture&gt;</code>, o <code>&lt;audio&gt;</code> ou o elemento <code>&lt;video&gt;</code>
 * É comumente usado para oferecer o mesmo conteúdo de mídia em vários formatos diferentes, a fim de fornecer compatibilidade com uma ampla gama de navegadores, dado o seu suporte diferente para formatos de arquivo de imagem e formatos de arquivo de mídia.
 
-#### Iremos trabalhar com um formato e um vídeo específico
+#### Iremos trabalhar com um formato específico
 ```html
 <video src="./videos/pentakill.mp4" type="video/mp4"> 
 
 </video> 
 ```
 
-#### Iremos trabalhar com vários formatos
+#### Iremos trabalhar com vários formatos (caso o usuário não consiga ver o primeiro)
 ```html
 <video muted autoplay> 
-    <source type="video/mp4" src="./videos/Flor.mp4">
+    <source type="video/mp4" src="./videos/pentakill.mp4">
 
-    <!-- Caso o browser não consiga renderizar o vídeo acima, este será colocado-->
-    <source type="video/wmv" src="./videos/Flor.wmv">
+    <!-- Caso o browser não consiga renderizar o vídeo acima, este será colocado -->
+    <source type="video/wmv" src="./videos/pentakill.wmv">
 
-    <!-- Caso o browser não consiga renderizar o vídeo acima, este será colocado-->
-    <source type="video/flv" src="./videos/Flor.flv">
+
+    <!-- Caso o browser não consiga renderizar o vídeo acima, este será colocado -->
+    <source type="video/flv" src="./videos/pentakill.flv">
+
+    <!-- Caso o browser não consiga renderizar nenhum vídeo acima -->
+    <p>Seu browser não suporte nenhum formato de vídeo :( </p>
 </video> 
 ```
 
