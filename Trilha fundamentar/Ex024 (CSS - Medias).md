@@ -221,6 +221,9 @@ Dispoisitivos com resoluções diversas podem ver a imagem gerada da mesma manei
 * Web
 Maior acessilibidade para o SEO da página pois o conteúdo gerado é feito por código e cálculos.
 
+##### Desvantagens
+* Dificuldade
+Pode ser mais difícil e complexo criar imagens vetorizadas, mas para isto você pode uar ferramentas como o figma por exemplo.
 
  
 
