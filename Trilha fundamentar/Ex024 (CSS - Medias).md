@@ -201,21 +201,21 @@ Uma imagem rasterizada pode funcionar como logotipo caso seja usada em somente u
 > PNG, JPG, JPEG, GIF.. 
 
 #### Vantagens
-* Atenção ao detalhe:
-Quando exibidos nas dimensões corretas, arquivos rasterizados podem mostrar todos os mínimos detalhes e cores presentes em fotos de alta resolução. Quanto mais pixels um arquivo tiver, maior será a qualidade da imagem.
+* __Atenção ao detalhe:__
+_Quando exibidos nas dimensões corretas, arquivos rasterizados podem mostrar todos os mínimos detalhes e cores presentes em fotos de alta resolução. Quanto mais pixels um arquivo tiver, maior será a qualidade da imagem._
  
-* Edição precisa:
-Você pode alterar individualmente cada pixel ao editar uma imagem ou uma foto rasterizada. Isso permite aprimorar e ajustar a imagem conforme suas necessidades.
+* __Edição precisa:__
+_Você pode alterar individualmente cada pixel ao editar uma imagem ou uma foto rasterizada. Isso permite aprimorar e ajustar a imagem conforme suas necessidades._
 
-* Amplamente compatível:
-Arquivos rasterizados podem ser abertos em diferentes programas e navegadores, facilitando a exibição, a edição e o compartilhamento das suas imagens.
+* __Amplamente compatível:__
+_Arquivos rasterizados podem ser abertos em diferentes programas e navegadores, facilitando a exibição, a edição e o compartilhamento das suas imagens._
 
 #### Desvantagens 
-* Resolução limitada:
-Diferentemente de imagens vetoriais, arquivos rasterizados não mantêm a resolução quando redimensionados. Suas cores e detalhes podem sofrer distorção quando ampliados, reduzindo as maneiras como as imagens podem ser usadas.
+* __Resolução limitada:__
+_Diferentemente de imagens vetoriais, arquivos rasterizados não mantêm a resolução quando redimensionados. Suas cores e detalhes podem sofrer distorção quando ampliados, reduzindo as maneiras como as imagens podem ser usadas._
  
-* Tamanhos de arquivo maiores
-Um arquivo rasterizado pode incluir milhões de pixels. Embora isso crie uma imagem altamente detalhada, também aumenta o tamanho e o tempo de carregamento do arquivo.
+* __Tamanhos de arquivo maiores__
+_Um arquivo rasterizado pode incluir milhões de pixels. Embora isso crie uma imagem altamente detalhada, também aumenta o tamanho e o tempo de carregamento do arquivo._
  
 </br>
 </br>
@@ -226,16 +226,16 @@ Os vetores são formas que tem suas informações de cor, dimensões, linhas e c
 > SVG 
 
 #### Vantagens
-* Acessibilidade: 
-Dispoisitivos com resoluções diversas podem ver a imagem gerada da mesma maneira com a mesma qualidade 
+* __Acessibilidade:__ 
+_dispoisitivos com resoluções diversas podem ver a imagem gerada da mesma maneira com a mesma qualidade_
 
 * Web
-Maior acessilibidade: 
-para o SEO da página pois o conteúdo gerado é feito por código e cálculos.
+__Maior acessilibidade:__ 
+_ajuda o SEO da página pois o conteúdo gerado é feito por código e cálculos e não uma imagem já feita através de pixels._
 
 #### Desvantagens
-* Dificuldade:
-Pode ser mais difícil e complexo criar imagens vetorizadas, mas para isto você pode uar ferramentas como o figma por exemplo.
+* __Dificuldade:__
+_Pode ser mais difícil e complexo criar imagens vetorizadas, mas para isto você pode uar ferramentas como o figma por exemplo._
 
  
 
