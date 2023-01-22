@@ -34,6 +34,11 @@
 * O elemento HTML <code>&lt;source&gt;</code> especifica vários recursos de mídia para o elemento <code>&lt;picture&gt;</code>, o <code>&lt;audio&gt;</code> ou o elemento <code>&lt;video&gt;</code>
 * É comumente usado para oferecer o mesmo conteúdo de mídia em vários formatos diferentes, a fim de fornecer compatibilidade com uma ampla gama de navegadores, dado o seu suporte diferente para formatos de arquivo de imagem e formatos de arquivo de mídia.
 
+##### Notas importantes
+>Uso do atributo <code>srcset</code> é obrigatório se o pai do elemento for um elemento <code>&lt;picture&gt;</code>, mas não permitido se o pai do elemento for um elemento <code>&lt;audio&gt;</code> ou <code>&lt;video&gt;</code>. </br> O srcset é uma lista de uma ou mais cadeias de caracteres, separadas por vírgulas, indicando um conjunto de imagens possíveis representadas pela origem para o navegador usar. Caso você utilize a tag <code>picture</code>, você usará a <code>source</code> dentro dela, e nela será necessário passar o atributo "srcset" para setar a imagem que deseja. 
+
+> Colocamos o atributo "media" junto ao <code>srcset</code> para podermos trabalhar com a responsividade. Será o atributo <code>media</code> que irá nos dizer até qual tamanho determinada imagem deve ser colocada. 
+
 #### Iremos trabalhar com um formato específico
 ```html
 <video src="./videos/pentakill.mp4" type="video/mp4"> 
@@ -57,11 +62,6 @@
     <p>Seu browser não suporte nenhum formato de vídeo :( </p>
 </video> 
 ```
-
-##### Notas importantes
->Uso do atributo <code>srcset</code> é obrigatório se o pai do elemento for um elemento <code>&lt;picture&gt;</code>, mas não permitido se o pai do elemento for um elemento <code>&lt;audio&gt;</code> ou <code>&lt;video&gt;</code>. </br> O srcset é uma lista de uma ou mais cadeias de caracteres, separadas por vírgulas, indicando um conjunto de imagens possíveis representadas pela origem para o navegador usar. Caso você não utilize a tag <code>img</code> dentro da <code>picture</code>, você userá a tarce <code>source</code> e nela será necessário passar o atributo "srcset" para setar a imagem que deseja. 
-
-> Colocamos o atributo "media" junto ao <code>srcset</code> para podermos trabalhar com a responsividade. Será o atributo <code>media</code> que irá nos dizer até qual tamanho determinada imagem deve ser colocada. 
 
 </br> 
 </br> 
@@ -122,6 +122,7 @@ O elemento <code>&lt;img&gt;</code> (ou HTML Image Element) representa a inserç
 
 ### Dando título a imagem 
 Em geral, utilizamos o atributo "title" e "alt" para maior acessibilidade, porém, caso seja necessário definir VISUALMENTE o título da imagem, você deve usar os elementos.: <code>&lt;figure&gt;</code> e <code>&lt;figcaption&gt;</code>. O elemento <code>&lt;figure&gt;</code> HTML representa conteúdo autocontido, potencialmente com uma legenda opcional, que é especificada usando o elemento <code>&lt;figcaption&gt;</code>. A figura, sua legenda e seu conteúdo são referenciados como uma única unidade, sendo assim, a imagem e a sua legenda feita pelo <code>&lt;figcaption&gt;</code> devem estar dentro do elemento <code>&lt;figure&gt;</code>.
+
 ```html
 <figure>
     <img src="./images/foguete.png" alt="Rocket's image">
