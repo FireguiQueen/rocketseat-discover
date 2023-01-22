@@ -1,7 +1,7 @@
 # Media
 
 
-## <code>Video</code>
+## <code>VIDEO</code>
 * Elemento para vídeos que precisam ser baixados, renderizados.. Utiliza-se vídeos que já estão no repositório. 
 
 
@@ -30,7 +30,7 @@
 </br> 
 
 
-## <code>Source</code>
+## <code>SOURCE</code>
 * O elemento HTML <code>&lt;source&gt;</code> especifica vários recursos de mídia para o elemento <code>&lt;picture&gt;</code>, o <code>&lt;audio&gt;</code> ou o elemento <code>&lt;video&gt;</code>
 * É comumente usado para oferecer o mesmo conteúdo de mídia em vários formatos diferentes, a fim de fornecer compatibilidade com uma ampla gama de navegadores, dado o seu suporte diferente para formatos de arquivo de imagem e formatos de arquivo de mídia.
 
@@ -88,12 +88,15 @@
 ```
 
 
-## Iframe
+## <code>IFRAME</code>
+O elemento HTML <code>&lt;iframe&gt;</code> (ou elemento HTML inline frame) representa um contexto de navegação aninhado, efetivamente incorporando outra página HTML para a página atual.
 
 ### Atributos 
 * src (onde o conteúdo externo se encontra)
 * height (altura do conteúdo)
 * width (largura do conteúdo)
 * title (pra acessibilidade)
-* allowfullscreen
+* allowfullscreen (permitir full screen se for um vídeo do youtube)
+* 
+
 
