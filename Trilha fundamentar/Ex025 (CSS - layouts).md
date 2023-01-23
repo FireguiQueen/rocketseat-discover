@@ -16,3 +16,15 @@ O position altera o fluxo normal dos elementos (fluxo normal seria um embaixo do
 
 - __Name:__ _position_
 - __Value:__ _static | relative | absolute | fixed_ 
+
+
+### Static
+Static é o valor padrão, significa que os elementos irão seguir o fluxo normal.
+Como já foi dito acima, o fluxo normal nada mais é do que a posição normal dos elementos.
+Em outras palavras, se no HTML você colocar:
+```html
+<h1>Peixe boi</h1>
+<h2>baba boi</h2>
+```
+significa que esta ordem será respeitada, e o elemento <code>&lt;h2&gt;</code> estará embaixo do 
+<code>&lt;h1&gt;</code>.
