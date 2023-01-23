@@ -1,10 +1,24 @@
 <style> 
+    body{
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    section{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: fit-content;
+        gap: 10px;
+        border: 1px solid red;
+        flex-direction: reverse;
+    }
     .square{
-        position: absolute; 
-        top: 0;
-        left: 0;
         width: 50px;
-        height: 50px; 
+        height: 50px;
     }
     .box1{
         background-color: red;
@@ -12,6 +26,12 @@
     }
     .box2{
         background-color: green;
+    }
+    .box3{
+        background-color: hsl(62, 100%, 50%);
+    }
+    .box4{
+        background-color: hsl(238, 100%, 50%);
     }
 </style>
 
@@ -21,5 +41,7 @@
     <section>
         <div class="square box1"> </div>
         <div class="square box2"> </div>
+        <div class="square box3"> </div>
+        <div class="square box4"> </div>
     </section>
 </body>

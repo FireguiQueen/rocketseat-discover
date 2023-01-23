@@ -129,8 +129,8 @@ Define a direção da nossa flexibilidade. Por padrão, será row.. Ou seja, ass
 * __column:__ _column | column-reverse_  
 
 #### Alinhamento dos eixos
-* __justify-content:__  space-between | flex-start | space-around| center | flex-end
-* align-items: flex-start | center | flex-end 
+* __justify-content:__  _space-between | flex-start | space-around| center | flex-end_
+* __align-items:__ _space-between | flex-start | space-around| center | flex-end_
 
 > space-between: espaço entre elementos, sempre que houver 2 elementos, haverá um espaço entre eles. Como a última caixa e a primeira não possuem outros elementos ao lado, elas não terão espaço no inicio.
 
@@ -141,4 +141,15 @@ Define a direção da nossa flexibilidade. Por padrão, será row.. Ou seja, ass
 > center: faz com que os elementos sejam centralizados ao centro da caixa onde o display flex foi aplicado 
 
 > flex-end: faz com que os elementos comecem ao final do eixo X do elemento onde o display flex foi aplicado 
+
+#### Espaçamento
+Cria um espaço entre os elementos, pode ser aplicado ao flex-direction row e ao column e elementos individuais
+* gap: `length` 
+
+
+#### Notas importantes
+Quando alteramos o flex-direction, é importante lembrar que as propriedades "align-items" e "justify-content" irão se alterar. 
+Quando alteremos o flex-direction para reverse, também alteramos as propreidades do justify-content. Ou seja, caso você coloque "flex-start" e com "row-reverse", os seus elementos começaram ao flex-end, pois é o reverso. Mas você só verá isto caso o tamanho da sua caixa que agrupa os elementos não seja fit-content.
+
+
 
