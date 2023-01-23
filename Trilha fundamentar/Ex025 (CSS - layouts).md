@@ -30,3 +30,31 @@ significa que esta ordem será respeitada, e o elemento <code>&lt;h2&gt;</code> 
 <code>&lt;h1&gt;</code>.
 
 > Lembre-se que isto se aplica também a elementos "inline", porém, com elementos inline, os containers ficaram um ao lado do outro, então se tivessemos usado a tag <code>&lt;a&gt;</code> primeiro e a tag <code>&lt;q&gt;</code> em segundo, em nossa página iriamos ver a tag <code>&lt;a&gt;</code> primeira, e ao seu lado a tag <code>&lt;q&gt;</code>. 
+
+</br>
+</br>
+
+### Relative & absolute
+Quando o "relative" for aplicado, deixaremos um elemento relativo, e a partir disso, podemos colocar seus filhos do HTML como "absolute". 
+Quando o elemento se retorna "relative" e seus filhos "absolute", podemos dizer que os filhos ficaram a 2px de distância ao lado esquerdo (ou a qualquer outro lado). Exemplo.:
+```html 
+<section id="box">
+    <div class="square"> </div> 
+    <div class="square"> </div> 
+    <div class="square"> </div> 
+</section>
+```
+```css
+#box{
+    position: relative; 
+}
+.square{
+    position: absolute;
+    left: 0; /* Estamos dizendo que as divs "square" ficaram ao lado esquerdo da section box" */
+    top: 0; /* Estamos dizendo que as divs "square" ficaram ao top da section box" */
+
+    /* Caso você queira que um elemento fique além da section box por um determinado lado, você pode usar números negativos */
+    left: -30px; /* Dessa forma os "square" ficaram ao lado esquerdo e fora da section box */
+}
+```
+> SEMPRE QUE UTILIZAR "0" NÃO COLOQUE "px" OU QUALQUER OUTRA MEDIDA, APENAS COLOQUE CASO SEJA OUTRO NÚMERO
