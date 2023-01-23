@@ -1,57 +1,46 @@
-<style> 
+<style>
     body{
-        width: 100%;
-        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    section{
+        height: 50%;
+        width: 35%;
         margin: 0;
         display: grid;
-
-        /* Aqui definimos as linha e quais elementos estarão nelas, se eles estarão juntos ou não. */
-        /* Cada aspas (" ") representa uma linha (uma row). */
-        
         grid-template-areas: 
-        "header header"
-        "cachorro gato"
-        "papagaio lobo"
-        "footer footer";
-
+        "div1 div2 div3";
+        border: 1px solid black;
 
     }
-    header{
-        grid-area: header;
-        background-color: aqua;
+
+    #div1{
+        grid-area: div1;
+        background-color: rgb(63, 20, 236);
+        box-shadow: inset 4px 4px 40px 1px black;
     }
-    .cachorro{
-        grid-area: cachorro;
-        background-color: brown;        
+    #div2{
+        grid-area: div2;
+        background-color: rgb(255, 255, 255);
+        box-shadow: inset 4px 4px 40px 1px rgba(0, 0, 0, 0.442);
+
     }
-    .gato{
-        grid-area: gato;
-        background-color: rgb(24, 24, 24);
-    }
-    .papagaio{
-        grid-area: papagaio;
-        background-color: blue;
-    }
-    .lobo{
-        grid-area: lobo;
-        background-color: gray;
+    #div3{
+        grid-area: div3;
+        background-color: rgb(255, 0, 0);
+        box-shadow: inset 4px 4px 40px 1px rgba(0, 0, 0, 0.366);
+
     }
 
-    footer{
-        grid-area: footer;
-        background-color: blueviolet;
-    }
 </style>
 
+<body>  
+    <section>
+        <div id="div1"> </div>
+        <div id="div2"> </div>
+        <div id="div3"> </div>
+    </section>
 
-<body>
-    <header> <h1> Cabeçalho <h1> </header>
-
-    <section class="animals cachorro"> <h2>Dog</h2>      </section>
-    <section class="animals gato"> <h2>Gato </h2>        </section>
-    <section class="animals papagaio"> <h2>Papagaio</h2> </section>
-    <section class="animals lobo"> <h2>Lobo </h2>        </section>
-
-    <footer> </footer> 
-
-</body>
+</body> 

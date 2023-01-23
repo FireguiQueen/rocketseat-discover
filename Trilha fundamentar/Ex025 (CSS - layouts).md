@@ -173,10 +173,10 @@ Quando alteremos o flex-direction para reverse, também alteramos as propreidade
         /* O conteúdo dentro das aspas representam uma coluna. */
         /* O conteúdo organizado dentro das linhas pode receber qualquer nome */
         grid-template-areas: 
-        "header header" 
+        "header header"  /* Como pode ver, há dois "header" aqui */
         "cachorro gato" /* Se estamos dizendo que terá duas colunas nestas linhas, todas as outras irão precisar ter duas colunas */
         "papagaio lobo" /* Se estamos dizendo que terá duas colunas nestas linhas, todas as outras irão precisar ter duas colunas */
-        "footer footer";
+        "footer footer";  /* Como pode ver, há dois "footer" aqui */ 
 
 
     }
