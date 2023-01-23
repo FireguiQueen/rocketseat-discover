@@ -12,7 +12,7 @@
 
 ## Position 
 Controla onde, na página, o elemento irá ficar de acordo com as direções (top, right, bottom, left).
-Altera o fluxo normal dos elementos. O fluxo normal seria um embaixo do outro da mesma maneira que vemos quando escrevemos o código em HTML. 
+O position altera o fluxo normal dos elementos (fluxo normal seria um embaixo do outro da mesma maneira que vemos quando escrevemos o código em HTML). 
 
 - __Name:__ _position_
 - __Value:__ _static | relative | absolute | fixed_ 
