@@ -172,6 +172,8 @@ Quando alteremos o flex-direction para reverse, também alteramos as propreidade
         /* Cada aspas (" ") representa uma linha (uma row).    */
         /* O conteúdo dentro das aspas representam uma coluna. */
         /* O conteúdo organizado dentro das linhas pode receber qualquer nome */
+
+        /* Aqui iremos definir como será o nosso layout */ 
         grid-template-areas: 
         "header header"  /* Como pode ver, há dois "header" aqui */
         "cachorro gato" /* Se estamos dizendo que terá duas colunas nestas linhas, todas as outras irão precisar ter duas colunas */
@@ -181,27 +183,27 @@ Quando alteremos o flex-direction para reverse, também alteramos as propreidade
 
     }
     header{
-        /* Definindo o nome deste elemento dentro da "grid template" para colocarmos o elemento onde queremos */
+        /* Como o nosso layout já foi definido (grid-template-areas), agora precisamos dizer qual parte do layout ele se refere, como este é o nosso header, precisamos informar que seu "grid-area" é "header", pois foi coloco assim */
         grid-area: header;
         background-color: aqua;
     }
     .cachorro{
-        /* Definindo o nome deste elemento dentro da "grid template" para colocarmos o elemento onde queremos */
+        /* Como o nosso layout já foi definido (grid-template-areas), agora precisamos dizer qual parte do layout ele se refere, como este é o nosso header, precisamos informar que seu "grid-area" é "cachorro", pois foi coloco assim */
         grid-area: cachorro;
         background-color: brown;        
     }
     .gato{
-        /* Definindo o nome deste elemento dentro da "grid template" para colocarmos o elemento onde queremos */
+        /* Como o nosso layout já foi definido (grid-template-areas), agora precisamos dizer qual parte do layout ele se refere, como este é o nosso header, precisamos informar que seu "grid-area" é "gato", pois foi coloco assim */
         grid-area: gato;
         background-color: rgb(24, 24, 24);
     }
     .papagaio{
-        /* Definindo o nome deste elemento dentro da "grid template" para colocarmos o elemento onde queremos */
+        /* Como o nosso layout já foi definido (grid-template-areas), agora precisamos dizer qual parte do layout ele se refere, como este é o nosso header, precisamos informar que seu "grid-area" é "papagio", pois foi coloco assim */
         grid-area: papagaio;
         background-color: blue;
     }
     .lobo{
-        /* Definindo o nome deste elemento dentro da "grid template" para colocarmos o elemento onde queremos */
+        /* Como o nosso layout já foi definido (grid-template-areas), agora precisamos dizer qual parte do layout ele se refere, como este é o nosso header, precisamos informar que seu "grid-area" é "lobo", pois foi coloco assim */
         grid-area: lobo;
         background-color: gray;
     }
