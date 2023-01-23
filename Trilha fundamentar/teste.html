@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Curiosities about cars</title>
+
+
+    <style> 
+    body {
+    margin: 0;
+    padding: 0;
+    /* width: 1366px; */
+    width: 100vw;
+    /* height: 768px; */
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* MAIN WITH CONTENT */
+.box_container {
+    /* width: 1000px; */
+    min-width: 990px;
+    width: 73%;
+    max-width: 1000px;
+    /* height: 450px; */
+    height: 59%;
+    max-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* BOXS WITH CONTENT */
+.box_sedans, .box_suvs, .box_luxury {
+    min-width: 270px;
+    width: 27%;
+    min-height: 390px;
+    height: 100%;
+    box-sizing: content-box;
+    padding: 30px 35px;
+}
+
+.box_sedans {
+    border-radius: 7px 0 0 7px;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.box_suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.box_luxury {
+    border-radius: 0 7px 7px 0;
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+
+/* DIVS WITH TEXT */
+.box_texts {
+    /* height: 200px; */
+    height: 53%;
+}
+
+h1 {
+    /* width: 100px; */
+    width: 50%;
+    font: 700 35px 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+}
+
+.box_texts > p {
+    border: 1px solid red;
+    color: hsla(0, 0%, 100%, 0.75);
+    font: 400 13px 'Lexend Deca', sans-serif;
+    /* width: 190px; */
+    width: 95%;
+    line-height: 20px;
+}
+
+
+/* BOX WITH BUTTON */
+.box_button {
+    /* width: 130px; */
+    width: 65%;
+    height: 12%;
+    margin-top: 30px;
+}
+
+button{
+    border: none;
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    font: 400 13px 'Lexend Deca', sans-serif;;
+    background-color: hsl(0, 0%, 95%);
+}
+
+button:hover {
+    background-color: hsla(0, 0%, 95%, 0.712);
+    transition: 500ms;
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+.box_sedans > .box_button > button {
+    color:  hsl(31, 77%, 52%);
+}
+
+.box_suvs > .box_button > button {
+    color:  hsl(184, 100%, 22%);
+}
+
+.box_luxury > .box_button > button {
+    color: hsl(179, 100%, 13%);    
+}
+
+
+@media  (max-width:800px) {
+    .box_container {
+        min-width:initial;
+        max-width: initial;
+        max-height: initial;
+        display: initial;
+        margin-top: 20%;
+        width: 270px;
+        height: 100%;
+    }
+
+    .box_sedans, .box_suvs, .box_luxury {
+        min-width: initial;
+        width: 100%;
+        min-height: initial;
+        height: 380px;
+        box-sizing: border-box;
+        padding: 30px 35px;
+    }
+
+    .box_sedans {
+        border-radius: 7px 7px 0 0;
+    }
+    
+    .box_luxury {
+        border-radius: 0 0 7px 7px;
+    }
+}
+
+
+    
+    </style>
+</head>
+<body>
+    <main class="box_container">
+            <!-- Text about sedans -->
+            <div class="box_sedans">
+                <div class="box_image">
+                    <picture>
+                        <img src="./assets/icon-sedans.svg" alt="image of car">
+                    </picture>
+                </div>
+
+                <div class="box_texts">
+                    <h1>SEDANS</h1>
+                    <p>
+                        Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip
+                    </p>
+                </div>
+                
+                <div class="box_button">
+                    <button> Learn More </button>
+                </div>
+            </div>
+
+            <!-- Text about suv -->
+            <div class="box_suvs">
+                <div class="box_image">
+                    <picture>
+                        <img src="./assets/icon-suvs.svg" alt="image of car">
+                    </picture>
+                </div>
+                
+                <div class="box_texts">
+                    <h1>SUVS</h1>
+                    <p>Take ann SUV for its spacious interior, power, and versatility. Perfect for your next family vacation and off-road adventures</p>
+                </div>
+                
+                <div class="box_button">
+                    <button> Learn More </button>
+                </div>
+            </div>
+            
+            <!-- Text about luxury -->
+            <div class="box_luxury">
+                <div class="box_image">
+                    <picture>
+                        <img src="./assets/icon-luxury.svg" alt="image of car">
+                    </picture>
+                </div>
+                
+                <div class="box_texts">
+                    <h1>LUXURY</h1>
+                    <p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury rental and arrive in style.</p>
+                </div>
+                
+                <div class="box_button">
+                    <button> Learn More </button>
+                </div>
+            </div>
+    </main>
+    
+
+
+    
+</body>
+</html>
