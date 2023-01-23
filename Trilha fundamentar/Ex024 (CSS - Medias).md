@@ -282,6 +282,20 @@ fill: qual cor irá ser o SVG
 </svg>
 <!-- Neste caso a width e height alteram o tamanho do quadrado/retângulo, mas não podem ser usado na tag <circle>. Mas lembre-se, a width e a height que estão na tag SVG não irão alterar o tamanho da imagem vetorizada, o height e a width que estão na tag de criação da figura geométrica (<rect>) que vão alterar o tamanho. 
 ```
+
+Quando criamos um arquivo externo pro SVG, será necessário adicionar alguns atributos, tais como.:
+```css
+version="1.1"
+baseProfile="full"
+
+/* Protocolo (regras) do SVG. SVG foi criado pela w3 */
+xmlns="https://www.w3.org/2000/svg" 
+```
+
+Para importar a imagem vetorizada é bem simples.:
+```html
+<img src="./nome.svg" alt="yellow circle">
+```
  
 
 
