@@ -248,3 +248,8 @@ Quando alteremos o flex-direction para reverse, também alteramos as propreidade
     <footer> </footer> 
 </body>
 ```
+
+
+## Grid ou flex?
+* Em geral, iremos trabalhar com ambas
+Em resumo, o grid é mais focado em definir o posicionamento das caixas principais do seu site. Ele vai definir onde fica as sections, mains, header, footer.. Já o flexbox irá definir o posicionamento dos conteúdos dentro dessas tagas citadas acima. É claro, isto não é uma regra, você pode fazer um layout completo só utilizando do grid, assim como pode fazer um layout completo só usando o flex (porém com algumas limitações). Mas por isso usamos os dois juntos, um complementa o outro. 
