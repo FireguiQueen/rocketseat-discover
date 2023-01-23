@@ -109,7 +109,36 @@ Trabalha com layers (igual nos softwares de edição de imagem), então podemos 
     z-index: 1;
 }
 .box2{
-    background-color: green;
+    background-color: green; 
+
 }
 ```
-* Em teoria, nossa página mostraria a caixa verde, pois ela foi colocado por último em nosso código. Porém a box1 possui o z-index, informando que sua camada é a 1, por padrão, os elementos são todos da camada 0, quando dizemos que o box1 é da camada 1, ele esta uma camada a frente, logo será mostrado primeiro.
+* Em teoria, nossa página mostraria a caixa verde, pois ela foi colocado por último em nosso código. Porém a box1 possui o z-index, informando que sua camada é a 1, por padrão, os elementos são todos da camada 0, quando dizemos que o box1 é da camada 1, ele esta uma camada a frente, logo será mostrada primeiro.
+
+
+</br>
+</br>
+</br>
+
+### Flexbox
+Através do flexbox, podemos posicionar os elementos de maneira horizontal e vertical dentro de um container. 
+
+#### Flex direction
+Define a direção da nossa flexibilidade. Por padrão, será row.. Ou seja, assim que difinirmos um elemento pai como "display: flex", seus filhos serão alinhados em alinhas. Significa que até mesmo elementos do tipo "block" estarão um ao lado do outro, e para alterar isto, você pode definir que a flex-direction será "column", ou seja, em coluna. 
+* __row:__ _row | row-reverse_
+* __column:__ _column | column-reverse_  
+
+#### Alinhamento dos eixos
+* __justify-content:__  space-between | flex-start | space-around| center | flex-end
+* align-items: flex-start | center | flex-end 
+
+> space-between: espaço entre elementos, sempre que houver 2 elementos, haverá um espaço entre eles. Como a última caixa e a primeira não possuem outros elementos ao lado, elas não terão espaço no inicio.
+
+> flex-start: faz com que os elementos comecem no inicio do eixo X do elemento onde o display flex foi aplicado
+
+> space-around: toda tag terá um espaço ao redor dela, seja no lado direito, e no lado esquerdo 
+
+> center: faz com que os elementos sejam centralizados ao centro da caixa onde o display flex foi aplicado 
+
+> flex-end: faz com que os elementos comecem ao final do eixo X do elemento onde o display flex foi aplicado 
+
