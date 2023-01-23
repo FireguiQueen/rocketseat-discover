@@ -151,5 +151,9 @@ Cria um espaço entre os elementos, pode ser aplicado ao flex-direction row e ao
 Quando alteramos o flex-direction, é importante lembrar que as propriedades "align-items" e "justify-content" irão se alterar. 
 Quando alteremos o flex-direction para reverse, também alteramos as propreidades do justify-content. Ou seja, caso você coloque "flex-start" e com "row-reverse", os seus elementos começaram ao flex-end, pois é o reverso. Mas você só verá isto caso o tamanho da sua caixa que agrupa os elementos não seja fit-content.
 
+</br>
+</br>
+</br>
 
 
+### Grid
