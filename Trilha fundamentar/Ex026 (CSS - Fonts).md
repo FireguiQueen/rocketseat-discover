@@ -10,7 +10,7 @@ Tipografia é o jeito que escrevemos algo, por exemplo.:
 > serve para mostrarmos o que é referente ao que. Então geralmente um título terá seu tamanho grande, enquanto isso o parágrafo deste título terá um tamanho menor
 
 - Estilo 
-> serve para dar um visual mais chamativo ao nosso texto, podemos mudar a cor, o estilo de escrita.. 
+> Serve para dar um visual mais chamativo ao nosso texto, mudando o estilo da fonte, podemos deixar mais leve dependendo do contexto do texto. 
 
 
 ## Propriedades mais utilizadas
@@ -28,6 +28,10 @@ p{
     /* Serif: Uma fonte "serificada" é aquela fonte que possui "dobras" (como se fossem um suporte horizontal) quando se começa uma letra, uma fonte "sans-serif" é uma fonte sem essa dobra, sem este "suporte horizontal" */ 
 }
 ```
+
+</br>
+</br>
+</br>
 
 ### font-weight
 * __Valores:__ _Bolder, bold, light, lightner, 500, 400.._
@@ -61,5 +65,9 @@ p{
 }
 ```
 
+</br>
+</br>
+</br>
+
 ### font-style 
-* __Valores:__ _Italic,
+* __Valores:__ _Italic, oblique, 
