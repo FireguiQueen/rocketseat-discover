@@ -58,3 +58,58 @@ Quando o elemento se retorna "relative" e seus filhos "absolute", podemos dizer 
 }
 ```
 > SEMPRE QUE UTILIZAR "0" NÃO COLOQUE "px" OU QUALQUER OUTRA MEDIDA, APENAS COLOQUE CASO SEJA OUTRO NÚMERO
+
+> POR PADRÃO, QUANDO NÃO DEFINIMOS UM "POSITION: RELATIVE;" PARA UM ELEMENTO, A TAG BODY SEMRPE SERÁ A RELATIVA PARA OS ELEMENTOS QUE POSSUEM "POSITION: ABSOLUTE;".
+
+
+
+</br>
+</br>
+
+
+### Fixed
+Fará com que seu elemento fique fixo na página, valor muito utilizado para a tag <code>&lt;header&gt;</code>. Pois assim, mesmo que o usuário faça a rolagem na página, o elemento ainda será mostrado, pois ele é fixo.
+
+```html
+<header style="position: fixed;  top: 0;">
+    <nav>
+        <ul>
+            <li> About </li>
+            <li> Contact </li>
+            <li> Home </li>
+        </ul>
+    </nav>
+</header>
+```
+
+</br>
+</br>
+</br>
+
+# Z-index
+É habilitado para qualquer valor do position. 
+Trabalha com layers (igual nos softwares de edição de imagem), então podemos definir a camada de determinado elemento.
+
+```html 
+<section>
+    <div class="square box1"> </div>
+    <div class="square box2"> </div>
+</section>
+```
+```css
+.square{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px; 
+}
+.box1{
+    background-color: red;
+    z-index: 1;
+}
+.box2{
+    background-color: green;
+}
+```
+* Em teoria, nossa página mostraria a caixa verde, pois ela foi colocado por último em nosso código. Porém a box1 possui o z-index, informando que sua camada é a 1, por padrão, os elementos são todos da camada 0, quando dizemos que o box1 é da camada 1, ele esta uma camada a frente, logo será mostrado primeiro.
