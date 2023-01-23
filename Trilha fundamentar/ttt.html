@@ -3,45 +3,55 @@
         width: 100%;
         height: 100vh;
         margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+        display: grid;
+
+        /* Aqui definimos as linha e quais elementos estarão nelas, se eles estarão juntos ou não. */
+        /* Cada aspas (" ") representa uma linha (uma row). */
+        
+        grid-template-areas: 
+        "header header"
+        "cachorro gato"
+        "papagaio lobo"
+        "footer footer";
+
+
+    }
+    header{
+        grid-area: header;
+        background-color: aqua;
+    }
+    .cachorro{
+        grid-area: cachorro;
+        background-color: brown;        
+    }
+    .gato{
+        grid-area: gato;
+        background-color: rgb(24, 24, 24);
+    }
+    .papagaio{
+        grid-area: papagaio;
+        background-color: blue;
+    }
+    .lobo{
+        grid-area: lobo;
+        background-color: gray;
     }
 
-    section{
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        width: fit-content;
-        gap: 10px;
-        border: 1px solid red;
-        flex-direction: reverse;
-    }
-    .square{
-        width: 50px;
-        height: 50px;
-    }
-    .box1{
-        background-color: red;
-        z-index: 1;
-    }
-    .box2{
-        background-color: green;
-    }
-    .box3{
-        background-color: hsl(62, 100%, 50%);
-    }
-    .box4{
-        background-color: hsl(238, 100%, 50%);
+    footer{
+        grid-area: footer;
+        background-color: blueviolet;
     }
 </style>
 
 
 <body>
+    <header> <h1> Cabeçalho <h1> </header>
 
-    <section>
-        <div class="square box1"> </div>
-        <div class="square box2"> </div>
-        <div class="square box3"> </div>
-        <div class="square box4"> </div>
-    </section>
+    <section class="animals cachorro"> <h2>Dog</h2>      </section>
+    <section class="animals gato"> <h2>Gato </h2>        </section>
+    <section class="animals papagaio"> <h2>Papagaio</h2> </section>
+    <section class="animals lobo"> <h2>Lobo </h2>        </section>
+
+    <footer> </footer> 
+
 </body>

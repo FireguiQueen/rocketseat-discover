@@ -157,3 +157,71 @@ Quando alteremos o flex-direction para reverse, também alteramos as propreidade
 
 
 ### Grid
+* Muito utilizado para definir o posicionamento dos filhos do body (header, sections, footer..)
+* Trabalha com a questão de "grids", linhas e colunas
+
+```html
+<style> 
+    body{
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+        display: grid;
+
+        /* Aqui definimos as linha e quais elementos estarão nelas, se eles estarão juntos ou não. */
+        /* Cada aspas (" ") representa uma linha (uma row).    */
+        /* O conteúdo dentro das aspas representam uma coluna. */
+        /* O conteúdo organizado dentro das linhas pode receber qualquer nome */
+        grid-template-areas: 
+        "header header" 
+        "cachorro gato" /* Se estamos dizendo que terá duas colunas nestas linhas, todas as outras irão precisar ter duas colunas */
+        "papagaio lobo" /* Se estamos dizendo que terá duas colunas nestas linhas, todas as outras irão precisar ter duas colunas */
+        "footer footer";
+
+
+    }
+    header{
+        /* Definindo o nome deste elemento dentro da "grid template" para colocarmos o elemento onde queremos */
+        grid-area: header;
+        background-color: aqua;
+    }
+    .cachorro{
+        /* Definindo o nome deste elemento dentro da "grid template" para colocarmos o elemento onde queremos */
+        grid-area: cachorro;
+        background-color: brown;        
+    }
+    .gato{
+        /* Definindo o nome deste elemento dentro da "grid template" para colocarmos o elemento onde queremos */
+        grid-area: gato;
+        background-color: rgb(24, 24, 24);
+    }
+    .papagaio{
+        /* Definindo o nome deste elemento dentro da "grid template" para colocarmos o elemento onde queremos */
+        grid-area: papagaio;
+        background-color: blue;
+    }
+    .lobo{
+        /* Definindo o nome deste elemento dentro da "grid template" para colocarmos o elemento onde queremos */
+        grid-area: lobo;
+        background-color: gray;
+    }
+
+    footer{
+        /* Definindo o nome deste elemento dentro da "grid template" para colocarmos o elemento onde queremos */
+        grid-area: footer;
+        background-color: blueviolet;
+    }
+</style>
+
+
+<body>
+    <header> <h1> Cabeçalho <h1> </header>
+
+    <section class="animals cachorro"> <h2>Dog</h2>      </section>
+    <section class="animals gato"> <h2>Gato </h2>        </section>
+    <section class="animals papagaio"> <h2>Papagaio</h2> </section>
+    <section class="animals lobo"> <h2>Lobo </h2>        </section>
+
+    <footer> </footer> 
+
+</body>
