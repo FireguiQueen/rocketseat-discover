@@ -28,3 +28,5 @@ Em outras palavras, se no HTML você colocar:
 ```
 significa que esta ordem será respeitada, e o elemento <code>&lt;h2&gt;</code> estará embaixo do 
 <code>&lt;h1&gt;</code>.
+
+> Lembre-se que isto se aplica também a elementos "inline", porém, com elementos inline, os containers ficaram um ao lado do outro, então se tivessemos usado a tag <code>&lt;a&gt;</code> primeiro e a tag <code>&lt;q&gt;</code> em segundo, em nossa página iriamos ver a tag <code>&lt;a&gt;</code> primeira, e ao seu lado a tag <code>&lt;q&gt;</code>. 
