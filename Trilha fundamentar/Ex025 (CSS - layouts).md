@@ -246,5 +246,5 @@ Quando alteremos o flex-direction para reverse, também alteramos as propreidade
     <section class="animals lobo"> <h2>Lobo </h2>        </section>
 
     <footer> </footer> 
-
 </body>
+```
