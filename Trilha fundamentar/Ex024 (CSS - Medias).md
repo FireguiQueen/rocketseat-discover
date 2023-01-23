@@ -70,7 +70,7 @@
 
 __________________________________________________________________________________
 
-## <code>&lt;AUDIO&gt;</code>
+## <code>AUDIO</code>
 * tag muito utilizada junto ao JS para fazer controles mais avançados e bonitos
 * src ou a tag <code>&lt;source&gt;</code>
 * controls (atributo obrigatório para a maioria dos browsers)
@@ -187,8 +187,8 @@ ________________________________________________________________________________
 
 ## <code>SVG</code>
 Em resumo, utilizamos do SVG para criar imagens extremamente detalhadas.
-Gráficos Vetoriais Escaláveis (SVG) é uma linguagem de marcação XML para descrever gráficos vetoriais bidimensionais. Essencialmente, SVG é para gráficos o que o XHTML é para texto.
-Sendo um formato para gráficos vetoriais, imagens SVG podem ser redimensionadas infinitamente, tendo um valor inestimável em design responsivo (en-US), já que você pode criar elementos de interface e gráficos que se comportam bem em qualquer tamanho de tela. SVG também traz um conjunto de funcionalidades úteis, como clipping, máscaras, filtros e animações.
+Gráficos Vetoriais Escaláveis (SVG) é uma linguagem de marcação XML para descrever gráficos vetoriais bidimensionais. Essencialmente, SVG é para gráficos o que o HTML é para texto.
+Sendo um formato para gráficos vetoriais, imagens SVG podem ser redimensionadas infinitamente, tendo um valor inestimável em design responsivo, já que você pode criar elementos de interface e gráficos que se comportam bem em qualquer tamanho de tela. SVG também traz um conjunto de funcionalidades úteis, como clipping, máscaras, filtros e animações.
 
 
 ### Imagem rasterizada & imagem vetorizada
