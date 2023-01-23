@@ -181,6 +181,27 @@ Quando alteremos o flex-direction para reverse, também alteramos as propreidade
         "footer footer";  /* Como pode ver, há dois "footer" aqui */ 
 
 
+        /* Definindo o tamanho (altura) das linhas */ 
+
+        /* Perceba que em nosso layout temos 4 linhas, sendo assim, o primeiro valor na propriedade abaixo será para a primeira linha, o segundo valor, para a segunda linha.. E assim por diante. */
+        grid-template-rows: 40px 20px 20px 30px;
+
+        /* Podemos também usar "1fr". Este valor significa que a nossa linha irá cobrir tudo o que tiver de espaço disponível. */
+        grid-template-rows: 40px 1fr 1fr 30px;
+
+
+        /* Definindo o tamanho (largura) das colunas */ 
+
+        /* Perceba que em nosso layout temos 2 colunas, sendo assim, o primeiro valor na propriedade abaixo será para a primeira coluna, o segundo valor para a segunda coluna..*/
+        grid-template-columns: 40px 20px 20px 30px;
+
+        /* Podemos também usar "1fr". Este valor significa que a nossa colunar irá cobrir tudo o que tiver de espaço disponível. */
+        grid-template-rows: 40px 1fr 1fr 30px;
+
+
+        /* 1fr */
+        /* Nas propriedades de grid podem ser utilizadas quaisquer unidades de medida. Para nos ajudar a criar layouts flexíveis utilizando o grid, foi criada uma unidade nova. A unidade fr representa uma fração do espaço disponível no container do grid. A próxima definição de grid cria três espaços com tamanhos iguais que aumentam e diminuem de acordo com o espaço disponível. */
+
     }
     header{
         /* Como o nosso layout já foi definido (grid-template-areas), agora precisamos dizer qual parte do layout ele se refere, como este é o nosso header, precisamos informar que seu "grid-area" é "header", pois foi coloco assim */
