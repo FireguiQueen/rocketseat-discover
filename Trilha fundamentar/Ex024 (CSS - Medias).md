@@ -197,7 +197,7 @@ Sendo um formato para gráficos vetoriais, imagens SVG podem ser redimensionadas
 A imagem rasterizada é aquela imagem feita por pixel. 
 Você pode ver isto abrindo o paint do seu computador e habilitando a opção "grid", você verá diversas
 linhas horizontas e verticais, e o quadrado feito por elas são os pixels.
-Uma imagem rasterizada pode funcionar como logotipo caso seja usada em somente um local e as dimensões sejam sempre as mesmas, como em um cartão de visita. Caso o logotipo precise ser redimensionado para outros usos impressos ou online (por exemplo, páginas da Web), um arquivo vetorial seria mais adequado, pois ele não perde a resolução. 
+Uma imagem rasterizada pode funcionar como logotipo caso seja usada em somente um local e as dimensões sejam sempre as mesmas, como em um cartão de visita, então uma imagem rasterizada é boa caso só atenda uma resolução em específica. Caso o logotipo precise ser redimensionado para outros usos impressos ou online (páginas da Web), um arquivo vetorial seria mais adequado, pois ele não perde a resolução. 
 > FORMATOS RASTERIZADOS.: PNG, JPG, JPEG, GIF.. 
 
 #### Vantagens
