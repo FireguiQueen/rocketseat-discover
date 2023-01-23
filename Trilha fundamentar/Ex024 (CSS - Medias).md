@@ -262,7 +262,8 @@ A vantagem é.:
 width: define a largura que será mostrada (recomendo utilizar um background color para ver como funciona)
 height: define a altura que será mostrada (recomendo utilizar um background color para ver como funciona)
 ! ESTES ATRIBUTOS ACIMA NÃO IRÃO INTERFERIR NO TAMANHO DO SVG, APENAS DO SEU PLANO DE FUNDO
-
+  E ELES SÂO CHAMADOS DE "CANVA" É O NOSSO ESPAÇO DE TRABALHO
+ 
 Tag circle: para se criar um círculo
 cx: posição do círculo no eixo X dentro da width definida pela tag SVG
 cy = posição do círculo no eixo Y dentro da height definida pela tag SVG
