@@ -243,6 +243,7 @@ A desvantagem de criar seu próprio SVG dentro do arquivo .html é.:
     <li>Leva tempo</li>
     <li>"Suja" seu código do HTML </li>
     <li>Não irá ficar salvo no cache do usuário </li>
+    <li>Com um SVG externo não será possível trabalhar com ele junto ao CSS </li>
 </ol>
 
 Vantagem.:
