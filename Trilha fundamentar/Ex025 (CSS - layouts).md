@@ -6,6 +6,10 @@
 - Grid _(método atual junto ao flexbox. Grid trabalha com a ideia de containers que se posicionam através de "grades", e geralmente é utilizado para posicionar elementos dentro do body)_
 
 
+</br>
+</br>
+</br>
+
 ## Position 
 Controla onde, na página, o elemento irá ficar de acordo com as direções (top, right, bottom, left).
 Altera o fluxo normal dos elementos. O fluxo normal seria um embaixo do outro da mesma maneira que vemos quando escrevemos o código em HTML. 
