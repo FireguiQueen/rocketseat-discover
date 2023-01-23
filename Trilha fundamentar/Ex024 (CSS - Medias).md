@@ -223,7 +223,7 @@ _Um arquivo rasterizado pode incluir milhões de pixels. Embora isso crie uma im
 
 ### Imagem vetorizada
 Os vetores são formas que tem suas informações de cor, dimensões, linhas e curvas armazenadas em equações. Essas equações são traduzidas para desenhos e podem ter sua forma, cor ou tamanho alterados sem agredir sua resolução, pois não são formados por pixels.
-> SVG 
+> FORMATOS VETORIZADOS.: SVG 
 
 #### Vantagens
 * __Acessibilidade:__ 
@@ -245,13 +245,13 @@ A desvantagem de criar seu próprio SVG dentro do arquivo .html é.:
     <li>Não irá ficar salvo no cache do usuário </li>
 </ol>
 
-A vantagem é.:
+Vantagem.:
 <ol>
-    <li>Tempo de resposta mais rápido, pois não é algo externo</li>
+    <li>Tempo de resposta mais rápido, pois não é um arquivo externo (há menos conexões a serem feitas)</li>
     <li>Mais fácil para se fazer alterações </li>
 </ol>
 
-* Mas em geral é recomendado fazer seu SVG utilizando ferramentas como o figma, e depois copiar o código que o figma nos dá e colocar num arquivo ".svg"
+* Mas em geral é recomendado fazer seu SVG utilizando ferramentas como o figma, e depois copiar o código que o figma nos dá e colocar em um arquivo ".svg"
 
 ### Círculo
 ```html
@@ -280,10 +280,12 @@ fill: qual cor irá ser o SVG
     <rect cx="50" cy="100" height="100px" 
     width="100" stroke="green" stroke-width="4" fill="yellow"/>  
 </svg>
-<!-- Neste caso a width e height alteram o tamanho do quadrado/retângulo, mas não podem ser usado na tag <circle>. Mas lembre-se, a width e a height que estão na tag SVG não irão alterar o tamanho da imagem vetorizada, o height e a width que estão na tag de criação da figura geométrica (<rect>) que vão alterar o tamanho. 
+<!-- 
+Neste caso a width e height alteram o tamanho do quadrado/retângulo, mas não podem ser usado na tag <circle>. Mas lembre-se, a width e a height que estão na tag SVG não irão alterar o tamanho da imagem vetorizada, o height e a width que estão na tag de criação da figura geométrica (<rect>) que vão alterar o tamanho. 
+-->
 ```
 
-Quando criamos um arquivo externo pro SVG, será necessário adicionar alguns atributos, tais como.:
+* Quando criamos um arquivo externo pro SVG, será necessário adicionar alguns atributos, tais como.:
 ```css
 version="1.1"
 baseProfile="full"
