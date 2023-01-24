@@ -196,6 +196,7 @@ p{
 ## <code>text-decoration</code>
 * __Valores:__ _underline, overline, line-through_ 
 * __Estilos:__ _wavy, dashed, double.._
+* __Cor:__ _qualquer cor que desejar.._
 Aplica uma decoração ao texto, mais de uma decoração pode ser aplicada e também podemos adicionar um estilo a esta decoração
 
 ```css
