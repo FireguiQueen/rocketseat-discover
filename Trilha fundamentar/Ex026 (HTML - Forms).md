@@ -66,7 +66,7 @@ ______________________________________________________________________________
 </form>
 ```
 
-O fieldset também pode ficar fora um formulário, porém o atributo `form: ` será necessário junto ao atributo `id: ` na tag <code>&lt;form&gt;</code>.
+O fieldset também pode ficar fora um formulário, porém o atributo `form=""` será necessário junto ao atributo `id=" "` na tag <code>&lt;form&gt;</code>.
 ```html
 <form id="login">
     <input type="text">User: </input> 
