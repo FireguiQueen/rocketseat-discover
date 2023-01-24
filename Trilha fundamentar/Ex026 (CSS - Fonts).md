@@ -132,3 +132,85 @@ p{
 }
 
 ```
+
+</br>
+</br>
+</br>
+
+## <code>letter-spacing</code>
+* __Valores:__ _1px, 1rem, 1em._
+Apliaca um espaço entre as letras
+```css
+p{
+    letter-spacing: 4px;
+}
+```
+
+</br>
+
+## <code>word-spacing</code>
+* __Valores:__ _1px, 1rem, 1em._
+Aplica um espaço entre as palavras
+```css
+p{
+    word-spacing: 2em;
+}
+```
+
+</br>
+</br>
+</br>
+
+## <code>line-height</code>
+* __Valores:__ _1px, 1rem, 1em, 1.5, 2.6_
+Apliaca um espaço entre linhas, como se aumentassemos a distância entre linhas de um caderno
+```css
+p{
+    line-height: 2.2;
+}
+```
+
+</br>
+
+## <code>text-transform</code>
+* __Valores:__ _capitalize, uppercase, lowercase, none_
+Aplica determinada transformação ao nosso elemento de texto
+```css
+p{
+    /* Deixa tudo em maiúsculo */
+    text-transform: uppercase;
+
+    /* Deixa tudo em minúsculo */
+    text-transform: lowercase;
+
+    /* Inicial de cada palavra será com letra maiúscula */
+    text-transform: capitalize;
+
+    /* Tira todas as transformações feitas no texto */
+    text-transform: none; 
+}
+```
+
+</br>
+
+## <code>text-decoration</code>
+* __Valores:__ _underline, overline, line-through_ 
+* __Estilos:__ _wavy, dashed, double.._
+Aplica uma decoração ao texto, mais de uma decoração pode ser aplicada e também podemos adicionar um estilo a esta decoração
+
+```css
+p{
+    /* Cria um sublinhado */
+    text-decoration: underline;
+
+    /* Cria um sublinhado em formato de onda */
+    text-decoration: underline wavy;
+
+
+    /* Cria um sublinhado e um "subilnhado" que fica acima do texto */
+    text-decoration: underline overline;
+
+    /* Cria um subilinhado e um "subilinhado" que fica ao meio do texto com um estilo de onda */
+    text-decoration: underline line-through wavy;
+
+}
