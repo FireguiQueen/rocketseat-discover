@@ -18,7 +18,7 @@ Tipografia é o jeito que escrevemos algo, por exemplo.:
 ## Propriedades mais utilizadas
 
 ### <code>font-family </code>
-* __Valores:__ _Arial, Verdana, 'Courier  New'.._
+* __Valores:__ _Arial, Verdana, 'Courier  New'.._ </br>
 Define o tipo de fonte que será utilizada, ou seja, como será o estilo de escrita.
 Esta propriedade incluir "fallback", ou seja, caso não consiga utilizar da primeira fonte, ela irá colocar outra fonte que você vai passar como valor.
 Sempre que a fonte possuir espaço entre as letras, ela irá ficar entre aspas (" "), por isso algumas fontes não usam aspas, pois elas não precisam (porque possuem apenas uma palavra).
@@ -36,7 +36,7 @@ p{
 </br>
 
 ### <code>font-weight</code>
-* __Valores:__ _bolder, bold, light, lightner, 500, 400.._
+* __Valores:__ _bolder, bold, light, lightner, 500, 400.._ </br>
 * Define o "peso" da fonte..
 * Podemos usar tanto valor númerico quanto palavras chaves. As palavras chaves podem ser representadas em formatos númericos.. Bold = 700, light = 300, normal = 400 (por padrão vem assim) 
 Dependendo da família da fonte, a gente não consegue colocar determinado "peso" para ela. Por exemplo.:
@@ -60,7 +60,7 @@ p{
 </br>
 
 ### <code>font-style</code> 
-* __Valores:__ _normal, Italic, oblique_ 
+* __Valores:__ _normal, Italic, oblique_  </br>
 * Define o estilo da fonte, por padrão é "normal", Italic é aquela letra mais deitada e "oblique" é extremamente parecida com a "italic". 
 
 ```css
@@ -74,7 +74,7 @@ p{
 </br>
 
 ### <code>font-size</code>
-* __Valores:__ _xx-small, x-small, medium, x-large, 1px, 1rem.._
+* __Valores:__ _xx-small, x-small, medium, x-large, 1px, 1rem.._ </br>
 * A unidade de medida mais utilizada é o pixel.
 
 ```css
@@ -115,13 +115,13 @@ São as fontes que já estão instaladas em nossa máquina
 </br>
 
 ## <code>font-variant </code>
-* __Valores:__ _normal, small-caps, common-ligatures, no-common-ligatures_
+* __Valores:__ _normal, small-caps, common-ligatures, no-common-ligatures_ </br>
 Permite que você defina todas as variantes de fonte para uma fonte.
 São pequenas variações que você pode fazer na sua fonte.
 > NEM TODAS AS FONTES POSSUEM ESTA PROPRIEDADE 
 
 ## <code>font-stretch</code> 
-* __Valores:__ _condensed, expanded, ultra-expanded, 50%, 100% e 150%._
+* __Valores:__ _condensed, expanded, ultra-expanded, 50%, 100% e 150%._ </br>
 Seleciona uma face normal, condensada ou expandida de uma fonte.
 É como se fosse um "zoom" na fonte
 > NEM TODAS AS FONTES POSSUEM ESTA PROPRIEDADE 
@@ -138,7 +138,7 @@ p{
 </br>
 
 ## <code>letter-spacing</code>
-* __Valores:__ _1px, 1rem, 1em._
+* __Valores:__ _1px, 1rem, 1em._ </br>
 Apliaca um espaço entre as letras
 ```css
 p{
@@ -149,7 +149,7 @@ p{
 </br>
 
 ## <code>word-spacing</code>
-* __Valores:__ _1px, 1rem, 1em._
+* __Valores:__ _1px, 1rem, 1em._ </br>
 Aplica um espaço entre as palavras
 ```css
 p{
@@ -162,7 +162,7 @@ p{
 </br>
 
 ## <code>line-height</code>
-* __Valores:__ _1px, 1rem, 1em, 1.5, 2.6_
+* __Valores:__ _1px, 1rem, 1em, 1.5, 2.6_ </br>
 Apliaca um espaço entre linhas, como se aumentassemos a distância entre linhas de um caderno
 ```css
 p{
@@ -173,7 +173,7 @@ p{
 </br>
 
 ## <code>text-transform</code>
-* __Valores:__ _capitalize, uppercase, lowercase, none_
+* __Valores:__ _capitalize, uppercase, lowercase, none_ </br>
 Aplica determinada transformação ao nosso elemento de texto
 ```css
 p{
@@ -193,8 +193,8 @@ p{
 
 </br>
 
-## <code>text-decoration</code>
-* __Valores:__ _underline, overline, line-through_ 
+## <code>text-decoration</code> 
+* __Valores:__ _underline, overline, line-through_  </br>
 * __Estilos:__ _wavy, dashed, double.._
 * __Cor:__ _qualquer cor que desejar.._
 Aplica uma decoração ao texto, mais de uma decoração pode ser aplicada e também podemos adicionar um estilo a esta decoração. Algumas tags aplicam text-decoration ao seu texto, como por exemplo a tag &<code>lt;li&gt;</code>
@@ -221,7 +221,7 @@ p{
 </br>
 
 ## <code>text-align</code>
-* __Valores:__ _left, center, right, justify_ 
+* __Valores:__ _left, center, right, justify_  </br>
 Alinha seu texto para determinada direção.
 É um conceito bem simples, é igualzinho no Word (do windows), você tem as opções de alinhar o texto na tela. Mas lembre-se, o text-align não serve para POSICIONAR e sim para ALINHAR seus textos (alinhar o texto seria basicamente modificar sua estrutura). 
 ```css
