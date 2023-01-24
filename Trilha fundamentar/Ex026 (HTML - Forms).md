@@ -43,12 +43,13 @@ ______________________________________________________________________________
 ### Tags filhas básicas
 
 #### <code>fieldset</code>
-É usado para agrupar vários controles de input, bem como rótulos (&lt;label&gt;) dentro de um formulário da Web. Em outras palavras, iremos utilizar o <code>fieldset</code> para agrupar diversas questões de formulário, e definir que elas pertencem ao mesmo grupo. No exemplo abaixo, os 3 <code>inputs</code> foram colocado na tag <code>fieldset</code> pois pertencem ao mesmo grupo. O Fieldset é muito utilizado com a tag <code>legend</code>, pois é ela quem dirá o nome do grupo.
+É usado para agrupar vários controles de input, bem como rótulos (&lt;label&gt;) dentro de um formulário da Web. Em outras palavras, iremos utilizar o <code>fieldset</code> para agrupar diversas questões de formulário, e definir que elas pertencem ao mesmo grupo (o atributo `name=""` não é obrigatório, mas é extremamente recomendado para definir um nome para aquele grupo). 
+No exemplo abaixo, os 3 <code>inputs</code> foram colocado na tag <code>fieldset</code> pois pertencem ao mesmo grupo. O Fieldset é muito utilizado com a tag <code>legend</code>, pois é ela quem dirá o nome agrupamento.
 ```html
 <!-- EXEMPLO 01: -->
 <form>
-    <fieldset> <!-- Define um grupo-->
-        <legend>Contato </legend> <!-- Define o nome do grupo -->
+    <fieldset name="inf-de-contato"> <!-- Define um grupo-->
+        <legend>Contato </legend> <!-- Define o nome do agrupamento -->
         <input type="text">Nome: </input> <!-- Formulário pertencente ao grupo -->
         <input type="text">Sobrenome: </input>
         <input type="text">Email: </input>
@@ -73,13 +74,14 @@ ______________________________________________________________________________
 O fieldset também pode ficar fora um formulário, porém o atributo `form=""` será necessário junto na tag <code>&lt;fielset&gt;</code>, e o atributo `id=" "` será necessário na tag <code>&lt;form&gt;</code>.
 ```html
 <form id="login">
-    <input type="text">User: </input> 
-    <input type="password">Password: </input>
-    <input type="email">Email: </input>
+
 </form>
 
 <fieldset form="login">
     <legend>Login </code>
+    <input type="text">User: </input> 
+    <input type="password">Password: </input>
+    <input type="email">Email: </input>
 </fieldset> 
 ```
 
