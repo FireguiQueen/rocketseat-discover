@@ -213,5 +213,30 @@ p{
 
     /* Cria um subilinhado e um "subilinhado" que fica ao meio do texto com um estilo de onda */
     text-decoration: underline line-through wavy;
-
 }
+``` 
+
+</br>
+</br>
+</br>
+
+## <code>text-align</code>
+* __Valores:__ _left, center, right, justify_ 
+Alinha seu texto para determinada direção.
+É um conceito bem simples, é igualzinho no Word (do windows), você tem as opções de alinhar o texto na tela. Mas lembre-se, o text-align não serve para POSICIONAR e sim para ALINHAR seus textos (alinhar o texto seria basicamente modificar sua estrutura). 
+```css
+p{
+    /* Alinha pra esquerda - vem por padrão assim */
+    text-align: left;
+
+    /* Alinha pro centro */ 
+    text-align: center;
+
+    /* Alinha pra direita  */
+    text-align: right;  
+
+    /* Alinha como se o texto fosse um bloco, só é vísivel caso o texto seja relativamente grande */
+    text-align: justify;
+} 
+```
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-align">Teste aqui </a>
