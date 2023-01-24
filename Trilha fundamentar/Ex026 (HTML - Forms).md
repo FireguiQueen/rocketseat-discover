@@ -1,4 +1,5 @@
 # Form
+Representa uma seção de um documento que contém controles interativos que permitem ao usuário submeter informação a um determinado servidor web.
 
 - Captura dados (informações) de entrada (input)
 > Por exemplo, pegar o nome do cliente e armazenar numa variável JS
@@ -14,9 +15,11 @@
 > Por exemplo, criar mais controles para uma tag vídeo, você poder aumentar, diminiuir o volume e etc..
 
 </br>
+</br>
 
-# Input
-É usado para criar controles interativos para formulários baseados na web para receber dados do usuário. A semântica de um <code>&lt;input&gt;</code> varia consideravelmente dependendo do valor de seu atributo type.
+
+# Inputs
+São usados para criar controles interativos para formulários baseados na web para receber dados do usuário. A semântica de um <code>&lt;input&gt;</code> varia consideravelmente dependendo do valor de seu atributo type.
 
 ______________________________________________________________________________
 
