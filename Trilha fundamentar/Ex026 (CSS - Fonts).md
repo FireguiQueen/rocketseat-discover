@@ -15,7 +15,7 @@ Tipografia é o jeito que escrevemos algo, por exemplo.:
 
 ## Propriedades mais utilizadas
 
-### font-family 
+### <code>font-family </code>
 * __Valores:__ _Arial, Verdana, 'Courier  New'.._
 Define o tipo de fonte que será utilizada, ou seja, como será o estilo de escrita.
 Esta propriedade incluir "fallback", ou seja, caso não consiga utilizar da primeira fonte, ela irá colocar outra fonte que você vai passar como valor.
@@ -33,24 +33,12 @@ p{
 </br>
 </br>
 
-### font-weight
-* __Valores:__ _Bolder, bold, light, lightner, 500, 400.._
-* Podemos usar tanto valor númerico quanto palavras chaves 
-Define a espessura da fonte, da letra..
-Dependendo da família da fonte, a gente não consegue colocar determinado "weight" para ela. Por exemplo.:
+### <code>font-weight</code>
+* __Valores:__ _bolder, bold, light, lightner, 500, 400.._
+* Define o "peso" da fonte..
+* Podemos usar tanto valor númerico quanto palavras chaves. As palavras chaves podem ser representadas em formatos númericos.. Bold = 700, light = 300, normal = 400 (por padrão vem assim) 
+Dependendo da família da fonte, a gente não consegue colocar determinado "peso" para ela. Por exemplo.:
 
-#### Notas importantes
-> Valores mostrados em sequência, quanto menor, mais leve, quanto maior maior sua espessura:
-
-> 100 - Thin                            </br>
-> 200 - Extra Light (Ultra Light)       </br>
-> 300 - Light                           </br>
-> 400 - Normal                          </br>
-> 500 - Medium                          </br>
-> 600 - Semi Bold (Demi Bold)           </br>
-> 700 - Bold                            </br>
-> 800 - Extra Bold (Ultra Bold)         </br>
-> 900 - Black (Heavy)
 ```css
 p{
     font-family: 'Time News Roman', Times, serif;
@@ -69,5 +57,18 @@ p{
 </br>
 </br>
 
-### font-style 
-* __Valores:__ _Italic, oblique, 
+### <code>font-style</code> 
+* __Valores:__ _normal, Italic, oblique_ 
+* Define o estilo da fonte, por padrão é "normal", Italic é aquela letra mais deitada e "oblique" é extremamente parecida com a "italic". 
+
+```css
+p{
+    font-style: italic; 
+}
+```
+
+</br>
+</br>
+</br>
+
+### <code>font-size</code>
