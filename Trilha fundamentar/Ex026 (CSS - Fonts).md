@@ -119,6 +119,19 @@ São as fontes que já estão instaladas em nossa máquina
 Permite que você defina todas as variantes de fonte para uma fonte.
 São pequenas variações que você pode fazer na sua fonte.
 > NEM TODAS AS FONTES POSSUEM ESTA PROPRIEDADE 
+```css
+p{
+    /* Deixa a fonte mais "amassada", "rebaixada" (haha) */
+    font-variant: small-caps;
+}
+```
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant">Teste aqui </a>
+
+
+</br>
+</br>
+</br>
+
 
 ## <code>font-stretch</code> 
 * __Valores:__ _condensed, expanded, ultra-expanded, 50%, 100% e 150%._ </br>
