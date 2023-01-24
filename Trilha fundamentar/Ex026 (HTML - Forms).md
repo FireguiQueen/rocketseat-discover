@@ -44,8 +44,8 @@ ______________________________________________________________________________
 ### Tags filhas básicas do <code>form </code>
 
 #### <code>fieldset</code>
-É usado para agrupar vários controles de input, bem como rótulos (&lt;label&gt;) dentro de um formulário da Web. Em outras palavras, iremos utilizar o <code>fieldset</code> para agrupar diversas questões de formulário, e definir que elas pertencem ao mesmo grupo (o atributo `name=""` não é obrigatório, mas é extremamente recomendado para definir um nome para aquele grupo). 
-No exemplo abaixo, os 3 <code>inputs</code> foram colocado na tag <code>fieldset</code> pois pertencem ao mesmo grupo. O Fieldset é muito utilizado com a tag <code>legend</code>, pois é ela quem dirá o nome agrupamento. 
+É usado para agrupar vários controles de input, bem como rótulos (&lt;label&gt;) dentro de um formulário da Web. Em outras palavras, iremos utilizar o <code>fieldset</code> para agrupar diversas questões de formulário, e definir que elas pertencem ao mesmo grupo (o atributo `name=""` não é obrigatório, mas é extremamente recomendado para definir um nome para aquele grupo), ou seja, vamos utilizar do fieldset para dizermos que todas os inputs tem o mesmo propósito.. E este propósito pode varir, pode ser inputs de texto, número, email e tudo isso para fazer seu login. 
+No exemplo abaixo, os 3 <code>inputs</code> foram colocado na tag <code>fieldset</code> pois pertencem ao mesmo grupo (o propósito do grupo é ser as informações de contato). O Fieldset é muito utilizado com a tag <code>legend</code>, pois é ela quem dirá o nome agrupamento. 
 ```html
 <!-- EXEMPLO 01: -->
 <form>
