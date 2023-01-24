@@ -21,6 +21,8 @@ Representa uma seção de um documento que contém controles interativos que per
 # <code>Inputs</code>
 São usados para criar controles interativos para formulários baseados na web para receber dados do usuário. A semântica de um <code>&lt;input&gt;</code> varia consideravelmente dependendo do valor de seu atributo type.
 
+</br>
+
 ______________________________________________________________________________
 
 ## Form Atrbituos básicos
@@ -35,6 +37,7 @@ Quando criamos a tag <code>&lt;form&gt;</code> temos dois valores principais par
 * post
 > É o metódo mais seguro, porém mais lento ao se comunicar com o resto da aplicação. Após colocar informações no formulário, eles NÃO irão ficar na sua URL. O valor "POST" é recomendado caso o formulário tenha perguntas confidênciais, como: cpf, cartão de crédito, senha, usuário e etc..
 
+</br>
 
 ______________________________________________________________________________
 
