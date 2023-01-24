@@ -51,7 +51,7 @@ p{
     font-weight: 100;
 
     /* Nesta fonte (times new roman), independente do weight que você colocar (entre 300 ou 100), ela vai mantar a mesma espessura. Isso nos mostra que, algumas fontes trabalham com 
-    weights mais especificos. Por exemplo, pode existir uma fonte que não possua o valor "bold", ou que possua o valor "bold", mas não há diferença entre o "bold" e o "bolder" dela. */
+    weights mais especificos. Por exemplo, pode existir uma fonte que não possua o valor "bold", ou que possua o valor "bold", mas não há diferença entre o "bold" e o "bolder" dela. O Google fonts funciona justamente desta maneira, quando você selecionar uma fonte, ele vai pedir em qual weight você quer, caso você queira a maior variedade possível, você terá que pegar todos os links de cada weight */
 }
 ```
 
@@ -74,3 +74,37 @@ p{
 </br>
 
 ### <code>font-size</code>
+* __Valores:__ _xx-small, x-small, medium, x-large, 1px, 1rem.._
+* A unidade de medida mais utilizada é o pixel.
+
+```css
+p{
+    font-size: 20px;
+}
+```
+
+</br>
+</br>
+</br>
+
+
+### Web fonts & local fonts
+
+</br>
+
+#### Web fonts 
+São as fontes que veem da web, em grande parte das vezes você irá usar o google fonts.
+* @import (NÃO RECOMENDO - IRÁ IR PARA O ARQUIVO .CSS E DEPOIS ELE SERÁ PUXADO PELO HTML)
+* link (RECOMENDADO - IRÁ IR DIRETO NO ARQUIVO .HTML)
+
+</br>
+</br>
+
+#### Local fonts 
+São as fontes que já estão instaladas em nossa máquina
+* @font-face 
+```css
+@font-face{
+    font-family: de_um_nome_a_fonte_aqui
+    src: url(onde/ela/se/encontra/na/sua/maquina)
+}
