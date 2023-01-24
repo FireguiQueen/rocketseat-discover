@@ -1,21 +1,22 @@
-# Forms
+# Form
 
-## Para que serve?
-
-- Capturar dados (informações) de entrada (input)
+- Captura dados (informações) de entrada (input)
 > Por exemplo, pegar o nome do cliente e armazenar numa variável JS
 
 </br>
 
 - Interação com a página
-> Por exemplo, clicar no botão '1' (interação) e capturar seus dados para fazer um cálculo na calculadora
+> Por exemplo, clicar no botão '1' (interação) e em outro número para fazer um cálculo na calculadora que está no seu site.
 
 </br>
 
 - Controle 
-> Por exemplo controle de uma tag vídeo, você poder aumentar, diminiuir o volume e etc..
+> Por exemplo, criar mais controles para uma tag vídeo, você poder aumentar, diminiuir o volume e etc..
 
 </br>
+
+# Input
+É usado para criar controles interativos para formulários baseados na web para receber dados do usuário. A semântica de um <code>&lt;input&gt;</code> varia consideravelmente dependendo do valor de seu atributo type.
 
 ______________________________________________________________________________
 
@@ -37,7 +38,7 @@ Quando criamos a tag <code>&lt;form&gt;</code> temos dois valores principais par
 
 ______________________________________________________________________________
 
-### Tags filhas básicas
+### Tags filhas básicas do <code>form </code>
 
 #### <code>fieldset</code>
 É usado para agrupar vários controles de input, bem como rótulos (&lt;label&gt;) dentro de um formulário da Web. Em outras palavras, iremos utilizar o <code>fieldset</code> para agrupar diversas questões de formulário, e definir que elas pertencem ao mesmo grupo (o atributo `name=""` não é obrigatório, mas é extremamente recomendado para definir um nome para aquele grupo). 
@@ -121,7 +122,7 @@ Representa uma legenda para um item em uma interface do usuário. Em outras pala
 <!-- Não é necessário deixar o input dentro da tag LABEL, mas o atributo  FOR=" "  será necessário -->
 <form>
     <label for="nome-da-pessoa">Name </label>
-    
+
     <input id="nome-da-pessoa" type="text" />
 </form>
 ```
