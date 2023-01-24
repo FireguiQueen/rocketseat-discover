@@ -45,12 +45,13 @@ No exemplo abaixo, os 3 <code>inputs</code> foram colocado na tag <code>fieldset
 ```html
 <!-- EXEMPLO 01: -->
 <form>
-    <fieldset name="inf-de-contato"> <!-- Define um grupo-->
-        <legend>Contato </legend> <!-- Define o nome do agrupamento -->
-        <input type="text">Nome: </input> <!-- Formulário pertencente ao grupo -->
-        <input type="text">Sobrenome: </input>
-        <input type="text">Email: </input>
-    </fieldset>
+    <fieldset name="inf-de-contato">            <!-- Define um grupo-->
+        <legend>Contato </legend>               <!-- Define o nome do agrupamento -->
+
+        <input type="text">Nome: </input>       <!-- Formulário pertencente ao grupo -->
+        <input type="text">Sobrenome: </input>  <!-- Formulário pertencente ao grupo -->
+        <input type="text">Email: </input>      <!-- Formulário pertencente ao grupo -->
+    </fieldset> 
 </form>
 
 
@@ -58,9 +59,10 @@ No exemplo abaixo, os 3 <code>inputs</code> foram colocado na tag <code>fieldset
 <form>
     <fieldset> <!-- Define um grupo-->
         <legend>Falsificador de CPF </legend> <!-- Define o nome do grupo -->
-        <input type="text">Nome: </input> <!-- Formulário pertencente ao grupo -->
-        <input type="text">Sobrenome: </input>
-        <input type="text">CPF: </input>
+
+        <input type="text">Nome: </input>       <!-- Formulário pertencente ao grupo -->
+        <input type="text">Sobrenome: </input>  <!-- Formulário pertencente ao grupo -->
+        <input type="text">CPF: </input>        <!-- Formulário pertencente ao grupo -->
     </fieldset>
 </form>
 ```
