@@ -48,23 +48,25 @@ ______________________________________________________________________________
 <!-- EXEMPLO 01: -->
 <form>
     <fieldset> <!-- Define um grupo-->
-        <legend>Contato </legend> <!-- Define o nome do grupo para o usuário -->
+        <legend>Contato </legend> <!-- Define o nome do grupo -->
         <input type="text">Nome: </input> <!-- Formulário pertencente ao grupo -->
         <input type="text">Sobrenome: </input>
         <input type="text">Email: </input>
     </fieldset>
 </form>
 
+
 <!-- EXEMPLO 02: -->
 <form>
     <fieldset> <!-- Define um grupo-->
-        <legend>Falsificador de CPF </legend> <!-- Define o nome do grupo para o usuário -->
+        <legend>Falsificador de CPF </legend> <!-- Define o nome do grupo -->
         <input type="text">Nome: </input> <!-- Formulário pertencente ao grupo -->
         <input type="text">Sobrenome: </input>
         <input type="text">CPF: </input>
     </fieldset>
 </form>
 ```
+> NÃO UTILIZE A TAG <code>h2</code> OU QUALQUER OUTRA PARA DEFINIR UM NOME DO FORMULÁRIO, UTILIZE DA TAG <code>legend</code>. POR EXEMPLO, SE FOR UM FORMULÁRIO DE CONTATO, UTILIZE <code>&lt;legend&gt; CONTATO &lt;&sol;legend&gt;</code>
 
 </br>
 
