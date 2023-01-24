@@ -12,6 +12,8 @@ Tipografia é o jeito que escrevemos algo, por exemplo.:
 - Estilo 
 > Serve para dar um visual mais chamativo ao nosso texto, mudando o estilo da fonte, podemos deixar mais leve dependendo do contexto do texto. 
 
+</br>
+</br>
 
 ## Propriedades mais utilizadas
 
