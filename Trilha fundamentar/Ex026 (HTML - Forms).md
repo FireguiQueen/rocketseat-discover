@@ -117,16 +117,18 @@ Representa uma legenda para um item em uma interface do usuário. Em outras pala
 <!-- JEITO RECOMENDADO -->
 <form>
     <!-- O label faz com que a string "name" seja referente ao input de texto, e quando clicamos nesta mesma string, o HTML entende que queremos digitar naquele input, então já podemos começar a digitar -->
-    <label>Name:     <input type="text"/>      </label>
-    <label>Password: <input type="password"/>  </label>
+    <label> Name:     <input type="text"/>      </label>
+    <label> Password: <input type="password"/>  </label>
 </form>
 
-<!-- Não é necessário deixar o input dentro da tag LABEL, mas o atributo  FOR=" "  será necessário -->
+<!-- Não é necessário deixar o input dentro da tag LABEL, mas o atributo  FOR=" "  será necessário --> <!-- Mas o atributo for só funciona com ELEMENTOS específicos.: button, input, meter, output, progress, select textarea. -->
 <form>
     <label for="nome-da-pessoa">Name </label>
 
     <input id="nome-da-pessoa" type="text" />
 </form>
+
+
 ```
 
 
