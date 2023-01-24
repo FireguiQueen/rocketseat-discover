@@ -108,3 +108,27 @@ São as fontes que já estão instaladas em nossa máquina
     font-family: de_um_nome_a_fonte_aqui
     src: url(onde/ela/se/encontra/na/sua/maquina)
 }
+```
+
+</br>
+</br>
+</br>
+
+## <code>font-variant </code>
+* __Valores:__ _normal, small-caps, common-ligatures, no-common-ligatures_
+Permite que você defina todas as variantes de fonte para uma fonte.
+São pequenas variações que você pode fazer na sua fonte.
+> NEM TODAS AS FONTES POSSUEM ESTA PROPRIEDADE 
+
+## <code>font-stretch</code> 
+* __Valores:__ _condensed, expanded, ultra-expanded, 50%, 100% e 150%._
+Seleciona uma face normal, condensada ou expandida de uma fonte.
+É como se fosse um "zoom" na fonte
+> NEM TODAS AS FONTES POSSUEM ESTA PROPRIEDADE 
+
+```css
+p{
+    font-stretch: condensed;
+}
+
+```
