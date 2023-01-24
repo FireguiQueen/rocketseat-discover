@@ -105,8 +105,7 @@ O fieldset também pode ficar fora do formulário, porém o atributo `form=""` s
 </br>
 
 #### <code>label</code>
-Representa uma legenda para um item em uma interface do usuário. Em outras palavras, você dará nome aos seus inputs da maneira correta.
-
+Representa uma legenda para um item em uma interface do usuário. Em outras palavras, você associa um nome a um input.
 ```html
 <!-- JEITO ERRADO -->
 <form>
@@ -130,5 +129,4 @@ Representa uma legenda para um item em uma interface do usuário. Em outras pala
 </form>
 ```
 
-```
 
