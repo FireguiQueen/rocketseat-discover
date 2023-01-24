@@ -66,7 +66,7 @@ No exemplo abaixo, os 3 <code>inputs</code> foram colocado na tag <code>fieldset
     </fieldset>
 </form>
 ```
-> NÃO UTILIZE A TAG <code>h2</code> OU QUALQUER OUTRA PARA DEFINIR UM NOME DO FORMULÁRIO, UTILIZE DA TAG <code>legend</code>. POR EXEMPLO, SE FOR UM FORMULÁRIO DE CONTATO, UTILIZE <code>&lt;legend&gt; CONTATO &lt;&sol;legend&gt;</code>
+> RECOMENDADO O USO DA TAG <code>h2</code> ou <code>h1</code> PARA DEFINIR UM NOME DO FORMULÁRIO, CASO A TAG <code>legend</code> não atenda suas necessidades.
 
 </br>
 
