@@ -241,3 +241,38 @@ p{
 } 
 ```
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-align">Teste aqui </a>
+
+
+</br>
+</br>
+</br>
+
+## <code>text-shadow</code>
+* __Valores:__ _`length X` `length Y` `length blur` color_ </br>
+Podemos criar sombras para os nossos textos. O primeiro valor é parao eixo X (horizontal), o segundo valor para o eixo Y (vertical), o terceiro valor para o blur (desfoque) desta sombra, e o quarto é a cor desejada. Caso a cor não seja definada, ela será currentcolor por padrão, ou seja, a cor da sombra é a cor da propriedade <code>color: ;</code>
+> Vale lembrar que, números positivos vão para a direita e para baixo, números negativos para a esquerda e para cima
+```css
+p{
+    /* Uma sombra vermelha um pouco para o lado direito e para baixo com um desfoque de 2px */ 
+    text-shadow: 3px 3px 2px red;
+}
+
+/* Podemos adicionar infinitas sombras a um texto usando vírgula (,) */
+p{
+    text-shadow: 3px 3px 2px red,
+    2px 2px 7px green,
+    3px 3px 2px yellow;
+}
+```
+
+</br>
+</br>
+</br>
+
+## Shorthand
+Por mim podemos utilizar do short-hand para agrupar todas as propriedades, por exemplo..
+```css
+    /* style, variant, weight, stretch, size, line-height & family */   
+    /* Size e line-height precisam ser separados por barra (/) */
+    font: italic normal bold normal 3em/1.5 Times, Arial, sans-serif;
+```
