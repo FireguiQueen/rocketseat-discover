@@ -15,11 +15,8 @@
 - Controle 
 > Por exemplo controle de uma tag vídeo, você poder aumentar, diminiuir o volume e etc..
 
-## Dominando os "forms"
-- Javascript
-- Validação
-- Controles customizados
-- Estilização
+</br>
+
 ______________________________________________________________________________
 
 ## <code>form</code>
