@@ -19,7 +19,7 @@
 
 ______________________________________________________________________________
 
-## <code>form</code>
+## <code>FORM</code>
 O elemento form é utilizado para fazer formulários. Os formulários representam uma seção de documento que contém controles interativos para o envio de informações.
 
 ### Atrbituos básicos
@@ -78,9 +78,41 @@ O fieldset também pode ficar fora um formulário, porém o atributo `form=""` s
 
 <fieldset form="login">
     <legend>Login </code>
-    <input type="text">User: </input> 
-    <input type="password">Password: </input>
-    <input type="email">Email: </input>
+    User:     <input type="text"/> 
+    Password: <input type="password"/> 
+    Email:    <input type="email"/>
 </fieldset> 
+```
+
+</br>
+</br>
+</br>
+
+#### <code>label</code>
+Representa uma legenda para um item em uma interface do usuário. Em outras palavras, você dará nome aos seus inputs da maneira correta.
+
+```html
+<!-- JEITO ERRADO -->
+<form>
+    Name:     <input type="text"/> 
+    Password: <input type="password"/> 
+</form>
+
+
+
+<!-- JEITO RECOMENDADO -->
+<form>
+    <!-- O label faz com que a string "name" seja referente ao input de texto, e quando clicamos nesta mesma string, o HTML entende que queremos digitar naquele input, então já podemos começar a digitar -->
+    <label>Name:     <input type="text"/>     </label>
+    <label>Password: <input type="password"/> </label>
+</form>
+
+<!-- Não é necessário deixar o input dentro da tag LABEL, mas o atributo ' FOR="" ' será necessário -->
+<form>
+    <label for="nome-da-pessoa">Name </label>
+    <input id="nome-da-pessoa" type="text" />
+</form>
+```
+
 ```
 
