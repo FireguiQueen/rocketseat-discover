@@ -125,13 +125,12 @@ São pequenas variações que você pode fazer na sua fonte.
 Seleciona uma face normal, condensada ou expandida de uma fonte.
 É como se fosse um "zoom" na fonte
 > NEM TODAS AS FONTES POSSUEM ESTA PROPRIEDADE 
-
 ```css
 p{
     font-stretch: condensed;
 }
-
 ```
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch">Teste aqui </a>
 
 </br>
 </br>
