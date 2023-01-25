@@ -147,7 +147,7 @@ __________________________________________________________________________
 * Geralmente utilizado para enviar formulários 
 
 ### Buttom: atrbituos básicos
-* Type: __submit, reset, button__
+* __TYPE:__ _submit, reset, button_
 > O "reset" faz com que os inputs voltem aos seus valores iniciais, então caso queira que seu formulário resete ao clicar no botão, é importante colocar o atributo VALUE="" em todos os inputs.
 
 > O "submit" envia os dados do formulário para o servidor. Esse é o padrão se o atributo não for especificado para botões associados a um , ou se o atributo for um valor vazio ou inválido.
@@ -156,7 +156,7 @@ __________________________________________________________________________
 
 </br>
 
-* form 
+* __FORM__ 
 > Caso o botão esteja fora um formulário, você pode fazer com que o botão seja referente a determinado formulário usando este atributo na tag `button`. Por exemplo.: `&lt;button form="contato" type="submit"&gt;Enviar formulário &lt;&sol;button&gt;`. Para usar o "form" como atributo é necessário definir um id para a tag `form`.
 
 * autofocus 
@@ -164,13 +164,13 @@ __________________________________________________________________________
 </br>
 
 
-* disabled 
+* __DISABLED__ 
 > Desabiltia o botão, porém o mesmo continua vísivel na página, mas com uma aparência mais transparente.
 
 </br>
 
 
-* name 
+* __NAME__ 
 > É um atributo muito importante para os campos do tipo input/button. Serve para identificar o valor daquela variável no nosso backend. Também que é possível dar um name para um formulário, mesmo que o mesmo não seja processado pelo servidor. </br> 
 > É possível fazer isso:
 ```html
