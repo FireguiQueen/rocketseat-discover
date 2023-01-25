@@ -70,7 +70,7 @@ No exemplo abaixo, os 3 <code>inputs</code> foram colocado na tag <code>fieldset
 
         Nome: <input type="text"/>      <!-- Formulário pertencente ao grupo -->
         Sobrenome: <input type="text"/> <!-- Formulário pertencente ao grupo -->
-        Email: <input type="text"/>     <!-- Formulário pertencente ao grupo -->
+        Email: <input diabled type="text"/>     <!-- Foi desativado, porém ainda é visível na página -->
     </fieldset> 
 </form>
 
