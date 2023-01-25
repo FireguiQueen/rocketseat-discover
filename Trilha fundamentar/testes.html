@@ -1,9 +1,80 @@
-<form disabled>
-    <fieldset >
-        <legend>Login </legend>
-        <label > <input type="text" value="" placeholder="Digite aqui"/> </label>
-        <label> <input type="text" value="" placeholder="Digite aqui"/> </label>
-        <label> <input type="text" value="" placeholder="Digite aqui"/> </label>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário teste</title>
+    <style> 
+        *{
+            margin: 0;
+            box-sizing: border-box;
+            padding: 0;
+            outline: none;
+            color: white;
+        }
+        body{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-repeat: no-repeat;
+            background-image: linear-gradient(to right, rgb(214, 96, 96), rgb(22, 22, 53));
+            animation: background-change 14s alternate infinite;
+        }
+        h2{
+            text-align: left;
+            font-size: 44px;
+        }
+        label{
+            display: block;
+        }
+        fieldset{
+            background-color: rgb(26, 22, 22);
+            box-sizing: content-box;
+            padding: 100px;
+            border: 1px solid white;
+            border-radius: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        input{
+            height: 40px;
+            width: 540px;
+            border: none;
+            background-color: transparent;
+            border-bottom: 1px solid rgba(31, 29, 29, 0.703);
+        }
 
-    </fieldset>
-</form>
+        @keyframes background-change{ 
+            0%{
+                background-size: 400%;
+                background-position: 0% 50%;
+            }
+            100%{
+                background-size: 400%;
+                background-position: 100% 50%;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <form> 
+        <fieldset> 
+            
+            <label>
+                <h2>User </h2> 
+                <input type="text" placeholder="type your username here"> 
+            </label>
+            <label>
+                <h2>Password </h2> 
+                <input type="password" placeholder="type your password here"> 
+            </label>
+        </fieldset>
+    </form>
+</body>
+</html>
