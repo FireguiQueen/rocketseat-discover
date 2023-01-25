@@ -157,18 +157,46 @@ __________________________________________________________________________
 </br>
 
 * __FORM__ 
- > Caso o botão esteja fora um formulário, você pode fazer com que o botão seja referente a determinado formulário usando este atributo na tag `button`. Por exemplo.: `<button form="contato" type="submit"> Enviar formulário </button>`. Para usar o "form" como atributo é necessário definir um id para a tag `form`.
 
-* autofocus 
-
-</br>
-
+* __AUTOFOCUS__ 
 
 * __DISABLED__ 
- > Desabiltia o botão, porém o mesmo continua vísivel na página, mas com uma aparência mais transparente.
+
+* __NAME__ 
+
+* __VALUE__ 
+
+_____________________________________________________________________________
+
+## Explicando atributos
+
+* __FORM__ 
+ > Indica o formulário que é o proprietário do elemento. Em outras palavras, caso um botão/input esteja fora um formulário, você pode fazer com que o botão/input seja referente a determinado formulário. Por exemplo.: `
+ ```html
+<form id="contato">
+    <fieldset>
+        NOME: <input type="text" name="nome-da-pessoa"/>
+        EMAIL: <input type="text" name="nome-da-pessoa"/>
+    </fieldset>
+</form>
+ 
+<button form="contato" type="submit">Enviar informações de contato</button>
+```
 
 </br>
 
+* __AUTOFOCUS__ 
+> O elemento deve ser focado automaticamente após a página ser carregada.
+
+</br>
+
+* __DISABLED__ 
+ > Desabiltia um elemento, porém o mesmo continua vísivel na página, mas com uma aparência mais transparente.
+
+ </br>
+
+* __VALUE__ 
+> Define o valor padrão na qual será mostrado no elemento no carregar da página. Utilizamos muito do `value=""` junto a um botão que reseta os campso do formulário, pois o `reset` serve para os campos voltarem o VALOR padrão, e o valor padrão não é nada.
 
 * __NAME__ 
  > É um atributo muito importante para os campos do tipo input/button. Serve para identificar o valor daquela variável no nosso backend. Também que é possível dar um name para um formulário, mesmo que o mesmo não seja processado pelo servidor. </br> 
@@ -184,11 +212,3 @@ document.matricula.submit();
 ```
 
 </br>
-
-* __VALUE__ 
-> Define o valor padrão na qual será mostrado no elemento no carregar da página. Utilizamos muito do `value=""` junto a um botão que reseta os campso do formulário, pois o `reset` serve para os campos voltarem o VALOR padrão, e o valor padrão não é nada.
-
-
-
-
-
