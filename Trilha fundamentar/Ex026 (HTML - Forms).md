@@ -185,7 +185,9 @@ document.matricula.submit();
 
 </br>
 
-* value 
+* __VALUE__ 
+> Define o valor padrão na qual será mostrado no elemento no carregar da página. Utilizamos muito do `value=""` junto a um botão que reseta os campso do formulário, pois o `reset` serve para os campos voltarem o VALOR padrão, e o valor padrão não é nada.
+
 
 
 
