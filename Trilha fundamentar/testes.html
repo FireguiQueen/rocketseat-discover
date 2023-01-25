@@ -38,7 +38,7 @@
             border-radius: 14px;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: left;
             flex-direction: column;
         }
         input{
@@ -49,6 +49,26 @@
             border-bottom: 1px solid rgba(31, 29, 29, 0.703);
         }
 
+        #buttons{
+            display: flex;
+            gap: 30px;
+        }
+        button{
+            background-color: rgb(63, 63, 149);
+            border: none;
+            padding: 15px 30px 15px 30px;
+            border-radius: 10px;
+
+            transition: background-color 190ms linear;
+
+        }
+        button:hover{
+            background-color: rgb(218, 144, 69);
+            transition: background-color 190ms linear;
+        }
+        .space{
+            margin-bottom: 30px;
+        }
         @keyframes background-change{ 
             0%{
                 background-size: 400%;
@@ -59,21 +79,26 @@
                 background-position: 100% 50%;
             }
         }
-        
+
     </style>
 </head>
 <body>
-    <form> 
+    <form method="post"> 
         <fieldset> 
             
-            <label>
+            <label class="space">
                 <h2>User </h2> 
-                <input type="text" placeholder="type your username here"> 
+                <input value="" type="text" placeholder="type your username here"/> 
             </label>
-            <label>
+            <label class="space">
                 <h2>Password </h2> 
-                <input type="password" placeholder="type your password here"> 
+                <input value="" type="password" placeholder="type your password here"> 
             </label>
+
+            <div class="space" id="buttons">
+                <button type="submit">submit</button> 
+                <button type="reset">reset</button> 
+            </div>
         </fieldset>
     </form>
 </body>
