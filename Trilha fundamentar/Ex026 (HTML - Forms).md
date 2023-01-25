@@ -25,7 +25,7 @@ São usados para criar controles interativos para formulários baseados na web p
 
 ______________________________________________________________________________
 
-## Form Atrbituos básicos
+## FORM: Atrbituos básicos
 
 ### Method
 Quando criamos a tag <code>&lt;form&gt;</code> temos dois valores principais para o atributo <code>method</code>, sendo.: 
@@ -41,7 +41,7 @@ Quando criamos a tag <code>&lt;form&gt;</code> temos dois valores principais par
 
 ______________________________________________________________________________
 
-### Tags filhas básicas do <code>form </code>
+## FORM: tags filhas
 
 #### <code>fieldset</code>
 É usado para agrupar vários controles de input, bem como rótulos (&lt;label&gt;) dentro de um formulário da Web. Em outras palavras, iremos utilizar o <code>fieldset</code> para agrupar diversas questões de formulário, e definir que elas pertencem ao mesmo grupo (o atributo `name=""` não é obrigatório, mas é extremamente recomendado para definir um nome para aquele grupo), ou seja, vamos utilizar do fieldset para dizermos que todas os inputs tem o mesmo propósito.. E este propósito pode varir, pode ser inputs de texto, número, email e tudo isso para fazer seu login. 
@@ -132,5 +132,24 @@ Representa uma legenda para um item em uma interface do usuário. Em outras pala
     <input id="nome-da-pessoa" type="text" />
 </form>
 ```
+
+</br>
+</br>
+</br>
+
+## <code>BUTTON</code>
+* Representa um botão
+* Geralmente utilizado para enviar formulários 
+
+### Buttom: atrbituos básicos
+* Type: __submit, reset, button__
+> O reset faz com que os inputs voltem aos seus valores iniciais, então caso queira que seu formulário resete ao clicar no botão, é importante colocar o atributo VALUE="" em todos os inputs.
+* autofocus 
+* disabled (desabiltia o botão, porém o mesmo continha vísivel)
+* name 
+* value 
+* form 
+
+
 
 
