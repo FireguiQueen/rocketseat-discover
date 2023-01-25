@@ -108,6 +108,9 @@ O fieldset também pode ficar fora do formulário, porém o atributo `form=""` s
 </br>
 </br>
 
+__________________________________________________________________________
+
+
 #### <code>label</code>
 Representa uma legenda para um item em uma interface do usuário. Em outras palavras, você associa um nome a um input.
 ```html
@@ -137,6 +140,8 @@ Representa uma legenda para um item em uma interface do usuário. Em outras pala
 </br>
 </br>
 
+__________________________________________________________________________
+
 ## <code>BUTTON</code>
 * Representa um botão
 * Geralmente utilizado para enviar formulários 
@@ -149,16 +154,25 @@ Representa uma legenda para um item em uma interface do usuário. Em outras pala
 
 > O "button" não tem comportamento padrão e não faz nada quando pressionado por padrão. Ele pode fazer com que os scripts do lado do cliente ouçam os eventos do elemento, que são acionados quando os eventos ocorrem.
 
+</br>
+
 * form 
 > Caso o botão esteja fora um formulário, você pode fazer com que o botão seja referente a determinado formulário usando este atributo na tag `button`. Por exemplo.: `&lt;button form="contato" type="submit"&gt;Enviar formulário &lt;&sol;button&gt;`. Para usar o "form" como atributo é necessário definir um id para a tag `form`.
 
 * autofocus 
+
+</br>
+
+
 * disabled 
 > Desabiltia o botão, porém o mesmo continua vísivel na página, mas com uma aparência mais transparente.
 
+</br>
+
+
 * name 
-> É um atributo muito importante para os campos do tipo input/button. Ele serve para identificar o valor daquela variável no nosso backend. Também que é possível dar um name para um formulário, mesmo que o mesmo não seja processado pelo servidor. </br> 
->É possível fazer isso:
+> É um atributo muito importante para os campos do tipo input/button. Serve para identificar o valor daquela variável no nosso backend. Também que é possível dar um name para um formulário, mesmo que o mesmo não seja processado pelo servidor. </br> 
+> É possível fazer isso:
 ```html
 <form name="matricula">
 
@@ -168,6 +182,8 @@ Assim, podemos acessar esse formulário facilmente pelo Javascript:
 ```js
 document.matricula.submit();
 ```
+
+</br>
 
 * value 
 
