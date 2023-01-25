@@ -59,7 +59,7 @@ No exemplo abaixo, os 3 <code>inputs</code> foram colocado na tag <code>fieldset
 
 
 
-    <!-- Caso você queira que determinado grupo de formulário fique desabilitado, ou seja, o usuário não irá conseguir clicar nos "inputs", você pode adicionar o atributo "disable" -->
+    <!-- Caso você queira que determinado grupo de formulário fique desabilitado ou que um input específico fique desabilitado, você pode adicionar o atributo "disabled". O "disabled" só pode ser adicionado numa tag "INPUT" (desabilitando um input especifico) na tag "FIELDSET" (desabilitando todo o grupo, ou seja, todos os inputs que estão neste grupo) -->
 
     <fieldset name="inf-de-endereço">   <!-- Define um grupo-->
         <legend>Contato </legend>       <!-- Define o nome do agrupamento -->
@@ -127,8 +127,6 @@ Representa uma legenda para um item em uma interface do usuário. Em outras pala
 
     <input id="nome-da-pessoa" type="text" />
 </form>
-
-
 ```
 
 
