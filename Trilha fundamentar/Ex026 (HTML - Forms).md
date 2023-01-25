@@ -157,7 +157,7 @@ __________________________________________________________________________
 </br>
 
 * __FORM__ 
- > Caso o botão esteja fora um formulário, você pode fazer com que o botão seja referente a determinado formulário usando este atributo na tag `button`. Por exemplo.: </code&lt;button form="contato" type="submit"&gt;Enviar formulário &lt;&sol;button&gt;</code>. Para usar o "form" como atributo é necessário definir um id para a tag `form`.
+ > Caso o botão esteja fora um formulário, você pode fazer com que o botão seja referente a determinado formulário usando este atributo na tag `button`. Por exemplo.: `<button form="contato" type="submit"> Enviar formulário </button>`. Para usar o "form" como atributo é necessário definir um id para a tag `form`.
 
 * autofocus 
 
