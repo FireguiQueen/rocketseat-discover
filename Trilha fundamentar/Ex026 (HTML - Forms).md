@@ -143,7 +143,12 @@ Representa uma legenda para um item em uma interface do usuário. Em outras pala
 
 ### Buttom: atrbituos básicos
 * Type: __submit, reset, button__
-> O reset faz com que os inputs voltem aos seus valores iniciais, então caso queira que seu formulário resete ao clicar no botão, é importante colocar o atributo VALUE="" em todos os inputs.
+> O "reset" faz com que os inputs voltem aos seus valores iniciais, então caso queira que seu formulário resete ao clicar no botão, é importante colocar o atributo VALUE="" em todos os inputs.
+
+> O "submit" envia os dados do formulário para o servidor. Esse é o padrão se o atributo não for especificado para botões associados a um , ou se o atributo for um valor vazio ou inválido.
+
+> O "button" não tem comportamento padrão e não faz nada quando pressionado por padrão. Ele pode fazer com que os scripts do lado do cliente ouçam os eventos do elemento, que são acionados quando os eventos ocorrem.
+
 * autofocus 
 * disabled (desabiltia o botão, porém o mesmo continha vísivel)
 * name 
