@@ -157,6 +157,18 @@ Representa uma legenda para um item em uma interface do usuário. Em outras pala
 > Desabiltia o botão, porém o mesmo continua vísivel na página, mas com uma aparência mais transparente.
 
 * name 
+> É um atributo muito importante para os campos do tipo input/button. Ele serve para identificar o valor daquela variável no nosso backend. Também que é possível dar um name para um formulário, mesmo que o mesmo não seja processado pelo servidor. </br> 
+>É possível fazer isso:
+```html
+<form name="matricula">
+
+</form>
+```
+Assim, podemos acessar esse formulário facilmente pelo Javascript:
+```js
+document.matricula.submit();
+```
+
 * value 
 
 
