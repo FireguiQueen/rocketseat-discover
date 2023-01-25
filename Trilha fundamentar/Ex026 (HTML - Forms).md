@@ -150,7 +150,7 @@ Representa uma legenda para um item em uma interface do usuário. Em outras pala
 > O "button" não tem comportamento padrão e não faz nada quando pressionado por padrão. Ele pode fazer com que os scripts do lado do cliente ouçam os eventos do elemento, que são acionados quando os eventos ocorrem.
 
 * form 
-> Caso o botão esteja fora um formulário, você pode fazer com que o botão seja referente a determinado formulário usando este atributo na tag `button`. Por exemplo.: `&lt;button form="contato"&gt;Enviar formulário &lt;&sol;button&gt;
+> Caso o botão esteja fora um formulário, você pode fazer com que o botão seja referente a determinado formulário usando este atributo na tag `button`. Por exemplo.: `&lt;button form="contato" type="submit"&gt;Enviar formulário &lt;&sol;button&gt;
 
 
 * autofocus 
