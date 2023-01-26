@@ -59,7 +59,7 @@
 
 ____________________________________________________________
 
-# Abreviação
+# <code>&lt;abbr&gt;</code>
 - Utilize o <abbr> para fazer uma abreviação
 - Utilize o atributo `title=" "` para descrever o significado desta abreviação
 
@@ -71,7 +71,7 @@ ____________________________________________________________
 
 ____________________________________________________________
 
-# Endereço
+# <code>&lt;address&gt;</code>
 - Para especificar o outor da página, a localização do mesmo
 - Para mostrar informações para contato e localidade da empresa
 
