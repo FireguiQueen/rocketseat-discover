@@ -15,8 +15,6 @@ Representa uma seção de um documento que contém controles interativos que per
 > Por exemplo, criar mais controles para uma tag vídeo, você poder aumentar, diminiuir o volume e etc..
 
 </br>
-</br>
-
 
 # <code>Inputs</code>
 São usados para criar controles interativos para formulários baseados na web para receber dados do usuário. A semântica de um <code>&lt;input&gt;</code> varia consideravelmente dependendo do valor de seu atributo type.
@@ -25,20 +23,32 @@ São usados para criar controles interativos para formulários baseados na web p
 - file
 > Para o usuário poder selecionar um arquivo de sua máquina
 
+</br>
+
 - text
 > Para o usuário poder digitar um texto no input
+
+</br>
 
 - number
 > Apenas números serão aceitas no input
 
+</br>
+
 - date
 > Input de data, dia, mês e ano
+
+</br>
 
 - time
 > Input para horário, horas e minutos.. 
 
+</br>
+
 - password
 > Input para se colocar senha (seja para login ou register). Sua senha irá ficar em formato de "***"
+
+</br>
 
 - email
 > Input para emails. É parecido com o input do tipo "text", porém este input só irá aceitar a resposta do usuário caso ela contenha "@"
