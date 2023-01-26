@@ -17,8 +17,15 @@ Representa uma seção de um documento que contém controles interativos que per
 </br>
 
 # <code>Inputs</code>
-São usados para criar controles interativos para formulários baseados na web para receber dados do usuário. A semântica de um <code>&lt;input&gt;</code> varia consideravelmente dependendo do valor de seu atributo type.
+São usados para criar controles interativos para formulários baseados na web para receber dados do usuário. A semântica de um <code>&lt;input&gt;</code> varia consideravelmente dependendo do valor de seu atributo type. Um atributo muito utilizado junto ao `input` é o atributo `autocomplete=".."`, ele faz com que seja permitido o browser do usuário sugerir texto no input. É igual quando vamos colocar o nosso email para se registrar em algum site, mas ao clicar na caixa do input, o nosso browser já nos sugere colocar o email que sempre colocamos. O `autocomplete` possui diversos valores, e cada valor é para determinada coisa.
+```html
+<!-- Para autocompletar o campo com o email do usuário -->
+<input autocomplete="email" type="email"/>
 
+<!-- Para autocompletar o campo com o endereço do usuário -->
+
+
+```
 ## Valores do `type`
 - file
 > Para o usuário poder selecionar um arquivo de sua máquina
@@ -154,6 +161,7 @@ Representa uma legenda para um item em uma interface do usuário. Em outras pala
 </form>
 
 
+
 <!-- JEITO RECOMENDADO -->
 <form>
     <!-- O label faz com que a string "name" seja referente ao input de texto, e quando clicamos nesta mesma string, o HTML entende que queremos digitar naquele input, então já podemos começar a digitar -->
@@ -165,7 +173,8 @@ Representa uma legenda para um item em uma interface do usuário. Em outras pala
 <form>
     <label for="nome-da-pessoa">Name </label>
 
-    <input id="nome-da-pessoa" type="text" />
+    <input id="nome-da-pessoa" placeholder="digite seu nome" type="text">
+    <!-- O atributo "placeholder" serve para dizer ao HTML que uma string deve ficar no input, e assim o usuário interaje com este input, a string do placeholder irá sumir. O placeholder NÃO substitui a tag "label"! -->
 </form>
 ```
 
