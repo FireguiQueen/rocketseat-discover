@@ -243,12 +243,11 @@ Contém um conjunto de elementos <code>&lt;option&gt;</code> que representam as 
 ```
 > Vale lembrar que, o atributo `value=""` só pode receber o que condiz com o "type" do input. Ou seja, se colocarmos que o input é do tipo "time", só podemos colocar números e caracteres de horas (:) no `value=""`. Como pode ver, o exemplo acima foi utilizado um input do tipo "time", então, somos obrigados a colocar o `value=""` com um horário e com ":" para especificar qual valor são as horas, e qual valor são os minutos.
 
-> No exemplo abaixo, estarei utilizando um input do `type="color"`, perceba que na datalist não pode haver strings, somente cores.
+> No exemplo abaixo, estarei utilizando um input do `type="color"`, perceba que na datalist não pode haver strings, somente hexadecimais.
 ```html
 <input type="color" list="ChooseColor">
 <datalist id="ChooseColor">
-
-    <!-- Pelo fato do nosso input ser do tipo "color", o value só pode possuir cores.-->
+    <!-- Pelo fato do nosso input ser do tipo "color", o value só pode possuir cores HEXADECIMAIS, nada além disto.-->
     <option value="#994553"> </option> 
     <option value="#191499"> </option>
 </datalist>
