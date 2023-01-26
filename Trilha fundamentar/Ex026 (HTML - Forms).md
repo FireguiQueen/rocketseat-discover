@@ -252,3 +252,5 @@ Contém um conjunto de elementos <code>&lt;option&gt;</code> que representam as 
     <option value="#191499"> </option>
 </datalist>
 ```
+
+> Tipos de input não suportados pelo datalist.: </br> hidden, password, checkbox, radio, file ou qualquer tipo de button.
