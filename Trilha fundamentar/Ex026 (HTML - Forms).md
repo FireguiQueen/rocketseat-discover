@@ -212,51 +212,6 @@ __________________________________________________________________________
 
 * __VALUE__ 
 
-_____________________________________________________________________________
-
-## Explicando atributos
-
-* __FORM__ 
- > Indica o formulário que é o proprietário do elemento. Em outras palavras, caso um botão/input esteja fora um formulário, você pode fazer com que o botão/input seja referente a determinado formulário. Por exemplo.: `
- ```html
-<form id="contato">
-    <fieldset>
-        NOME: <input type="text" name="nome-da-pessoa"/>
-        EMAIL: <input type="text" name="nome-da-pessoa"/>
-    </fieldset>
-</form>
- 
-<button form="contato" type="submit">Enviar informações de contato</button>
-```
-
-</br>
-
-* __AUTOFOCUS__ 
-> O elemento deve ser focado automaticamente após a página ser carregada.
-
-</br>
-
-* __DISABLED__ 
- > Desabiltia um elemento, porém o mesmo continua vísivel na página, mas com uma aparência mais transparente.
-
- </br>
-
-* __VALUE__ 
-> Define o valor padrão na qual será mostrado no elemento no carregar da página. Utilizamos muito do `value=""` junto a um botão que reseta os campos do formulário, pois o `reset` serve para os campos voltarem o VALOR padrão, e o valor padrão não é nada.
-
-* __NAME__ 
- > É um atributo muito importante para os campos do tipo input/button. Serve para identificar o valor daquela variável no nosso backend. Também que é possível dar um name para um formulário, mesmo que o mesmo não seja processado pelo servidor. </br> 
- > É possível fazer isso:
-```html
-<form name="matricula">
-
-</form>
-```
-Assim, podemos acessar esse formulário facilmente pelo Javascript:
-```js
-document.matricula.submit();
-```
-
 </br>
 </br>
 </br>
@@ -300,3 +255,71 @@ Contém um conjunto de elementos <code>&lt;option&gt;</code> que representam as 
 ```
 
 > Tipos de input não suportados pelo datalist.: </br> hidden, password, checkbox, radio, file ou qualquer tipo de button.
+
+
+
+</br>
+</br>
+</br>
+
+_______________________________________________________________________________
+
+## Explicando atributos
+
+* __FORM__ 
+ > Indica o formulário que é o proprietário do elemento. Em outras palavras, caso um botão/input esteja fora de um formulário, você pode fazer com que o botão/input seja referente a aquele determinado formulário.
+ ```html
+<form id="contato">
+    <fieldset>
+        NOME: <input type="text" name="nome-da-pessoa"/>
+        EMAIL: <input type="text" name="nome-da-pessoa"/>
+    </fieldset>
+</form>
+ 
+<button form="contato" type="submit">Enviar informações de contato</button>
+```
+
+</br>
+
+* __AUTOFOCUS__ 
+> O elemento deve ser focado automaticamente após a página ser carregada. O atributo só podeser utilizada uma vez por página.
+
+</br>
+
+* __DISABLED__ 
+ > Desabiltia um elemento, porém o mesmo continua vísivel na página, mas com uma aparência mais transparente.
+
+ </br>
+
+* __VALUE__ 
+> Define o valor padrão na qual será mostrado no elemento no carregar da página. Utilizamos muito do `value=""` junto a um botão que reseta os campos do formulário, pois o `reset` serve para os campos voltarem o VALOR padrão, e o valor padrão só será "nada" quando definirmos um `value` vazio.
+
+* __NAME__ 
+ > É um atributo muito importante para os campos do tipo input/button. Serve para identificar o valor daquela variável no nosso backend. Também é possível dar um name para um formulário, mesmo que o mesmo não seja processado pelo servidor. </br> 
+ > É possível fazer isso:
+```html
+<form name="matricula">
+
+</form>
+```
+Assim, podemos acessar esse formulário facilmente pelo Javascript:
+```js
+document.matricula.submit();
+```
+
+</br>
+
+* __MINLENGTH__ & __MAXLENGTH__
+> Atributos muito utilizados para o input do tipo "password", pois através desses atributos podemos fazer com que o usuário coloque uma senha com no mínimo 4 caracteres e no máximo 50 caracteres por exemplo. Em geral, é recomendado pedir no minimo 8 caracteres e JAMAIS limitar o número de caracteres de uma senha (por mais que algumas empresas grandes façam isto, é algo HORRÍVEL). É importante ressaltar que caso o usuário coloque uma senha com menos ou mais caracteres do que foi permitido, após dar "submit" com a senha que colocou, irá aparecer uma mensagem em inglês informando que o mínimo de caracteres não foi atingido ou que o máximo de caracteres foi atingido.. Para mudar esta mensagem, você pode utilizar do atributo `title=".."`. 
+```html
+<!-- A senha pede no mínimo 8 caracteres -->
+<input type="password" minlength="8">
+
+<!-- A senha pede no mínimo 12 caracteres e só aceita até 30 caracteres -->
+<input type="password" minlength="12" maxlength="30">
+
+
+
+</br>
+</br>
+</br>
