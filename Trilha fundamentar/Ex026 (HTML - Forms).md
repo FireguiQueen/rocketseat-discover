@@ -55,6 +55,10 @@ São usados para criar controles interativos para formulários baseados na web p
 - password
 > Input para se colocar senha (seja para login ou register). Sua senha irá ficar em formato de "***"
 
+> Muito utilizado com os atributos.: `minlent`, `maxlenth`, `size`, `pattern`. Veja para o que cada atributo serve <a href="#Explicando-atributos">aqui</a>
+
+
+
 </br>
 
 - email
