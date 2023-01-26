@@ -18,14 +18,22 @@
             O <strong><em>ELEMENTO HTML<em></strong> de tabela, foi muito utilizado durante anos para a construção de layouts. Mas ao longo dos anos novos metódos de criação de layout foram surgindo, como o float, position, flexbox..  
         </p> 
     </blockquote>
+
+    <!-- Também podemos criar uma obra -->
+    <blockquote>
+    The smaller your reality, the more convinced you are that you know everything.
+    </blockquote>
+    <cite>My Big <abbr title="Theory Of Everything">TOE</abbr> </cite>
 ```
 
 ## <code>Cite</code>
 - Usando a tag <cite> ou não, a página irá mostrar a mesma coisa
-- Utilize-a sempre que for citar uma pessoa/empresa em seu texto
+- Utilize-a sempre que for citar uma pessoa/empresa/obra em seu texto
+> Use o atributo cite em um elemento &lt;blockquote&gt; ou &lt;q&gt; para referenciar uma fonte online ou uma pessoa.
+
 ```html
     <p> 
-        De acordo com a <a href="https://google.com"><cite>SpaceX</cite></a>, o nosso planeta é apenas um entre diversos. 
+        De acordo com o <code> <a href="https://chat.openai.com/">ChatGPT</a> </code> da OpenIA, o nosso planeta é apenas um entre diversos. 
     </p>
 
     <p>
