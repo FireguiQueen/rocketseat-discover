@@ -212,3 +212,24 @@ document.matricula.submit();
 ```
 
 </br>
+</br>
+</br>
+
+_____________________________________________________________________________
+
+# <code>datalist</code>
+Contém um conjunto de elementos <code>&lt;option&gt;</code> que representam as opções permitidas ou recomendadas disponíveis para escolher nos inputs. Uma `datalist` é obrigada a estar linkada em algum input, pois como já sabemos, a `datalist` é utilizada para sugerir opções, e para sugerimos opções, precisamos linkar ela a algum input.
+
+* O usuário pode selecionar um dos valores ou colocar um valor diferente da sugestão
+* Utilize o atributo `value=".."` dentro da `option` para sugerir um valor principal, coloque o valor "secundário" entre as tags option.
+* Utilizamos o atributo `list=".."` para linkar uma `datalist` a um input.
+
+```html
+<input list="fruit" type="text" name="my-favorite-fruit">
+<datalist id="fruit">
+    <option value="Apple"></option>
+    <option value="Banana"></option>
+    <option value="Mango"></option>
+    <option value="Watermelon"></option>
+</datalist>
+```
