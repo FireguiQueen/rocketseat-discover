@@ -1,22 +1,21 @@
 # Citações
-    
 - Servem para avisar que estamos pegando determinado conteúdo de outro lugar, de outra pessoa
-- Utilizamos a tag <cite> (que também pode ser um atributo) para mostrar de onde pegamos o conteúdo 
+- Utilizamos a tag &lt;cite&gt; (que também pode ser um atributo) para mostrar de onde pegamos o conteúdo. 
 
 ### Notas importantes
 
-> Utilizada para citar.: </br>
-> Um trabalho criativo deve conter a citação de um livro, um documento,um ensaio,um poema,um filme,um programa de televisão,um video game,uma escultura,uma pintura,uma produção cinematográfica,um jogo,uma opera,um musical,uma exibição,um relatório de um caso legal,um programa de computador,um website,uma página da web,um post de um blog ou comentário,um post em um forum ou um comentário no mesmo,um tweet,uma obra ou discurso,etc.
+> Utilizados do &lt;cite&gt; para citar.: </br>
+> Uma pessoa, um trabalho criativo, um livro, um documento, um ensaio, um poema, um filme, um programa de televisão, um video game, uma escultura, uma pintura, uma produção cinematográfica, um jogo, uma opera, um musical, uma exibição, um relatório de um caso legal, um programa de computador, um website, uma página da web, um post de um blog ou comentário, um post em um forum ou um comentário no mesmo, um tweet, uma obra ou discurso ,etc.
 
 </br>
 
-## <code>Blockquote</code> & cite 
+## <code>Blockquote</code> & <code>cite</code> 
 - Cria um bloco para citar um conteúdo relativamente grande que vem de outro lugar 
 - Para se dizer de onde estamos pegando o conteúdo, devemos colocar o atributo "cite"       
 ```html
     <blockquote cite="https://SiteOndePegamosOTextoAbaixo">
         <p>
-            O <strong><em>ELEMENTO HTML<em></strong> de tabela, foi muito utilizado durante anos para a construção de layouts. Mas bla bla bla..  
+            O <strong><em>ELEMENTO HTML<em></strong> de tabela, foi muito utilizado durante anos para a construção de layouts. Mas ao longo dos anos novos metódos de criação de layout foram surgindo, como o float, position, flexbox..  
         </p> 
     </blockquote>
 ```
@@ -26,20 +25,20 @@
 - Utilize-a sempre que for citar uma pessoa/empresa em seu texto
 ```html
     <p> 
-        De acordo com a <a href="https://google.com"><cite>Google</cite></a>, o nosso planeta é grande
+        De acordo com a <a href="https://google.com"><cite>SpaceX</cite></a>, o nosso planeta é apenas um entre diversos. 
     </p>
 
     <p>
-        De acordo com a famosa frase de ><cite>Albert Einstein</cite>:
-        <q>O universo é grande, mas sua barriga é maior ainda.</q>, você é uma pessoa muito gorda. 
+        <cite>Albert Einstein</cite>
+        <q>Duas coisas são infinitas: o universo e a estupidez humana. Mas, em relação ao universo, ainda não tenho certeza absoluta. </q>
     </p>  
 
 ```
 
 ## <code>&lt;q&gt;</code> & cite 
 - A tag <q> serve para citações curtas que não precisam de parágrafos ou quebras de linha
-- O conteúdo dentro da tag receberá aspas duplas de maneira automática por conta da tag <q>
-- Utilize o atributo cite para dizer de onde a frase veio
+- O conteúdo dentro da tag receberá aspas duplas de maneira automática por conta da tag &lt;q&gt;
+- Utilize o atributo cite para dizer de onde a citação curta veio
 
 ```html
     <p>
