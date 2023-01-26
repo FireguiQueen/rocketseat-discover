@@ -8,7 +8,7 @@
 ```css
 @keyframes{}   // Animações de CSS
 @import ;      // Inclui um CSS externo, uma biblioteca
-@font-face ;   // Regras condicionais para dispositivo - alterar o tamnho do conteúdos de acordo com o aparelho 
+@font-face ;   // Especifica uma fonte personalizada com a qual o texto deve ser exibido
 @media{}       // Adaptação de layout para tamanhos de tela e tipos de mídia diferentes
 ```
 </br>
@@ -18,25 +18,28 @@
 * Resume seu código em CSS 
 * Melhora a legibilidade de nosso código 
 
+
 ```css
 /* Background properties */ 
->background-color: black; 
->background-image: url(images/bg.gif); 
->background-repeat: no-repeat;
->background-position: left; 
+background-color: black; 
+background-image: url(images/bg.gif); 
+background-repeat: no-repeat;
+background-position: left; 
 
 
 /* Background SHORTHAND */ 
->background: #000 url(images/bg.gif) no-repeat left top; 
+background: #000 url(images/bg.gif) no-repeat left top; 
 ```
+
 _____________________________________________________________________________________________________
+
 ```css
 /* Font proprieties */ 
->font-style: italic; 
->font-weight: bold; 
->line-height: 1.2;
->font-size: .2em;
->font-family: Arial;
+font-style: italic; 
+font-weight: bold; 
+line-height: 1.2;
+font-size: .2em;
+font-family: Arial;
 
 
 /* Font SHORTHAND */ 
@@ -66,4 +69,4 @@ font: italic bold .8em/1.2 Arial, Sanserif;
 font: .8em/1.2 Arial, Sanserif bold italic;
 ```
 
-->> Mas fique esperto caso haja muitas propriedades com valores semelhantes 
+> Mas fique esperto caso haja muitas propriedades com valores semelhantes 
