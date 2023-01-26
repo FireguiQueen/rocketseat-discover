@@ -196,7 +196,7 @@ _____________________________________________________________________________
  </br>
 
 * __VALUE__ 
-> Define o valor padrão na qual será mostrado no elemento no carregar da página. Utilizamos muito do `value=""` junto a um botão que reseta os campso do formulário, pois o `reset` serve para os campos voltarem o VALOR padrão, e o valor padrão não é nada.
+> Define o valor padrão na qual será mostrado no elemento no carregar da página. Utilizamos muito do `value=""` junto a um botão que reseta os campos do formulário, pois o `reset` serve para os campos voltarem o VALOR padrão, e o valor padrão não é nada.
 
 * __NAME__ 
  > É um atributo muito importante para os campos do tipo input/button. Serve para identificar o valor daquela variável no nosso backend. Também que é possível dar um name para um formulário, mesmo que o mesmo não seja processado pelo servidor. </br> 
