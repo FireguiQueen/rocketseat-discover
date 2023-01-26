@@ -225,11 +225,20 @@ Contém um conjunto de elementos <code>&lt;option&gt;</code> que representam as 
 * Utilizamos o atributo `list=".."` para linkar uma `datalist` a um input.
 
 ```html
+<!-- Sugerindo uma fruta -->
 <input list="fruit" type="text" name="my-favorite-fruit">
 <datalist id="fruit">
-    <option value="Apple"></option>
-    <option value="Banana"></option>
-    <option value="Mango"></option>
-    <option value="Watermelon"></option>
+    <option value="Apple">A red fruit</option>
+    <option value="Banana">A yellow fruit</option>
+    <option value="Mango">A yellow-red-orange fruit</option>
+    <option value="Watermelon">A green-red fruit</option>
+</datalist>
+
+
+<!-- Sugerindo um horário -->
+<input list="WhatTime" type="time" /> 
+<datalist id="WhatTime">
+    <option value="01:30"> </option>
 </datalist>
 ```
+> Vale lembrar que, o atributo `value=""` só pode receber o que condiz com o "type" do input. Ou seja, se colocarmos que o input é do tipo "time", só podemos colocar números e caracteres de horas (:) no `value=""`. Como pode ver, o exemplo acima foi utilizando um input do tipo "time", então, somos obrigados a colocar o `value=""` com um horário e com ":" para especificar qual valor são as horas, e qual valor são os minutos.
