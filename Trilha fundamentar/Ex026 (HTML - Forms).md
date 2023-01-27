@@ -257,12 +257,23 @@ Contém um conjunto de elementos <code>&lt;option&gt;</code> que representam as 
 > Tipos de input não suportados pelo datalist.: </br> hidden, password, checkbox, radio, file ou qualquer tipo de button.
 
 
-
-</br>
 </br>
 </br>
 
 _______________________________________________________________________________
+
+# <code>textarea</code> 
+* __Atributos principais:__ _name, rows, columns, wrap, minlentgh, maxlentgh_
+O elemento HTML representa um controle de edição para uma caixa de texto, útil quando você quer permitir ao usuário informar um texto extenso em formato livre, como um comentário ou formulário de retorno.
+```html
+<textarea wrap="soft" rows="10" columns="8"> </textarea>
+```
+
+</br>
+</br>
+</br>
+_______________________________________________________________________________
+
 
 ## Explicando atributos
 
@@ -359,8 +370,59 @@ document.matricula.submit();
 </br>
 
 * __AUTOCOMPLETE__ 
-> Permite especificar se vai haver permissão do "user agent" fornecer assistência automatizada no preenchimento de valores de campo de formulário, bem como orientação para o navegador quanto ao tipo de informação esperada no campo.
+> Permite especificar se vai haver permissão do "user agent" fornecer assistência automatizada no preenchimento de valores de campo de formulário, bem como orientação para o navegador quanto ao tipo de informação esperada no campo. O atributo pode ser usado tanto para um input específico ou para todo o formulário (todos os campos).
 
 > ON: especifica que o "auto completar" está permitido, e assim o preenchimento de determinado campo pode ser feito de maneira "automizada" pelo usuário (pois seu próprio browser irá sugerir um email/senha por exemplo).
 
 > OFF: especifica que o "auto completar" não está permitido. Ele dirá para o navegador parar de salvar dados inseridos pelo usuário em formulários para um futuro autocomplete (Isso varia de navegador para navegador). Isso fará o navegador parar de fazer caching dos dados do formulário na session history do navegador. Quando um dado é armazenado no cache no session history, os dados preenchidos pelo usuário serão mostrados para ele no caso dele submeter o formulário e clicar no botão Voltar e retornar à página original do formulário.
+
+```html
+<!-- Poderá colocar senhas salvas do usuário de forma automática neste input -->
+<input type="password" autocomplete="on">
+
+<!-- Será sugerido uma nova senha (criada pelo próprio browser) -->
+<input type="password" autocomplete="new-password">
+
+<!-- Também existe outros valores como..: email, family-name, address, country e diversos outros.
+Utilize-os para o usuário preencher o campo de maneira mais rápida -->
+```
+
+</br>
+
+* __MULTIPLE__ 
+> O campo pode receber mais de um valor, que deve ser separado por vírgula. Raramente utilizado, podemos utilizar do mesmo num input do tipo "email". Também serve para aceitar multiplos arquivos quando usamos do input do tipo "file".
+```html
+<!-- Agora no input o usuário será permitido colocar por exemplo:
+"fireguiquenbr@gmail.com, floraEd@gmail.com -->
+<input type="email" multiple />
+```
+
+</br>
+
+* __SPELLCHECK__ 
+> Verificação ortográfica para determinado input ou para um formulário como um todo. Caso a palavra não exista, será colocado um subilhado embaixo da mesma. 
+```html
+<input type="text" spellcheck="true">
+```
+
+</br>
+
+* __ACCEPT__ 
+> Colocado para especificar quais arquivos você aceita num input do tipo "file"
+```html
+<!-- Só irá aceitar arquivos do tipo ".PDF" -->
+<input type="file" accept=".pdf">
+
+<!-- Só irá aceitar arquivos do tipo ".JS" -->
+<input type="file" accept=".js">
+
+<!-- Aceita apenas arquivos de imagem. Irá aceitar qualquer arquivo de imagem por conta do "*" -->
+<input type="file" accept="imagem/*">
+```
+
+</br>
+
+* __ENCTYPE__
+> ``enctype='multipart/form-data'`` é um tipo de codificação que permite que os arquivos sejam enviados por meio de um POST. Muito simplesmente, sem essa codificação, os arquivos não podem ser enviados através do POST. Se você quiser permitir que um usuário carregue um arquivo por meio de um formulário, você deve usar esse tipo de encadeamento.
+
+</br>
