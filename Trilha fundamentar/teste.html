@@ -1,25 +1,11 @@
 <body>
-    <!-- Sugerindo uma fruta -->
-    <input list="frutas">
-    <datalist id="frutas">
-        <option value="Apple"> </option>
-        <option value="Banana" ></option>
-        <option value="Mango"> </option>
-        <option value="Watermelon"> </option>
-    </datalist>
+    <form id="senha" method="get" >
+        
+        <input 
+        pattern="[guilherme]{1,9}"
+        list="cidades" type="text" required title="Por favor coloque no minimo 12 e no maximo 30 caracteres em sua senha!" />
 
+    </form>
+    
+    <input title="vaitnc kkk" form="senha" type="submit" value="Enviar" />
 
-    <!-- Sugerindo um horário -->
-    <input list="WhatTime" type="time" /> 
-    <datalist id="WhatTime">
-        <option value="01:30"> </option>
-    </datalist>
-
-
-    <input type="color" list="ChooseColor">
-    <datalist id="ChooseColor">
-        <!-- Pelo fato do nosso input ser do tipo "color", o value só pode possuir cores hexadecimais, nada além disto.-->
-        <option value="#994553"> </option> 
-        <option value="#191499"> </option>
-    </datalist>
-</body>

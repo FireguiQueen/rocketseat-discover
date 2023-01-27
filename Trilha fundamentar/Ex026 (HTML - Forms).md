@@ -310,16 +310,33 @@ document.matricula.submit();
 </br>
 
 * __MINLENGTH__ & __MAXLENGTH__
-> Atributos muito utilizados para o input do tipo "password", pois através desses atributos podemos fazer com que o usuário coloque uma senha com no mínimo 4 caracteres e no máximo 50 caracteres por exemplo. Em geral, é recomendado pedir no minimo 8 caracteres e JAMAIS limitar o número de caracteres de uma senha (por mais que algumas empresas grandes façam isto, é algo HORRÍVEL). É importante ressaltar que caso o usuário coloque uma senha com menos ou mais caracteres do que foi permitido, após dar "submit" com a senha que colocou, irá aparecer uma mensagem em inglês informando que o mínimo de caracteres não foi atingido ou que o máximo de caracteres foi atingido.. Para mudar esta mensagem, você pode utilizar do atributo `title=".."`. 
+> Atributos utilizados para o input do tipo "password", pois através desses atributos podemos fazer com que o usuário coloque uma senha com no mínimo 4 caracteres e no máximo 50 caracteres por exemplo. Em geral, é recomendado pedir no minimo 8 caracteres e JAMAIS limitar o número de caracteres de uma senha (por mais que algumas empresas grandes façam isto). É importante ressaltar que, caso o usuário coloque uma senha com menos ou mais caracteres do que foi permitido, após dar "submit", irá aparecer uma mensagem em inglês informando que o mínimo de caracteres não foi atingido ou que o máximo de caracteres foi atingido.
 ```html
 <!-- A senha pede no mínimo 8 caracteres -->
 <input type="password" minlength="8">
 
 <!-- A senha pede no mínimo 12 caracteres e só aceita até 30 caracteres -->
-<input type="password" minlength="12" maxlength="30">
-
-
+<input type="password" minlength="12" maxlength="30" title="Por favor coloque no mínimo 12 e no máximo 30 caracteres em sua senha!" />
+```
 
 </br>
+
+* __SIZE__
+> Define o tamanho do input
+```html
+<input type="password" size="12">
+```
+
+</br>
+
+* __REQUIRED__
+> Define que é obrigatório preencher determinado input. Caso o input não seja preenchido, após dar submit ele irá retornar uma mensagem informando ao usuário que o input deve ser preenchido. 
+```html
+<input type="text" required>
+```
+
+</br>
+
+* __PATTERN__
 </br>
 </br>
