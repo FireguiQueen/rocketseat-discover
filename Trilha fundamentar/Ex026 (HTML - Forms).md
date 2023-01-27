@@ -488,3 +488,17 @@ Utilize-os para o usuário preencher o campo de maneira mais rápida -->
 > ``enctype='multipart/form-data'`` é um tipo de codificação que permite que os arquivos sejam enviados por meio de um POST. Muito simplesmente, sem essa codificação, os arquivos não podem ser enviados através do POST. Se você quiser permitir que um usuário carregue um arquivo por meio de um formulário, você deve usar esse tipo de encadeamento.
 
 </br>
+
+* __STEP__
+> É um número que especifica a granularidade à qual o valor deve aderir ou a palavra-chave. É válido para os inputs numéricos, incluindo os tipos de data, mês, semana, hora, data-hora-local, número e intervalo. </br> O define o intervalo de passo ao clicar nos botões giratórios para cima e para baixo, mover um controle deslizante para a esquerda e para a direita em um intervalo e validar os diferentes tipos de data. Se não for explicitamente incluído, o padrão será 1 para e , e 1 tipo de unidade (minuto, semana, mês, dia) para os tipos de entrada de data/hora. O valor pode ser um número positivo - inteiro ou flutuante - ou o valor especial , o que significa que nenhuma etapa está implícita e qualquer valor é permitido (exceto outras restrições, como min e max).
+```html
+<!-- Só serão aceitos valores que pulem de cem em cem, ou seja, de centenza em centena.. Exemplo: 
+100, 200, 300, 400.. -->
+<input typ="number" step="100" />
+
+
+<!-- Só serão aceitos valores que pulem de 2 em 2.. Exemplo: 
+-8, -6, -4, -2, 0, 2, 4..  -->
+<input typ="number" step="2" />
+```
+
