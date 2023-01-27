@@ -1,0 +1,28 @@
+<head>
+    <style>
+        fieldset{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        label{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+<form name="contanto-and-feedback" method="get"> 
+    <fieldset name="contato-info">
+        <legend>Contato</legend>
+
+        <label> Nome <input name="name"  required type="text"/>   </label>
+        <label> Email <input name="email" required type="Email"/></label>
+        <label> Menssagem <textarea required name="mensagem" rows="10" cols="1"> </textarea> </label>
+
+        <button type="submit">Enviar mensagem </button>
+    </fieldset>
+</form>
+</body>
