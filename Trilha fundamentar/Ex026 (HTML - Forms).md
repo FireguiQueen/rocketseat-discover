@@ -271,7 +271,35 @@ O elemento HTML representa um controle de edição para uma caixa de texto, úti
 
 </br>
 </br>
-</br>
+
+_______________________________________________________________________________
+
+# <code>select</code>
+Representa um controle que fornece um menu de opções. Diferente da tag `datalist`, as opções da tag `select` são obrigatórias, ou seja, o usuário será obrigado a escolher uma ou mais das opções, enquanto o `datalist` é apenas para dar sugestões de repostas em um input. Utilizamos do atributo `value` para o nosso backend compreender de onde está vindo a resposta.  
+```html 
+<label for="SonyConsoles">Console </label>
+<select id="SonyConsoles">
+    <option>Selecione um modelo</option>
+    <option value="sony">Playstation 1 </option>
+    <option value="sony">Playstation 3 </option>
+    <option value="sony">Playstation 4 </option> 
+    <option value="nintendo">Nintendo Switch </option> 
+    <option value="nintendo">Nintendo 3Ds </option> 
+    <option value="microsoft">Xbox 360 </option> 
+</select>
+
+<!-- Usamos do atributo "multiple" para informar que podemos escolher mais de uma resposta -->
+<!-- Podemos utilizar so "size" para definir quantas opções a tag select vai mostrar inicialmente -->
+<label for="jogos">Jogo(s) favorito(s) </label>
+<select name="favorite-games" id="jogos" multiple size="3">
+    <option>Selecione um ou mais jogos</option>
+    <option>Far Cry 3 </option>
+    <option>The last of us I </option>
+    <option>Ori and the blind forest </option> 
+    <option>Uncharted 4 </option> 
+    <option>Shadow of the colossus </option> 
+</select>
+
 _______________________________________________________________________________
 
 
