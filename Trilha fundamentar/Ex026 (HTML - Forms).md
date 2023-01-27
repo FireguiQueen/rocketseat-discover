@@ -275,17 +275,17 @@ O elemento HTML representa um controle de edição para uma caixa de texto, úti
 _______________________________________________________________________________
 
 # <code>select</code>
-Representa um controle que fornece um menu de opções. Diferente da tag `datalist`, as opções da tag `select` são obrigatórias, ou seja, o usuário será obrigado a escolher uma ou mais das opções, enquanto o `datalist` é apenas para dar sugestões de repostas em um input. Utilizamos do atributo `value` para o nosso backend compreender de onde está vindo a resposta.  
+Representa um controle que fornece um menu de opções. Diferente da tag `datalist`, as opções da tag `select` são obrigatórias, ou seja, o usuário será obrigado a escolher uma ou mais das opções, enquanto o `datalist` é apenas para dar sugestões de repostas em um input. Utilizamos do atributo `value` para facilitar a leitura quando estes dados chegarem ao nosso backend.   
 ```html 
 <label for="SonyConsoles">Console </label>
-<select id="SonyConsoles">
+<select id="SonyConsoles" name="console-favorito">
     <option>Selecione um modelo</option>
-    <option value="sony">Playstation 1 </option>
-    <option value="sony">Playstation 3 </option>
-    <option value="sony">Playstation 4 </option> 
-    <option value="nintendo">Nintendo Switch </option> 
-    <option value="nintendo">Nintendo 3Ds </option> 
-    <option value="microsoft">Xbox 360 </option> 
+    <option value="ps1">Playstation 1 </option>
+    <option value="ps3">Playstation 3 </option>
+    <option value="ps4">Playstation 4 </option> 
+    <option value="switch">Nintendo Switch </option> 
+    <option value="3ds">Nintendo 3Ds </option> 
+    <option value="Xbox360">Xbox 360 </option> 
 </select>
 
 <!-- Usamos do atributo "multiple" para informar que podemos escolher mais de uma resposta -->
