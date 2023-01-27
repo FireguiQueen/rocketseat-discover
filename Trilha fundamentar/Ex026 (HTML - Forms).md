@@ -338,7 +338,7 @@ document.matricula.submit();
 </br>
 
 * __PATTERN__ 
-> Define quais e quantos caracteres serão aceitos no input. Podemos dizer que apenas números serão aceitos, ou apenas letras, ou apenas letras maiúsculas e assim por diante. O pattern é geralmente muito utilizado num input onde possui um text-transform="lowercase", assim o usuário não consegue digitar em letras maiúsculas (geralmente em inputs de email).
+> Define quais e quantos caracteres serão aceitos no input. Podemos dizer que apenas números serão aceitos, ou apenas letras, ou apenas letras maiúsculas e assim por diante. Este atributo também é muito colocado junto ao atributo `title`, assim, caso o que foi colocado pelo usuário não seja permitido, a mensagem que foi colocada no `title` irá aparecer. O pattern é geralmente muito utilizado num input onde possui um `text-transform="lowercase"`, assim o usuário não consegue digitar em letras maiúsculas (geralmente em inputs de email).
 ```html
 <!-- Estamos dizendo que o input irá aceitar da letra "b" até "z" (ou seja, a letra "a" não será aceita), e colocamos que o minimo de caracter aceito é 1 e o máximo é 100. EM NENHUM MOMENTO DEVE HAVER ESPAÇOS DENTRO DOS COLCHETES E NAS CHAVES. -->
 <input pattern="[a-z]{1,100}" />
