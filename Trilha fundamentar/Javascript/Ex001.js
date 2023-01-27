@@ -1,11 +1,13 @@
-/* FUNÇÕES
+/*                                   FUNÇÕES
+
 Funções são blocos de construção fundamentais em JavaScript. 
 Uma função é um procedimento de JavaScript - um conjunto de instruções que executa uma tarefa ou calcula
 um valor. Para usar uma função, você deve defini-la em algum lugar no escopo do qual você quiser chamá-la.
 */
 
 
-/* OBJETOS
+/*                                   OBJETOS
+
 Um objeto é uma coleção de propriedades, e uma propriedade é uma associação entre um nome (ou chave) 
 e um valor. Um valor de propriedade pode ser uma função, que é então considerada  um método do objeto. 
 Além dos objetos que são pré-definidos no browser, você pode definir seus próprios objetos.
@@ -15,8 +17,22 @@ Uma xícara tem uma cor, uma forma, peso, um material de composição, etc. Da m
 objetos em JavaScript podem ter propriedades, que definem suas características.
 */
 
+// EXEMPLO
 console.log('...')
-
 // console -> função
 // .log -> objeto (o ponto final é utilizado para acessar objetos)
 // () argumentos deste objeto
+
+
+
+/* --------------------------------------------------------------------------------------- */
+
+
+//                               Comentários em JS 
+
+// Utilize-se " // " para fazer um comentário de uma única linha
+
+/* 
+Utiliza " /* " para fazer um comentário de bloco 
+   Como este.. que você está lendo agora. 
+*/ 
