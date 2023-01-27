@@ -346,8 +346,21 @@ document.matricula.submit();
 
 <!-- Estamos dizendo que o input irá aceitar da letra "a" até "z" e também da letra "A" até "Z" em maiúsculo. Também informamos que deve conter no mínimo 1 caracter e no máximo 50 caracteres -->
 <input pattern="[a-zA-Z]{1,50}" />
+```
 
 </br>
 
+* __INPUTMODE__ 
+> Utilizado para os smartphones, se colocarmos inputmode="numeric" por exemplo, o teclado numérico do usuário será aberto em seu celular caso interaja com o input.
+```html
+<input inputmode="numeric" type="text" placeholder="Digite um número" />
+```
 
 </br>
+
+* __AUTOCOMPLETE__ 
+> Permite especificar se vai haver permissão do "user agent" fornecer assistência automatizada no preenchimento de valores de campo de formulário, bem como orientação para o navegador quanto ao tipo de informação esperada no campo.
+
+> ON: especifica que o "auto completar" está permitido, e assim o preenchimento de determinado campo pode ser feito de maneira "automizada" pelo usuário (pois seu próprio browser irá sugerir um email/senha por exemplo).
+
+> OFF: especifica que o "auto completar" não está permitido. Ele dirá para o navegador parar de salvar dados inseridos pelo usuário em formulários para um futuro autocomplete (Isso varia de navegador para navegador). Isso fará o navegador parar de fazer caching dos dados do formulário na session history do navegador. Quando um dado é armazenado no cache no session history, os dados preenchidos pelo usuário serão mostrados para ele no caso dele submeter o formulário e clicar no botão Voltar e retornar à página original do formulário.
