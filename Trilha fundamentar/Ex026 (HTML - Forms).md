@@ -173,6 +173,13 @@ Representa uma legenda para um item em uma interface do usuário. Em outras pala
     <label> Password: <input type="password"/>  </label>
 </form>
 
+<!-- JEITO RECOMENDADO 02 -->
+<form>
+    <!-- Podemos usar o "label" como atributo também, é menos recomendado, porém é melhor deixar com atributo do que deixar sem a tag label. Este atributo não será vísivel na página, será apenas lido pelo user agent do usuário. -->
+    <input type="text" aria-label="Digite seu nome" />        
+    <input type="password" aria-label="Digite sua senha"/> 
+</form>
+
 <!-- Não é necessário deixar o input dentro da tag LABEL, mas o atributo  FOR=" "  será necessário --> <!-- Mas o atributo for só funciona com ELEMENTOS específicos.: button, input, meter, output, progress, select textarea. -->
 <form>
     <label for="nome-da-pessoa">Name </label>
@@ -299,7 +306,30 @@ Representa um controle que fornece um menu de opções. Diferente da tag `datali
     <option>Uncharted 4 </option> 
     <option>Shadow of the colossus </option> 
 </select>
+```
 
+
+## <code>OPTGROUP</code>
+Cria um agrupamento de opções dentro de um elemento `select`.
+Usamos também o atributo `label=".."` para dar nome ao grupo que fizemos.
+```html
+<label for="carro-modelos">Escolha um carro </label>
+
+<select id="carro-modelos">
+    <optgroup label="TESLA">
+        <option>Model X</option>
+        <option>Model 3</option>
+        <option>Model Y</option>
+        <option>Cybertruck</option>
+    </optgroup>
+
+    <optgroup label="FIAT">
+        <option>Pulse </option>
+        <option>Fastback </option>
+        <option>Argo </option>
+        <option>Cronos </option>
+    </optgroup>
+</select>
 _______________________________________________________________________________
 
 
@@ -385,6 +415,10 @@ document.matricula.submit();
 
 <!-- Estamos dizendo que o input irá aceitar da letra "a" até "z" e também da letra "A" até "Z" em maiúsculo. Também informamos que deve conter no mínimo 1 caracter e no máximo 50 caracteres -->
 <input pattern="[a-zA-Z]{1,50}" />
+
+<!-- Se colocarmos somente um número entre chaves, significa que é o mínimo de caracter e o máximo ao mesmo tempo, não pode ser menos do que 1, mas também pode ser mais do que 1. -->
+<input pattern="[a-z]{1}" />
+
 ```
 
 </br>
