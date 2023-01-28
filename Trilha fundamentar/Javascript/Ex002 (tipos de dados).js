@@ -25,6 +25,7 @@
       EX 00:
       var name = "Eduardo"
       console.log(`Olá, ${name}`);
+      -- isto se chama interpolação
 
       EX 01:
       console.log(`
@@ -45,3 +46,23 @@ Podemos colocar várias linhas assim
 pois estamos usando a crase
 ...
 `);
+
+
+
+
+
+/* ----------------------------------------------------------------------------------- */
+
+
+//                                   NUMBER
+/*
+    - números inteiros (-10, -5, 0, 1, 4, 33..)
+    - reais (1.5 ; 33.5 ; 0.4 ; ..)
+    - NaN  (Not a number)
+    - Infinity (infinito)
+*/
+
+console.log(33);  // inteiro
+console.log(-33); // inteiro
+console.log(43.5);  // real
+console.log(10 / 'oi');  // NaN
