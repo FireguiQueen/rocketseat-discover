@@ -66,3 +66,86 @@ console.log(33);  // inteiro
 console.log(-33); // inteiro
 console.log(43.5);  // real
 console.log(10 / 'oi');  // NaN
+
+
+
+/* ----------------------------------------------------------------------------------- */
+
+
+//                                   BOOLEAN
+/*
+    - Somente DOIS valores (TRUE or FALSE)
+    - Extremamente necessário para a criação de lógica de uma aplicação, podendo validar diversas coisas..
+        Exemplo de algorítimo: A conta do usuário foi criada antes de 2015? Caso seja verdadeira, exclua 
+        a conta do mesmo, caso seja falso, de vantagens para a conta.
+*/
+console.log(1 == 1); // true
+console.log(1 == 2); // false
+console.log(1+2 == 3? 'Caso seja "true", está mensagem irá aparecer' : 'Caso seja "false", está mensagem irá aparecer');
+// O "?" é como se fosse uma pergunta mesmo, e nesta pergunta terá duas respostas, ou é verdadeiro ou é falso.
+// Caso seja verdadeiro, a primeira mensagem será printada, caso seja falso, a segunda mensagem será printada.
+// OBS: As mensagens precisam ser separadas pelo ":"
+
+
+
+/* ----------------------------------------------------------------------------------- */
+
+
+//                                   Undefined & Null
+/*
+    - Undefined: significa que algo não foi definido
+
+    - Null: objeto que não possui nada dentro dele
+*/
+var oi = 
+console.log(oi); // Undefinid..
+
+
+
+
+/* ----------------------------------------------------------------------------------- */
+
+//                                   Object
+/*
+    - Serve para estruturar seus dados
+
+    - Todo objeto possui propriedades (até mesmo objetos da vida real possuem propriedades..)
+        Exemplo: Objeto: Celular    |   Propriedade: cor, largura, altura..
+        
+    - Todo objeto possui funcionalidades
+        Exemplo: Objeto: Capinha do celular   | funcionalidade: proteger o celular      
+*/
+
+// Para criar um objeto utiliza das chaves ({})
+// Um objeto pode armazenar diversas propriedades
+var pessoa = {            // objeto
+    name: 'Flora',         // propriedade
+    idade: 17,             // propriedade
+    andar: function Walk(){}  // funcionalidade 
+}
+
+// PARA ACESSAR O OBJETO, COLOQUE O NOME DO OBJETO E A PROPRIEDADE QUE DESEJA ACESSAR
+console.log(pessoa.name);  // retorna o nome
+console.log(pessoa.idade); // retorna a idade
+
+
+
+/* ----------------------------------------------------------------------------------- */
+
+//                                   Array (vatores)
+/*
+    - Serve para estruturar seus dados em formato de uma lista
+
+    - Um array pode armazenar diversos valores, e até mesmo objetos.
+          
+*/
+// PARA CRIAR UM ARRAY UTILIZA-SE DOS COLCHETES ( [] ).
+// O PRIMEIRO ITEM DA LISTA É SEMPRE REPRESENTADO PELO NÚMERO 0, O SEGUNDO ITEM PELO NÚMERO 1..
+// DIFERENTE DA VIDA REAL, NA PROGRAMAÇÃO COMEÇAMOS A CONTA PELO NÚMERO 0!
+
+var lista_de_nomes = ['Flora', 'Guilherme'];
+// use o nome da lista + colchetes especificando o item que deseja
+console.log(lista_de_nomes[0]); // Retorna 'Flora', pois é o "0" item da lista
+
+console.log(lista_de_nomes[0] == 'Flora'? '"Flora" é o item 0 da lista' : 'O item 0 da lista não se chama "Flora"'); 
+
