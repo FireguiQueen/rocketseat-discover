@@ -5,10 +5,13 @@
 - São nomes simbólicos (chamados "IDENTIFICADORES") para receber algum valor 
     (o nome da varíavel pode ser qualquer um, contanto que respeite a sintaxe da linguagem)
 
+
+
 - Há 3 maneires para se criar uma variável
-    > var
-    > const
-    > let 
+    > var (global - pode ser reatribuido o seu valor)
+    > let (local (escopo) - pode ser reatribuido o seu valor)
+    > const (local (escopo) - NÃO pode ser reatribuido o seu valor)
+
 
 
     Em geral, é recomendado usar const sempre que possível e reservar o uso de let para situações 
@@ -74,13 +77,28 @@ function carro(){
     console.log(numero_de_portas);
 } carro();
 
-// como o escopo é em bloco, significa que podemos utilizar do mesmo nome da variável que foi usada antes
-// porém em outro contexto (e ambas irão continuar a existir, só que em blocos diferentes)
 
-function aviao(){
+// Não podemos fazer isto pois o escopo NÃO é GLOBAL.
+{
+    let say = "Hi"
+}
+console.log(say);
+
+
+
+// Como o escopo é local, significa que podemos utilizar do mesmo nome da variável que foi usada em outro bloco.
+// E  ambas irão continuar a existir, só que em blocos diferentes e não serão consideradas as mesmas
+
+function aviao_01(){
     let numero_de_portas = 2
     console.log(numero_de_portas);
-} aviao();
+} aviao_01();
+
+function aviao_02(){
+    let numero_de_portas = 5
+    console.log(numero_de_portas);
+} aviao_02();
+
 
 
 
@@ -94,6 +112,7 @@ function aviao(){
 // reatribuição de valor NÃO FUNCIONA (irá retornar um erro caso tente)!
 const animal = "Cachorro"  
 animal = "Gato" 
+
 
 
 
