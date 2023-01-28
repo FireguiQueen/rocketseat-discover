@@ -25,6 +25,27 @@
 - Declara uma variável com escopo global ou de função e seu valor pode ser reatribuído.
 */
 
+// Por debaixo dos planos, o JS faz algo muito interessante chamado "hoisting" (elevação)
+console.log(abada) // retorna undefined
+{
+    var abada = "hm" 
+}
+
+// O que o hoisting fez com o código acima  
+var abada
+console.log(abada) //por isto é retornado UNDEFINED.
+{
+    abada = "hm"
+}
+    /* Em teoria, pelo fato do JS ler de cima para baixo, o console.log(abada) não deveria retornar nada
+     pois a variável só foi declarada depois (na linha 31). Mas por conta do hoisting, basicamente, o JS pega 
+     a variável + identificador e eleva ela em seu código (sem o valor atribuido a mesma).
+     Basicamente ao utilizar a "VAR" como variável, ele pega todas as "VAR" do seu código e coloca elas acima de tudo
+     porém sem os valores. */
+    
+
+
+
 // reatribuição de valor..
 var nome = "Paulo"
 var nome = "Davi"  
@@ -108,11 +129,11 @@ var nome = 2
 
 // EM LINGUAGNES COMO JAVA, SERIA IMPOSSÍVEL FAZER ISTO, POIS PRECISAMOS DEFINIR O TIPO DO VALOR, 
 // ALÉM DISTO, PARA CADA VÁRIAVEL COM UM TIPO DIFERENTE, UM NOVO IDENTIFICADOR SERÁ NECESSÁRIO:
-String nome = 'Paulo';
-int outro_identificador = 44
+/*>>  String nome = 'Paulo';                                             */
+/*>>  int outro_identificador = 44                                       */
 
 // Pelo fato de definirmos o tipo do valor, não podemos atribuir outro tipo para aquele mesmo valor..:
-String nome = 4; // não será aceito pois 4 é do tipo "int" e não do tipo "string"
+/*>> String nome = 4;  (não será aceito pois 4 é do tipo "int" e não do tipo "string")    */
 
 
 
