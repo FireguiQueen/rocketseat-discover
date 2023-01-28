@@ -25,3 +25,36 @@ let pablo = "pablo"
 let carro_bonito = "Tesla Model X"
 ``` 
 
+### Recomendado 
+* Criar identificadores que fazem sentido ao valor recebido
+* Um nome que explique o que a variável faz
+* Escrever em inglês
+
+* Camelcase
+```js
+// Método onde explicamos o que a variável faz e sem fazer separação por "-" entre as palavras
+const Player1 = 500
+const Player2 = 634  
+let ItsP1StrongerThanP2 = Player1 > Player2? 'O jogador 1 é mais forte do que o jogador 2' : 'O jogador 1 não é mais forte que o jogador 2'
+console.log(ItsP1StrongerThanP2);
+```
+
+</br>
+
+* Snake_case
+```js
+// Método onde explicaos o que a variável faz usando a separação por "-"
+// Geralmente usamos o "snake_case" quando não precisamos explicar algo, apenas separar palavras
+
+// Não recomendo.:
+const carro_vermelho = "tesla";
+let Is_red_car_a_tesla = carro_vermelho == 'tesla'  // TRUE
+
+
+// Recomendo.: (o snake_case foi utilizado apenas uma vez)
+const carro_vermelho = "tesla";
+let IsRedCarATesla = carro_vermelho == 'tesla'  // TRUE
+```
+
+
+
