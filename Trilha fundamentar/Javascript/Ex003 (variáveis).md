@@ -30,6 +30,8 @@ let carro_bonito = "Tesla Model X"
 * Um nome que explique o que a variável faz
 * Escrever em inglês
 
+</br>
+
 * Camelcase
 ```js
 // Método onde explicamos o que a variável faz e sem fazer separação por "-" entre as palavras
