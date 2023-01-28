@@ -149,3 +149,9 @@ console.log(lista_de_nomes[0]); // Retorna 'Flora', pois é o "0" item da lista
 
 console.log(lista_de_nomes[0] == 'Flora'? '"Flora" é o item 0 da lista' : 'O item 0 da lista não se chama "Flora"'); 
 
+
+
+/* ----------------------------------------------------------------------------------- */
+
+
+// DADOS PRIMITIVOS
