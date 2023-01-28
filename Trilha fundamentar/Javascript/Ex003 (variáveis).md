@@ -7,6 +7,11 @@ let pessoa
 
 // Assignment (atribuição de valor)
 pessoa = 'Paulo'
+
+
+// Então temos..:
+let pessoa // Declaração
+let pessoa = 'Paulo' // Atribuição de valor ("Paulo")
 ```
 
 - JS é "sensive-case", ou seja, letras maiúsculas e minúsculas fazem diferença
