@@ -155,3 +155,9 @@ console.log(lista_de_nomes[0] == 'Flora'? '"Flora" é o item 0 da lista' : 'O it
 
 
 // DADOS PRIMITIVOS
+
+// string
+// number
+// boolean
+// undefined 
+// BigInt
