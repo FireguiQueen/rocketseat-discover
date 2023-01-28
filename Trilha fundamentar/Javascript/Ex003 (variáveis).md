@@ -1,5 +1,14 @@
 # Variáveis
 
+- Declaration & Assignment 
+```js
+// Declaration (declaração de variável)
+let pessoa
+
+// Assignment (atribuição de valor)
+pessoa = 'Paulo'
+```
+
 - JS é "sensive-case", ou seja, letras maiúsculas e minúsculas fazem diferença
 ```js
 // São variáveis diferentes pois o Javascript analisa até mesmo letras minúsculas e maiúsculas nos identificadores.
