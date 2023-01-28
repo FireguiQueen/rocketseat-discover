@@ -161,3 +161,4 @@ console.log(lista_de_nomes[0] == 'Flora'? '"Flora" é o item 0 da lista' : 'O it
 // boolean
 // undefined 
 // BigInt
+// Symbol
