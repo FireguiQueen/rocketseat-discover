@@ -17,7 +17,15 @@
     Em geral, é recomendado usar const sempre que possível e reservar o uso de let para situações 
     onde a reatribuição é realmente necessária. É recomendado evitar o uso de var devido ao 
     seu escopo global e possíveis problemas de ambiguidade.
+
+
+
+
 */
+
+
+
+
 
 
 /* ----------------------------------------------------------------------------- */
@@ -63,6 +71,18 @@ function pessoa(){
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /*                                LET
 - Declara uma variável com escopo de bloco e seu valor pode ser reatribuído.
 */
@@ -78,6 +98,7 @@ function carro(){
 } carro();
 
 
+
 // Não podemos fazer isto pois o escopo NÃO é GLOBAL.
 {
     let say = "Hi"
@@ -85,10 +106,16 @@ function carro(){
 console.log(say);
 
 
+// Reatribuimos o valor dentro de um escopo, e este valor reatribuido será voltado ao "let" original
+let porta = "maidera"
+{
+    porta = "ferro"
+}
+console.log(porta); // ferro 
+
 
 // Como o escopo é local, significa que podemos utilizar do mesmo nome da variável que foi usada em outro bloco.
 // E  ambas irão continuar a existir, só que em blocos diferentes e não serão consideradas as mesmas
-
 function aviao_01(){
     let numero_de_portas = 2
     console.log(numero_de_portas);
@@ -98,6 +125,39 @@ function aviao_02(){
     let numero_de_portas = 5
     console.log(numero_de_portas);
 } aviao_02();
+/*  Seria a mesma coisa que a pasta em seu computador.. Não pode haver dois arquivos "foto.png"
+    na mesma pasta (mesmo sendo fotos diferentes), porém, caso você crie outra pasta, cada arquivo pode ser armazenado
+    em uma pasta diferente. 
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
