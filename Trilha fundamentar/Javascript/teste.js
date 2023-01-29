@@ -28,3 +28,34 @@ const omg ={
     }
  }
  console.log(omg.SaySomething('Guilherme', 16));
+
+
+
+
+ /// EXERCÍCIOS BÁSICOS
+
+let weight // undefined 
+
+let viewer = {
+   name: 'Flora',
+   age: 17,
+   stars: 4.7,
+   isSubscribed: true
+}
+
+
+console.log(`
+Nome: ${viewer.name}
+Idade: ${viewer.age}
+Estrelas: ${viewer.stars}
+Inscrita: ${viewer.isSubscribed === true? 'Sim' : 'Não'}
+`)
+
+let student = {} // objeto
+
+
+
+let students = [
+   viewer
+]
+console.log(students[0].name)

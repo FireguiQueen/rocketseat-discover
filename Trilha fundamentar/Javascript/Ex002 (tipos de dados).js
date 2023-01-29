@@ -149,9 +149,18 @@ console.log(lista_de_nomes[0]); // Retorna 'Flora', pois é o "0" item da lista
 
 console.log(lista_de_nomes[0] == 'Flora'? '"Flora" é o item 0 da lista' : 'O item 0 da lista não se chama "Flora"'); 
 
+
 // Podemos usar do "length" para saber quantos itens há na lista
 var lista = ['Batata doce', 'Whey', 'Ovo cozido'];
 console.log(lista.length) // 3 pois há três itens na lista
+
+
+// Podemos reatribuir um item específico
+var lista_animais = ['cachorro', 'gato', 'papagaio'] // 0: cachorro   ;  1: gato    ;   2: papagaio
+console.log(lista_animais)
+
+lista_animais[1] = 'leão' // Gato é o item 1, porém reatribuimos, colocando a string "leão" 
+console.log(lista_animais)
 
 
 // Lista com objetos
