@@ -19,9 +19,9 @@ objetos em JavaScript podem ter propriedades, que definem suas características.
 
 // EXEMPLO
 console.log('...')
-// console -> função
-// .log -> objeto (o ponto final é utilizado para acessar objetos)
-// () argumentos deste objeto
+// console -> objeto
+// .log -> método (o ponto final é utilizado para acessar propriedades)
+// () argumentos deste método
 
 // Criando um objeto
 const pessoa = {      // Objeto em si
@@ -32,7 +32,10 @@ console.log(pessoa.nome);
              //|-> Primeiro chamamos o Objeto em si "pessoa", e depois uma de suas propriedades.
 
 
-             
+
+
+
+
 /* --------------------------------------------------------------------------------------- */
 
 

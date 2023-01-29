@@ -13,8 +13,18 @@ console.log(n1 + n2)
 console.log(typeof Pablo);
 
 
-let pessoa = "Guilherme Pires"
-console.log(`A pessoa ${4+4} é muito inteligente`)
+let pessoa = "Otavio"
+console.log(`A pessoa "${pessoa}" é muito inteligente`)
 
 
 console.log(pessoa.replaceAll(' ','').length)
+
+
+const omg ={
+    name1: 'Pablito',
+    age: 18,
+    SaySomething(name, age){
+       return `Olá, ${this.name1}! Eu me chamo ${name} e tenho ${age} anos.`
+    }
+ }
+ console.log(omg.SaySomething('Guilherme', 16));
