@@ -25,7 +25,7 @@ console.log(pessoa_1, pessoa_2, pessoa_3);
 // Caso você queira usar variáveis com uma string, você pode concatenar, usando do mais (+)
 console.log("A pessoa" + pessoa_1 + " é muito inteligente");
 
-// Geralmente não usamos o "+" e sim string templates. O sifrão
+// Geralmente não usamos o "+" e sim string templates. O cifrão e as chaves são usados para chamar variáveis, mas tábem podem fazer outras coisas, como por exemplo cálculos e etc..
 console.log(`A pessoa ${pessoa_1} é muito inteligente`)
 ```
 
