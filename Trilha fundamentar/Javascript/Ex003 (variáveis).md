@@ -12,13 +12,33 @@ pessoa = 'Paulo'
 // Então temos..:
 let pessoa // Declaração
 let pessoa = 'Paulo' // Atribuição de valor ("Paulo")
+
+// Também podemos agrupar uma declaração
+let pessoa_1, pessoa_2, pessoa_3
+pessoa_1 = "Otavio";
+pessoa_2 = "Julia";
+pessoa_3 = "Pablo"; 
+
+// Podemos chamar essas variáveis usando da vírgula (,) no console.
+console.log(pessoa_1, pessoa_2, pessoa_3);
+
+// Caso você queira usar variáveis com uma string, você pode concatenar, usando do mais (+)
+console.log("A pessoa" + pessoa_1 + " é muito inteligente");
+
+// Geralmente não usamos o "+" e sim string templates. O sifrão
+console.log(`A pessoa ${pessoa_1} é muito inteligente`)
 ```
+
+
 
 - JS é "sensive-case", ou seja, letras maiúsculas e minúsculas fazem diferença
 ```js
 // São variáveis diferentes pois o Javascript analisa até mesmo letras minúsculas e maiúsculas nos identificadores.
 let Pablo = "Pablo"
 let pablo = "pablo" 
+
+// Você pode ver o tipo do valor atribuido a variável utilizando do "typeof"
+console.log(typeof Pablo); // string
 ```
 
 </br>

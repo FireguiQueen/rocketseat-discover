@@ -1,4 +1,13 @@
-const carro_vermelho = "tesla";
-let Is_red_car_a_tesla = carro_vermelho == 'tesla'  
+let Pablo = "Pablo"
+let pablo = "pablo"
 
-console.log(Is_red_car_a_tesla)
+
+let n1, n2 
+
+n1 = 'oi '
+n2 = 'ooooo'
+
+console.log(n1 + n2)
+
+// Você pode ver o tipo do valor atribuido a variável utilizando do "typeof"
+console.log(typeof Pablo);
