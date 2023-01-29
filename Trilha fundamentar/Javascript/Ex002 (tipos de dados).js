@@ -141,7 +141,7 @@ console.log(pessoa.idade); // retorna a idade
 */
 // PARA CRIAR UM ARRAY UTILIZA-SE DOS COLCHETES ( [] ).
 // O PRIMEIRO ITEM DA LISTA É SEMPRE REPRESENTADO PELO NÚMERO 0, O SEGUNDO ITEM PELO NÚMERO 1..
-// DIFERENTE DA VIDA REAL, NA PROGRAMAÇÃO COMEÇAMOS A CONTA PELO NÚMERO 0!
+// DIFERENTE DA VIDA REAL, NA PROGRAMAÇÃO COMEÇAMOS A CONTA PELO NÚMERO 0
 
 var lista_de_nomes = ['Flora', 'Guilherme'];
 // use o nome da lista + colchetes especificando o item que deseja
@@ -149,6 +149,27 @@ console.log(lista_de_nomes[0]); // Retorna 'Flora', pois é o "0" item da lista
 
 console.log(lista_de_nomes[0] == 'Flora'? '"Flora" é o item 0 da lista' : 'O item 0 da lista não se chama "Flora"'); 
 
+// Podemos usar do "length" para saber quantos itens há na lista
+var lista = ['Batata doce', 'Whey', 'Ovo cozido'];
+console.log(lista.length) // 3 pois há três itens na lista
+
+
+// Lista com objetos
+var Rio_de_Janeiro = [
+    Bairros = {
+        ricos: "Leblon, Copacabana, Ipanema",
+        medianos: "Lagoa, São Conrado"
+    },
+
+    turismo = {
+        caros: "Shopping, teatros",
+        baratos: "Praias, museus, Parques"
+    }
+]
+
+console.log(Rio_de_Janeiro[0].ricos)
+// " [0] "     acessa o primeiro item da lista (os bairros)
+// " .ricos "  acessa a propriedade do objeto "bairros" que mostra os bairros ricos
 
 
 /* ----------------------------------------------------------------------------------- */
