@@ -23,8 +23,16 @@ console.log('...')
 // .log -> objeto (o ponto final é utilizado para acessar objetos)
 // () argumentos deste objeto
 
+// Criando um objeto
+const pessoa = {      // Objeto em si
+   nome: 'Paulo',     // nome:   property name    ,  "Paulo": property value
+   idade: 19          // idade:  property name    ,       19: property value
+}
+console.log(pessoa.nome);
+             //|-> Primeiro chamamos o Objeto em si "pessoa", e depois uma de suas propriedades.
 
 
+             
 /* --------------------------------------------------------------------------------------- */
 
 
