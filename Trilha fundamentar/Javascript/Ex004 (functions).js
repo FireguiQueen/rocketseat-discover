@@ -23,13 +23,13 @@ sayTwoWords(); // invoque a função utilizando o nome da variável
 
 
 // Usando parâmetros
-// dentro dos paretensis ficam nossos argumentos que podem ter valores quando invocarmos a função
-// são como variáveis, porém para as funções
+// dentro dos paretensis ficam nossos parâmetros que podem ter valores quando invocarmos a função
+// esses parâmetros serão trocados por argumentos que serão dados ao invocar a função
 let sayThreeWords = function(word1, word2){ 
     console.log(`${word1}, ${word2}`);
 };
 sayThreeWords('batata', 'feijão');
-                   // |-> Trocando os parâmetros da função por valores 
+                   // |-> Colocando argumentos que serão colocados no lugar dos parâmetros 
 
 
 function sum(n1, n2){
