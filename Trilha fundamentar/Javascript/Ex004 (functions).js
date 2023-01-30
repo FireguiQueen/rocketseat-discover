@@ -19,7 +19,19 @@ function sayHi()        // Palavra reservada "function" + identificador (nome da
 sayHi();                // Invocando a função
 
 
+// Também podemos fazer o contrário 
+sayHi();    // <-- A função foi invocada antes mesmo de ser criada. Podemos fazer isto por conta do hoisting
+function sayHi(){                       
+    console.log('Hi');  
+} 
 
+/*                  O hoisting não funciona para function expressions
+
+juice()                                                 <-- Não podemos chamar a função antes
+const juice = function(){
+    console.log('Suquinho de maçã')
+}
+*/
 
 
 
