@@ -3,7 +3,16 @@ ser guardado em memória, ou seja, este escopo está guardado para ser chamado f
 */
 
 
-/* Function declaration */
+/*                                      Function declaration                                    */
+
+// -> Começa com a palavra reservada "function"
+// -> Logo após é colocado o nome da função (mas respeite a sintaxe, há algumas "limitações" para noems)
+// -> Depois abrimos parentesis (), e nele podemos passar parâmetros ou não
+// -> E então abrimos o corpo da função, especificando o que ela irá fazendo dentro das chaves {}
+// -> E finalmente invocamos a função, utilizando seu nome e paretensis. 
+
+
+
 function sayHi(){ // declaração       
     console.log('Hi');  
 }
