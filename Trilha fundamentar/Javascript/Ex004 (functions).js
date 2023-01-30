@@ -23,7 +23,41 @@ sayHi();                // Invocando a função
 
 
 
-/* Function expression */
+
+/*                                      Function anonymous                                        */
+
+// -> Uma função que não possui identificador
+// -> Geralmente será utilizado numa function arrow ou expression
+// -> Quando feita sozinha, precisa ser envolvida por parentesis
+// -> Para chamar a função é obrigatório colocar os "()" assim que a função terminar
+
+(function(){
+    console.log('Isto é uma função anônima! Perceba que ela ela está dentro de parentesis');
+})
+();
+
+// Assim que terminamos a função, a mesma já foi invocada. Por ser totalmente anônima, não podemos fazer isto.:
+/*
+(function(){
+    console.log('Isto é uma função anônima! Perceba que ela ela está dentro de parentesis');
+})
+console.log('oi') 
+(); <-- Precisa ser invocada antes do console.log acima
+*/
+
+
+
+
+
+
+
+
+/*                                      Function expression                                       */
+
+// -> Consiste em criar uma função dentro de uma variável (const, let, var)
+// -> A função pode ser anônima ou não (recomendo sempre colocar anônima)
+// -> Para chamar a função, basta chamar o identificador da variável + parentesis
+
 let sayTwoWords = function(){
     console.log('Hi');  
     console.log('Hello');  
