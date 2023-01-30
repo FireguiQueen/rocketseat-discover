@@ -11,7 +11,7 @@ pessoa = 'Paulo'
 
 // Então temos..:
 let pessoa // Declaração
-let pessoa = 'Paulo' // Atribuição de valor ("Paulo")
+let pessoa = 'Paulo' // Declaração (let pessoa) + Atribuição de valor ("Paulo")
 
 // Também podemos agrupar uma declaração
 let pessoa_1, pessoa_2, pessoa_3
@@ -23,9 +23,11 @@ pessoa_3 = "Pablo";
 console.log(pessoa_1, pessoa_2, pessoa_3);
 
 // Caso você queira usar variáveis com uma string, você pode concatenar, usando do mais (+)
+// Mas no final tudo será do tipo "string"
 console.log("A pessoa" + pessoa_1 + " é muito inteligente");
 
-// Geralmente não usamos o "+" e sim string templates (fazendo uma interpolação). O cifrão e as chaves são usados para chamar variáveis, mas támbem podem fazer outras coisas, como por exemplo cálculos e etc..
+
+// Geralmente não usamos o "+" e sim 'string templates' (fazendo uma interpolação). O cifrão e as chaves são usados para chamar variáveis, mas támbem podem fazer outras coisas, como por exemplo cálculos e etc..
 console.log(`A pessoa ${pessoa_1} é muito inteligente`)
 ```
 
