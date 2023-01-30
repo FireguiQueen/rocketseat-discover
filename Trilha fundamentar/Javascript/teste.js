@@ -59,3 +59,27 @@ let students = [
    viewer
 ]
 console.log(students[0].name)
+
+
+
+//////////////////////////////////////////////////////////////////////////////
+
+function Aviao(name, portas, voo){
+   this.name = name
+   this.FecharPortas = portas == true? 'Portas fechadas' : 'Portas abertas';
+   this.LevantarVoo =  voo  && portas == true? 
+   this.plane = function() {
+      return `Portas fechadas e voo declarado para o ${this.name}. O trem de pouso está sendo recolhido`
+   }
+   : 
+   this.plane = function() {
+      return `O avião ${this.name} não pode voar.`
+   };
+
+}
+const H4m7 = new Aviao('H4m7', false, true);
+const Boeing = new Aviao('Boeing 274', true, true)
+
+console.log(H4m7.plane())
+console.log(Boeing.plane())
+

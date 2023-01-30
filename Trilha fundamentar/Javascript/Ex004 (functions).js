@@ -182,3 +182,50 @@ cumprimentar(
     () => console.log('Olá!'), // << Vírgulas são necessárias, pois ainda são argumentos
     () => console.log('Opa, tudo bem?')
 )
+
+
+/* THIS */
+
+// -> Sempre referente ao objeto do escopo
+// -> Digitando "this" no console dos navegadores você verâ que o "this" é a mesma coisa que "window"
+// -> Isto ocorre por que "window" é o objeto global onde o "this" foi digitado
+
+const carro = {
+    nome: 'Tesla X',
+    IA_level: 44,
+
+    ligar: function(){
+        return `Carro ligado! As portas do ${this.nome} foram trancadas por motivos de segurança.`
+                                              //|-> O "this" se refere ao objeto, ou seja, 
+                                              //seria a mesma coisa que fazer "${carro.name}"
+    }
+}
+console.log(carro.ligar())
+
+
+
+/*                                      Function constructor                                       */
+
+// -> Cria um novo objeto
+// -> Podemos criar functions de maneira dinâmica
+// -> Utilziamos muito do "this."
+
+
+
+function Pessoa(name){    // Este parâmetro será o nome da propriedade dentro do objeto
+    this.nome = name
+}
+
+const pessoaNova = new Pessoa('Flora') // <--  "Flora" será o valor desta propriedade
+        //|-> "pessoaNova" será um objeto
+console.log(pessoaNova1.nome);
+
+// O QUE FIZEMOS FOI BASICAMENTE.:
+/* 
+const pesssoa = {
+    nome: "Flora"
+}
+
+Porém a gente faz uso da "function constructor" por que a cada nova propriedade e valor de propriedade 
+que formos adicionar teremos que criar mais objeto. */
+
