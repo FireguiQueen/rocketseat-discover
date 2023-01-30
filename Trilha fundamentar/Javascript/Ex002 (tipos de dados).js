@@ -121,8 +121,19 @@ console.log(oi); // Undefinid..
 var pessoa = {            // objeto
     name: 'Flora',         // propriedade
     idade: 17,             // propriedade
-    andar: function Walk(){}  // funcionalidade 
+    andar: function Walk(){}  // método
 }
+
+// Também podemos escrever um método de maneira mais simplificada num objeto
+const table = {
+    type: 'wood',
+    height: '120cm',
+    width: '160cm',
+    compactar (){    // não houve necessidade de uma "property name"
+        return 'A mesa foi compactada';
+    }
+}
+console.log(table.compactar())
 
 // PARA ACESSAR O OBJETO, COLOQUE O NOME DO OBJETO E A PROPRIEDADE QUE DESEJA ACESSAR
 console.log(pessoa.name);  // retorna o nome

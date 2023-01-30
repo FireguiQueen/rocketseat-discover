@@ -35,20 +35,6 @@ console.log(pessoa.nome);
 
 
 
-
-
-const mesa = {
-   tipo: 'madeira',
-   largura: '55x100'
-}
-
-console.log()
-
-"frase"
-
-
-document.write
-
 /* ------------------------------------------------------------------------------------------------- */
 
 
