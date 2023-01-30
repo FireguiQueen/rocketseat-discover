@@ -158,3 +158,27 @@ sum__(14, 14);
 // Anonymous (com apenas um parâmetro - paretensis dos PARÂMETROS NÃO são necessárias)
 (FraseMotivacional => console.log(FraseMotivacional)) 
 ('Não falte o dia de perna na academia!')
+
+
+
+
+
+/*                                      Callback function                                       */
+
+// -> Muito utilizada com a arrow function
+// -> É basicamente colocar uma outra função nos argumentos ao invocar a função principal
+
+function cumprimentar(cumprimento_1, cumprimento_2){ // <-- Função principal
+
+    // Primeiro dizemos que determinada função será ativa dentro da função principal
+    // Não definimos o que a função irá fazer, o que ela irá fazer será escrito como argumento
+    // Ou seja, a função é chamada dentro deste escopo, mas sua declaração é feita "lá fora"
+    cumprimento_1();
+    cumprimento_2();
+}
+
+// Agora passamos outras funções aqui que irão substituir os parâmetros
+cumprimentar(
+    () => console.log('Olá!'), // << Vírgulas são necessárias, pois ainda são argumentos
+    () => console.log('Opa, tudo bem?')
+)
