@@ -36,3 +36,17 @@ function sum(n1, n2){
     console.log(`A soma entre ${n1} e ${n2} é igual a: ${n1 + n2}`);
 }
 sum(312, 235);
+
+
+// Também podemos usar variáveis
+function names(name1, name2, name3){
+    console.log(`
+    Nome 01: ${name1}
+    Nome 02: ${name2}
+    Nome 03: ${name3}
+    `)
+}
+let nm1 = 'Jack';
+let nm2 = 'Marlin';
+let nm3 = 'Hector';
+names(nm1, nm2, nm3);
