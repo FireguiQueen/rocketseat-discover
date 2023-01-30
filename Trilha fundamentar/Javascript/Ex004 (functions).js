@@ -3,6 +3,10 @@ ser guardado em memória, ou seja, este escopo está guardado para ser chamado f
 */
 
 
+
+
+
+
 /*                                      Function declaration                                    */
 
 // -> Começa com a palavra reservada "function"
@@ -34,6 +38,9 @@ const juice = function(){
 */
 
                               
+
+
+
 
 /*                                      Function anonymous                                        */
 
