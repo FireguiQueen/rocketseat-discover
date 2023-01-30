@@ -30,6 +30,12 @@ let sayThreeWords = function(word1, word2){
 };
 sayThreeWords('batata', 'feijão');
                    // |-> Colocando argumentos que serão colocados no lugar dos parâmetros 
+                   /* A diferença entre parâmetros e argumentos é que os parâmetros são as 
+                   variáveis definidas na declaração da função ou método, enquanto os argumentos 
+                   são os valores que são passados a essas variáveis quando a função ou método é 
+                   chamada. */
+
+
 
 
 function sum(n1, n2){
