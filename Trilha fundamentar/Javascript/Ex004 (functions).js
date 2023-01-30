@@ -12,11 +12,11 @@ ser guardado em memória, ou seja, este escopo está guardado para ser chamado f
 // -> E finalmente invocamos a função, utilizando seu nome e paretensis (independente de haver parâmetros ou não, é obrigatório chamar a função com parentesis)
 
 
-
-function sayHi(){ // declaração       
-    console.log('Hi');  
-}
-sayHi();    // inovanco a função
+function sayHi()        // Palavra reservada "function" + identificador (nome da função)
+{                       // Abrir chaves para começar o corpo da função
+    console.log('Hi');  // Corpo da função 
+} 
+sayHi();                // Invocando a função
 
 
 
