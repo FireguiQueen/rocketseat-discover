@@ -117,3 +117,44 @@ let nm1 = 'Jack';
 let nm2 = 'Marlin';
 let nm3 = 'Hector';
 names(nm1, nm2, nm3);
+
+
+
+
+
+
+
+/*                                      Arrow function                                       */
+
+// -> Pode ser utilizada junto a uma função anônima ou expression 
+// -> Não há necessidade de usar parentesis quando usamos apenas um parâmetro (se não passar nenhum parâmetro, os parentesis também são obrigatórios)
+// -> Não há necessidade de usar "return" e chaves {} quando iremos retornar somente uma única coisa
+
+
+// Expression 
+const sum_ = (x, y) => {
+    console.log(x+y);
+}
+sum_(14, 14);
+
+
+// Expression (retornando somente um único valor - as chaves não são necessárias)
+const sayHello = () => console.log('Olá');
+sayHello();
+
+// Expression (retornando dois valores ou mais - as chaves são necessárias)
+const sum__ = (x, y) => {
+    console.log('O resultado da sua soma é.:')
+    console.log(x+y);
+}
+sum__(14, 14);
+
+
+
+// Anonymous
+((x,y) => console.log(x+y)) 
+(4,4);
+
+// Anonymous (com apenas um parâmetro - paretensis dos PARÂMETROS NÃO são necessárias)
+(FraseMotivacional => console.log(FraseMotivacional)) 
+('Não falte o dia de perna na academia!')
