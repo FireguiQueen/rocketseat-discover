@@ -83,3 +83,11 @@ const Boeing = new Aviao('Boeing 274', true, true)
 console.log(H4m7.plane())
 console.log(Boeing.plane())
 
+
+
+
+
+
+
+
+

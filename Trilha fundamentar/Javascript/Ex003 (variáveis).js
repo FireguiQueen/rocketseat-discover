@@ -73,16 +73,6 @@ function pessoa(){
 
 
 
-
-
-
-
-
-
-
-
-
-
 /*                                LET
 - Declara uma variável com escopo de bloco e seu valor pode ser reatribuído.
 */

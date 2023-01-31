@@ -206,7 +206,8 @@ console.log(carro.ligar())
 
 /*                                      Function constructor                                       */
 
-// -> Cria um novo objeto
+// -> Cria uma função que armazena propriedades de objetos. A função acaba se tornando um objeto
+// -> Serve basicamente para criar diferentes objetos, porém todos com propriedades em comum
 // -> Podemos criar functions de maneira dinâmica
 // -> Utilziamos muito do "this."
 
