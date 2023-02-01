@@ -93,10 +93,12 @@ console.log(Boeing.plane())
 
 
 
-function car(name, model, year){
+function Car(name, model, year){
    this.nome = name
    this.modelo = model
    this.year = year
 }
 
-const Tesla = 
+const Tesla = new Car('Tesla', 'X', '2014')
+
+console.log(Tesla.modelo)
