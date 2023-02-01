@@ -12,6 +12,10 @@
 var frase = "Olá, isto é uma frase".replace('Olá', 'oi')
 console.log(frase)
 
+
+// O "length" conta quantos caracteres possuimos na string
+console.log("Batata".length) 
+
 // "ToUpperCase" coloca toda a string em maiúsculo
 var name = "flora".toUpperCase()
 console.log(name)
