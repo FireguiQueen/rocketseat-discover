@@ -7,5 +7,11 @@
          // |-> Não será necessário criar uma função do 0 para isto, pois já existe um método para isto
 
 
+// Com o protoype "replace" podemos substituir determinada string por outra, como no exemplo abaixo
+// onde a palavra "Olá" foi substituida por "oi"
 var frase = "Olá, isto é uma frase".replace('Olá', 'oi')
 console.log(frase)
+
+// "ToUpperCase" coloca toda a string em maiúsculo
+var name = "flora".toUpperCase()
+console.log(name)
