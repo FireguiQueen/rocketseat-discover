@@ -107,18 +107,18 @@ console.log(Tesla.modelo)
 
 
 
-function School(name, locality, welcome){
+function School(name, locality){
    this.name = name
    this.locality = locality 
-   this.welcome = welcome
+   this.welcome = () => {return `Welcome to ${this.name}`}
 }
 
 
 
-const BL_school = new School('Blender school', 'United Kingdom, Cambridge', `Welcome to ${this.name} !`)
+const BL_school = new School('Blender school', 'United Kingdom, Cambridge')
 
 
-console.log(BL_school.welcome)
+console.log(BL_school.locality)
 
 
 
