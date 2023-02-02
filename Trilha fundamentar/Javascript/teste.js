@@ -102,3 +102,13 @@ function Car(name, model, year){
 const Tesla = new Car('Tesla', 'X', '2014')
 
 console.log(Tesla.modelo)
+
+
+
+
+
+
+
+
+
+
