@@ -115,10 +115,14 @@ function School(name, locality){
 
 
 
-const BL_school = new School('Blender school', 'United Kingdom, Cambridge')
+const BL_school = new School('Blender School', 'United Kingdom, London')
+const BY_school = new School('Byance School', 'United States,  Michigan')
+const LY_school = new School('Lyoshock School', 'United States, Sedona')
 
 
 console.log(`${BL_school.name} | ${BL_school.locality}`)
+console.log(`${BY_school.name} | ${BY_school.locality}`)
+console.log(`${LY_school.name} | ${LY_school.locality}`)
 
 
 
