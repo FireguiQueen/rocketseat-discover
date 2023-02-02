@@ -118,7 +118,7 @@ function School(name, locality){
 const BL_school = new School('Blender school', 'United Kingdom, Cambridge')
 
 
-console.log(BL_school.locality)
+console.log(`${BL_school.name} | ${BL_school.locality}`)
 
 
 
