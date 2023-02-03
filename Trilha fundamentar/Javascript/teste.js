@@ -129,16 +129,19 @@ console.log(`${LY_school.name} | ${LY_school.locality}`)
 
 const Person = function(name, age, gender, country, city){
    this.PName = name
-   this.PAge = age
-   this.PGender = gender
-   this.PCountry = country
-   this.PCity = city
+   this.PAge = `Age: ${age}`
+   this.PGender = `Gender: ${gender}`
+   this.PCountry = `Country: ${country}`
+   this.PCity =  `City: ${city}`
 }
 
 
-const Flora = new Person('Flora', 17, 'female', 'UK', 'London')
-const Flora = new Person('Kiriho', 22, 'female', 'Japan', '')
-const Flora = new Person('Flora', 17, 'female', 'UK', 'London')
+const person1 = new Person('Flora', 17, 'female', 'UK', 'London')
+const person2 = new Person('Kiriho', 22, 'female', 'Japan', 'Chugoku')
 
+console.log(`
+${person1.PName} - ${person1.PAge}
+${person2.PName} - ${person2.PAge}
+${person1.PAge > person2.PAge? `${person1.PName} is older than ${person2.PName}` : `${person1.PName} isn't older than ${person2.PName}`}
 
-console.log(Flora.P)
+`)
