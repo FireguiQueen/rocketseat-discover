@@ -113,8 +113,6 @@ function School(name, locality){
    this.welcome = () => {return `Welcome to ${this.name}`}
 }
 
-
-
 const BL_school = new School('Blender School', 'United Kingdom, London')
 const BY_school = new School('Byance School', 'United States,  Michigan')
 const LY_school = new School('Lyoshock School', 'United States, Sedona')

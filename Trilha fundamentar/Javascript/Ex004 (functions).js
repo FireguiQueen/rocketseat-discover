@@ -206,11 +206,14 @@ console.log(carro.ligar())
 
 /*                                      Function constructor                                       */
 
-// -> Cria uma função que armazena propriedades de objetos. A função acaba se tornando um objeto
+// -> Cria uma função que armazena propriedades de objetos. A função acaba se tornando um esqueleto para futuros objetos
 // -> Serve basicamente para criar diferentes objetos, porém todos com propriedades em comum
-// -> Podemos criar functions de maneira dinâmica
-// -> Utilziamos muito do "this."
-
+/* Imagine que você possua diversos computadores, e cada computador será um objeto. Todos os computadores terão 
+   as seguintes propriedades em comum: nome do computador, preço, quantidade disponível. 
+   Invés de criarmos um objeto para cada computador diferente, podemos criar uma function constructor.
+   Com ela podemos criar diversos objetos de maneira dinâmica, e todos vão herdar as propriedades "nome, preço, e quantidade"
+   que foi definida na própria função
+*/
 
 
 function Pessoa(name){    // Este parâmetro será o nome da propriedade dentro do objeto
@@ -218,7 +221,8 @@ function Pessoa(name){    // Este parâmetro será o nome da propriedade dentro 
 }
 
 const pessoaNova = new Pessoa('Flora') // <--  "Flora" será o valor desta propriedade
-        //|-> "pessoaNova" será um objeto
+        //|-> Podemos pensar que a palavra "new" está dizendo que haverá um novo objeto
+        //    usando a base construida pela função construtora.
 console.log(pessoaNova1.nome);
 
 // O QUE FIZEMOS FOI BASICAMENTE.:
