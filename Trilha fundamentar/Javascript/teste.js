@@ -127,3 +127,18 @@ console.log(`${LY_school.name} | ${LY_school.locality}`)
 
 
 
+const Person = function(name, age, gender, country, city){
+   this.PName = name
+   this.PAge = age
+   this.PGender = gender
+   this.PCountry = country
+   this.PCity = city
+}
+
+
+const Flora = new Person('Flora', 17, 'female', 'UK', 'London')
+const Flora = new Person('Kiriho', 22, 'female', 'Japan', '')
+const Flora = new Person('Flora', 17, 'female', 'UK', 'London')
+
+
+console.log(Flora.P)
