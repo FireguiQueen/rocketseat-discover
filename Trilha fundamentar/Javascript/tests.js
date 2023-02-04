@@ -156,8 +156,8 @@ function Products(name, price, quantity, description){
 }
 
 const na = 40;
-const computer = new Products('H2-Fire Computer', 44.0.toLocaleString('en', {style: 'currency', currency: 'USD'}) ,44, 'A nice computer' );
+const pc_1 = new Products('H2-Fire Computer', 44.0.toLocaleString('en', {style: 'currency', currency: 'USD'}) ,44, 'A nice computer' );
 const computer = new Products('H2-Fire Computer', 44.0.toLocaleString('en', {style: 'currency', currency: 'USD'}) ,44, 'A nice computer' );
 
 
-console.log(computer.price)
+console.log(pc_1.price)
