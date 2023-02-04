@@ -143,3 +143,21 @@ ${person2.PName} - ${person2.PAge}
 ${person1.PAge > person2.PAge? `${person1.PName} is older than ${person2.PName}` : `${person1.PName} isn't older than ${person2.PName}`}
 
 `)
+
+
+
+
+
+function Products(name, price, quantity, description){
+   this.name = name
+   this.price = price
+   this.quantity =  quantity
+   this.description = description
+}
+
+const na = 40;
+const computer = new Products('H2-Fire Computer', 44.0.toLocaleString('en', {style: 'currency', currency: 'USD'}) ,44, 'A nice computer' );
+const computer = new Products('H2-Fire Computer', 44.0.toLocaleString('en', {style: 'currency', currency: 'USD'}) ,44, 'A nice computer' );
+
+
+console.log(computer.price)
