@@ -153,11 +153,15 @@ function Products(name, price, quantity, description){
    this.price = price
    this.quantity =  quantity
    this.description = description
+   this.label = `Name: ${name}  |  Price: ${price}  |  Quantity: ${quantity}  |  Description: ${description}`
 }
 
-const na = 40;
-const pc_1 = new Products('H2-Fire Computer', 44.0.toLocaleString('en', {style: 'currency', currency: 'USD'}) ,44, 'A nice computer' );
-const computer = new Products('H2-Fire Computer', 44.0.toLocaleString('en', {style: 'currency', currency: 'USD'}) ,44, 'A nice computer' );
+const pc_1 = new Products('H2-Fire Computer', 644.0.toLocaleString('en', {style: 'currency', currency: 'USD'}) , 241, 'A nice computer' );
+const pc_2 = new Products('LCK Gold', 494.0.toLocaleString('en', {style: 'currency', currency: 'USD'}) , 51, 'A nice computer' );
 
 
-console.log(pc_1.price)
+console.log(`
+${pc_1.label}
+${pc_2.label}
+
+`)
