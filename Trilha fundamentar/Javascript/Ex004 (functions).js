@@ -220,7 +220,7 @@ function Pessoa(name){    // Este parâmetro será o nome da propriedade dentro 
     this.nome = name
 }
 
-const pessoaNova = new Pessoa('Flora') // <--  "Flora" será o valor desta propriedade
+const pessoaNova1 = new Pessoa('Flora') // <--  "Flora" será o valor desta propriedade
         //|-> Podemos pensar que a palavra "new" está dizendo que haverá um novo objeto
         //    usando a base construida pela função construtora.
 console.log(pessoaNova1.nome);
@@ -231,6 +231,43 @@ const pesssoa = {
     nome: "Flora"
 }
 
-Porém a gente faz uso da "function constructor" por que a cada nova propriedade e valor de propriedade 
-que formos adicionar teremos que criar mais objeto. */
+Imagine que precisamos criar diversos objetos, cada objeto se refere a uma pessoa.
+Todos os objetos terão as mesmas propriedades, tais como: Nome, idade, localidade e etc..
+
+Invés de criamos toda hora as mesmas propriedades, podemos simplesmente fazer uso da function construction
+e dos prototypes que criamos. */
+
+
+
+
+// ADICIONE MÉTODOS DE MANEIRA EXTERNA, É UMA BOA PRÁTICA.
+const Doctor = function(name, age, years, specialty){
+    this.name = name;
+    this.age = age;
+    this.HowLongWorking = years;
+    this.especialidade = specialty
+}
+
+Doctor.prototype.Age_Start_Working = function(){
+    return `
+    O médico começou sua carreira quando tinha: ${this.age - this.HowLongWorking} anos de idade`   
+}
+
+
+
+// NÃO ADICIONE MÉTODOS DE MANEIRA INTERNA, OU SEJA, NA PRÓPRIA FUNÇÃO
+const Doctors = function(name, age, years, specialty){
+    this.name = name;
+    this.age = age;
+    this.HowLongWorking = years;
+    this.especialidade = specialty
+
+    Age_Start_Working = function(){
+        return `
+        O médico começou sua carreira quando tinha: ${this.age - this.HowLongWorking} anos de idade`   
+    }
+}
+const mds = new Doctors('Pab', 28, 5, 'Cirurgião plástico')
+
+console.log()
 
