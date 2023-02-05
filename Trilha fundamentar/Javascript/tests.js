@@ -170,10 +170,31 @@ ${pc_2.label}
 
 
 
-const The_Last_Of_Us_1 = (name, birthplace, age, height, weight) => {
+const The_Last_Of_Us_1_Character = function(name, birthplace, age, height, weight){
    this.name = name
+   this.birthdayplace = birthplace
+   this.age = age
+   this.height = height
+   this.weight = weight
+
+   this.label = `
+   ${name} 
+   Birthplace: ${birthplace} 
+   Age: ${age} 
+   Height: ${height} 
+   Weight: ${weight}`
 }
-const Joel = new The_Last_Of_Us_1('Joel Miller', 'Texas, United States', 52, 1,75 );
+const Joel = new The_Last_Of_Us_1_Character('Joel Miller', 'Texas, United States', 52, 1.75, `${75}kg`);
+const Ellie = new The_Last_Of_Us_1_Character('Ellie Parker', 'Utah, United States', 14, 1.45, `${40}kg`);
+const Bill = new The_Last_Of_Us_1_Character('Bill Foster', 'California, United States', 50, 1.8, `${80}kg`);
+const Frank = new The_Last_Of_Us_1_Character('Frank Semyon', 'Illinois, United States', 45, 1.75, `${78}kg`);
+const Tess = new The_Last_Of_Us_1_Character('Tess Bauer', 'Rhode Island, United States', 'unknown', 'unknown', 'unknown');
+const Marlene = new The_Last_Of_Us_1_Character('Marlene', 'United States', 'unknown', 'unknown', 'unknown');
 
 
-console.og
+
+console.log(`
+${Joel.label}
+${Ellie.label}
+${Tess.label}
+`)
