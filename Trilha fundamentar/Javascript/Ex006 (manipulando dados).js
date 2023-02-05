@@ -166,4 +166,37 @@ console.log(Array.from(word))
 
 
 
-// manipulações básicas de adição e removação de items num array 
+// MANIPULAÇÕES BÁSICAS DE ADIÇÃO E REMOVAÇÃO DE ITEMS NUM ARRAY
+let name_list = ['Flora', 'Guilherme', 'Julia', 'Pablo']
+
+// Adicionando um item ao final do Array
+// push significa "empurrar", estamos empurrando determinado argumento para o array.
+name_list.push('Emilia')
+console.log(name_list) 
+
+// Adicionando um item ao início do Array
+// unshift pode ser traduzido como "mudar o começo", estamos mudando o inicio da array
+name_list.unshift('Lily')
+console.log(name_list) 
+
+
+
+// Removendo o item do final da lista
+name_list.pop()
+console.log(name_list)
+
+// Removendo item do inicio da lista
+name_list.shift()
+console.log(name_list) 
+
+
+// Pegando apenas alguns itens da lista
+// O resultado será um novo array, ou seja, isto não irá afetar o array principal pois uma 
+// cópia será criada
+
+var someNames = name_list.slice(1,2)
+console.log(someNames) 
+
+// Se tentarmos desta maneira, o console irá retornar o array original
+name_list.slice(1,2)
+console.log(name_list)
