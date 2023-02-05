@@ -91,15 +91,25 @@ console.log(comprimentar.toLowerCase())
 
 
 // CRIANDO ARRAYS UTILIZANDO STRINGS
-let phrase = "Esta pequena frase será dividida e irá entrar num Array"
-
-let list_phrase = phrase.split('d') // Aqui dentro passamos como a string será dividida no texto
+// Após usar o método split em uma string, você cria uma array de strings, onde cada elemento da array 
+// é uma parte da string original, separada pelo separador especificado no argumento do método split.
+let phrase = "Esta pequena frase será dividida"
+let list_phrase = phrase.split('d') // Aqui dentro passamos como a string será dividida na array
                                     // Ou seja, a cada caracter "d" encontrado na string, a array será dividida 
                                     // e o "d" será cortado
 console.log(list_phrase)
 
+
 // TAMBÉM PODEMOS CRIAR STRINGS UTILIZANDO ARRAYS (E AINDA SEPARANDO OS ITENS)
-// O "join" nos permite separar itens da nosta lista quando vermos em formato string
-let fruits = ['mango', 'avocado', 'watermelon', 'banana']
+// Após usar o método 'join' em um array, você cria uma string que contém todos os elementos do array, 
+// separados pelo separador especificado como argumento do método join.
+fruits = ['mango', 'avocado', 'watermelon', 'banana']
 let list_fruits = fruits.join(`, `)
 console.log(list_fruits)
+
+
+const chracters = ['Joel', 'Ellie', 'Bill', 'Frank'].join('-')
+console.log(chracters.split('-'))
+
+
+
