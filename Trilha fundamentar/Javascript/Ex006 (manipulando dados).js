@@ -65,4 +65,11 @@ console.log(digitos_4.replace('.','').length)
 
 
 
-// 
+// Adicionando casas decimais
+let wallet = 54 
+console.log(wallet.toFixed(2))
+
+
+// Também podemos utilizar do replace
+let green_wallet = 78
+console.log(green_wallet.toFixed(2).replace('.',','))
