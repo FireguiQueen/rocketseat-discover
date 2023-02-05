@@ -196,5 +196,6 @@ const Marlene = new The_Last_Of_Us_1_Character('Marlene', 'United States', 'unkn
 console.log(`
 ${Joel.label}
 ${Ellie.label}
-${Tess.label}
+${Bill.label}
+${Frank.label}
 `)
