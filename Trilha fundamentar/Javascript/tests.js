@@ -165,3 +165,15 @@ ${pc_1.label}
 ${pc_2.label}
 
 `)
+
+
+
+
+
+const The_Last_Of_Us_1 = (name, birthplace, age, height, weight) => {
+   this.name = name
+}
+const Joel = new The_Last_Of_Us_1('Joel Miller', 'Texas, United States', 52, 1,75 );
+
+
+console.og
