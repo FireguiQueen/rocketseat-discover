@@ -137,3 +137,13 @@ console.log(motivational.toLowerCase().includes('durma')) // true
 // array já é um objeto.
 const lista_vazia = new Array(10)
 console.log(lista_vazia)
+
+
+
+
+// CONTANDO ITEMS NUM ARRAY
+const motivational_list = [
+    function(){ return 'Seja o que desejas, mas não deseje ser um vagabundo'},
+    function(){ return 'Escolas em geral são o contrário dos processos do seu gerenciador de tarefas, pois eles são úteis'}
+]
+console.log(motivational_list.length)
