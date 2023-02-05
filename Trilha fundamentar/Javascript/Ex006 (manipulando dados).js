@@ -169,34 +169,43 @@ console.log(Array.from(word))
 // MANIPULAÇÕES BÁSICAS DE ADIÇÃO E REMOVAÇÃO DE ITEMS NUM ARRAY
 let name_list = ['Flora', 'Guilherme', 'Julia', 'Pablo']
 
-// Adicionando um item ao final do Array
+// ADICIONANDO UM ITEM AO FINAL DO ARRAY
 // push significa "empurrar", estamos empurrando determinado argumento para o array.
 name_list.push('Emilia')
 console.log(name_list) 
 
-// Adicionando um item ao início do Array
+// ADICIONANDO UM ITEM AO INÍCIO DO ARRAY
 // unshift pode ser traduzido como "mudar o começo", estamos mudando o inicio da array
 name_list.unshift('Lily')
 console.log(name_list) 
 
 
 
-// Removendo o item do final da lista
+// REMOVENDO O ITEM DO FINAL DA LISTA
 name_list.pop()
 console.log(name_list)
 
-// Removendo item do inicio da lista
+// REMOVENDO ITEM DO INICIO DA LISTA
 name_list.shift()
 console.log(name_list) 
 
 
-// Pegando apenas alguns itens da lista
+// PEGANDO APENAS ALGUNS ITENS DA LISTA
 // O resultado será um novo array, ou seja, isto não irá afetar o array principal pois uma 
 // cópia será criada
-
-var someNames = name_list.slice(1,3)
+var someNames = name_list.slice(0,3) // "0,3" -> A partir de qual item queremos até onde queremos
 console.log(someNames) 
 
 // Se tentarmos desta maneira, o console irá retornar o array original
 name_list.slice(1,2)
 console.log(name_list)
+
+// Vale lembrar que, o primeiro argumento do "slice" é por onde vamos começar a puxar, e o último 
+// argumento e até onde queremos puxar. 
+// O primeiro argumento do método "slice" informa a partir de qual índice do Array original 
+// você deseja começar a extrair os itens, e o segundo argumento informa até qual índice você 
+// deseja extrair os itens (não incluindo este índice).
+
+// Então se quisermos puxar o primeiro e segundo item, precisamos informar que queremos do 0 até o 2
+var someNames = name_list.slice(0,2) 
+console.log(someNames) 
