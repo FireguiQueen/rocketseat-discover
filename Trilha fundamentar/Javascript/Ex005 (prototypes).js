@@ -46,11 +46,19 @@ Carro.prototype.mostrarInfo = function() {
     `
 };
   
-  // Criando um objeto a partir do prototype "Carro"
-  const carro1 = new Carro("Cybertruck", "Tesla");
-  
-  // Herdando a propriedade do protótipo
-  console.log(carro1.mostrarInfo()); 
+// Criando um objeto a partir do prototype "Carro"
+const carro1 = new Carro("Cybertruck", "Tesla");
+
+// Herdando a propriedade do protótipo
+console.log(carro1.mostrarInfo()); 
+
+/* 
+    Basicamente, ao criar uma "function construction" ela cria também uma propriedade chamada 
+    "__prototype__". Esta propriedade sempre se refere a aquela função.
+    Quando criamos um novo objeto a partir daquela função construtora, o objeto herda as propriedades
+    da função construtora pois este novo objeto possui a funcionalidade "__proto__" que se refere a função em 
+    si
+/* 
   
 
 
