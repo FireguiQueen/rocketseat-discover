@@ -131,6 +131,9 @@ console.log(motivational.toLowerCase().includes('durma')) // true
 
 
 // CRIANDO ARRAY USANDO CONSTRUCTOR
-// Isto é útil pois podemos 
+// Isto é útil  quando você deseja inicializar uma lista de valores que será preenchida 
+// futuramente em seu código.
+// Lembra-se, só podemos usar o contructor quando o objeto existe, mas não esqueça que o 
+// array já é um objeto.
 const lista_vazia = new Array(10)
 console.log(lista_vazia)
