@@ -191,14 +191,7 @@ const Frank = new The_Last_Of_Us_1_Character('Frank Semyon', 'Illinois, United S
 const Tess = new The_Last_Of_Us_1_Character('Tess Bauer', 'Rhode Island, United States', 'unknown', 'unknown', 'unknown');
 const Marlene = new The_Last_Of_Us_1_Character('Marlene', 'United States', 'unknown', 'unknown', 'unknown');
 
-const list = ['Joel', 'Ellie']
-
-console.log
-
-console.log(`
-${Joel.label}
-${Ellie.label}
-${Bill.label}
-${Frank.label}
-`)
+for (const character of [Joel, Ellie, Bill, Frank]) {
+   console.log(character.label);
+}
 
