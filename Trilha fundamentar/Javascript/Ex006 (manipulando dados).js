@@ -126,3 +126,11 @@ console.log(motivational.includes('durma'))
 // e sempre fazer a validação desta maneira
 console.log(motivational.toLowerCase().includes('durma')) // true
 
+
+
+
+
+// CRIANDO ARRAY USANDO CONSTRUCTOR
+// Isto é útil pois podemos 
+const lista_vazia = new Array(10)
+console.log(lista_vazia)
