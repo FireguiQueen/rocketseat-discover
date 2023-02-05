@@ -147,3 +147,10 @@ const motivational_list = [
     function(){ return 'Escolas em geral são o contrário dos processos do seu gerenciador de tarefas, pois eles são úteis'}
 ]
 console.log(motivational_list.length)
+
+
+
+
+
+const huh = "Omg dude that's nice".split(' ')
+console.log(huh)
