@@ -227,3 +227,12 @@ console.log(name_list)
 
 // Se informamos "0" nenhum item será removido
 name_list.splice(1, 0)
+
+
+
+// DESCOBRINDO QUAL O ITEM DE DETERMINADO ELEMENTO 
+// É criado uma cópia então devemos colocar numa variável ou passar o método diretamente no console
+
+// O elemento "Pablo" é o item 1 da lista..: ['Flora', 'Pablo']
+let index = name_list.indexOf('Pablo')
+console.log(index)
