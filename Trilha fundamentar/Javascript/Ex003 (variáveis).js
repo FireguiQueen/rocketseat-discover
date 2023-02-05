@@ -138,21 +138,6 @@ function aviao_02(){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*                                CONST
 - Declara uma variável com escopo de bloco e seu valor NÃO pode ser reatribuído.
 

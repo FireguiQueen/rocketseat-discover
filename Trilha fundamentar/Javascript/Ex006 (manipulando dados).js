@@ -107,9 +107,22 @@ fruits = ['mango', 'avocado', 'watermelon', 'banana']
 let list_fruits = fruits.join(`, `)
 console.log(list_fruits)
 
-
 const chracters = ['Joel', 'Ellie', 'Bill', 'Frank'].join('-')
 console.log(chracters.split('-'))
 
 
+
+
+
+
+
+
+// VERIFICANDO SE HÁ DETERMINADO CARACTER OU PALAVRA NA STRING
+const motivational = '"Durma enquanto eles estão a dormir, estude enquanto eles estão a procrastinar.."'
+console.log(motivational.includes('durma'))
+
+// Será retornado pois não há "durma" na string e sim "Durma", com D maiúsculo
+// Podemos resolver este problema mandando a string se transformar em minúsculo, 
+// e sempre fazer a validação desta maneira
+console.log(motivational.toLowerCase().includes('durma')) // true
 
