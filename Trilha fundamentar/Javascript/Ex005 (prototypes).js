@@ -58,10 +58,6 @@ console.log(carro1.mostrarInfo());
     Quando criamos um novo objeto a partir daquela função construtora, o objeto herda as propriedades
     da função construtora pois este novo objeto possui a funcionalidade "__proto__" que se refere a função em 
     si
-/* 
+*/ 
   
-
-
-
-
 

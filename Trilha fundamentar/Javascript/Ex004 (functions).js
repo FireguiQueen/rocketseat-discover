@@ -260,14 +260,11 @@ const Doctors = function(name, age, years, specialty){
     this.name = name;
     this.age = age;
     this.HowLongWorking = years;
-    this.especialidade = specialty
+    this.especialidade = specialty,
 
-    Age_Start_Working = function(){
+    this.Age_Start_Working = function(){
         return `
         O médico começou sua carreira quando tinha: ${this.age - this.HowLongWorking} anos de idade`   
     }
 }
-const mds = new Doctors('Pab', 28, 5, 'Cirurgião plástico')
-
-console.log()
 
