@@ -151,6 +151,19 @@ console.log(motivational_list.length)
 
 
 
+// TRANSFORMANDO UMA CADEIA DE CARACTERES EM UMA ARRAY
+// O "from" sugere que um Array deve ser criado "a partir de" outro objeto, seja ele uma string, 
+// objeto ou outro tipo de objeto iterável.
 
-const huh = "Omg dude that's nice".split(' ')
-console.log(huh)
+// Neste caso, temos uma variável "word", que é uma string
+// Então estamos dizendo que "a partir" da var "word" comece a gerar itens num array
+const word = 'Lennisters'
+console.log(Array.from(word))
+
+
+
+
+
+
+
+// manipulações básicas de adição e removação de items num array 
