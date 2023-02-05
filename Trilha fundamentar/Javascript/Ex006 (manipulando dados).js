@@ -26,3 +26,43 @@ console.log(55 + Number('oi')) // Resultado: NaN (pois 'oi' não pode ser númer
 
 // Type conversion (transformamos a string '4' no tipo de dado "number")
 console.log(55 + Number('4'))
+
+
+
+
+
+
+
+
+// Contando quantos caracteres há em determinada frase/valor numérico
+
+// Funciona perfeitamente
+let nome = "Guilherme".length
+console.log(nome) // 9
+
+
+
+// O resultado acima será "undefined" pois o LENGTH não funciona para tipos de dados "NUMBERS"
+let digitos = 844
+console.log(digitos.length)
+
+// Então uma conversão forçada será necessária
+let digitos_2 = String(844)
+console.log(digitos_2.length) // 3 (pois há 3 caracteres na string)
+
+// Tome cuidado caso haja um valor quebrado 
+let digitos_3 = String(844.55)
+console.log(digitos_3.length) // 6 (pois há 6 caracteres)
+
+// Podemos resolver isto assim
+let digitos_4 = String(424.22)
+console.log(digitos_4.replace('.','').length)
+
+
+
+
+
+
+
+
+// 
