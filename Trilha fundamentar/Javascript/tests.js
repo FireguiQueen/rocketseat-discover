@@ -195,3 +195,15 @@ for (const character of [Joel, Ellie, Bill, Frank]) {
    console.log(character.label);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
