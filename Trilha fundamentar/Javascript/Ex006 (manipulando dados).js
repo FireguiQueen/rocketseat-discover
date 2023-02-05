@@ -216,7 +216,14 @@ console.log(someNames)
 // REMOVENDO UM OU MAIS ITENS NO ARRAY
 // É basicamente o "slice", porém nós removemos os itens e não colocamos novos
 // Não cria uma cópia, então não há necessidade de criar uma variável para obter o resultado desejado
+
 // O primeiro argumento (startIndex) informa a partir de qual índice do Array original você deseja começar
 // a remover itens, e o segundo argumento (numberOfItemsToRemove) informa quantos itens você deseja remover
-name_list.splice(1, 3)
+
+// Eu informei por onde vou começar a remover (item 1 - "Guilherme") e quantos itens irei remover (2 itens)
+// Logo eu removi "Guilherme" e "Julia"
+name_list.splice(1, 2)
 console.log(name_list)
+
+// Se informamos "0" nenhum item será removido
+name_list.splice(1, 0)
