@@ -5,9 +5,16 @@
 */
 
 // Convertando uma STRING para NUMBER
-let BankAccount = '4.242420'
+let BankAccount = Number('4.242420')
+console.log(BankAccount, typeof BankAccount)
 
+// Cuidado ao converter strings que utilizam caracteres não numéricos
+let frase = 'Olá, tudo bem?'
+console.log(Number(frase)) // Resultado: NaN
 
+// Não precisamos tomar este cuidado de NUMBER para STRING pois strings aceitam qualquer caracter
+let numbers = 44224224.12
+console.log(String(numbers))
 
 
 // Aqui ocorre o "type coersion"
