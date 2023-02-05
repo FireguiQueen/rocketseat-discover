@@ -209,3 +209,14 @@ console.log(name_list)
 // Então se quisermos puxar o primeiro e segundo item, precisamos informar que queremos do 0 até o 2
 var someNames = name_list.slice(0,2) 
 console.log(someNames) 
+
+
+
+
+// REMOVENDO UM OU MAIS ITENS NO ARRAY
+// É basicamente o "slice", porém nós removemos os itens e não colocamos novos
+// Não cria uma cópia, então não há necessidade de criar uma variável para obter o resultado desejado
+// O primeiro argumento (startIndex) informa a partir de qual índice do Array original você deseja começar
+// a remover itens, e o segundo argumento (numberOfItemsToRemove) informa quantos itens você deseja remover
+name_list.splice(1, 3)
+console.log(name_list)
