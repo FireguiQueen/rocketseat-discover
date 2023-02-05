@@ -194,7 +194,7 @@ console.log(name_list)
 // O resultado será um novo array, ou seja, isto não irá afetar o array principal pois uma 
 // cópia será criada
 
-var someNames = name_list.slice(1,2)
+var someNames = name_list.slice(1,3)
 console.log(someNames) 
 
 // Se tentarmos desta maneira, o console irá retornar o array original
