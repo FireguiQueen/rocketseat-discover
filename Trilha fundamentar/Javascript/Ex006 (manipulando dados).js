@@ -193,19 +193,19 @@ console.log(name_list)
 // PEGANDO APENAS ALGUNS ITENS DA LISTA
 // O resultado será um novo array, ou seja, isto não irá afetar o array principal pois uma 
 // cópia será criada
-var someNames = name_list.slice(0,3) // "0,3" -> A partir de qual item queremos até onde queremos
+var someNames = name_list.slice(0,2) // "0,3" -> A partir de qual item queremos até onde queremos
 console.log(someNames) 
 
 // Se tentarmos desta maneira, o console irá retornar o array original
 name_list.slice(1,2)
 console.log(name_list)
 
-// Vale lembrar que, o primeiro argumento do "slice" é por onde vamos começar a puxar, e o último 
-// argumento e até onde queremos puxar. 
-// O primeiro argumento do método "slice" informa a partir de qual índice do Array original 
-// você deseja começar a extrair os itens, e o segundo argumento informa até qual índice você 
-// deseja extrair os itens (não incluindo este índice).
 
+
+/*  O primeiro argumento do método "slice" informa a partir de qual índice do Array original 
+    você deseja começar a extrair os itens, e o segundo argumento informa até qual índice você 
+    deseja extrair os itens (não incluindo este índice).
+*/ 
 // Então se quisermos puxar o primeiro e segundo item, precisamos informar que queremos do 0 até o 2
 var someNames = name_list.slice(0,2) 
 console.log(someNames) 
