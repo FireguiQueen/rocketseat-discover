@@ -4,6 +4,11 @@
 // -> Pode ser feito pelo próprio JS ou por nós
 */
 
+// Convertando uma STRING para NUMBER
+let BankAccount = '4.242420'
+
+
+
 
 // Aqui ocorre o "type coersion"
 // pois o próprio JS converte o "55" para o tipo STRING
