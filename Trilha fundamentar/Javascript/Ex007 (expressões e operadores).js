@@ -39,3 +39,15 @@ console.log(diferenca)
 let MaiorGrupo = Grupo_A > Grupo_B  // irá retornar "true"
 console.log(MaiorGrupo)
 
+
+
+
+//                                  Ternary
+
+// Há apenas um operador ternário, o "?" que irá retorar um valor boolean
+// Perceba que foi necessário 3 valores, sendo um operando "red_wallet", um operador ">" e outro operando "green wallet"
+
+const Red_wallet = 45
+const Green_wallet = 34
+let Mais_dinheiro = Red_wallet > Green_wallet? 'A carteira vermelha tem mais dinheiro que a verde' : 'A verde tem mais dinheiro'
+console.log(Mais_dinheiro)
