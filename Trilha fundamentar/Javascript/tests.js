@@ -197,6 +197,21 @@ for (const character of [Joel, Ellie, Bill, Frank]) {
 
 
 
+const animals_list = ['Dog', 'Cat', 'Whale', 'Duck', 'Snake']
+console.log(animals_list)
+
+animals_list.push('Monkey')
+console.log(animals_list)
+
+animals_list.pop()
+console.log(animals_list)
+
+animals_list.shift()
+console.log(animals_list)
+
+animals_list.unshift('Dog')
+console.log(animals_list)
+
 
 
 
