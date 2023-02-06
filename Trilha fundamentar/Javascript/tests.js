@@ -210,10 +210,8 @@ animals_list.shift()
 console.log(animals_list)
 
 animals_list.unshift('Dog')
+
 console.log(animals_list)
-
-
-
 
 
 
