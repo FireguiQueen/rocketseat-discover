@@ -115,8 +115,6 @@ console.log(chracters.split('-'))
 
 
 
-
-
 // VERIFICANDO SE HÁ DETERMINADO CARACTER OU PALAVRA NA STRING
 const motivational = '"Durma enquanto eles estão a dormir, estude enquanto eles estão a procrastinar.."'
 console.log(motivational.includes('durma'))

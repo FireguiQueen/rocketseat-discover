@@ -211,7 +211,8 @@ console.log(animals_list)
 
 animals_list.unshift('Dog')
 
-console.log(animals_list)
+let string = animals_list.join(', ')
+console.log(string.split(','))
 
 
 
