@@ -230,9 +230,15 @@ console.log(Suplementos.includes('whey')? 'Tem whey' : 'Não tem whey')
 
 
 
+const cities = ['NYC', 'Manchester' ,'Miami', 'Cambridge', 'Edinburgh']
+console.log(cities)
 
+cities.push('Birmingham')
+console.log(cities)
 
+cities.unshift('San Francisco')
+console.log(cities)
 
-
-
-
+cities.pop()
+cities.shift()
+console.log(cities)
