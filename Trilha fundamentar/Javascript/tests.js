@@ -230,7 +230,7 @@ console.log(Suplementos.includes('whey')? 'Tem whey' : 'Não tem whey')
 
 
 
-const cities = ['NYC', 'Manchester' ,'Miami', 'Cambridge', 'Edinburgh']
+let cities = ['NYC', 'Manchester', 'Miami', 'Cambridge', 'Edinburgh']
 console.log(cities)
 
 cities.push('Birmingham')
@@ -241,4 +241,15 @@ console.log(cities)
 
 cities.pop()
 cities.shift()
+console.log(cities)
+
+console.log(cities.slice(2,4))
+console.log(cities.splice(0,2))
+
+console.log(cities)
+console.log(cities.indexOf('Miami'))
+
+
+let remove_miami = cities.indexOf('Miami')
+cities.splice(remove_miami, 1)
 console.log(cities)
