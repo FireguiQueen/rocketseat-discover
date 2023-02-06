@@ -15,12 +15,14 @@ Em JavaScript, existem três tipos de operadores: binários, unários e ternári
 
 //                                  UNARY
 
-// Operadores: '++', '--'
+// Operadores: '++', '--', 'typeOf', 'delete'
 let saldo = 42
 console.log(++saldo) // adiciona +1 a variável "saldo"
 
 let saldo2 = 20
 console.log(--saldo2) // remove -1 a variável "saldo2"
+
+console.log(typeof saldo) // nos informa o tipo de dado da variável "saldo"
 
 
 
@@ -53,3 +55,17 @@ const Red_wallet = 45
 const Green_wallet = 34
 let Mais_dinheiro = Red_wallet > Green_wallet? 'A carteira vermelha tem mais dinheiro que a verde' : 'A verde tem mais dinheiro'
 console.log(Mais_dinheiro)
+
+
+
+
+
+
+// NEW
+// Abaixo estamos dizendo que a variável "nome" será um novo objeto e também irá receber uma string 
+let nome = new String('Guilherme')
+console.log(nome)
+
+// Já que "nome" é um objeto podemos adicionar propriedades..:
+nome.age = 44
+console.log(nome)
