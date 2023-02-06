@@ -234,3 +234,5 @@ name_list.splice(1, 0)
 // O elemento "Pablo" é o item 1 da lista..: ['Flora', 'Pablo']
 let index = name_list.indexOf('Pablo')
 console.log(index)
+
+
