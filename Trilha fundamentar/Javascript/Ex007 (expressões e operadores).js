@@ -47,6 +47,8 @@ console.log(MaiorGrupo)
 // Há apenas um operador ternário, o "?" que irá retorar um valor boolean
 // Perceba que foi necessário 3 valores, sendo um operando "red_wallet", um operador ">" e outro operando "green wallet"
 
+// Caso seja verdadeiro, a primeira string será printada, caso seja falso, a segunda string será printada
+// Como a carteira vermelha tem mais saldo, logo a primeira string foi printada
 const Red_wallet = 45
 const Green_wallet = 34
 let Mais_dinheiro = Red_wallet > Green_wallet? 'A carteira vermelha tem mais dinheiro que a verde' : 'A verde tem mais dinheiro'
