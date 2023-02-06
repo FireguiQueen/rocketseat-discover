@@ -217,6 +217,21 @@ console.log(string.split(','))
 
 
 
+let Suplementos = ['Whey', 'Creatina', 'Hipercalórico']
+
+let verificar_produto = Suplementos.join(', ').toLowerCase()
+console.log(verificar_produto.includes('whey')? 'Tem whey sim, dog' : 'Tem whey não, dog')
+
+
+console.log(Suplementos.includes('whey')? 'Tem whey' : 'Não tem whey')
+
+
+
+
+
+
+
+
 
 
 
