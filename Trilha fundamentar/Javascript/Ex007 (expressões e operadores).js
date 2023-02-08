@@ -1,4 +1,24 @@
 /* 
+Operandos: 
+São aqueles valores utilizados juntos aos operadores por exemplo..:
+-> 51 + 55 
+
+Na string acima temos um operador (+) e dois operandos (51 e 55).
+É importante saber o que são operandos, pois determinados operadores 
+irão trabalhar com um número específico de operandos
+
+Por exemplo:
+O "+" é um operador binário, neste caso, algo binário é algo que composto por dois elementos de informação.
+Pelo fato do operador "+" ser binário, será necessário dois operandos para trabalhar com ele
+4+4
+
+Ou quando temos operadores unitários, que irão trabalhar somente com UM único valor.:
+typeOf "frase bacana"
+
+Ou seja, cada operador irá trabalhar com uma quantia especifica de operandos
+Operadores binários irão trabalhar com dois operandos, operadores unitários irão trabalhar com um valor
+e operadores ternários irão trabalhar com três operandos.
+
 Operadores.:
 Em JavaScript, existem três tipos de operadores: binários, unários e ternários.
 
@@ -11,6 +31,8 @@ Em JavaScript, existem três tipos de operadores: binários, unários e ternári
     Ternary
     -> trabalha com 3 operandos
 */
+
+
 
 
 //                                  UNARY
