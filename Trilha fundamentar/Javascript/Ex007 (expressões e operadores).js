@@ -103,3 +103,9 @@ nome.age = 44
 console.log(nome)
 
 
+
+
+
+
+
+// Operadores aritiméticos
