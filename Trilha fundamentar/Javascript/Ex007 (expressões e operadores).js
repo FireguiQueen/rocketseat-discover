@@ -148,10 +148,23 @@ console.log(++teste_1)
 
 
 
-// decremento: -- 
-const saldo_banco = 1 
-const saldo_banco_1 = 1 
+// Decremento: -- 
+let saldo_banco = 1 
+let saldo_banco_1 = 1 
 console.log(--saldo_banco)
 
 saldo_banco_1--
 console.log(saldo_banco_1--)
+
+
+
+// Exponecial: **
+console.log(10 ** 2)
+console.log(3 ** 3)
+
+
+
+
+// Mudando a precedência dos operadores: Grouping operator ( )
+const calc = 5 + 4 * 2 // 13 
+const calc_1 = (5 + 4) * 2 // 18
