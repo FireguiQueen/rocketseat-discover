@@ -168,3 +168,21 @@ console.log(3 ** 3)
 // Mudando a precedência dos operadores: Grouping operator ( )
 const calc = 5 + 4 * 2 // 13 
 const calc_1 = (5 + 4) * 2 // 18
+
+
+
+
+
+// Operadores de comparação 
+const carteira1 = 4
+const carteira2 = 6
+
+
+// Igualdade: ==
+console.log(carteira1 == carteira2) // false, pois "4" não é igual a "6"
+console.log(typeof carteira1 == typeof carteira2) // true, pois ambas são do tipo string, logo ambas são iguais
+
+
+// Diferente: !=
+console.log(carteira1 != carteira2) // true, pois "4" é DIFERENTE de "6"
+console.log(typeof carteira1 != typeof carteira2) // false, pois ambas são do tipo string, e não são diferentes
