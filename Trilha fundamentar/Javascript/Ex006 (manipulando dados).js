@@ -40,24 +40,31 @@ console.log('oi' == 'oi'? 'sim, oi é igual a oi' : 'oi não é igual a oi')
 // O próprio javascript irá converter um valor para um valor boolean
 
 // FALSY (valores que são convertidos para FALSE se necessário)
-0   // 0 sozinho
--0  // números negativos
-""  // string sem valor
-undefined  // um valor que não foi definido
-NaN // um valor que seja NaN
+0          // 0 sozinho será fase
+-0         // 0 até mesmo "negativo" será false
+""         // string sem valor será false
+undefined  // um valor que não foi definido será false
+NaN        // um valor que seja NaN será false
 
 // O resultado abaixo será "Olá", pois um valor boolean é obrigatório. O "0" sozinho não é boolean
 // e sim um "number", então o JS converte para um valor boolean, no caso, false.
 console.log(0? 'Oi' : 'Olá')
 
 
-// TRUTHY (valores que são convertidos para TRUE se necessário)
-{}  // objetos viram true
-[]  // arrays serão true
-"Teste"  // string COM valor serão true
-undefined  // um valor que não foi definido
-NaN // um valor que seja NaN
 
+
+//  TRUTHY (valores que são convertidos para TRUE se necessário)
+{}       // objetos viram true
+[]       // arrays serão true
+"Teste"  // string COM valor serão true
+1.2      // valores acima de 0 serão true
+-1       // números negativos são true
+
+// O resultado será "teste", pois qualquer número acima de 0 é considerado true
+console.log(0.4? 'Teste' : '0mg')
+
+// O resultado será "poggers", pois qualquer objeto é considerado true
+console.log({}? 'poggers' : "poggn't")
 
 
 // CONTANDO QUANTOS CARACTERES HÁ EM DETERMINADA FRASE/VALOR NUMÉRICO
