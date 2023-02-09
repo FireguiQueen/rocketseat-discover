@@ -50,6 +50,14 @@ const lista = ['oi', 'olá']
 delete lista[0] // mandamos deletar o index "0" da lista acima
 console.log(lista)
 
+const pessoa = {
+    nome: "Walter White",   
+    apelido: "Heisenberg",
+    age: 'Unknown'
+}
+delete pessoa.apelido // mandamos deletar uma propriedade do objeto "pessoa"
+console.log(pessoa)
+
 
 
 //                                  BINARY
