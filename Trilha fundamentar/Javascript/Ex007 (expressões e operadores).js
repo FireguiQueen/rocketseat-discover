@@ -208,3 +208,20 @@ console.log(n1 === n2) // false
 console.log(n1 != n2) // false, pois eles não são difentes
 console.log(n1 !== n2) // true, pois eles são diferentes (o seus tipo de dados são diferentes..: string e number)
 
+
+
+
+
+// Maior: > 
+console.log(1 > 2) // false
+
+
+// Menor: <
+console.log(1 < 2) // true
+
+
+// Maior igual: >= 
+console.log(1 >= 1) // true, o um não é maior que um, MAS ele É IGUAL a 1
+
+// Menor igual: <=
+console.log(2 <= 2) // true, o dois não é maior que o dois, MAS ele é IGUAL a 2
