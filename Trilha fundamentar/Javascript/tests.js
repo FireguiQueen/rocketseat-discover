@@ -331,6 +331,17 @@ console.log(string_animals.split(', '))
 
 
 
+const car = {
+   door: 4,
+   color: 'red',
+}
+
+const car_ = [4, 'red']
+
+console.log(typeof car != typeof Car)
+
+console.log(typeof car.color != typeof car_[1])
+
 
 
 
