@@ -225,3 +225,75 @@ console.log(1 >= 1) // true, o um não é maior que um, MAS ele É IGUAL a 1
 
 // Menor igual: <=
 console.log(2 <= 2) // true, o dois não é maior que o dois, MAS ele é IGUAL a 2
+
+
+
+
+
+
+
+
+// Operadores de atribuição 
+let x = 5
+
+// Assigment: = 
+const name = 'Pablo'
+
+
+//           UTILIZAM DO MESMO VALOR + ALGUMA ATRIBUIÇÃO
+/* 
+    Se colocarmos por exemplo.:
+    x += 2
+
+    Basicamente estamos dizendo "X é igual a X mais 2"
+
+
+    Se colocarmos por exemplo.:
+    x *= 2
+
+    Estamos dizendo - "X é IGUAl a X vezes 2"
+*/
+
+
+// Subtraction assigment: -= 
+x -= 5 
+
+// seria o mesmo que fazer: 
+x = x - 5
+
+
+
+
+// Multiplication assigment: *= 
+x *= 4
+
+// seria o mesmo que fazer
+x = x * 4
+
+
+
+// Division assigment: /= 
+x /= 2
+
+// seria o mesmo que fazer
+x = x / 2
+
+
+
+// Podemos fazer também para o resto da divisão
+x %= 10 
+
+// seria o mesmo que fazer
+x = x % 10
+
+
+// Também podemos fazer com o exponencial
+x **= 4
+
+// seria o mesmo que fazer 
+x = x ** 4
+
+
+
+
+
