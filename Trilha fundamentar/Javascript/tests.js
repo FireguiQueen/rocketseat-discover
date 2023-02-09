@@ -323,3 +323,11 @@ const lobo = animais.indexOf('Lobo')
 animais.splice(lobo, 3)
 
 console.log(animais)
+
+
+const string_animals = animais.join(', ')
+
+console.log(string_animals.split(', '))
+
+
+

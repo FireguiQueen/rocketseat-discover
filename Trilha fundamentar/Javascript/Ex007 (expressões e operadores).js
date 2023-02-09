@@ -90,3 +90,5 @@ console.log(nome)
 // Já que "nome" é um objeto podemos adicionar propriedades..:
 nome.age = 44
 console.log(nome)
+
+
