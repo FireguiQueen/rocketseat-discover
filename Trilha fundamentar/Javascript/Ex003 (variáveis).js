@@ -59,7 +59,7 @@ console.log(abada) //por isto é retornado UNDEFINED.
 
 // reatribuição de valor..
 var nome = "Paulo"
-var nome = "Davi"  
+nome = "Davi"  
 
 // escopo global
 var nome = "Davi"
