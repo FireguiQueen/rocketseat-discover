@@ -46,6 +46,9 @@ console.log(--saldo2) // remove -1 a variável "saldo2"
 
 console.log(typeof saldo) // nos informa o tipo de dado da variável "saldo"
 
+const lista = ['oi', 'olá']
+delete lista[0] // mandamos deletar o index "0" da lista acima
+console.log(lista)
 
 
 
