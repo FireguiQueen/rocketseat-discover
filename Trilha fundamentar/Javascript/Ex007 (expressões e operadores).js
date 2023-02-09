@@ -345,3 +345,40 @@ console.log(!TemBatata == TemCreatina) // false, pois são diferentes, porque o 
 
 
 
+//        De cima para baixo, do mais importante ao menos importante.
+// * grouping                      ( )
+// * negação e incremento          ! ++ --
+// * multiplicação e divisão       * /
+// * adição e subtração            + -
+// * relacional                    <  <=      >    >= 
+// * igualdade                     == != === !==
+// * AND                           &&
+// * OR                            ||
+// * condicional                   ? : 
+// * assignment (atribuição)       = += -= *= %= 
+
+
+
+
+
+
+
+
+
+
+
+
+// ALGUNS CUIDADOS
+
+console.log(5 > 4 == 1)
+// O que aconteceu foi o seguinte.:
+// Primeiro o JS comparou "5 é maior que 4?"
+// A resposta foi "TRUE", depois ele comparou "TRUE == 1"
+// E como já sabemos, o 1 é convertido em "TRUE" caso um valor boolean seja necessário
+
+
+// EXEMPLO 02
+console.log(5 < 4 === true)
+// Primeiro o JS analisou "5 é menor do que 4?"  <-- FALSE
+// Logo ele fez, FALSE === TRUE? <--- FALSE
+
