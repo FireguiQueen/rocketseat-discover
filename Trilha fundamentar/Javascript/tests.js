@@ -345,3 +345,4 @@ console.log(typeof car.color != typeof car_[1])
 
 
 
+
