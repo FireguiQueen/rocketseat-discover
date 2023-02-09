@@ -108,4 +108,50 @@ console.log(nome)
 
 
 
-// Operadores aritiméticos
+//                                      Operadores aritimético
+
+
+// multiplicando: * 
+console.log(2 * 7)
+console.log(2.33 * 7.56)
+
+
+// somando: +
+console.log(55 + 2)
+
+
+// subtraindo: - 
+console.log(53 - 4)
+
+
+// Dividindo: /
+console.log(10 /2)
+
+// Resto da divisão: %
+console.log(10 % 2)
+
+
+// Incremento: ++
+let teste = 1
+let teste_1 = 1
+
+// O valor só será "2" caso seja printado de novo, pois o "++" no lado direito faz com que o valor só 
+// mude na próxima vez
+console.log(teste++) // resultado: 1 
+console.log(teste++) // resultado: 2 
+
+
+// Caso queira a resposta de imediato, você pode colocar o "++" no lado esquerdo
+console.log(++teste_1)
+
+
+
+
+
+// decremento: -- 
+const saldo_banco = 1 
+const saldo_banco_1 = 1 
+console.log(--saldo_banco)
+
+saldo_banco_1--
+console.log(saldo_banco_1--)
