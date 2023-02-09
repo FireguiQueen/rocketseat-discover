@@ -33,21 +33,22 @@ if(graus >= 25.8){
 // deseja colocar.
 
 
-const Island = function(name, people, group){ 
+const Island = function(name, people, size){ 
     this.name = name
-    this.people = group / 5 
-    this.group = group
+    this.people = people
+    this.TotalSize = size
+    this.label = `Nome: ${name.replace('island', '')}     ||     Pessoas: ${people}     ||     Tamanho: ${size} metros` 
 }
-
 
 Island.prototype.Controle = function(){
     console.log(`~~~~~~~~~~  ${this.name}  ~~~~~~~~~~`)
-    if(this.people <= 25 || this.group <= 4){
+    console.log(this.label)
+    if(this.people <= this.TotalSize / 5){
         return`
         A ilha está operando normalmente.
         Número atual de pessoas na ilha é de.: ${this.people} pessoas.
         `
-    } else if(this.people > 20 || this.group > 4    &&     this.people <= 35 || this.group <= 8){
+    } else if(this.people >= this.TotalSize / 5     &&     this.people <= this.TotalSize / 4){
         return` 
         A ilha está operando em capacidade mediana.
         Número atual de pessoas na ilha é de.: ${this.people} pessoas.
@@ -62,10 +63,12 @@ Island.prototype.Controle = function(){
 
 
 
-const Crocks = new Island('Crocks Hollow Island', 254, 55)
-const Snake = new Island('Snake Island', 35, 444)
+const Crocks = new Island('Crocks Hollow Island', 200, 3200)
+const Snake = new Island('Snake Island', 200, 1800)
+const Canyon = new Island('Canyon Cove island', 910, 4100)
 
 console.log(Crocks.Controle())
-
-
 console.log(Snake.Controle())
+console.log(Canyon.Controle())
+
+
