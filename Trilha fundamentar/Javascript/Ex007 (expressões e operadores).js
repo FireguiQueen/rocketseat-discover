@@ -82,7 +82,6 @@ console.log(Mais_dinheiro)
 
 
 
-
 // NEW
 // Abaixo estamos dizendo que a variável "nome" será um novo objeto e também irá receber uma string 
 let nome = new String('Guilherme')

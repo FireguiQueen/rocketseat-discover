@@ -253,3 +253,66 @@ console.log(cities.indexOf('Miami'))
 let remove_miami = cities.indexOf('Miami')
 cities.splice(remove_miami, 1)
 console.log(cities)
+
+
+const person_4 = {
+   name: 'Gus',
+   age: 43,
+}
+
+console.log(delete person_4.age, person_4)
+
+
+const Schools = function(name, city, students){
+   this.nome = name;
+   this.locality = city;
+   this.TotalStudents = students;
+   this.label = `${name},${city},${students}`
+} 
+
+const BYN_schools = new Schools('Branch You now', 'NYC', '740')
+let test = BYN_schools.label.split(',')
+console.log(test)
+
+console.log(BYN_schools.label)
+
+
+
+
+
+
+
+
+// PRACTICE 1 
+const animais = ['Cavalo', 'Cachorro']
+
+// adding a new animal after the last index ('Cachorro')
+animais.push('Gato')
+
+// removing 
+animais.pop()
+
+// add a new animal before the first one ('Cavalo')
+animais.unshift('Burro')
+
+
+// removing it 
+animais.shift()
+
+
+// adding more animais 
+animais.push('Gato', 'Lobo', 'Baleia', 'Macaco', 'Gorila', 'Galinha', 'Galo')
+
+
+// removing some animais 
+
+// index of an item 
+console.log(animais.indexOf('Baleia'))
+animais.splice(4, 2)
+console.log(animais)
+
+
+
+const some_animals = animais.slice(3,6)
+
+console.log(some_animals)
