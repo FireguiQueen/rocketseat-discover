@@ -173,7 +173,7 @@ const calc_1 = (5 + 4) * 2 // 18
 
 
 
-// Operadores de comparação 
+//                              Operadores de comparação 
 const carteira1 = 4
 const carteira2 = 6
 
@@ -186,3 +186,25 @@ console.log(typeof carteira1 == typeof carteira2) // true, pois ambas são do ti
 // Diferente: !=
 console.log(carteira1 != carteira2) // true, pois "4" é DIFERENTE de "6"
 console.log(typeof carteira1 != typeof carteira2) // false, pois ambas são do tipo string, e não são diferentes
+
+
+
+
+//              Operadores de comparação: estreitamente igual e estreitamente diferente
+const n1 = 1
+const n2 = '1'
+
+// Se perguntarmos se a const "n1" é igual a const "n2", o resultado será "true"
+console.log(n1 == n2)
+// Isto ocorre pois "==" não compara os TIPOS de dados, apenas os valores
+// Ambas as variáveis possuem "1" como valor, mas seus tipos de dados são diferentes
+// Então uma const é "string" a outra const é "number"
+
+
+// Para resolver isto, podemos usar do "===", onde ele compara também o tipo de dado
+console.log(n1 === n2) // false
+
+
+console.log(n1 != n2) // false, pois eles não são difentes
+console.log(n1 !== n2) // true, pois eles são diferentes (o seus tipo de dados são diferentes..: string e number)
+
