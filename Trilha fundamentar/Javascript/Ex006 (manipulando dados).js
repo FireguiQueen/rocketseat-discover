@@ -28,10 +28,35 @@ console.log(55 + Number('oi')) // Resultado: NaN (pois 'oi' não pode ser númer
 // Type conversion (transformamos a string '4' no tipo de dado "number")
 console.log(55 + Number('4'))
 
+// POR CONTA DO "TYPE COERSION", OS TIPOS DE DADOS NÃO "BOOLEANS" PODEM SER BOOLEANS
+// Isto acontece pois em determinado contexto, o valor precisa ser TRUE ou FALSE, por exemplo
+console.log('oi' == 'oi'? 'sim, oi é igual a oi' : 'oi não é igual a oi')
+// No exemplo acima, um valor boolean é obrigatório para termos uma resposta.:
+// Se o valor boolean for "TRUE", a primeira mensagem será printada "sim, oi é igual a oi"
+// Se o valor boolean for "FALSE", a segunda mensagem será printada "oi não é igual a oi"
+
+// Então como pode ver, dependendo do contexto precisamos ter um valor TRUE ou FALSE
+// Caso o valor não seja boolean em contextos onde um valor "TRUE" ou "FALSE" são obrigatórios
+// O próprio javascript irá converter um valor para um valor boolean
+
+// FALSY (valores que são convertidos para FALSE se necessário)
+0   // 0 sozinho
+-0  // números negativos
+""  // string sem valor
+undefined  // um valor que não foi definido
+NaN // um valor que seja NaN
+
+// O resultado abaixo será "Olá", pois um valor boolean é obrigatório. O "0" sozinho não é boolean
+// e sim um "number", então o JS converte para um valor boolean, no caso, false.
+console.log(0? 'Oi' : 'Olá')
 
 
-
-
+// TRUTHY (valores que são convertidos para TRUE se necessário)
+{}  // objetos viram true
+[]  // arrays serão true
+"Teste"  // string COM valor serão true
+undefined  // um valor que não foi definido
+NaN // um valor que seja NaN
 
 
 
