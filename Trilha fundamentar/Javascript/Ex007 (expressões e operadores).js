@@ -351,7 +351,7 @@ console.log(!TemBatata == TemCreatina) // false, pois são diferentes, porque o 
 // * multiplicação e divisão       * /
 // * adição e subtração            + -
 // * relacional                    <  <=      >    >= 
-// * igualdade                     == != === !==
+// * igualdade                     == ===     !=  !==
 // * AND                           &&
 // * OR                            ||
 // * condicional                   ? : 
@@ -382,3 +382,14 @@ console.log(5 < 4 === true)
 // Primeiro o JS analisou "5 é menor do que 4?"  <-- FALSE
 // Logo ele fez, FALSE === TRUE? <--- FALSE
 
+
+
+
+// EXEMPLO 03
+console.log(typeof 5>4 == typeof !4) // false
+// Primeiro o JS analisa.:
+// Qual o tipo de dado do "5"? Ele retorna "boolean"
+// Depois ele analisa "Bolean é maior do que 4?"
+// Mas esta comparação não faz sentido,
+
+console.log(typeof true > typeof 4? 'c' :'cc')
