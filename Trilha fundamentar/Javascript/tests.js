@@ -354,3 +354,10 @@ const y = 7
 
 console.log(TemWhey == TemCreatina) // true
 console.log(typeof !y == typeof TemAlbumina) // true, pois o "!" transformou o tipo de dado da variável "Y" em boolean
+
+
+
+const bread = true 
+const cheese = false
+
+console.log(bread || cheese? 'Poggers café da manhã' : 'NA café da manhã')
