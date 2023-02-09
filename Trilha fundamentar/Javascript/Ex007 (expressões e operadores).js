@@ -37,7 +37,7 @@ Em JavaScript, existem três tipos de operadores: binários, unários e ternári
 
 //                                  UNARY
 
-// Operadores: '++', '--', 'typeOf', 'delete'
+// Operadores: '++', '--', 'typeof', 'delete'
 let saldo = 42
 console.log(++saldo) // adiciona +1 a variável "saldo"
 
