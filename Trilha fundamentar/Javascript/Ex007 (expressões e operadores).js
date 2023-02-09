@@ -312,3 +312,34 @@ console.log('4' === 4 && 1 > 0) // false, pois '4' não é estreitamente igual a
 
 
 // OR: ||
+// É como se perguntassemos "4 é maior que 5 OU 'pablo' é igual a 'pablo'? "
+// A resposta será sim, mesmo quatro não sendo maior que 5, a string "pablo" é igual a string 'pablo'
+console.log(4>2 || 4 === 4) // true
+console.log(4 == 1 ||  4 > 5) // false
+
+
+// Também podemos usar as duas juntas
+console.log(4 === '4' && typeof 4 == typeof 'oi' || 4>2)
+/*
+Quatro é estreitamente igual a '4' E o tipo do 4 é igual ao tipo do 'oi'? <-- FALSE 
+OU 
+4 é maior que dois? <-- TRUE 
+LOGO O RESULTADO SERÁ TRUE.
+*/
+
+// Enquanto o operador "&&" pede para que ambos os valores sejam "TRUE", o operador "||" para que pelo menos um valor seja "TRUE"
+
+
+
+
+
+// NOT: !
+// É como se fosse um interruptor, se o valor for igual a TRUE, o "!" muda para false
+// Se for igual a FALSE, o "!" muda para true
+
+const TemBatata = true
+const TemCreatina = true 
+console.log(TemBatata == TemCreatina) // true, pois ambas são iguais
+
+console.log(!TemBatata == TemCreatina) // false, pois são diferentes, porque o valor do TemBatata é "false"
+
