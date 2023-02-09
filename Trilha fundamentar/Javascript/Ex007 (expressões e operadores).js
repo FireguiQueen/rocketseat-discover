@@ -393,3 +393,6 @@ console.log(typeof 5>4 == typeof !4) // false
 // Mas esta comparação não faz sentido,
 
 console.log(typeof true > typeof 4? 'c' :'cc')
+
+
+
