@@ -343,3 +343,5 @@ console.log(TemBatata == TemCreatina) // true, pois ambas são iguais
 
 console.log(!TemBatata == TemCreatina) // false, pois são diferentes, porque o valor do TemBatata é "false"
 
+
+

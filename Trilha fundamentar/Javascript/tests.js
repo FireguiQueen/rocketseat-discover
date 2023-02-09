@@ -346,3 +346,11 @@ car_.unshift('oi')
 console.log(car.door == '4' && typeof car_[1] != typeof car.door)
 
 
+
+const TemWhey = true
+const TemCreatina = true
+const TemAlbumina = true
+const y = 7
+
+console.log(TemWhey == TemCreatina) // true
+console.log(typeof !y == typeof TemAlbumina) // true, pois o "!" transformou o tipo de dado da variável "Y" em boolean
