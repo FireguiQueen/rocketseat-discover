@@ -70,7 +70,7 @@ let carro_bonito = "Tesla Model X"
 
 * Camelcase
 ```js
-// Método onde explicamos o que a variável faz e sem fazer separação por "-" entre as palavras
+// Nome da variável sem fazer separação por "_" entre as palavras, porém usando letras maiúsculas
 const Player1 = 500
 const Player2 = 634  
 let ItsP1StrongerThanP2 = Player1 > Player2? 'O jogador 1 é mais forte do que o jogador 2' : 'O jogador 1 não é mais forte que o jogador 2'
@@ -81,10 +81,10 @@ console.log(ItsP1StrongerThanP2);
 
 * Snake_case
 ```js
-// Método onde explicaos o que a variável faz usando a separação por "-"
+// Nome da variável usando a separação por "_"
 // Geralmente usamos o "snake_case" quando não precisamos explicar algo, apenas separar palavras
 
-// Não recomendo.:
+
 const carro_vermelho = "tesla";
 let Is_red_car_a_tesla = carro_vermelho == 'tesla'  // TRUE
 
