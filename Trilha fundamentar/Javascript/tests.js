@@ -342,7 +342,7 @@ const car_ = [4, 'red']
 console.log(typeof car != typeof Car)
 
 console.log(typeof car.color != typeof car_[1])
-
+car_.unshift('oi')
 console.log(car.door == '4' && typeof car_[1] != typeof car.door)
 
 

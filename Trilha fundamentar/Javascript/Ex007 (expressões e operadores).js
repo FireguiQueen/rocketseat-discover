@@ -297,3 +297,18 @@ x = x ** 4
 
 
 
+
+//                                  Operadores lógicos
+
+// AND: &&
+// Estamos perguntando se os dois valores são true, por exemplo
+// É como se perguntassemos "4 é maior que dois  E  quatro é igual a 0?"
+// A resposta será "NÃO", mesmo sendo 4 maior que dois, o quatro NÃO é igual a 0.
+
+console.log(4 > 3 && 2 > 1) // true, pois ambos estão certos
+console.log('4' === 4 && 1 > 0) // false, pois '4' não é estreitamente igual a 4 
+
+
+
+
+// OR: ||
