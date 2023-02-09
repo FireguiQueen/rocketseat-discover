@@ -316,3 +316,10 @@ console.log(animais)
 const some_animals = animais.slice(3,6)
 
 console.log(some_animals)
+
+
+
+const lobo = animais.indexOf('Lobo')
+animais.splice(lobo, 3)
+
+console.log(animais)
