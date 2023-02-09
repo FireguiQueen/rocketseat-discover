@@ -361,3 +361,34 @@ const bread = true
 const cheese = false
 
 console.log(bread || cheese? 'Poggers café da manhã' : 'NA café da manhã')
+
+
+
+
+const person = {
+   age: 16
+}
+
+console.log(person.age >= 18? 'You can buy some beers' : 'You cant buy any beers')
+
+const older = () =>{
+   return`
+   Você pode..:
+   - Dirigir
+   - Criar uma conta no banco
+   - Usar drogas
+   - Sair de casa
+   `
+}
+
+const younger = () => {
+   return `
+   Você não pode..:
+   - Dirigir
+   - Criar uma conta no banco
+   - Usar drogas
+   - Sair de casa
+   `
+   }
+
+console.log(person.age >=18? older() : younger())
