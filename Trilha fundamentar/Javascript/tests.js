@@ -334,6 +334,7 @@ console.log(string_animals.split(', '))
 const car = {
    door: 4,
    color: 'red',
+   TypeOfPropertyColor: 'string'
 }
 
 const car_ = [4, 'red']
@@ -342,7 +343,6 @@ console.log(typeof car != typeof Car)
 
 console.log(typeof car.color != typeof car_[1])
 
-
-
+console.log(car.door == '4' && typeof car_[1] != typeof car.door)
 
 
