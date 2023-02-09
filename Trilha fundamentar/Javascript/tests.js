@@ -325,7 +325,7 @@ animais.splice(lobo, 3)
 console.log(animais)
 
 
-const string_animals = animais.join(', ')
+const string_animals = animais.join(', ').toUpperCase()
 
 console.log(string_animals.split(', '))
 
