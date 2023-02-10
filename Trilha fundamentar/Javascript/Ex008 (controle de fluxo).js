@@ -100,6 +100,11 @@ if(typeof nome === typeof '') console.log('oi')
     terminar de analisar por conta do "break" e irá ir para outro caso. 
 
     E por fim temos o "default", caso não seja nenhuma dos casos, o código do default será utilizado
+
+    OBS:
+        O "break" não é obrigatório, mas ele é necessário caso você queira respeitar os casos.
+        Por exemplo, se não houver um "break" após o <case 'guilherme'>, ele também fará com que 
+        o bloco de códigos do <case 'flora'> também seja executado. 
 */
 
 const name = 'Flora'.toLowerCase()
