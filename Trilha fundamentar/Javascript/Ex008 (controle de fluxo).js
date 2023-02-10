@@ -1,7 +1,7 @@
 // Control flow
 
 
-// if.. else
+//                                      if.. else
 
 // Basicamente "if" é uma condicional, e o "else" é o que irá acontecer caso o IF não seja executado
 // Ou seja, sempre que a condicional retornar TRUE, um bloco de códigos será excutado, por exemplo.:
@@ -37,18 +37,21 @@ const Island = function(name, people, size){
     this.name = name
     this.people = people
     this.TotalSize = size
-    this.label = `Nome: ${name.replace('island', '')}     ||     Pessoas: ${people}     ||     Tamanho: ${size} metros` 
+    this.label = `Nome: ${name.replace('Island', '')}     ||     Pessoas: ${people}     ||     Tamanho: ${size} metros` 
 }
 
 Island.prototype.Controle = function(){
+    const normal = this.people <= this.TotalSize / 5
+    const medium = this.people >= this.TotalSize / 5     &&     this.people <= this.TotalSize / 4
+
     console.log(`~~~~~~~~~~  ${this.name}  ~~~~~~~~~~`)
     console.log(this.label)
-    if(this.people <= this.TotalSize / 5){
+    if(normal){
         return`
         A ilha está operando normalmente.
         Número atual de pessoas na ilha é de.: ${this.people} pessoas.
         `
-    } else if(this.people >= this.TotalSize / 5     &&     this.people <= this.TotalSize / 4){
+    } else if(medium){
         return` 
         A ilha está operando em capacidade mediana.
         Número atual de pessoas na ilha é de.: ${this.people} pessoas.
@@ -70,5 +73,42 @@ const Canyon = new Island('Canyon Cove island', 910, 4100)
 console.log(Crocks.Controle())
 console.log(Snake.Controle())
 console.log(Canyon.Controle())
+
+
+
+
+
+// CASO O BLOCO DE CÓDIGOS DO IF POSSUA APENAS UMA LINHA, AS CHAVES NÃO SÃO NECESSÁRIAS
+// MAS ISTO Não é muito RECOMENDADo
+const nome = 'Flora'
+
+if(typeof nome === typeof '') console.log('oi')
+
+
+
+
+
+
+//                                         switch
+
+// Dizemos que 
+
+const name = 'Flora'.toLowerCase()
+
+switch(name){
+    case 'guilherme':
+        console.log('Olá, Gui')
+        break;
+
+    case 'flora':
+        console.log('Olá, flo')
+        break;
+
+
+
+    default:
+        console.log('Seu nome não se encontra na lista de clientes')
+
+}
 
 
