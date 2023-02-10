@@ -95,7 +95,7 @@ if(typeof nome === typeof '') console.log('oi')
 // Por exemplo, no exemplo abaixo estamos dizendo.:
 /* 
     Primeiro passamos o que vamos analisar, neste caso, iremos analisar o valor atribuido a variável "name"
-    Caso o nome seja "guilherme", excute as linhas de código após os dois pontos ":"
+    Caso o nome seja "guilherme", será excutado as linhas de código após os dois pontos ":"
     Então primeiro o JS vai analisar se o nome é "guilherme", se não for "guilherme", ele irá 
     terminar de analisar por conta do "break" e irá ir para outro caso. 
 
@@ -110,14 +110,11 @@ switch(name){
         break;
 
     case 'flora':
-        console.log('Olá, flo')
+        console.log('Olá, flora')
         break;
-
-
 
     default:
         console.log('Seu nome não se encontra na lista de clientes')
-
 }
 
 
