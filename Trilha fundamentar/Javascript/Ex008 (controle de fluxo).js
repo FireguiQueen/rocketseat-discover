@@ -91,7 +91,16 @@ if(typeof nome === typeof '') console.log('oi')
 
 //                                         switch
 
-// Dizemos que 
+// Utilizamos mais o "switch" quando temos mais controle sobre a nossa aplicação
+// Por exemplo, no exemplo abaixo estamos dizendo.:
+/* 
+    Primeiro passamos o que vamos analisar, neste caso, iremos analisar o valor atribuido a variável "name"
+    Caso o nome seja "guilherme", excute as linhas de código após os dois pontos ":"
+    Então primeiro o JS vai analisar se o nome é "guilherme", se não for "guilherme", ele irá 
+    terminar de analisar por conta do "break" e irá ir para outro caso. 
+
+    E por fim temos o "default", caso não seja nenhuma dos casos, o código do default será utilizado
+*/
 
 const name = 'Flora'.toLowerCase()
 
