@@ -408,5 +408,28 @@ switch (tt){
 
 
 
-const user = 
+function User(TypeOfUser, name){
+   this.user = TypeOfUser.toLowerCase(); 
+   this.name = name.toLowerCase();
+   this.label = `User: {TypeOfUser} | Name: ${name}` 
+}
 
+User.prototype.check =  function(){
+   switch (this.user){
+      case 'adm': 
+         console.log('~~~ ADMIN ~~~')
+         break;
+
+      case 'normal-user': 
+         console.log('~~~~ Normal user ~~~~')
+         break;
+
+      default:
+         console.log('oi')
+         break;
+   }
+}
+
+const user_1 = new User('adm', 'Flora')
+
+console.log(user_1.check())
