@@ -392,3 +392,21 @@ const younger = () => {
    }
 
 console.log(person.age >=18? older() : younger())
+
+
+
+const tt = typeof 2
+
+switch (tt){
+   case 'string': 
+   console.log('é uma string')
+   break
+   
+   default: 
+      console.log('não é uma string')
+}
+
+
+
+const user = 
+
