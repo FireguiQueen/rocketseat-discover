@@ -411,25 +411,26 @@ switch (tt){
 function User(TypeOfUser, name){
    this.user = TypeOfUser.toLowerCase(); 
    this.name = name.toLowerCase();
-   this.label = `User: {TypeOfUser} | Name: ${name}` 
+   this.label = `User: ${TypeOfUser} | Name: ${name}` 
 }
 
 User.prototype.check =  function(){
    switch (this.user){
       case 'adm': 
-         console.log('~~~ ADMIN ~~~')
+         return '~~~ ADMIN ~~~'
          break;
 
-      case 'normal-user': 
-         console.log('~~~~ Normal user ~~~~')
+      case 'normal': 
+         return '~~~~ Normal user ~~~~'
          break;
 
       default:
-         console.log('oi')
+         return '~~~~ guest user ~~~~'
          break;
    }
 }
 
 const user_1 = new User('adm', 'Flora')
+const user_2 = new User('normal', 'Amanda')
 
-console.log(user_1.check())
+console.log(user_2.check())
