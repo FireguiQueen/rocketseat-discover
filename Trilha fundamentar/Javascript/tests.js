@@ -414,7 +414,7 @@ function User(TypeOfUser, name){
    this.label = `User: ${TypeOfUser} | Name: ${name}` 
 }
 
-User.prototype.check =  function(){
+User.prototype.checkS =  function(){
    switch (this.user){
       case 'adm': 
          return '~~~ ADMIN ~~~'
@@ -423,14 +423,28 @@ User.prototype.check =  function(){
       case 'normal': 
          return '~~~~ Normal user ~~~~'
          break;
+         
+         default:
+            return '~~~~ guest user ~~~~'
+            break;
+         }
+      }
+      User.prototype.checkI = function(){
+         if (this.user === 'adm'){
+            return '~~~ ADMIN ~~~'
+         } else if (this.user === 'normal'){
+            return '~~~~ Normal user ~~~~'
+         } else {
+            return '~~~~ guest user ~~~~'
+         }
 
-      default:
-         return '~~~~ guest user ~~~~'
-         break;
-   }
 }
+
 
 const user_1 = new User('adm', 'Flora')
 const user_2 = new User('normal', 'Amanda')
 
-console.log(user_2.check())
+console.log(user_1.checkI())
+
+
+
