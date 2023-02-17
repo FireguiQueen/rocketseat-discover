@@ -448,3 +448,41 @@ console.log(user_1.checkI())
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// line comment
+/*
+   more comments
+   using more lines
+*/
+
+const name = { 
+   name: 'Gus',
+   age: 21,
+   NameAndAge(){
+      return `Name: ${this.name} | Age: ${this.age} `
+   }
+}
+console.log(name.NameAndAge())
+
+console.log(4 !== '4')
+console.log(4 !== '4'? 'São diferentes' : 'Não são diferentes')
+
+
+
+const listaa = ['Gus', 'WaltEr'.toLowerCase(), 'jessie', function(){
+   return listaa.includes('walter')? 'Tem o Walter nessa lista, poggers' : 'nao tem o Walter :('
+}]
+console.log(listaa[3]())
