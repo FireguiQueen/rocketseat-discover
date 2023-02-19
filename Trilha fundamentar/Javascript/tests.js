@@ -499,3 +499,15 @@ const sayhelloTo = function(name){
 
 const sayHiiTo = name => console.log(`Hi, ${name}`)
 
+function buildF(name){
+   this.name = name
+}
+
+const P = new buildF('Paulo')
+const N = new buildF('Nathalia')
+const K = new buildF('Kimito');
+
+(() => console.log('Olá, isto é uma IIFE')) ();
+(function(){
+   console.log('Olá, isto é outra IIFE')
+}) ()
