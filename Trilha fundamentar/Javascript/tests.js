@@ -493,4 +493,9 @@ console.log(listaa[3]())
 function sayhiiTo(name){
    console.log(`Hii, ${name}`)
 }
+const sayhelloTo = function(name){
+   console.log(`Hello, ${name}`)
+}
+
+const sayHiiTo = name => console.log(`Hi, ${name}`)
 
