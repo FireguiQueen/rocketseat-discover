@@ -486,3 +486,11 @@ const listaa = ['Gus', 'WaltEr'.toLowerCase(), 'jessie', function(){
    return listaa.includes('walter')? 'Tem o Walter nessa lista, poggers' : 'nao tem o Walter :('
 }]
 console.log(listaa[3]())
+
+
+//  //// /// / // /// / // / // / / / // / / 
+
+function sayhiiTo(name){
+   console.log(`Hii, ${name}`)
+}
+
