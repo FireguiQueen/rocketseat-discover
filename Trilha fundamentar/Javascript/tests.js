@@ -511,3 +511,6 @@ const K = new buildF('Kimito');
 (function(){
    console.log('Olá, isto é outra IIFE')
 }) ()
+
+
+false
