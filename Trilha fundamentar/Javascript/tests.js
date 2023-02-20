@@ -539,3 +539,8 @@ console.log(newArray)
 
 newArray.shift()
 console.log(newArray)
+
+
+console.log(newArray.slice(1,2))
+newArray.splice(0,2)
+console.log(newArray)
