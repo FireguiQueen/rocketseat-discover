@@ -513,4 +513,10 @@ const K = new buildF('Kimito');
 }) ()
 
 
-false
+const arrayT = ['Gui']
+console.log(arrayT.length)
+
+arrayT[0] = 'Flo'
+console.log(arrayT)
+
+console.log(arrayT.indexOf('Flo'))
