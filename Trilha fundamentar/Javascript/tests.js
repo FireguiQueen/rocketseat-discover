@@ -527,3 +527,7 @@ console.log(newLisT)
 const newArray = newLisT.split(' and ')
 console.log(newArray)
 
+console.log(newArray.includes('Flo'))
+
+newArray.push('Fausboxi')
+console.log(newArray)
