@@ -531,3 +531,11 @@ console.log(newArray.includes('Flo'))
 
 newArray.push('Fausboxi')
 console.log(newArray)
+
+newArray.pop()
+
+newArray.unshift('plane HZJ-70')
+console.log(newArray)
+
+newArray.shift()
+console.log(newArray)
