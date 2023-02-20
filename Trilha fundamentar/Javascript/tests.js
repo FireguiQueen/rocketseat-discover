@@ -513,10 +513,17 @@ const K = new buildF('Kimito');
 }) ()
 
 
-const arrayT = ['Gui']
+const arrayT = ['Gui', '']
 console.log(arrayT.length)
 
-arrayT[0] = 'Flo'
+arrayT[1] = 'Flo'
 console.log(arrayT)
 
 console.log(arrayT.indexOf('Flo'))
+
+const newLisT = arrayT.join(' and ')
+console.log(newLisT)
+
+const newArray = newLisT.split(' and ')
+console.log(newArray)
+
