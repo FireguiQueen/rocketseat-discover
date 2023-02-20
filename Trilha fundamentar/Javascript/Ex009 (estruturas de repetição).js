@@ -1,4 +1,6 @@
-// Criação da variável 
+//                                             for 
+
+// Criação da variável (inicialização)
 // Condição (caso verdade, o código se repete)
 // O que irá acontecer assim que cada repetição for finalizada
 
@@ -56,3 +58,14 @@ for(let i = 1; i < 10; i++){
     }
     console.log(i)
 }
+
+
+
+
+
+
+
+
+
+
+//                                             while
