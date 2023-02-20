@@ -185,7 +185,7 @@ console.log(typeof carteira1 == typeof carteira2) // true, pois ambas são do ti
 
 // Diferente: !=
 console.log(carteira1 != carteira2) // true, pois "4" é DIFERENTE de "6"
-console.log(typeof carteira1 != typeof carteira2) // false, pois ambas são do tipo string, e não são diferentes
+console.log(typeof carteira1 != typeof carteira2) // false, pois ambas são do tipo number, e não são diferentes
 
 
 

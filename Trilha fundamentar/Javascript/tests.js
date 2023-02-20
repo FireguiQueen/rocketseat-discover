@@ -544,3 +544,29 @@ console.log(newArray)
 console.log(newArray.slice(1,2))
 newArray.splice(0,2)
 console.log(newArray)
+
+
+
+
+const elP = 3
+
+if (typeof elP != typeof 'oi'){
+   console.log('Possui tipos de dados diferentes')
+} else{
+   console.log('Possui tipos de dados iguais')
+}
+
+// or 
+
+console.log(typeof elP != typeof 'oi'? 'Possui tipos de dados diferentes' : 'Possui tipos de dados iguais')
+
+// or
+
+switch(typeof elp == typeof 'oi'){
+   case true: 
+      console.log('possui tipos de dados diferentes')
+      break;
+   case false: 
+      console.log('Possui o mesmo tipo de dado')
+      break;
+}
