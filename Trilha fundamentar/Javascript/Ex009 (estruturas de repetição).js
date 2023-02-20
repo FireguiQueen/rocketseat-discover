@@ -115,5 +115,26 @@ for (let md of name){
 
 const person = {
     name: 'Guilherme',
-    age: 16
+    age: 'unknown',
+    weight: `${64}kg`    
+}
+
+/*
+    Foi dito que
+    A variável "property" representa uma propriedade do objeto "person"
+    Para cada propriedade, ele irá executar o bloco de códigod abaixo.
+
+    Primeiro colocamos "property", então ele irá colocar a primeira propriedade do objeto.:
+    "name"
+
+    Depois, para acessar o valor desta propriedade, nós colocamos o nome do objeto "person"
+    junto aos colchetes, que também servem para acessar uma propriedade de um objeto
+
+    Então basicamente foi dito.:
+    person[name]
+
+    pois property é uma variável que recebe uma propriedade, por isto fizemos person[property]
+*/
+for (let property in person){
+    console.log(`${property}: ${person[property]}`)
 }
