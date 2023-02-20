@@ -62,6 +62,7 @@ for(let i = 1; i < 10; i++){
 
 
 
+console.log('------------------')
 
 
 
@@ -69,3 +70,50 @@ for(let i = 1; i < 10; i++){
 
 
 //                                             while
+
+// A inicialização fica fora
+// A condição fica entre os "()"
+// O que irá ocorrer após a repetição fica dentro do corpo do while
+
+
+/*
+    I é igual a 1
+    Enquanto I for menor ou igual a 10
+    Printe o valor atual do I e some +1 a variável I
+*/
+let i = 1 // inicialização
+while(i <= 10){ // condição
+    console.log(i)
+    i++
+}
+
+
+
+//                                         for... of 
+
+/* 
+    Serve para percorremos sequencialmente um objeto iterável
+    Neste caso, o nosso objeto é a STRING name
+
+    Estamos dizendo que MD representa um único caractere na variável 'name'
+
+    Isto ocorre pois "of" representa a sequencia do que estamos trabalhando.
+    Como é uma string, a sequência será feita por letras.. "G", "u", "i"
+
+    Se fosse uma array, a sequencia seria feita pelos itens desta array.
+*/
+const name = 'Guilherme'
+for (let md of name){
+    console.log(md)
+}
+
+
+
+//                                          for in
+
+// Serve exclusivamente para acessar propriedades de um objeto 
+
+const person = {
+    name: 'Guilherme',
+    age: 16
+}
