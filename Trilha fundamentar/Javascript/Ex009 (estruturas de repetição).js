@@ -52,14 +52,12 @@ for(let i = 100; i <= 1000; i+= 100){
     SE o resta da divisão entre I dividido por dois for DIFERENTE de 0 (resulta num número impar)
     ele irá ignorar esses números no loop
 */ 
-for(let i = 1; i < 10; i++){
+for(let i = 1; i <= 200; i++){
     if(i % 2 != 0){
         continue;
     }
     console.log(i)
 }
-
-
 
 
 console.log('------------------')
