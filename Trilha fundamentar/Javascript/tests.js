@@ -687,3 +687,7 @@ switch(melton.age){
          console.log('Melton não tem 15 anos')
 }
 
+
+const Breaking_bad = ['Gus', 'Walter', 'Jessie', 'Hector', 'Saul', 'Mike']
+
+console.log(Breaking_bad.length)
