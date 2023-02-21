@@ -570,3 +570,67 @@ switch(typeof elp == typeof 'oi'){
       console.log('Possui o mesmo tipo de dado')
       break;
 }
+
+
+
+ 
+const grade = grade => {
+   if(grade >= 90){
+      return 'A'
+   } else if(grade >= 80 && grade <= 89){
+      return 'B'
+   } else if (grade >= 70 && grade <= 79){
+      return 'C'
+   } else if (grade >= 60 && grade <= 69){
+      return 'D'
+   } else if (grade < 60 && grade >= 0){
+      return 'F'
+   } else{
+      return 'nota inválida'
+   }
+}
+
+console.log(grade(92))
+
+
+
+function fluxo(receita, despesa){
+   const saldo = receita - despesa
+   if(saldo > 0){
+      return 'Saldo positivo'
+   } else if(saldo < 0){
+      return 'Saldo negativo'
+   } else if (saldo == 0){
+      return 'Saldo zerado'
+   } else{
+      return 'Inválido'
+   }
+}
+
+
+
+const receitas = [5625, 534, 636, 6664, 63221, 91520]
+const despesas = [5645, 525, 42, 634, 536, 6621]
+
+function calculate(){
+let receita = 0
+let despesa = 0
+
+   for(let value of receitas){
+      receita += value 
+   }
+   for(let value of despesas){
+      despesa += value
+   }
+
+   const total = receita - despesa
+   const totalF = total.toLocaleString('pt-br', {style:'currency', currency: 'BRL'})
+   
+   if(total >= 0){
+      return `Saldo positivo.: ${totalF}`
+   } else if (total < 0){
+      return `Saldo negativo.: ${totalF}`
+   } else `Saldo inválido`
+} 
+console.log(calculate())
+
