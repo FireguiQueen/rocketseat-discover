@@ -688,6 +688,58 @@ switch(melton.age){
 }
 
 
-const Breaking_bad = ['Gus', 'Walter', 'Jessie', 'Hector', 'Saul', 'Mike']
+const Breaking_bad = ['Gus', 'Walter', 'Jessie', 'Hector', '..', 'Saul', 'Mike']
 
 console.log(Breaking_bad.length)
+
+const reaT = Breaking_bad.indexOf('..')
+console.log(reaT)
+Breaking_bad[4] = 'Tuco'
+
+console.log(Breaking_bad)
+
+const sTTring = Breaking_bad.join(' ').toUpperCase()
+console.log(sTTring)
+
+const newArray_a = sTTring.toLowerCase().split('a')
+console.log(newArray_a)
+
+
+const newArray_uppercase = sTTring.split(' ')
+console.log(newArray_uppercase)
+
+console.log(newArray_uppercase.includes('walter') || newArray_uppercase.includes('WALTER'))
+
+newArray_uppercase.push('Skyler')
+console.log(newArray_uppercase)
+newArray_uppercase.pop()
+
+newArray_uppercase.unshift('Skyler')
+newArray_uppercase.shift()
+console.log(newArray_uppercase)
+
+
+console.log(newArray_uppercase.slice(2,6))
+console.log(newArray_uppercase)
+
+const tuco = newArray_uppercase.indexOf('TUCO')
+
+newArray_uppercase.splice(tuco, 1)
+console.log(newArray_uppercase)
+
+
+
+function transform(temperatura){ 
+   if(temperatura){
+      
+   } else {
+
+   }
+}
+
+transform('4')
+
+
+const ccu = 'oii'
+ccu.split('')
+console.log(ccu)
