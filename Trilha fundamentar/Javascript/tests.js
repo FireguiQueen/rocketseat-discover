@@ -649,9 +649,41 @@ const og2 = function(){
 function Personn(name, age){
    this.name = name
    this.age = age
+   this.label = `Name: ${name} | Age: ${age}`
    
 }
 
 const pablito13 = new Personn('Pablo', 13)
+const pelelvis = new Personn('Pelelvis', 15)
 
-pablito13.Fnc()
+const melton = new Personn('Melton', 15)
+const jackin = new Personn('Jackin', '15')
+
+console.log(pablito13.label)
+
+
+
+console.log(pablito13.age != pelelvis.age) // true pois são idades diferentes
+console.log(pablito13.age == pelelvis.age) // false pois não são idades iguais
+
+console.log(melton.age != jackin.age) // false. Mesmo uma sendo string e outra number, aqui não está sendo analisado  o tipo de dado
+console.log(pablito13.age !== pelelvis.age) // true. Pois são diferentes no tipo de dado (string e number)
+
+if(melton.age > jackin.age){
+   console.log('Melton é mais velho que Jackin')
+} else if(melton.age < jackin.age){
+   console.log('Jackin é mais velho que Melton')
+} else{
+   console.log('Ambos possuem a mesma idade')
+}
+
+
+switch(melton.age){
+   case 15:
+      console.log('Melton tem 15 anos')
+      break
+
+      default: 
+         console.log('Melton não tem 15 anos')
+}
+
