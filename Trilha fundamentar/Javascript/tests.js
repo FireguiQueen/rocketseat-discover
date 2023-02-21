@@ -634,3 +634,24 @@ let despesa = 0
 } 
 console.log(calculate())
 
+function ge2(){
+   console.log('hii')
+}
+
+const og2 = function(){
+   console.log('hii');
+};
+
+(() => console.log('hii'))();
+
+
+
+function Personn(name, age){
+   this.name = name
+   this.age = age
+   
+}
+
+const pablito13 = new Personn('Pablo', 13)
+
+pablito13.Fnc()
