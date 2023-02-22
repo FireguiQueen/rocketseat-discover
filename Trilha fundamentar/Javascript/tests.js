@@ -754,7 +754,7 @@ console.log(transform('43f'))
 
 
 const booksByCategory = [
-   {
+   /* categoria*/{
        category: "Riqueza",
        books: [
            {
@@ -771,6 +771,7 @@ const booksByCategory = [
            },
        ],
    },
+
    {
        category: "Inteligência Emocional",
        books: [
@@ -790,10 +791,24 @@ const booksByCategory = [
    },
 ];
 /* 
-    Baseado no Array de Livros por Categoria abaixo, faça os seguintes desafios
+    Baseado no Array de Livros por Categoria acima, faça os seguintes desafios
         • Contar o número de categorias
         • Contar o número de livros em cada categoria
         • Contar o número de autores
         • Mostrar livros do autor Auguto Cury
         • Transformar a função acima em uma função que irá receber o nome do autor e devolver os livros desse autor.
 */
+function countCategories(){
+   let categories = booksByCategory.length
+   return categories
+}
+console.log(countCategories())
+
+
+function countBooks(){
+   for(let category of booksByCategory){
+      for(let books of booksByCategory.book){
+
+      }
+   }
+}
