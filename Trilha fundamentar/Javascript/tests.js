@@ -747,7 +747,6 @@ console.log(transform('43f'))
 
 
 
-
 const booksByCategory = [
    /* categoria*/{
        category: "Riqueza",
