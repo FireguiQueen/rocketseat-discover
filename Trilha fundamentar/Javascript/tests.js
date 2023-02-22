@@ -752,14 +752,6 @@ console.log(transform('43f'))
 
 
 
-/* 
-    Baseado no Array de Livros por Categoria abaixo, faça os seguintes desafios
-        • Contar o número de categorias
-        • Contar o número de livros em cada categoria
-        • Contar o número de autores
-        • Mostrar livros do autor Auguto Cury
-        • Transformar a função acima em uma função que irá receber o nome do autor e devolver os livros desse autor.
-*/
 
 const booksByCategory = [
    {
@@ -797,68 +789,11 @@ const booksByCategory = [
        ],
    },
 ];
-
-// ARRAY DE OBJETOS
-// Cada objeto representa uma categoria 
-
-// EM CADA OBJETO, TEMOS.: 
-//    UMA ÚNICA CATEGORIA 
-//    UMA PRORPRIEDADE QUE é UM ARRAY DE OBJETOS (CADA OBJETO REPRESENTA UM LIVRO)
-
-
-// • Contar o número de categorias
-const totalCategories = booksByCategory.length
-console.log(totalCategories)
-
-
-// • Contar o número de livros em cada categoria
-for(let categoria of booksByCategory){
-   console.log(`${categoria.category}: ${categoria.books.length}`)
-}
-
-
-// • Contar o número de autores
-let autores = []
-for(let categoria of booksByCategory){
-   for(let books of categoria.books){
-      if(autores.includes(books.author)){
-         continue;
-      } else{
-         autores.push(books.author)
-      }
-   }
-}
-console.log(autores)
-
-
-
-// • Mostrar livros do autor Auguto Cury
-let augustoCury = []
-for(let categoria of booksByCategory){
-   for(let books of categoria.books){
-      if(books.author === 'Augusto Cury'){
-         augustoCury.push(books.title)
-      }
-   }
-}
-console.log(augustoCury)
-
-console.log('==========================================')
-
-
-function searchBooks(autor){
-   let books1 = []
-
-   for(let categoria of booksByCategory){
-      for(let books of categoria.books){
-         if(books.author === autor){
-            books1.push(books.title)
-         } else if(books.author !== autor){
-            continue;
-         } 
-      }
-   }
-
-   console.log(books1)
-}
-searchBooks('Stephen R. Covey')
+/* 
+    Baseado no Array de Livros por Categoria abaixo, faça os seguintes desafios
+        • Contar o número de categorias
+        • Contar o número de livros em cada categoria
+        • Contar o número de autores
+        • Mostrar livros do autor Auguto Cury
+        • Transformar a função acima em uma função que irá receber o nome do autor e devolver os livros desse autor.
+*/
