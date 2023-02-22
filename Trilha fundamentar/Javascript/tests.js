@@ -798,17 +798,11 @@ const booksByCategory = [
         • Mostrar livros do autor Auguto Cury
         • Transformar a função acima em uma função que irá receber o nome do autor e devolver os livros desse autor.
 */
-function countCategories(){
+function countCategoriesAndBooks(){
    let categories = booksByCategory.length
-   return categories
+   return `
+   Número de categorias: ${categories}
+   Número de livros: ${categories.books}
+   `
 }
-console.log(countCategories())
-
-
-function countBooks(){
-   for(let category of booksByCategory){
-      for(let books of category.books){
-
-      }
-   }
-}
+console.log(countCategoriesAndBooks())
