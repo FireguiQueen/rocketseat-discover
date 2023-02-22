@@ -748,11 +748,6 @@ console.log(transform('43f'))
 
 
 
-
-
-
-
-
 const booksByCategory = [
    /* categoria*/{
        category: "Riqueza",
@@ -798,11 +793,18 @@ const booksByCategory = [
         • Mostrar livros do autor Auguto Cury
         • Transformar a função acima em uma função que irá receber o nome do autor e devolver os livros desse autor.
 */
-function countCategoriesAndBooks(){
+function countCategories(){
    let categories = booksByCategory.length
-   return `
-   Número de categorias: ${categories}
-   Número de livros: ${categories.books}
-   `
+   return categories
 }
-console.log(countCategoriesAndBooks())
+console.log(countCategories())
+
+
+function countBooks(){
+   console.log('      ~~~~ Número de livros ~~~~    ')
+   for(let category of booksByCategory){
+      console.log(`
+      ${category.category}: ${category.books.length}`)
+      }
+}
+countBooks()
