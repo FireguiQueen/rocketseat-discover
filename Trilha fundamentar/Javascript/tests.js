@@ -895,4 +895,14 @@ function dacade_90(){
 
 
 }
-console.log(dacade_90())
+console.log(dacade_90());
+
+
+// Liste todos os filmes em ordem alfabética. [concluído]
+(() => {
+   let sortMovies = []
+   for(let mv of movies){
+      sortMovies.push(mv.title)
+   }
+   console.log(sortMovies.sort().join(', '))
+}) ();
