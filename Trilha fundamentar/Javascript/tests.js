@@ -871,14 +871,28 @@ function christopherMovies(){
       }
    }
 
-   const chrisCreatedMovies = chrisMoviesList.length
-   const chrisMoviesNames = chrisMoviesList.join(', ')
-
    return`
-   Números de filmes de Christopher: ${chrisCreatedMovies}
-   Filmes de Christopher: ${chrisMoviesNames}
+   Números de filmes de Christopher: ${chrisMoviesList.length}
+   Filmes de Christopher: ${chrisMoviesList.join(', ')}
    `
 }
 console.log(christopherMovies())
 
+// Conte o número de filmes lançados na década de 90. [concluído]
+function dacade_90(){
+   let movies90 = []
 
+   for(let allMovies of movies){
+      if(allMovies.year >= 1990 && allMovies.year <= 1999){
+         movies90.push(allMovies.title)
+      }
+   }
+   return `
+   ~~~~ Década de 90 ~~~~ 
+   Número de filmes : ${movies90.length}
+   Filmes: ${movies90.sort().join(', ')}
+   `
+
+
+}
+console.log(dacade_90())
