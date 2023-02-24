@@ -906,3 +906,102 @@ console.log(dacade_90());
    }
    console.log(sortMovies.sort().join(', '))
 }) ();
+
+
+
+function oi4(){
+   console.log('oi4')
+};
+oi4();
+
+const sayHiTo = function(name){
+   return `Hi, ${name}`
+} 
+console.log(sayHiTo('Gui'))
+
+const sayHiAndHelloTo = name => console.log(`Hi and hello, ${name}`)
+sayHiAndHelloTo('Flora');
+
+(food => console.log(`I love ${food}`)) 
+('potatos')
+
+function creatMonster(name, power, bio){
+   this.name = name;
+   this.power = power; 
+   this.bio = bio 
+   this.label = `
+   name: ${name}
+   power: ${power}
+   bio: ${bio} 
+   `
+}
+creatMonster.prototype.Attack = function(yP){
+   if(yP > this.power){
+      return 'You killed it'
+   } else if(yP == this.power){
+      return 'Both of you are dead'
+   } else{
+      return 'You die'
+   }
+}
+ 
+const Treemet = new creatMonster('Treemet', '434', `
+Há muito tempo, em uma floresta densa e escura, um cientista louco decidiu criar um ser poderoso e indestrutível. Ele usou os restos de várias criaturas para dar vida a seu monstro. Mas, ao nascer, o monstro mostrou-se violento e sedento por sangue. O cientista tentou controlá-lo, mas sem sucesso. O monstro escapou para a floresta, onde vive até hoje, aterrorizando os viajantes que ousam se aventurar em suas terras.
+`)
+
+console.log(Treemet.Attack())
+
+
+
+console.log(42 != '42') // false
+console.log(42 !== '42') // true
+
+
+console.log(42 == '42') // true
+console.log(42 === '42') // false
+
+
+const RB1_name = 'F2g'
+
+switch (RB1_name.toLowerCase()){
+   case 'f2g': 
+      console.log('O primeiro dos primeiros')
+      break;
+
+      default:
+         console.log('Não foi o primeiro rôbo desenvolvido')
+}
+
+const t2 = [2,6, 1]
+
+console.log(t2.length)
+
+t2[2] = 4
+
+console.log(t2.indexOf(4))
+
+const NS = t2.join(' - ')
+console.log(NS)
+
+const NR = NS.split(' - ')
+console.log(NR)
+
+console.log(NR.includes('4'))
+
+NR.push(3)
+console.log(NR)
+NR.pop()
+
+NR.unshift(14)
+NR.shift()
+NR.push(4,44,4, 54)
+console.log(NR)
+
+const seis = NR.indexOf('6')
+let quarentaE4 = NR.indexOf(44)
+quarentaE4 += 1
+console.log(NR.slice(seis, quarentaE4))
+
+
+NR.splice(4, 1)
+console.log(NR)
