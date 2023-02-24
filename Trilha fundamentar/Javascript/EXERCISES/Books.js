@@ -56,3 +56,11 @@ console.log(countCategories());
 
 
 //         • Contar o número de livros em cada categoria
+function countBooksInCategory(){
+    for(let category of booksByCategory){
+        console.log(`
+        ${category.category}: ${category.books.length}`)
+    }
+}
+countBooksInCategory();
+
