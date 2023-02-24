@@ -64,3 +64,64 @@ function countBooksInCategory(){
 }
 countBooksInCategory();
 
+
+//         • Contar o número de autores
+function countAuthors(){
+    let authors = []
+    for(let category of booksByCategory){
+        for(let books of category.books){
+            if(authors.includes(books.author)){
+                continue;
+            }
+            authors.push(books.author)    
+        }        
+    }
+    return `
+    Número de autores: ${authors.length}
+    Autores: ${authors.join(`, 
+    `)} `
+
+}
+console.log(countAuthors())
+
+
+
+//         • Mostrar livros do autor Auguto Cury
+function booksByAugusto(){
+    let AugustoBooks = []
+
+    for(category of booksByCategory){
+        for(books of category.books){
+            if(books.author === 'Augusto Cury' || books.author === 'Augusto' || books.author === 'Cury'){
+                AugustoBooks.push(books.title)
+            } else{
+                continue;
+            }
+        }       
+    }
+    return AugustoBooks;
+}
+console.log(booksByAugusto())
+
+
+
+
+//     • Receber o nome do autor como argumento e devolver os livros desse autor.
+
+function searchBooksByAuthor(author){
+    let booksBy = []
+
+    let teste = author.split(' ')
+    for(let category of booksByCategory){
+        for(let books of category.books){
+            if(books.author === author){
+                booksBy.push(books.title)
+            } else{
+                continue;
+            }
+        }
+    }
+    return booksBy.join(`,   `)
+}
+
+console.log(searchBooksByAuthor('Augusto Cury'))
