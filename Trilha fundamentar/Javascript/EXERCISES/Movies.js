@@ -21,9 +21,9 @@ const movies = [
   ];
  
 
-// Conte o número de filmes
-
-// Conte o número de filmes dirigidos por Christopher Nolan
-// Liste todos os filmes dirigidos por Christopher Nolan
-
-// Liste todos os filmes em ordem alfabética 
+// Conte o número de filmes.
+// Conte o número de filmes dirigidos por Christopher Nolan.
+// Liste todos os filmes dirigidos por Christopher Nolan.
+// Conte o número de filmes lançados na década de 90.
+// Liste todos os filmes lançados na década de 90.
+// Liste todos os filmes em ordem alfabética.
