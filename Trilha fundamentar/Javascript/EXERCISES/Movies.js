@@ -21,10 +21,28 @@ const movies = [
   ];
  
 
-// Conte o número de filmes
-(())
-// Conte o número de filmes dirigidos por Christopher Nolan
-// Liste todos os filmes dirigidos por Christopher Nolan
+// Conte o número de filmes. [concluído]
+(() => {
+    const allM = movies.length
+    console.log(allM)
+}) ();
+
+
+// Conte o número de filmes dirigidos por Christopher Nolan. [concluído]
+// Liste todos os filmes dirigidos por Christopher Nolan. [concluído]
+function moviesByChris(){
+    let ChrisMovies = []
+    for(let movie of movies){
+        if(movie.director === 'Christopher Nolan'){
+            ChrisMovies.push(movie.title)
+        }
+    }
+    console.log(`
+    Movies: ${ChrisMovies.join(', ')}
+    How many: ${ChrisMovies.length}
+    `)
+}
+moviesByChris()
 // Conte o número de filmes lançados na década de 90
 // Liste todos os filmes lançados na década de 90
 // Liste todos os filmes em ordem alfabética
