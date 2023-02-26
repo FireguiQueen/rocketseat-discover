@@ -23,6 +23,7 @@ const movies = [
 
 // Conte o número de filmes
 
+// Conte o número de filmes dirigidos por Christopher Nolan
+// Liste todos os filmes dirigidos por Christopher Nolan
 
-
-// Liste todos os filmes em ordem alfabética. [concluído]
+// Liste todos os filmes em ordem alfabética 
