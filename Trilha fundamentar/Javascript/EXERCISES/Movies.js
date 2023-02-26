@@ -45,8 +45,26 @@ function moviesByChris(){
 moviesByChris()
 
 // Conte o número de filmes lançados na década de 90
-function countMovies90(){
-    
-}
 // Liste todos os filmes lançados na década de 90
+function countMovies90(){
+    let movies90 = []
+    for(let movie of movies){
+        if(movie.year >= 1990 && movie.year < 2000){
+            movies90.push(movie.title)
+        }
+    }
+    console.log(`
+    How many: ${movies90.length}
+    Movies: ${movies90.join(', ')}
+    `)
+}
+countMovies90();
+
 // Liste todos os filmes em ordem alfabética
+(() => {
+    let allMoviesSort = []
+    for(movie of movies){
+        allMoviesSort.push(movie.title)
+    }
+    console.log(allMoviesSort.sort())
+}) ()
