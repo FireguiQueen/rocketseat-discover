@@ -61,6 +61,10 @@ function countMovies90(){
     ~~~ 90 decade ~~~~
     How many: ${movies90.length}
     Movies: ${movies90.join(', ')}
+
+    ~~~ After 90 decade ~~~
+    How many: ${moviesAfter90.length}
+    Movies: ${moviesAfter90}
     `)
 }
 countMovies90();
