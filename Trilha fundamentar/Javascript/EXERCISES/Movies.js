@@ -45,8 +45,8 @@ function moviesByChris(){
 moviesByChris()
 
 // Conte o número de filmes lançados na década de 90. [concluído]
-// Liste todos os filmes lançados na década de 90
-// Liste todos os filmes lançados depois da décade de 90
+// Liste todos os filmes lançados na década de 90. [concluído]
+// Liste todos os filmes lançados depois da décade de 90.
 function countMovies90(){
     let movies90 = []
     for(let movie of movies){
