@@ -53,7 +53,7 @@ function countMovies90(){
     for(let movie of movies){
         if(movie.year >= 1990 && movie.year < 2000){
             movies90.push(movie.title)
-        } else if (movies.year >= 2000){
+        } else if (movie.year >= 2000){
             moviesAfter90.push(movie.title)
         }
     }
@@ -64,7 +64,7 @@ function countMovies90(){
 
     ~~~ After 90 decade ~~~
     How many: ${moviesAfter90.length}
-    Movies: ${moviesAfter90}
+    Movies: ${moviesAfter90.join(', ')}
     `)
 }
 countMovies90();
@@ -76,4 +76,4 @@ countMovies90();
         allMoviesSort.push(movie.title)
     }
     console.log(allMoviesSort.sort())
-}) ()
+}) ();
