@@ -77,3 +77,4 @@ countMovies90();
     }
     console.log(allMoviesSort.sort())
 }) ();
+
