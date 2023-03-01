@@ -27,8 +27,6 @@ Header global da página
 Header pertencente a uma seção, e não a página toda
 ```html 
 <body>
-    <header> </header>
-
     <section id="roupas-vermelhas">
         <header> </header>
     </section>
@@ -36,6 +34,6 @@ Header pertencente a uma seção, e não a página toda
     <section id="roupas-laranjas">
         <header> </header>
     </section>
-    
+
 </body>
 ```
