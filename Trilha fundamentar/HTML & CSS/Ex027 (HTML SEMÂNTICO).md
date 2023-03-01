@@ -7,8 +7,9 @@
 * section <!-- Para criar seções no seu site, como um shoopping, cada loja é uma seção       -->
 * footer  <!-- Para o rodapé da página, a parte de baixo                                     -->
 
+</br>
 
-## header
+## `header`
 
 Header global da página 
 ```html 
