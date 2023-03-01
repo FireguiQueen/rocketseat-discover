@@ -47,9 +47,9 @@ ______________________________________________________
 A tag `nav` é utilizada para navegações de extrema importância no seu site.
 Como por exemplo acessar outras páginas do mesmo site.
 Mas não é obrigatória para todos os links externos.
+Por exemplo, caso sua `nav` seja colocada no `footer`, isto não é necessário.
 
 </br>
-
 
 Geralmente é utilizada junto ao header
 ```html
