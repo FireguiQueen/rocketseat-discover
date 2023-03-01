@@ -11,6 +11,8 @@
 
 ## `header`
 
+</br>
+
 Header global da página 
 ```html 
 <body>
@@ -38,3 +40,27 @@ Header pertencente a uma seção, e não a página toda
 
 </body>
 ```
+
+______________________________________________________
+
+## `nav`
+A tag `nav` é utilizada para navegações de extrema importância no seu site.
+Como por exemplo acessar outras páginas do mesmo site.
+Mas não é obrigatória para todos os links externos.
+
+</br>
+
+
+Geralmente é utilizada junto ao header
+```html
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> </li>
+                <li> </li>
+                <li> </li>
+            </ul>
+        </nav>
+    </header>
+</body>
