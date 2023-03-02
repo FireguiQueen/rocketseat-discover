@@ -110,24 +110,19 @@ dentro da section, se for necessário? Para isso temos o `article`.
 ```html
 <body>
     <main>
-        <h1>Receitas </h1>
+        <section id="avioes">
+            <article>
+                <h2>Aviões elétricos</h2>
+                <p> ..... </p>
+            </article>
 
-        <h2>Torta de limão</h2>
-        <ul>
-            <li>Suco de limão </li>
-            <li>Leite condensado e creme de leite </li>
-            <li>Biscoito de maizena </li>
-        </ul>
-
-
-        
-        <h2>Torta de limão</h2>
-        <ul>
-            <li>Suco de maçã </li>
-            <li>Leite condensado e creme de leite </li>
-            <li>Biscoito de maizena </li>
-        </ul>
+            <article>
+                <h2>Aviões a base de gasolina </h2>
+                <p>.... </p>
+            </article>
+        </section>
     </main>
+</body>
 ```
 
 </body>
