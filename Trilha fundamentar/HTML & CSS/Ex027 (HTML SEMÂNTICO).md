@@ -136,5 +136,5 @@ ______________________________________________________
 
 ## `footer`
 Fica ao final da página.
-Geralmente possui informações do autor da página, endereço da empresa, contato, sitemap, opção de voltar ao topo.
+Geralmente possui informações do autor da página, endereço da empresa/pessoa, contato, sitemap, opção de voltar ao topo.
 </body>
