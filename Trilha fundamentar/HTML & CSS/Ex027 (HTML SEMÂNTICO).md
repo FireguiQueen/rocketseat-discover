@@ -64,3 +64,37 @@ Geralmente é utilizada junto ao header
         </nav>
     </header>
 </body>
+```
+
+______________________________________________________
+
+## `main`
+Para mostrar qual o nosso principal conteúdo. 
+Nossa funcionalidade principal da aplicação.
+
+</br>
+
+```html
+<body>
+    <main>
+        <h1>Receitas </h1>
+
+        <h2>Torta de limão</h2>
+        <ul>
+            <li>Suco de limão </li>
+            <li>Leite condensado e creme de leite </li>
+            <li>Biscoito de maizena </li>
+        </ul>
+
+
+        
+        <h2>Torta de limão</h2>
+        <ul>
+            <li>Suco de maçã </li>
+            <li>Leite condensado e creme de leite </li>
+            <li>Biscoito de maizena </li>
+        </ul>
+    </main>
+```
+
+</body>
