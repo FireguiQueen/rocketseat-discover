@@ -186,6 +186,6 @@ Caso você fosse fazer uma portfolio por exemplo, você deve separar por seçõe
 
     <section id="projects">
     </section>
-
+```
 </body>
 </body>
