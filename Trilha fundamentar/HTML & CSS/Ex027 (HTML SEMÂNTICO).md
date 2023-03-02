@@ -125,4 +125,16 @@ dentro da section, se for necessário? Para isso temos o `article`.
 </body>
 ```
 
+______________________________________________________
+
+## `aside`
+A tag aside é para conteúdos levemente relacionados ao conteúdo principal, como explicações do conteúdo, glossários, links extras, biografia do autor, informações de perfil e etc.
+Por exemplo, quando você entra num artigo, e ao lado está "artigos relacionados", isto foi colocado usando a tag `aside`.
+
+
+______________________________________________________
+
+## `footer`
+Fica ao final da página.
+Geralmente possui informações do autor da página, endereço da empresa, contato, sitemap, opção de voltar ao topo.
 </body>
