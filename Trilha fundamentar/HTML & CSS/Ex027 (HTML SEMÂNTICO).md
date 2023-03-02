@@ -137,4 +137,55 @@ ______________________________________________________
 ## `footer`
 Fica ao final da página.
 Geralmente possui informações do autor da página, endereço da empresa/pessoa, contato, sitemap, opção de voltar ao topo.
+
+______________________________________________________
+
+## `section`
+Serve para separarmos conteúdos por seções.
+E através desta tag, você pode colocar mais de um "h1" em sua página.
+Imagine que seu site é um shopping, dentro deste shopping, há diversas lojas.:
+de camisetas, tênis, video-games e etc.
+
+Cada loja pode ser represetada pela tag `section`.
+```html
+<body>
+    <section id="shirts">
+        <h1>Shirts to take store </h1>
+
+        <h2> All shirts </h2>
+        <ul>
+            <li> Green shirt with skull </li>
+            <li> Red shirt </li>
+            <li> Bleach </li>
+        </ul>
+    </section>
+
+    <section id="video-games">
+        <h1>Joystick two </h1>
+
+        <h2>Best consoles</h2>
+        <ul>
+            <li> PlayStation 2 </li>
+            <li> PlayStation 3 </li>
+            <li> Playstation 5 </li>
+        </ul>
+    </section>
+```
+
+</br>
+
+Caso você fosse fazer uma portfolio por exemplo, você deve separar por seções
+```html
+<body>
+    <section id="contact">
+    </section>
+
+
+    <section id="about">
+    </section>
+
+    <section id="projects">
+    </section>
+
+</body>
 </body>
