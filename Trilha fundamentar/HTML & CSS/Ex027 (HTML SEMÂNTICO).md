@@ -97,4 +97,37 @@ Nossa funcionalidade principal da aplicação.
     </main>
 ```
 
+
+______________________________________________________
+
+## `article`
+Serve para mostrar conteúdos independentes dentro de uma tag section.
+Por exemplo, nós usamos a `section` para separar os conteúdos, mas e para separar conteúdos
+dentro da section, se for necessário? Para isso temos o `article`.
+
+</br>
+
+```html
+<body>
+    <main>
+        <h1>Receitas </h1>
+
+        <h2>Torta de limão</h2>
+        <ul>
+            <li>Suco de limão </li>
+            <li>Leite condensado e creme de leite </li>
+            <li>Biscoito de maizena </li>
+        </ul>
+
+
+        
+        <h2>Torta de limão</h2>
+        <ul>
+            <li>Suco de maçã </li>
+            <li>Leite condensado e creme de leite </li>
+            <li>Biscoito de maizena </li>
+        </ul>
+    </main>
+```
+
 </body>
