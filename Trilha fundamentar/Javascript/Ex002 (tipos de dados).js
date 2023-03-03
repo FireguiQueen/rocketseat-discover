@@ -35,7 +35,7 @@ console.log(`Olá - Crase`);
 
 
 
-// A CRASE PERMITE COLOCAR VÁRIAS LINHAS..
+// A CRASE (template strings) PERMITE COLOCAR VÁRIAS LINHAS..
 console.log(`
 Olá - Crase
 Podemos colocar várias linhas assim
