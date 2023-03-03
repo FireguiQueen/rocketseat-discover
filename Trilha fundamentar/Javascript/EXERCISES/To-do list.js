@@ -9,7 +9,7 @@
   - Desmarcar uma tarefa concluída
   - Listar todas as tarefas concluídas
 */
+let to_do = [{}]
 
 function creatList(title, description, complete = 'false'){
-    let to_do = [{}]
 }
