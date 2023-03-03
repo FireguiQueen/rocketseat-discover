@@ -58,9 +58,9 @@ pois estamos usando a crase
     - Infinity (infinito)
 */
 
-console.log(33);  // inteiro
-console.log(-33); // inteiro
-console.log(43.5);  // real
+console.log(33);         // inteiro
+console.log(-33);        // inteiro
+console.log(43.5);       // real
 console.log(10 / 'oi');  // NaN
 
 
