@@ -14,7 +14,6 @@ Diga_Oi();              // Invocando a função
 
 
 
-
 /*                                   OBJETOS
 
 Um objeto é uma coleção de propriedades, e uma propriedade é uma associação entre um nome 
