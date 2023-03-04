@@ -68,6 +68,7 @@ Geralmente é utilizada junto ao header
 
 ______________________________________________________
 
+
 ## `main`
 Para mostrar qual o nosso principal conteúdo. 
 Nossa funcionalidade principal da aplicação.
@@ -100,6 +101,7 @@ Nossa funcionalidade principal da aplicação.
 
 ______________________________________________________
 
+
 ## `article`
 Serve para mostrar conteúdos independentes dentro de uma tag section.
 Por exemplo, nós usamos a `section` para separar os conteúdos, mas e para separar conteúdos
@@ -127,8 +129,9 @@ dentro da section, se for necessário? Para isso temos o `article`.
 
 ______________________________________________________
 
+
 ## `aside`
-A tag aside é para conteúdos levemente relacionados ao conteúdo principal, como explicações do conteúdo, glossários, links extras, biografia do autor, informações de perfil e etc.
+A tag aside é para conteúdos levemente RELACIONADOS ao conteúdo principal, como explicações do conteúdo, glossários, links extras, biografia do autor, informações de perfil e etc.
 Por exemplo, quando você entra num artigo, e ao lado está "artigos relacionados", isto foi colocado usando a tag `aside`.
 
 
