@@ -1010,3 +1010,4 @@ console.log(NR)
 console.log('oi');
 
 (name => console.log(`Olá, ${name}`)) ('Pablito');
+
