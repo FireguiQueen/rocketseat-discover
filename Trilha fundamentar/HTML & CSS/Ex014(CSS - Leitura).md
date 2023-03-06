@@ -3,13 +3,15 @@
 #### __Global selector:__ _irá estilizar de maneira global, ou seja, todas as tags que estão no HTML._
 
 ```css
-*{} 
+*{
+    color: blue;
+} 
 ```
 ```html
+<!-- Todos esses elementos serão estilizados por conta do seletor global (*).. Independente de qual seja o elemento. -->
 <h1>Sobre mim</h1>
 <p> ... </p>
 
-<!-- Todos esses elementos serão estilizados por conta do seletor global (*) -->
 ```
 
 
