@@ -93,7 +93,9 @@ h1, p, h2{
 </br>
 </br>
 
-## Precedência de seletores
+____________________________________________________________________
+
+# Precedência de seletores
 - Na matemática, temos a precedência de operadores, no CSS nós temos algo parecido
 - Quanto mais específico um seletor é, maior será sua importância.
 ### Do menos importante, ao mais importante
