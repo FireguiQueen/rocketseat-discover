@@ -18,9 +18,14 @@
 
 #### __Tag selector:__ _irá estilizar a tag colocada_
 ```css
-h1{ color: white; } 
+h1{ color: green; } 
 p{  color: green; } 
-h2{ color: blue;  }  
+h2{ color: green;  }  
+
+/* Você pode estilizar diversas tags ao mesmo tempo usando a vírgula. Por exemplo.: */
+h1, p, h2{
+    color: green;
+}
 ```
 ```html
 <h1>Sobre mim</h1> <!-- Este elemento será estilizado pois foi colocado no CSS -->
