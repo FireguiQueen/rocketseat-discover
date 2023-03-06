@@ -34,7 +34,7 @@ h1, p, h2{
 <h2>Contato</h2>   <!-- Este também                                            -->       
 <p> ... </p>       <!-- Este também                                            -->
 
-<!-- Estes elementos não serão estilizados, pois não foram colocados no CSS    -->
+<!-- Estes elementos não serão estilizados, pois suas tags não foram colocados no CSS    -->
 <ul> 
     <li> </li>
 </ul>
