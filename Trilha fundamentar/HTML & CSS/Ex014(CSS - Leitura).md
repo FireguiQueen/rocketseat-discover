@@ -136,7 +136,7 @@ ____________________________________________________________________
 </br> 
 
 ## E para que saber sobre a precedência?
-* Quando escrevemos um código, o mesmo é lido de cima para baixo. Então se colocarmos: 
+- Quando escrevemos um código, o mesmo é lido de cima para baixo. Então se colocarmos: 
 ```css
 h1{
     color: blue; 
