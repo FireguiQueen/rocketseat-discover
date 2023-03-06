@@ -1011,3 +1011,4 @@ console.log('oi');
 
 (name => console.log(`Olá, ${name}`)) ('Flora');
 
+console.log("Ok, i'll study tomorrow, i promess!")
