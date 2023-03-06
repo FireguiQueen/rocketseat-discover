@@ -22,6 +22,19 @@ h1{}
 p{} 
 h2{}  
 ```
+```html
+<h1>Sobre mim</h1> <!-- Este elemento será estilizado pois foi colocado no CSS -->
+<h2>Contato</h2>   <!-- Este também                                            -->       
+<p> ... </p>       <!-- Este também                                            -->
+
+<!-- Estes elementos não serão estilizados, pois não foram colocados no CSS    -->
+<ul> 
+    <li> </li>
+</ul>
+
+
+<!-- Todos esses elementos serão estilizados por conta do seletor global (*) -->
+```
 
 </br>
 
