@@ -24,7 +24,7 @@ h2{}
 </br>
 </span>
 
-#### __Class selector:__ </br> _irá estilizar as tags que possuem esta class. Class são usadas para estilizar mais de uma tag_
+#### __Class selector:__ _irá estilizar as tags que possuem esta class. Class são usadas para estilizar mais de uma tag_
 ```css
 .nome_da_class{} 
 ```
