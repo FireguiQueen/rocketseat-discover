@@ -44,9 +44,12 @@ h1, p, h2{
 
 #### __Id selector:__ _irá estilizar todas as tags que possuem este id._
 
+> Utiliza-se o "#" para estilizar a classe no CSS </br>
 > Coloque apenas um ID por elemento. 
 ```css
-#my-contact 
+#my-contact{
+    color: blue;
+}
 ```
 ```html
 <h2 id="my-contact"> </h2> <!-- Apenas esta tag será estilizada, pois é a tag que possui o id "my-contact" -->
@@ -58,14 +61,28 @@ h1, p, h2{
 
 
 
-#### __Class selector:__ _irá estilizar as tags que possuem esta class. Class são usadas para estilizar mais de uma tag_
+#### __Class selector:__ _irá estilizar as tags que possuem esta class._
+
+> Utiliza-se o "." para estilizar a classe no CSS </br>
+> Class são usadas para estilizar mais de uma tag
 ```css
-.nome_da_class{} 
+.about-Tcompany{
+    color: blue;
+    }
+```
+```html
+<h1>Nossa empresa </h1>
+
+<!-- Apenas essas tags serão estilizadas, pois possuem a class "about-Tcompany" -->
+<p class="about-Tcompany"> </p>
+<p class="about-Tcompany"> </p>
+<p class="about-Tcompany"> </p>
 ```
 
-#### __Inline:__ _irá estilizar somente tag onde o css foi aplicado_
+
+#### __Inline:__ _estilização feita em linha, pelo próprio HTML usando o atributo `style=".."`_
 ```html
-> <h1 style=""> </h1>
+<h1 style="color: white;">... </h1>
 ```
 
 
