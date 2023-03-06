@@ -49,7 +49,8 @@ h1, p, h2{
 #my-contact 
 ```
 ```html
-<h1>
+<h2 id="my-contact"> </h2> <!-- Apenas esta tag será estilizada, pois é a tag que possui o id "my-contact" -->
+<h2 id="about-me"> </h2>
 ```
 
 
