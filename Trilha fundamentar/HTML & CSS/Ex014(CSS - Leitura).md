@@ -66,7 +66,8 @@ h1, p, h2{
 #### __Class selector:__ _irá estilizar as tags que possuem esta class._
 
 > Utiliza-se o "." para estilizar a classe no CSS </br>
-> Class são usadas para estilizar mais de uma tag
+> Class são usadas para estilizar mais de uma tag </br>
+> Para atribuir duas ou mais classes a um elemento, usa-se o espaço. Ex: `<p class="paragrago sobre> </p>`
 ```css
 .about-Tcompany{
     color: blue;
