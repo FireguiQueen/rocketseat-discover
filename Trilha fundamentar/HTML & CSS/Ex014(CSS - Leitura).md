@@ -1,6 +1,4 @@
-<span id="seletores">
-
-# Tipos de selector:  
+# Tipos de seletores:  
 
 #### __Global selector:__ _irá estilizar de maneira global, ou seja, todas as tags que estão no HTML._
 
@@ -14,7 +12,9 @@
 <!-- Todos esses elementos serão estilizados por conta do seletor global (*) -->
 ```
 
+
 </br>
+
 
 #### __Tag selector:__ _irá estilizar a tag colocada_
 ```css
@@ -38,17 +38,24 @@ h1, p, h2{
 </ul>
 ```
 
+
 </br>
 
+
 #### __Id selector:__ _irá estilizar todas as tags que possuem este id._
+
 > Coloque apenas um ID por elemento. 
 ```css
 #my-contact 
 ```
 ```html
 <h1>
+```
+
+
 </br>
-</span>
+
+
 
 #### __Class selector:__ _irá estilizar as tags que possuem esta class. Class são usadas para estilizar mais de uma tag_
 ```css
