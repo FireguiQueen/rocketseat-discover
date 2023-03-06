@@ -1,6 +1,8 @@
 # Tipos de seletores:  
 
-<span id="seletores">
+
+<span id="global"> </span>
+
 #### __Global selector:__ _irá estilizar de maneira global, ou seja, todas as tags que estão no HTML._
 
 ```css
@@ -18,6 +20,7 @@
 
 </br>
 
+<span id="tag"> </span>
 
 #### __Tag selector:__ _irá estilizar a tag colocada_
 ```css
@@ -44,6 +47,7 @@ h1, p, h2{
 
 </br>
 
+<span id="id"> </span>
 
 #### __Id selector:__ _irá estilizar todas as tags que possuem este id._
 
@@ -61,8 +65,10 @@ h1, p, h2{
 
 
 </br>
+</br>
 
 
+<span id="class"> </span>
 
 #### __Class selector:__ _irá estilizar as tags que possuem esta class._
 
@@ -88,6 +94,8 @@ h1, p, h2{
 </br>
 
 
+<span id="attribute"> </span>
+
 #### __Attribute selector:__ _estilização feita a partir de atributos_
 ```css
 [title]{
@@ -104,16 +112,12 @@ h1, p, h2{
 </br>
 </br>
 
+<span id="inline"> </span>
 
 #### __Inline:__ _estilização feita em linha, pelo próprio HTML usando o atributo `style=".."`_
 ```html
 <h1 style="color: white;">... </h1>
 ```
-</span>
-
-</br>
-</br>
-
 ____________________________________________________________________
 
 # Precedência de seletores
@@ -121,12 +125,12 @@ ____________________________________________________________________
 - Quanto mais específico um seletor é, maior será sua importância.
 ### Do menos importante, ao mais importante
 <ul type="square">
-<li><a href="#seletores">Global selector</a> </li>
-<li><a href="#seletores">Tag selector</a>  </li>
-<li><a href="#seletores">Class selector</a>   </li>
-<li><a href="#seletores">Id selector</a>  </li>
-<li><a href="#seletores">Attribute selector</a>  </li>
-<li><a href="#seletores">Inline selector</a>  </li>
+<li><a href="#global">Global selector</a> </li>
+<li><a href="#tag">Tag selector</a>  </li>
+<li><a href="#class">Class selector</a>   </li>
+<li><a href="#id">Id selector</a>  </li>
+<li><a href="#attribute">Attribute selector</a>  </li>
+<li><a href="#inline">Inline selector</a>  </li>
 </ol>
 
 </br> 
