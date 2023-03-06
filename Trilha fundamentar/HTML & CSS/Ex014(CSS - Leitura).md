@@ -105,13 +105,12 @@ ____________________________________________________________________
 <li><a href="#seletores">Class selector</a>   </li>
 <li><a href="#seletores">Id selector</a>  </li>
 <li><a href="#seletores">Id selector</a>  </li>
-
-<li><a href="#seletores">Inline selector</a>  equivale ao número: 1000 </li>
+<li><a href="#seletores">Inline selector</a>  </li>
 </ol>
 
 </br> 
 
-# E para que saber sobre a precedência?
+## E para que saber sobre a precedência?
 * Quando escrevemos um código, o mesmo é lido de cima para baixo. Então se colocarmos: 
 ```css
 h1{
