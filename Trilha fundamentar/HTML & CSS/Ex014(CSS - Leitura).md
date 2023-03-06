@@ -3,9 +3,17 @@
 # Tipos de selector:  
 
 #### __Global selector:__ _irá estilizar de maneira global, ou seja, todas as tags que estão no HTML._
+
 ```css
 *{} 
 ```
+```html
+<h1>Sobre mim</h1>
+<p> ... </p>
+
+<!-- Todos esses elementos serão estilizados por conta do seletor global (*) -->
+```
+
 </br>
 
 #### __Tag selector:__ _irá estilizar a tag colocada_
