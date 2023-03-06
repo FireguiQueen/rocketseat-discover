@@ -93,9 +93,9 @@ h1, p, h2{
 </br>
 </br>
 
-## "Poder" de cada selector
+## Precedência de seletores
 - Na matemática, temos a precedência de operadores, no CSS nós temos algo parecido
-- Quanto mais específico um seletor é, maior será sua importância. 
+- Quanto mais específico um seletor é, maior será sua importância.
 ### Do menos importante, ao mais importante
 <ul type="square">
 <li><a href="#seletores">Global selector</a> </li>
@@ -109,8 +109,8 @@ h1, p, h2{
 
 </br> 
 
-# Importância de saber o poder de cada um dos seletores
-* Quando escrevemos um código, o mesmo é lido de cima para baixo, então se colocarmos: 
+# E para que saber sobre a precedência?
+* Quando escrevemos um código, o mesmo é lido de cima para baixo. Então se colocarmos: 
 ```css
 h1{
     color: blue; 
@@ -120,8 +120,8 @@ h1{
     }
 ```
 
-No final, o título da sua página será vermelho, pois o código foi lido de cima para baixo (em formato cascata).
-E se colocarmos um seletor global por último?  
+No final, o título `h1` será vermelho, pois o código foi lido de cima para baixo (em formato cascata). </br>
+Mas e se colocarmos um seletor global por último?  
 ```css
 h1{
     color: blue;
@@ -130,9 +130,8 @@ h1{
     color: red;
     }
 ```
-Em teoria, a página mostraria o título vermelho, pois o código é lido de cima para baixo.. Mas há um porém!
-O global selector representa o número 0, enquanto o tag selector representa o número 1.
-O número um é maior do que zero, logo, a página irá mostrar o título azul. 
+Em teoria, o título `h1` será vermelho, pois o código é lido de cima para baixo, e a tag global disse que tudo será vermelho.. Mas há um porém!
+O seletor global é _menos_ especifíco que o seletor por tag, por este motivo, o trecho `h1{color:blue;}` possui mais importância, logo, a cor do `h1` será azul, e não vermelha. 
 
 </br>
 
