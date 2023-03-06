@@ -84,6 +84,27 @@ h1, p, h2{
 ```
 
 
+</br>
+</br>
+
+
+#### __Attribute selector:__ _estilização feita a partir de atributos_
+```css
+[title]{
+    color: purple;
+} 
+```
+```html
+<h1> .. </h1>
+<p> . </p>
+<abbr title=""> </abbr> <!-- Apenas esta tag será estilizada, pois é a única que possui o atributo "title" -->
+```
+
+
+</br>
+</br>
+
+
 #### __Inline:__ _estilização feita em linha, pelo próprio HTML usando o atributo `style=".."`_
 ```html
 <h1 style="color: white;">... </h1>
@@ -104,7 +125,7 @@ ____________________________________________________________________
 <li><a href="#seletores">Tag selector</a>  </li>
 <li><a href="#seletores">Class selector</a>   </li>
 <li><a href="#seletores">Id selector</a>  </li>
-<li><a href="#seletores">Id selector</a>  </li>
+<li><a href="#seletores">Attribute selector</a>  </li>
 <li><a href="#seletores">Inline selector</a>  </li>
 </ol>
 
