@@ -46,7 +46,7 @@ h1, p, h2{
 
 #### __Id selector:__ _irá estilizar todas as tags que possuem este id._
 
-> Utiliza-se o "#" para estilizar a classe no CSS </br>
+> Utiliza-se o "#" para estilizar o ID no CSS </br>
 > Coloque apenas um ID por elemento. 
 ```css
 #my-contact{
