@@ -1,5 +1,6 @@
 # Tipos de seletores:  
 
+<span id="seletores">
 #### __Global selector:__ _irá estilizar de maneira global, ou seja, todas as tags que estão no HTML._
 
 ```css
@@ -87,19 +88,22 @@ h1, p, h2{
 ```html
 <h1 style="color: white;">... </h1>
 ```
-
+</span>
 
 </br>
 </br>
 
-# "Poder" de cada selector
-- No CSS, cada tipo de seletor representa um número. 
-- Este número será respeitado quando o browser ler o código style sheet.
+## "Poder" de cada selector
+- Na matemática, temos a precedência de operadores, no CSS nós temos algo parecido
+- Quanto mais específico um seletor é, maior será sua importância. 
+### Do menos importante, ao mais importante
 <ul type="square">
-<li><a href="#seletores">Global selector</a>  equivale ao número: 0  </li>
-<li><a href="#seletores">Tag selector</a>  equivale ao número: 1  </li>
-<li><a href="#seletores">Class selector</a>  equivale ao número: 10  </li>
-<li><a href="#seletores">Id selector</a>  equivale ao número: 100  </li>
+<li><a href="#seletores">Global selector</a> </li>
+<li><a href="#seletores">Tag selector</a>  </li>
+<li><a href="#seletores">Class selector</a>   </li>
+<li><a href="#seletores">Id selector</a>  </li>
+<li><a href="#seletores">Id selector</a>  </li>
+
 <li><a href="#seletores">Inline selector</a>  equivale ao número: 1000 </li>
 </ol>
 
