@@ -67,7 +67,7 @@ h1, p, h2{
 
 > Utiliza-se o "." para estilizar a classe no CSS </br>
 > Class são usadas para estilizar mais de uma tag </br>
-> Para atribuir duas ou mais classes a um elemento, usa-se o espaço. Ex: `<p class="paragrago sobre> </p>`
+> Para atribuir duas ou mais classes a um elemento, usa-se o espaço. Ex: `<p class="paragrafo sobre> </p>`. Agora a tag `<p>` possui duas classes: paragrafo e sobre
 ```css
 .about-Tcompany{
     color: blue;
