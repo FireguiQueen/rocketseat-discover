@@ -18,9 +18,9 @@
 
 #### __Tag selector:__ _irá estilizar a tag colocada_
 ```css
-h1{} 
-p{} 
-h2{}  
+h1{ color: white; } 
+p{  color: green; } 
+h2{ color: blue;  }  
 ```
 ```html
 <h1>Sobre mim</h1> <!-- Este elemento será estilizado pois foi colocado no CSS -->
@@ -31,17 +31,17 @@ h2{}
 <ul> 
     <li> </li>
 </ul>
-
-
-<!-- Todos esses elementos serão estilizados por conta do seletor global (*) -->
 ```
 
 </br>
 
-#### __Id selector:__ _irá estilizar todas as tags que possuem este id. Geralmente é utilizado uma tag por ID_
+#### __Id selector:__ _irá estilizar todas as tags que possuem este id._
+> Coloque apenas um ID por elemento. 
 ```css
-#nome_do_id{} 
+#my-contact 
 ```
+```html
+<h1>
 </br>
 </span>
 
