@@ -222,10 +222,10 @@ body > ul > li{
 ```html
 <!-- NENHUMA estilização será feita, pois no CSS estamos dizendo para aplicar o estilo apenas para tags filhas diretamente da tag BODY. A tag body não possui nenhuma filha "ul".
 A tag "ul" seria sua neta, pois está dentro da tag <div>. -->
-    <body>
-        <div>
-            <ul>
-                <li>Primeiro item da lista </li>
+<body>
+    <div>
+        <ul>
+            <li>Primeiro item da lista </li>
         </ul>
     </div>
 </body>
@@ -235,7 +235,7 @@ A tag "ul" seria sua neta, pois está dentro da tag <div>. -->
 </br>
 
 
-## Adjacent sibling combinator
+## Adjacent sibling
 * Identificado quando vemos um seletor ao lado do sinal "+"
 * Aplica a tag irmã que está ao LADO da tag do seletor
 > Sibling sinfica "irmão/irmã", é uma maneira de dizer que "irmão" sem especifícar o genêro. </br>
@@ -251,3 +251,7 @@ h1 + p{
 <p> </p> <!-- Somente esta tag será estilizada, pois é a irmão ADJACENTE da tag h1. -->
 <p> </p>
 ```
+
+</br>
+
+## General sibling
