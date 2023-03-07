@@ -8,9 +8,10 @@ Uma pseudoclasse em CSS é chamada de "pseudo" porque ela representa um ESTADO o
 
 ## first-child
 Indica para estilizarmos apenas o primeiro filho de determinado seletor. 
+Precisamos informar qual tag será estilizada, se esta tag escolhida NÃO for a primeira filha, ela não será estilizada. 
 
 ```css
-div#frases:first-child{
+div#frases p:first-child{
     color: blue;
 }
 ```
@@ -28,3 +29,8 @@ div#frases:first-child{
 </br>
 </br>
         
+
+## nth-child()
+Utiliza-se para poder estilizar tags filhas específicas.
+
+> A palavra "nth" em "nth-child" refere-se a uma notação matemática para indicar uma posição em uma sequência. Por exemplo, "2n" significa "cada dois elementos", "3n+1" significa "cada três elementos, começando pelo primeiro", e assim por diante.
