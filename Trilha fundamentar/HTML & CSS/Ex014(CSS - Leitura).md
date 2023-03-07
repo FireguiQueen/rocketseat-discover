@@ -178,6 +178,8 @@ Porém, isto não deve ser utilizado em seu CSS, não é uma boa prática.
 Utilize !imporant apenas a bibliotecas CSS cuja você não consegue de jeito nenhum fazer estilizações da forma desejada.
 
 </br>
+</br>
+
 
 _________________________________________________________________
 
@@ -210,7 +212,7 @@ section#clothes div p{
 
 </br>
 
-## Child combinator
+## Child combinator 
 * Identificado quando vemos um seletor ao lado do sinal ">"
 * Aplica a filhos diretos do elemento.
 
@@ -235,7 +237,7 @@ A tag "ul" seria sua neta, pois está dentro da tag <div>. -->
 </br>
 
 
-## Adjacent sibling
+## Adjacent sibling 
 * Identificado quando vemos um seletor ao lado do sinal "+"
 * Aplica a tag irmã que está ao LADO da tag do seletor
 > Sibling sinfica "irmão/irmã", é uma maneira de dizer que "irmão" sem especifícar o genêro. </br>
@@ -269,3 +271,4 @@ h1 ~ p{
 <p> </p>
 <p> </p>
 ```
+
