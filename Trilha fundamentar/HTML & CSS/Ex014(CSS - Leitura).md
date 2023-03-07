@@ -187,6 +187,7 @@ São combinadores, iremos combinar diferentes tipos de seletores, a fim de aplic
 ## Descendant combinator
 * Identificador a partir de um espaço entre os seletores
 * Busca um elemetro dentro de outro
+
 ```css
 /* Foi dito o seguinte: entre na section com id clothes, entre na(s) div(s) desta section e estilize a tag p*/
 
