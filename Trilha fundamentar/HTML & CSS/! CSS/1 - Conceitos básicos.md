@@ -19,6 +19,7 @@ h1{ /* Declaration 👇 */
     color: blue;                  
     font-size: 60px;  
     background: red; 
+    
     /* 
     h1    = selector 
     color = property
@@ -38,21 +39,21 @@ Sabendo disto, podemos compreender melhor as properties que usamos no css (margi
 # Properties mais utilizadas 
 ```css 
 { 
-    background-color: blue; /* Irá mudar o fundo da tag */ 
-    color: red; /* Irá mudar a cor do conteúdo da tag */
-    border: 1px solid red; /* Coloca uma borda em volta da tag */ 
+    background-color: blue;     /* Irá mudar o fundo da tag */ 
+    color: red;                 /* Irá mudar a cor do conteúdo da tag */
+    border: 1px solid red;      /* Coloca uma borda em volta da tag */ 
 
-    margin: 42px; /* espaçamento fora da tag (isto vai para todos os lados) */
-    margin-bottom: 42px; /* Altera apenas para baixo por conta do "bottom" */ 
-    margin-left: 42px; /* Altera apenas para a esquerda por conta do "left"  */
-    margin-right: 42px; /* Altera apenas para a direita por conta do "right" */ 
-    margin-top: 42px; /* Altera apenas para cima por conta do "top" */
-    padding: 32px /* Espaçamento dentro da tag */
+    margin: 42px;               /* espaçamento fora da tag (isto vai para todos os lados) */
+    margin-bottom: 42px;        /* Altera apenas para baixo por conta do "bottom" */ 
+    margin-left: 42px;          /* Altera apenas para a esquerda por conta do "left"  */
+    margin-right: 42px;         /* Altera apenas para a direita por conta do "right" */ 
+    margin-top: 42px;           /* Altera apenas para cima por conta do "top" */
+    padding: 32px               /* Espaçamento dentro da tag */
 }
 ```
 </br>
 
-________________________________________________________________________________________________________________
+_______________________________________________________________________________________
 
 ## CSS interno
 - _Estilização feita na tag <head> do arquivo HTML. Não é uma boa prática._
@@ -87,7 +88,7 @@ ________________________________________________________________________________
 
 </br>
 
-________________________________________________________________________________________________________________
+____________________________________________________________________________________________
 
 
 # Importando fontes
