@@ -8,7 +8,9 @@
     <style>
         /* Descendant combinator */ 
         /* Irá aplicar estilização ignorando quem é a tag pai, o importante é que determinado seletor possua a tag escolhida, independente se ela é filha, neta.. */
-        body
+        body #descendant {
+            color: blue;
+        }
 
 
         /* Child combinator */
@@ -17,6 +19,11 @@
             color: blue;
         }
 
+        /* Adjacent sibling */
+        /* Irá estilizar SOMENTE tags que são irmãs DIRETAS ao seletor escolhido. */
+        h1 + p{
+            color: blue;
+        }
 
     </style>
 </head>
@@ -44,6 +51,14 @@
     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi vitae dignissimos! Laudantium totam est cumque id consectetur exercitationem perspiciatis rerum consequuntur, ab quos laborum fuga officiis, reprehenderit ea atque! </p>
 </section>
 
+<!-- Adjacent sibling -->
+<!--  Apenas a tag P que está ao lado da tag h1 será estilizada, pois é a irmã direta. O restante das tags não serão estilizadas -->
+<section id="adjacent-sibling">
+    <h1>Child combinator </h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi vitae dignissimos! Laudantium totam est cumque id consectetur exercitationem perspiciatis rerum consequuntur, ab quos laborum fuga officiis, reprehenderit ea atque! </p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi vitae dignissimos! Laudantium totam est cumque id consectetur exercitationem perspiciatis rerum consequuntur, ab quos laborum fuga officiis, reprehenderit ea atque! </p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi vitae dignissimos! Laudantium totam est cumque id consectetur exercitationem perspiciatis rerum consequuntur, ab quos laborum fuga officiis, reprehenderit ea atque! </p>
+</section>
 
 
 </body>
