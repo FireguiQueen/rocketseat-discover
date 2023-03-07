@@ -196,12 +196,16 @@ section#clothes div p{
 }
 ```
 ```html
-<section id="clothes">
-    <div>
-        <h1> </h1>
-        <p> </p> <!-- Este elemento que será estilizado -->
-    </div>
-</section>
+
+<div>
+    <section id="clothes">
+        <div>
+            <h1> </h1>
+            <p> </p> <!-- Este elemento que será estilizado -->
+        </div>
+    </section>
+</div>
+<!-- Perceba também que a section está dentro de uma div, mas não foi necessário dizer isto ao CSS. Isto ocorre pois a partir do momento em que fazemos uma descendant combinator, ele irá buscar os elementos, independente de onde eles estejam. -->
 ```
 
 </br>
