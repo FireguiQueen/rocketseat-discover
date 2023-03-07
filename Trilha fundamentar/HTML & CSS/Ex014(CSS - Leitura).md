@@ -241,3 +241,13 @@ A tag "ul" seria sua neta, pois está dentro da tag <div>. -->
 > Sibling sinfica "irmão/irmã", é uma maneira de dizer que "irmão" sem especifícar o genêro. </br>
 > Adjacent significa adjacente, ou seja: Ao lado de.. / Próximo de.. </br>
 > Por isso temos o "Adjacent sibling", ele se refere a uma tag irmã colocado ao lado da tag do seletor
+```css
+h1 + p{
+    color: blue;
+}
+```
+```html
+<h1>.. </h1>
+<p> </p> <!-- Somente esta tag será estilizada, pois é a irmão ADJACENTE da tag h1. -->
+<p> </p>
+```
