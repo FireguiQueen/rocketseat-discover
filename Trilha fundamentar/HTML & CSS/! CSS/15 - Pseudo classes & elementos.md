@@ -5,3 +5,22 @@ Uma pseudoclasse em CSS é chamada de "pseudo" porque ela representa um ESTADO o
 
 </br>
 </br>
+
+## first-child
+Indica para estilizarmos apenas o primeiro filho de determinado seletor. 
+
+```css
+div#frases:first-child{
+    color: blue;
+}
+```
+```html
+<body>
+    <div id="frases">
+        <p> </p> <!-- Apenas esta tag será estilizada, pois é a primeira filha do seletor div#frases-->
+
+        <p> </p>
+        <p> </p>
+    </div>
+</body>
+        
