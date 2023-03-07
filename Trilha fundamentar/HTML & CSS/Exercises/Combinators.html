@@ -8,7 +8,7 @@
     <style>
         /* Descendant combinator */ 
         /* Irá aplicar estilização ignorando quem é a tag pai, o importante é que determinado seletor possua a tag escolhida, independente se ela é filha, neta.. */
-
+        body
 
 
         /* Child combinator */
@@ -22,7 +22,21 @@
 </head>
 <body>
   
+<!-- Descendant -->
+<!-- Todas as tags da section serão estilizadas -->
+<section id="descendant">
+    <h1>Descendant combinator </h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi vitae dignissimos! Laudantium totam est cumque id consectetur exercitationem perspiciatis rerum consequuntur, ab quos laborum fuga officiis, reprehenderit ea atque! </p>
+    <div>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi vitae dignissimos! Laudantium totam est cumque id consectetur exercitationem perspiciatis rerum consequuntur, ab quos laborum fuga officiis, reprehenderit ea atque! </p>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi vitae dignissimos! Laudantium totam est cumque id consectetur exercitationem perspiciatis rerum consequuntur, ab quos laborum fuga officiis, reprehenderit ea atque! </p>
+    </div>
+</section>
+
+
+
 <!-- Child -->
+<!-- Apenas tags que são FILHAS do #child serão estilizadas. Netas, bisnetos não serão estilizadas, pois não são filhas. -->
 <section id="child">
     <h1>Child combinator </h1>
     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi vitae dignissimos! Laudantium totam est cumque id consectetur exercitationem perspiciatis rerum consequuntur, ab quos laborum fuga officiis, reprehenderit ea atque! </p>
