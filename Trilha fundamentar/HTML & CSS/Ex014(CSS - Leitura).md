@@ -185,7 +185,7 @@ _________________________________________________________________
 São combinadores, iremos combinar diferentes tipos de seletores, a fim de aplicar uma estilização mais precisa e para elementos especifícos.
 
 ## Descendant combinator
-* Identificador a partir de um espaço entre os seletores
+* Identificado a partir de um espaço entre os seletores
 * Busca um elemetro dentro de outro
 
 ```css
@@ -211,3 +211,22 @@ section#clothes div p{
 </br>
 
 ## Child combinator
+* Identificado quando vemos um seletor ao lado do sinal ">"
+* Aplica a filhos diretos do elemento.
+
+```css
+body > ul > li{
+    color: blue;
+}
+```
+```html
+<!-- NENHUMA estilização será feita, pois no CSS estamos dizendo para aplicar o estilo apenas para tags filhas diretamente da tag BODY. A tag body não possui nenhuma filha "ul".
+A tag "ul" seria sua neta, pois está dentro da tag <div>. -->
+<body>
+    <div>
+        <ul>
+            <li>Primeiro item da lista </li>
+        </ul>
+    </div>
+</body>
+```
