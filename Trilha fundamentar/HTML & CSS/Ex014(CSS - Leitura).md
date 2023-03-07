@@ -255,3 +255,17 @@ h1 + p{
 </br>
 
 ## General sibling
+* Identificado quando vemos o sinal de "~" ao lado do seletor
+* Aplica estilização a TODOS os irmãos do seletor escolhido
+```css
+h1 ~ p{
+    color: blue;
+}
+```
+```html
+<h1>.. </h1>
+<!-- Todos as tags P serão estilizadas, pois são irmãs da tag h1. -->
+<p> </p>
+<p> </p>
+<p> </p>
+```
