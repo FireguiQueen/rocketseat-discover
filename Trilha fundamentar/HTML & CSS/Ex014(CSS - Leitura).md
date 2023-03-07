@@ -176,3 +176,10 @@ Mesmo o h1 sendo mais forte do que o global selector, demos o !important ao glob
 toda essa regra de númeração será quebrada. 
 Porém, isto não deve ser utilizado em seu CSS, não é uma boa prática.
 Utilize !imporant apenas a bibliotecas CSS cuja você não consegue de jeito nenhum fazer estilizações da forma desejada.
+
+</br>
+
+_________________________________________________________________
+
+# Descendant combinator
+* Busca um elemetro dentro de outro
