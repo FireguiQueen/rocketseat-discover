@@ -181,7 +181,10 @@ Utilize !imporant apenas a bibliotecas CSS cuja você não consegue de jeito nen
 
 _________________________________________________________________
 
-# Descendant combinator
+# Combinators
+São combinadores, iremos combinar diferentes tipos de seletores, a fim de aplicar uma estilização mais precisa e para elementos especifícos.
+
+## Descendant combinator
 * Identificador a partir de um espaço entre os seletores
 * Busca um elemetro dentro de outro
 ```css
@@ -199,3 +202,7 @@ section#clothes div p{
     </div>
 </section>
 ```
+
+</br>
+
+## Child combinator
