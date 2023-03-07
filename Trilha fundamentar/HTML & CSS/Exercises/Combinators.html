@@ -25,6 +25,12 @@
             color: blue;
         }
 
+        /* General sibling */
+        /* Todas as tags que são tag P irmãs serão estilizadas */
+        h1 ~ p{
+            color: blue;
+        }
+
     </style>
 </head>
 <body>
@@ -53,14 +59,24 @@
 
 
 <!-- Adjacent sibling -->
-<!--  Apenas a tag P que está ao lado da tag h1 será estilizada, pois é a irmã direta. O restante das tags não serão estilizadas -->
+<!-- Apenas a tag P que está ao lado da tag h1 será estilizada, pois é a irmã direta. O restante das tags não serão estilizadas -->
 <section id="adjacent-sibling">
-    <h1>Child combinator </h1>
+    <h1>Adjacent sibling </h1>
     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi vitae dignissimos! Laudantium totam est cumque id consectetur exercitationem perspiciatis rerum consequuntur, ab quos laborum fuga officiis, reprehenderit ea atque! </p>
     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi vitae dignissimos! Laudantium totam est cumque id consectetur exercitationem perspiciatis rerum consequuntur, ab quos laborum fuga officiis, reprehenderit ea atque! </p>
     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi vitae dignissimos! Laudantium totam est cumque id consectetur exercitationem perspiciatis rerum consequuntur, ab quos laborum fuga officiis, reprehenderit ea atque! </p>
 </section>
 
+
+
+<!-- General siblin -->
+<!-- Todas as irmãs do seletor escolhido serão estilizadas -->
+<section id="general-sibling">
+    <h1>General sibling </h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi vitae dignissimos! Laudantium totam est cumque id consectetur exercitationem perspiciatis rerum consequuntur, ab quos laborum fuga officiis, reprehenderit ea atque! </p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi vitae dignissimos! Laudantium totam est cumque id consectetur exercitationem perspiciatis rerum consequuntur, ab quos laborum fuga officiis, reprehenderit ea atque! </p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima animi vitae dignissimos! Laudantium totam est cumque id consectetur exercitationem perspiciatis rerum consequuntur, ab quos laborum fuga officiis, reprehenderit ea atque! </p>
+</section>
 
 
 
