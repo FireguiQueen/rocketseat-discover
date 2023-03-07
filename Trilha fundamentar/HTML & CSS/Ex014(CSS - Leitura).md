@@ -222,11 +222,14 @@ body > ul > li{
 ```html
 <!-- NENHUMA estilização será feita, pois no CSS estamos dizendo para aplicar o estilo apenas para tags filhas diretamente da tag BODY. A tag body não possui nenhuma filha "ul".
 A tag "ul" seria sua neta, pois está dentro da tag <div>. -->
-<body>
-    <div>
-        <ul>
-            <li>Primeiro item da lista </li>
+    <body>
+        <div>
+            <ul>
+                <li>Primeiro item da lista </li>
         </ul>
     </div>
 </body>
 ```
+            
+            
+</br>
