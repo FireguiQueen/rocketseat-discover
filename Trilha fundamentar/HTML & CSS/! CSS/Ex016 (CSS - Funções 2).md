@@ -24,7 +24,8 @@ A tag body não possui uma altura definida. Logo, quando usamos a "%", é necess
     background-image: url("https://images.unsplash.com/"); /* Colocar uma imagem como background */
 } 
 ```
-________________________________________________________________________________________________________________
+________________________________________________________________________________
+
 # Strings e idenficadores 
 
 * __Strings:__ Texto envolto de aspas 
