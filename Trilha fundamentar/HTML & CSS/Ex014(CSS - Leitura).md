@@ -182,4 +182,20 @@ Utilize !imporant apenas a bibliotecas CSS cuja você não consegue de jeito nen
 _________________________________________________________________
 
 # Descendant combinator
+* Identificador a partir de um espaço entre os seletores
 * Busca um elemetro dentro de outro
+```css
+/* Foi dito o seguinte: entre na section com id clothes, entre na(s) div(s) desta section e estilize a tag p*/
+
+section#clothes div p{
+    color: blue;
+}
+```
+```html
+<section id="clothes">
+    <div>
+        <h1> </h1>
+        <p> </p> <!-- Este elemento que será estilizado -->
+    </div>
+</section>
+```
