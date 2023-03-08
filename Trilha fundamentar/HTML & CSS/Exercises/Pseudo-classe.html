@@ -15,8 +15,19 @@
         #frases ul li:nth-child(3n){
             color: blue;
         }
-        h1::before{
-    content: "Olá, esta frase foi colocada antes do conteúdo do h1, usando um pseudo-elemento";
+
+        h1{
+            position: relative;
+        }
+        h1::after{
+    content: ""; /* Lembre-se, o "content" é obrigatório, até mesmo vázio. */
+    height: 40px;
+    width: 40px;
+    transform: rotate(45deg);
+    background-color: blue;
+    position: absolute;
+    left: 30px;
+        
 }
     </style>
 </head>

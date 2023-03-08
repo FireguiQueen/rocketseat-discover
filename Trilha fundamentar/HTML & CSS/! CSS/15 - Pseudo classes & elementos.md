@@ -182,3 +182,29 @@ Cria-se novos conteúdos DEPOIS do conteúdo de determinado elemento
 > Observe-se que o conteúdo criado pelo after AINDA FARÁ parte da tag escolhida. Veja <a href="https://prnt.sc/OJ3pzKs84VP-"> aqui </a>
 
 ```css 
+h1::after{
+    content: "..";
+}
+```
+```html
+<body>
+    <h1> .. </h1>
+</body>
+```
+
+### Também podemos criar elementos mais complexos, que não sejam textos.
+```css
+h1{
+    position: relative;
+}
+h1::after{
+    content: ""; /* Lembre-se, o "content" é obrigatório, até mesmo vázio. */
+    position: absolute;
+    left: 30px;
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    transform: rotate(45deg);
+}
+```
+
