@@ -130,3 +130,21 @@ input#txt:focus{
     <input type="text"> <!-- A borda do input será vermelha quando o usuário interagir com ele -->
 </body>
 ```
+
+</br>
+</br>
+
+## required & disabled
+No HTML, temos a opção de deixar determinado input habilitado ou desabilitado (são atributos da tag INPUT). </br>
+Podemos mudar o estilo dele caso o input esteja desabilitado por exemplo. 
+
+```css
+input:disabled{
+    background-color: blue;
+}
+```
+```html
+<body>
+    <input type="password" disabled> <!-- Este input terá o fundo azul, pois está desabilitado -->
+```
+```
