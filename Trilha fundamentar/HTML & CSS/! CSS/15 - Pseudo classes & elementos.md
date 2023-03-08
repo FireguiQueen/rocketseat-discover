@@ -74,3 +74,25 @@ Você também pode usar fórmulas para especifícar quais posições serão esti
     </ul>
 </section>
 ``` 
+
+</br>
+</br>
+        
+
+## nth-of-type()
+Utiliza-se em uma tag específica, e informamos qual delas será estilizada.
+
+#### Estilizando apenas o segundo parágrafo
+```css
+section#frases p:nth-of-type(2){
+    color: blue;
+}
+```
+```html
+<section id="frases">
+    <h1> Frases motivacionais </h1>
+    <p> </p> 
+    <p> </p> <!-- Irá estilizar apenas este elemento (pois ele é o segundo P). -->
+    <p> </p>
+</section>
+```
