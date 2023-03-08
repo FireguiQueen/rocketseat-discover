@@ -32,5 +32,12 @@ div#frases p:first-child{
 
 ## nth-child()
 Utiliza-se para poder estilizar tags filhas específicas.
+Você também pode usar fórmulas para especifícar quais posições serão estilizadas.
+
+#### Estilizando apenas elementos PARES */
+```css
+#frases li:nth-child(even){
+    color: blue;
+}
 
 > A palavra "nth" em "nth-child" refere-se a uma notação matemática para indicar uma posição em uma sequência. Por exemplo, "2n" significa "cada dois elementos", "3n+1" significa "cada três elementos, começando pelo primeiro", e assim por diante.
