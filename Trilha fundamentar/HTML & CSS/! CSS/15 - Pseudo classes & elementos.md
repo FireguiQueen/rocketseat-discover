@@ -147,4 +147,38 @@ input:disabled{
 <body>
     <input type="password" disabled> <!-- Este input terá o fundo azul, pois está desabilitado -->
 ```
+
+
+</br>
+</br>
+
+_________________________________________________________________________
+
+# Pseudo-elements
+Utilizado para poder criar conteúdos através de elementos. </br>
+A propriedade `content: ""` é obrigatória, seja vazia ou não. 
+
+
+## before
+Cria-se novos conteúdos ANTES do conteúdo de determinado elemento
+> Observe-se que o conteúdo criado pelo before AINDA FARÁ parte da tag escolhida. 
+
+```css
+h1::before{
+    content: "Olá, esta frase foi colocada antes do conteúdo do h1, usando um pseudo-elemento";
+}
 ```
+```html
+<body>
+    <h1> .. </h1>
+</body>
+```
+
+</br>
+</br>
+
+## after
+Cria-se novos conteúdos DEPOIS do conteúdo de determinado elemento
+> Observe-se que o conteúdo criado pelo after AINDA FARÁ parte da tag escolhida. Veja <a href="https://prnt.sc/OJ3pzKs84VP-"> aqui </a>
+
+```css 

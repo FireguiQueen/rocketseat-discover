@@ -15,10 +15,15 @@
         #frases ul li:nth-child(3n){
             color: blue;
         }
+        h1::before{
+    content: "Olá, esta frase foi colocada antes do conteúdo do h1, usando um pseudo-elemento";
+}
     </style>
 </head>
 
 <body>
+    <h1> .. </h1>
+
     <ul>
         <li>Batata doce</li>
         <li>Frango</li>
