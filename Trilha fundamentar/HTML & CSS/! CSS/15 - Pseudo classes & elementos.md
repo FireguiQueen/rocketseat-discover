@@ -33,7 +33,7 @@ div#frases p:first-child{
 ## nth-child()
 Utiliza-se para poder estilizar tags filhas específicas. </br>
 Você também pode usar fórmulas para especifícar quais posições serão estilizadas.
-> A palavra "nth"  refere-se a uma notação matemática para indicar uma posição em uma sequência. Por exemplo, "2n" significa "cada dois elementos", "3" significa "cada três elementos", e assim por diante. Caso queira que a estilização comece pelo PRIMEIRO elemento, utilize o "+1", por exemplo: "(2n +1)", isto significa que a cada dois elementos ele irá estilizar o primeiro elemento. E também é possível utilizar palavras chaves, como "even", "even" irá pegar apenas números pares.
+> A palavra "nth"  refere-se a uma notação matemática para indicar uma posição em uma sequência. Por exemplo, "2n" significa "cada dois elementos", "3" significa "cada três elementos", e assim por diante. Caso queira que a estilização comece pelo PRIMEIRO elemento, utilize o "+1", por exemplo: "(2n +1)", isto significa que a cada dois elementos ele irá estilizar o primeiro elemento. E também é possível utilizar palavras chaves, como "even", "even" irá pegar apenas números pares e "odd" apenas números ímpares.
 
 #### Estilizando apenas elementos __pares__
 ```css
