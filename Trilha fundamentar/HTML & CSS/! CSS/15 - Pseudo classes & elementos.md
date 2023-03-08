@@ -113,3 +113,19 @@ h1:hover{
     <h1> </h1> <!-- Este título irá ficar azul caso o mouse esteja em cima dele, "fluatuando" -->
 </body>
 ```
+
+</br>
+</br>
+
+## focus
+Da foco ao usuário interagir. Esta pseudo-classe é muito utilizada com inputs. 
+
+```css
+input#txt:focus{
+    border-color: red;
+}
+```
+```html
+<body>
+    <input type="text"> <!-- O background do focus será vermelho quando o usuário interagir com o input -->
+</body>
