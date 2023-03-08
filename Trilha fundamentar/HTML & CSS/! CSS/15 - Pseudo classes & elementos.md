@@ -129,3 +129,4 @@ input#txt:focus{
 <body>
     <input type="text"> <!-- A borda do input será vermelha quando o usuário interagir com ele -->
 </body>
+```
