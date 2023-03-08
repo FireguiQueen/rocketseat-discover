@@ -96,3 +96,20 @@ section#frases p:nth-of-type(2){
     <p> </p>
 </section>
 ```
+
+</br>
+</br>
+
+## hover
+Interação caso o mouse do usuário esteja "fluatuando" sobre determinado elemento. 
+
+```css
+h1:hover{
+    color: blue;
+}
+```
+```html
+<body>
+    <h1> </h1> <!-- Este título irá ficar azul caso o mouse esteja em cima dele, "fluatuando" -->
+</body>
+```
