@@ -33,11 +33,44 @@ div#frases p:first-child{
 ## nth-child()
 Utiliza-se para poder estilizar tags filhas específicas.
 Você também pode usar fórmulas para especifícar quais posições serão estilizadas.
+> A palavra "nth"  refere-se a uma notação matemática para indicar uma posição em uma sequência. Por exemplo, "2n" significa "cada dois elementos", "3n+1" significa "cada três elementos, começando pelo primeiro", e assim por diante. E também é possível utilizar palavras chaves, como "even", "even" irá pegar apenas números pares.
 
 #### Estilizando apenas elementos __pares__
 ```css
 #frases li:nth-child(even){
     color: blue;
 }
+```
+```html
+<section id="frases">
+    <ul>
+        <li>..</li>
+        <li>..</li> <!-- Será estilizado, pois está numa posição "PAR" -->
+        <li>..</li>
+        <li>..</li> <!-- Será estilizado, pois está numa posição "PAR" -->
+    </ul>
+</section>
+```
+#### Estilizando apenas elementos a cada 3 elementos
+> São a cada 3 elementos, porém a cada 3 elementos, um será estilizado.
 
-> A palavra "nth" em "nth-child" refere-se a uma notação matemática para indicar uma posição em uma sequência. Por exemplo, "2n" significa "cada dois elementos", "3n+1" significa "cada três elementos, começando pelo primeiro", e assim por diante.
+```css
+#frases li:nth-child(3n){
+    color: red;
+}
+```
+```html
+<section id="frases">
+    <ul>
+        <li>..</li>
+        <li>..</li>
+        <li>..</li> <!-- Será estilizado, pois está numa posição "PAR" -->
+        <li>..</li>
+        <li>..</li>
+        <li>..</li> <!-- Será estilizado, pois está numa posição "PAR" -->
+        <li>..</li>
+        <li>..</li>
+        <li>..</li> <!-- Será estilizado, pois está numa posição "PAR" -->
+    </ul>
+</section>
+``` 
