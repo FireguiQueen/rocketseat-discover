@@ -127,5 +127,5 @@ input#txt:focus{
 ```
 ```html
 <body>
-    <input type="text"> <!-- O background do focus será vermelho quando o usuário interagir com o input -->
+    <input type="text"> <!-- A borda do input será vermelha quando o usuário interagir com ele -->
 </body>
