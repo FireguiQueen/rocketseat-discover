@@ -34,7 +34,7 @@ div#frases p:first-child{
 Utiliza-se para poder estilizar tags filhas específicas.
 Você também pode usar fórmulas para especifícar quais posições serão estilizadas.
 
-#### Estilizando apenas elementos PARES */
+#### Estilizando apenas elementos __pares__
 ```css
 #frases li:nth-child(even){
     color: blue;
