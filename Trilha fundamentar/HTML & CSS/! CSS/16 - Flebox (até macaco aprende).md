@@ -103,6 +103,7 @@ section{
 </br>
 
 ### Flex-sizing
-Permite que os itens se ajustem na largura e altura para preencher o container. 
+
+Permite que os itens se ajustem na largura e altura para preencher o container. </br>
 Digamos que você possua 3 itens num container, porém, os 3 itens estão com o tamanho padrão, logo, vemos que irá sobrar um espaço em "branco" muito grande, que é o container.. </br>
 Para este espaço ser preenchido pelos itens, é bem simples, basta utilizar da propriedade `flex: 1`
