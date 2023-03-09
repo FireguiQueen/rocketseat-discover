@@ -7,12 +7,34 @@ Quando você quiser posicionar seções da página por exemplo, o _"grid" é mai
 
 ## Terminologia básica
 
+- Nesting
+> É quando um elemento está dentro de outro elemento. 
+```html
+<ul>
+    <li> </li>
+    <li> </li>
+    <li> </li>
+</ul>
+```
+
 - Flex container
 > Aquele elemento onde o flexbox será aplicado. É o elemento onde os itens estão. 
-
+```html
+<section> <!-- Esta tag é o container, e será nela onde iremos aplicar propriedades do flexbox -->
+    <h1> .. </h1>
+    <p> </p>
+</section>
+```
+    
 </br>
 
 - Flex item
 > É aquele elemento que está dentro do flex container. 
+```html
+<section> 
+    <h1> .. </h1> <!-- Este é um dos itens -->
+    <p> </p>      <!-- Este é um dos itens -->
+</section>
+```
 
 </br>
