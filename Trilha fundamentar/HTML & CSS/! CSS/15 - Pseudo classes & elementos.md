@@ -208,3 +208,22 @@ h1::after{
 }
 ```
 
+</br>
+</br>
+
+## first-line
+Modifica apenas a primeira linha do texto.
+
+```css
+p::first-line{
+    color: blue;
+}
+```
+```html
+<body>
+    <!-- Toda linha que seja a primeira das Tags <p>, terão a cor azul -->
+    <p> </p> 
+    <p> </p>
+    <p> </p>
+</body>
+```
