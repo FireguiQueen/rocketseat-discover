@@ -17,6 +17,8 @@ Quando você quiser posicionar seções da página por exemplo, o _"grid" é mai
 </ul>
 ```
 
+</br>
+
 - Flex container
 > Aquele elemento onde o flexbox será aplicado. É o elemento onde os itens estão. 
 ```html
