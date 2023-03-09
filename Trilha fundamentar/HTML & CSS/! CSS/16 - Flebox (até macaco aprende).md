@@ -118,6 +118,7 @@ h2{
 ```html
 <body>
     <section>
+        <!-- Agora o tamanho dos ITENS h2 irão preencher toda a nossa section -->
         <h2>Item 1 </h2>
         <h2>Item 2 </h2>
         <h2>Item 3 </h2>
