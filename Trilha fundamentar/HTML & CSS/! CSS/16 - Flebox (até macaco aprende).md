@@ -103,7 +103,24 @@ section{
 </br>
 
 ### Flex-sizing
-
 Permite que os itens se ajustem na largura e altura para preencher o container. </br>
 Digamos que você possua 3 itens num container, porém, os 3 itens estão com o tamanho padrão, logo, vemos que irá sobrar um espaço em "branco" muito grande, que é o container.. </br>
-Para este espaço ser preenchido pelos itens, é bem simples, basta utilizar da propriedade `flex: 1`
+Para este espaço ser preenchido pelos itens, é bem simples, basta utilizar da propriedade `flex: 1`. Esta propriedade é colocada DIRETAMENTE nos itens, e não no container. 
+```css
+section{
+    display: flex;
+}
+h2{
+    flex: 1;
+    background-color: blue;
+}
+```
+```html
+<body>
+    <section>
+        <h2>Item 1 </h2>
+        <h2>Item 2 </h2>
+        <h2>Item 3 </h2>
+    </section>
+</body>
+```
