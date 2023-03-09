@@ -69,8 +69,8 @@ section{
 ```html
 <body>
     <section>
-        <h1> ..</h1>
-        <p> </p>
+        <h1> ..</h1> <!-- Este item irá se posicionar a direita dentro da section -->
+        <p> </p>     <!-- Este item irá se posicionar a direita dentro da section -->
     </section>
 </body>
 ```
