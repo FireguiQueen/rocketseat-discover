@@ -63,7 +63,7 @@ section{
 
 
     /* A partir da propriedade, todos as tagas FILHAS da section, irão se posicionar ao lado direito no eixo main */
-    justify-content: right; 
+    justify-content: flex-end; 
 }
 ```
 ```html
@@ -77,3 +77,32 @@ section{
 
 </br>
 </br>
+
+### Cross axis
+Do inglês, main (principal), axis (eixo).. Ou seja, eixo principal. </br>
+O eixo main se refere ao eixo VERTICAL. </br>
+A propriedade `align-items: ..` nos permite mexer na posição VERTICAL do elemento, e esta propriedade utiliza do eixo CROSS.
+```css
+section{
+    display: flex;
+
+    /* A partir da propriedade, todos as tagas FILHAS da section, irão se posicionar ao TOPO da section */
+    align-items: top; 
+}
+```
+```html
+<body>
+    <section>
+        <h1> ..</h1> <!-- Este item irá se posicionar ao topo dentro da section -->
+        <p> </p>     <!-- Este item irá se posicionar ao topo dentro da section -->
+    </section>
+</body>
+```
+
+</br>
+</br>
+
+### Flex-sizing
+Permite que os itens se ajustem na largura e altura para preencher o container. 
+Digamos que você possua 3 itens num container, porém, os 3 itens estão com o tamanho padrão, logo, vemos que irá sobrar um espaço em "branco" muito grande, que é o container.. </br>
+Para este espaço ser preenchido pelos itens, é bem simples, basta utilizar da propriedade `flex: 1`
