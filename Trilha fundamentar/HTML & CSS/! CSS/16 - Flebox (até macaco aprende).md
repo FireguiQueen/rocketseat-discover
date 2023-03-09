@@ -45,3 +45,31 @@ Quando você quiser posicionar seções da página por exemplo, o _"grid" é mai
 
 </br>
 </br>
+
+______________________________________________________
+
+## Eixos
+Quando criamos um container flexbox, o mesmo irá possuir dois eixos, sendo ele o "main" e o "cross". E eles são importantes para outras propriedes do FlexBox.
+
+
+### Main 
+O eixo main se refere ao eixo HORIZONTAL. </br>
+A propriedade `justify-content: ..` nos permite mexer na posição HORIZONTAL do elemento, e esta propriedade utiliza do eixo MAIN.
+```css
+section{
+    display: flex;
+
+
+    /* A partir da propriedade, todos as tagas FILHAS da section, irão se posicionar ao lado direito no eixo main */
+    justify-content: right; 
+}
+```
+
+```html
+<body>
+    <section>
+        <h1> ..</h1>
+        <p> </p>
+    </section>
+</body>
+```
