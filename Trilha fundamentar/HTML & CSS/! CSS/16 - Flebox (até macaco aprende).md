@@ -125,3 +125,37 @@ h2{
     </section>
 </body>
 ```
+
+</br>
+</br>
+
+______________________________________________________________
+
+# Principais propriedades 
+
+</br>
+
+## `flex-direction`
+__Valores:__ `column`, `column-reverse`, `row`, `row-reverse`
+Quando temos um container flex-box, por _PADRÃO_ sua flex-direction será _row_. </br>
+Por isso que quando aplicamos o `display: flex`, vemos todos os itens se juntando em uma linha, pois estão na direção de 'row' (row significa linha). </br> </br>
+É importante que saber que quando colocamos a direção `column`, o justify-content será um pouco diferente. A partir 
+
+</br>
+</br>
+
+## `justify-content` 
+__Valores:__ `flex-start`, `center`, `flex-end`
+Esta propriedade nos permite mudar a direção dos itens no eixo main, ou seja, na horizontal.
+> 'Flex-start' coloca o item para a esquerda, 'center' coloca ao meio, 'flex-end' coloca a direita'.
+
+</br>
+</br>
+
+## `justify-content` 
+__Valores:__ `top`, `center`, `bottom`
+Esta propriedade nos permite mudar a direção dos itens no eixo cross, ou seja, na vertical.
+> 'top' coloca ao topo, 'center' coloca ao meio, 'bottom' coloca embaixo.
+
+</br>
+</br>
