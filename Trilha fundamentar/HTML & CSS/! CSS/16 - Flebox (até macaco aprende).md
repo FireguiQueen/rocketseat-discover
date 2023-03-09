@@ -50,6 +50,7 @@ ______________________________________________________
 
 ## Eixos
 Quando criamos um container flexbox, o mesmo irá possuir dois eixos, sendo ele o "main" e o "cross". E eles são importantes para outras propriedes do FlexBox.
+<a href="https://res.cloudinary.com/practicaldev/image/fetch/s---3gDSFf1--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/fsln7je4ax7ft3er28hh.png">Imagem ilustrativa</a>.
 
 
 ### Main 
