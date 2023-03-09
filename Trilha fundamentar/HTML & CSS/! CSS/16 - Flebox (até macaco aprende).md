@@ -53,7 +53,8 @@ Quando criamos um container flexbox, o mesmo irá possuir dois eixos, sendo ele 
 <a href="https://res.cloudinary.com/practicaldev/image/fetch/s---3gDSFf1--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/fsln7je4ax7ft3er28hh.png">Imagem ilustrativa</a>.
 
 
-### Main 
+### Main axis
+Do inglês, main (principal), axis (eixo).. Ou seja, eixo principal. </br>
 O eixo main se refere ao eixo HORIZONTAL. </br>
 A propriedade `justify-content: ..` nos permite mexer na posição HORIZONTAL do elemento, e esta propriedade utiliza do eixo MAIN.
 ```css
@@ -65,7 +66,6 @@ section{
     justify-content: right; 
 }
 ```
-
 ```html
 <body>
     <section>
@@ -74,3 +74,6 @@ section{
     </section>
 </body>
 ```
+
+</br>
+</br>
