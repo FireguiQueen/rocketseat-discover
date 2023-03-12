@@ -140,7 +140,7 @@ ______________________________________________________________
 __Valores:__ `column`, `column-reverse`, `row`, `row-reverse`
 Quando temos um container flex-box, por _PADRÃO_ sua flex-direction será _row_. </br>
 Por isso que quando aplicamos o `display: flex`, vemos todos os itens se juntando em uma linha, pois estão na direção de 'row' (row significa linha). </br> </br>
-É importante que saber que quando colocamos a direção `column`, os eixos terão um comportamento um pouco diferente. Com o valor 'column', a main axis será de cima para baixo, e a cross será da esquerda para a direita. Isto ocorre pois o que importa é a direção do container, quando dizemos que o container é em "row" (linha), seu eixo principal então deve
+É importante que saber que quando colocamos a direção `column`, os eixos terão um comportamento um pouco diferente. Com o valor 'column', a main axis será de cima para baixo, e a cross será da esquerda para a direita. Isto ocorre pois o que importa é a direção do container, quando dizemos que o container é em "row" (linha), seu eixo principal então deve ser 
 
 
 
