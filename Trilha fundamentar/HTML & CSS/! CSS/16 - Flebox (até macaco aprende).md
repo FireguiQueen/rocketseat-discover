@@ -144,7 +144,7 @@ Por isso que, quando nós aplicamos o `display: flex`, vemos todos os itens se j
 
 </br>
 
-O `column-reverse` e `row-reverse` são conceitos simples. Na flex-direction padrão (row), todos os itens ficam alinhados em linha, começando pela esquerda.. Na `row-reverse` os itens irão começar pela direita, e as propriedades (justify-content por exemplo) terão comportamentos diferentes em relação as direções. O mesmo vale 
+O `column-reverse` e `row-reverse` são conceitos simples. Na flex-direction padrão (row), todos os itens ficam alinhados em linha, começando pela esquerda.. Na `row-reverse` os itens irão começar pela direita, e as propriedades (justify-content por exemplo) terão comportamentos diferentes em relação as direções. O mesmo vale para
 
 
 </br>
