@@ -172,4 +172,11 @@ Esta propriede permite adicionar um espaço ENTRE os itens. Este espaço será c
 </br>
 </br>
 
+## `flex-wrap`
+__Valores:__ `wrap`, `nowrap`
+Vamos supor que você possua um container com uma WIDTH pré-definida de 100px, e este container armazena perfeitamente 3 itens.. Mas caso você adicione o quarto item, este item ficará fora do container ao lado direito. Para corrigir este problema, nós temos duas opções, sendo.: _não definir a width do container_ ou _utilizar do `flex-wrap: wrap`. Com esta propriede, sempre que determinado item não couber no espaço do container, uma nova linha será criada. 
+
+</br>
+</br>
+
 
