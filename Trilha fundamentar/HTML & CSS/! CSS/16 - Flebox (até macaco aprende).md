@@ -157,7 +157,7 @@ Esta propriedade nos permite mudar a direção dos itens no eixo main, ou seja, 
 </br>
 
 ## `align-items` 
-__Valores:__ `top`, `center`, `bottom`
+__Valores:__ `flex-start`, `center`, `flex-end`
 Esta propriedade nos permite mudar a direção dos itens no eixo cross, ou seja, na vertical.
 > 'top' coloca ao topo, 'center' coloca ao meio, 'bottom' coloca embaixo.
 
