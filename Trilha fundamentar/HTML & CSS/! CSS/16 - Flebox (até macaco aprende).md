@@ -149,9 +149,9 @@ O `column-reverse` e `row-reverse` são conceitos simples. Na flex-direction pad
 </br>
 
 ## `justify-content` 
-__Valores:__ `flex-start`, `center`, `flex-end`
+__Valores:__ `flex-start`, `center`, `flex-end`, `space-around`, `space-between`,
 Esta propriedade nos permite mudar a direção dos itens no eixo main, ou seja, na horizontal.
-> 'Flex-start' coloca o item para a esquerda, 'center' coloca ao meio, 'flex-end' coloca a direita'.
+> 'Flex-start' coloca o item para a esquerda, 'center' coloca ao meio, 'flex-end' coloca a direita', 'space-around' adiciona um espaço ao redor de todos itens, 'space-between' adiciona um espaço ENTRE os itens somente, 'space-evenly' .
 
 </br>
 </br>
