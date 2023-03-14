@@ -183,8 +183,16 @@ Vamos supor que você possua um container com uma WIDTH pré-definida de 100px, 
 ## `flex-flow`
 __Valores:__ `row/row-reverse`, `column/column-reverse`, `wrap / nowrap`
 Esta propriedade é apenas um metódo para encurtar as duas propriedes: flex-direction e flex-wrap.
+
 ```css
-    
+    flex-direction: column;
+    flex-wrap: wrap; 
+
+    /* Ou podemos simplesmente fazer: */
+
+    flex-flow: column wrap;
 ```
 
+</br>
+</br>
 
