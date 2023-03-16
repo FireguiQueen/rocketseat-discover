@@ -145,8 +145,10 @@ Por isso que, quando nós aplicamos o `display: flex`, vemos todos os itens se j
 
 O `column-reverse` e `row-reverse` são conceitos simples. Na flex-direction padrão (row), todos os itens ficam alinhados em linha, começando pela esquerda.. Na `row-reverse` os itens irão começar pela direita, e as propriedades (justify-content por exemplo) terão comportamentos diferentes em relação as direções. O mesmo vale para a `column-reverse`, onde os itens irão começar por baixo, e não por cima (que seria o padrão).
 
+
 </br>
 </br>
+
 
 ## `justify-content` 
 __Valores:__ `flex-start`, `center`, `flex-end`, `space-around`, `space-between`,
@@ -157,21 +159,26 @@ Esta propriedade nos permite mudar a direção dos itens no eixo main, ou seja, 
 </br>
 </br>
 
+
 ## `align-items` 
 __Valores:__ `flex-start`, `center`, `flex-end`
 Esta propriedade nos permite mudar a direção dos itens no eixo cross, ou seja, na vertical.
 > 'top' coloca ao topo, 'center' coloca ao meio, 'bottom' coloca embaixo.
 
+
 </br>
 </br>
+
 
 ## `gap`
 __Valores:__ `px`
 Esta propriede permite adicionar um espaço ENTRE os itens. Este espaço será colocado tanto ao lados, quanto na vertical. 
 > Supondo que haja dois itens, e você coloque um 'gap:30px', haverá uma distância de 30px entre os itens. Jamais utilize do 'margin' para separar itens quando um container é flex.
 
+
 </br>
 </br>
+
 
 ## `flex-wrap`
 __Valores:__ `wrap`, `nowrap`
