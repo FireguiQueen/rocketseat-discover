@@ -185,8 +185,10 @@ __Valores:__ `wrap`, `nowrap`
 Vamos supor que você possua um container com uma WIDTH pré-definida de 100px, e este container armazena perfeitamente 3 itens.. Mas caso você adicione o quarto item, este item ficará fora do container ao lado direito. Para corrigir este problema, nós temos duas opções, sendo.: _não definir a width do container_ ou _utilizar do `flex-wrap: wrap`. Com esta propriede, sempre que determinado item não couber no espaço do container, uma nova linha será criada e irá armazenar este(s) novo(s) item/itens.
 > O flex-wrap é de extrema importância em conteúdos reponsivos, pois trabalha principalmente com a largura de um container, e quando temos uma tela menor, este container será menor, logo, o conteúdo irá continuar dentro do container, pois o mesmo terá uma nova linha criada para armazená-lo. 
 
+
 </br>
 </br>
+
 
 ## `flex-flow`
 __Valores:__ `row/row-reverse`, `column/column-reverse`, `wrap / nowrap`
