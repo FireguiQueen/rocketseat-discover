@@ -153,6 +153,7 @@ __Valores:__ `flex-start`, `center`, `flex-end`, `space-around`, `space-between`
 Esta propriedade nos permite mudar a direção dos itens no eixo main, ou seja, na horizontal.
 > 'Flex-start' coloca o item para a esquerda, 'center' coloca ao meio, 'flex-end' coloca a direita', 'space-around' adiciona um espaço ao redor de todos itens, 'space-between' adiciona um espaço ENTRE os itens somente, 'space-evenly' adiciona um espaço IGUAL a todos os itens. <a href="https://samanthaming.gumlet.io/flexbox30/14-space-around-vs-space-evenly.jpg.gz?format=auto">diferença entre space-evenly e space-around.</a>
 
+
 </br>
 </br>
 
