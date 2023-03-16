@@ -167,7 +167,7 @@ Esta propriedade nos permite mudar a direção dos itens no eixo cross, ou seja,
 ## `gap`
 __Valores:__ `px`
 Esta propriede permite adicionar um espaço ENTRE os itens. Este espaço será colocado tanto ao lados, quanto na vertical. 
-> Supondo que haja dois itens, e você coloque um 'gap:30px', haverá uma distância de 30px entre os itens.
+> Supondo que haja dois itens, e você coloque um 'gap:30px', haverá uma distância de 30px entre os itens. Jamais utilize do 'margin' para separar itens quando um container é flex.
 
 </br>
 </br>
