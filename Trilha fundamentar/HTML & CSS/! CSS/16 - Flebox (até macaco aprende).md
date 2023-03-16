@@ -203,8 +203,10 @@ Esta propriedade é apenas um metódo para encurtar as duas propriedes: flex-dir
     flex-flow: column wrap;
 ```
 
+
 </br>
 </br>
+
 
 ## `flex-basis`
 __Valores:__ `auto`, `px/%/em..`
