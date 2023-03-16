@@ -218,7 +218,7 @@ Se o container estiver em 'column', a altura inicial que será alterada. Se o co
 </br>
 
 ## `flex-grow`
-__Valores:__ '0', '1'
+__Valores:__ '0', '1', '2', '3'..
 Esta propriedade permite que os itens cresçam, ocupando o espaço vázio dentro do container. 
 > Supondo que você possua um container com 100px, e nele você tem 4 itens. Porém, os mesmos 4 itens só ocupam 50% do container (50px), com o flex-grow, você poderia mandar um item específico ocupar o espaço em branco do container, ou seja, os outros 50%.
 
