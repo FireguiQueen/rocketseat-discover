@@ -217,6 +217,7 @@ Se o container estiver em 'column', a altura inicial que será alterada. Se o co
 </br>
 </br>
 
+
 ## `flex-grow`
 __Valores:__ '0', '1', '2', '3'..
 Esta propriedade permite que os itens cresçam, ocupando o espaço vázio dentro do container. Lembre-se que o crescimento do item irá se basear na `flex-direction`. 
@@ -226,6 +227,8 @@ Esta propriedade permite que os itens cresçam, ocupando o espaço vázio dentro
 </br>
 </br>
 
+
+## ´flex-f´
 
 
 
