@@ -135,6 +135,14 @@ ______________________________________________________________
 
 </br>
 
+## `display: flex`
+Obrigatória para definir que o container seja flex.
+
+
+</br>
+</br>
+
+
 ## `flex-direction`
 __Valores:__ `column`, `column-reverse`, `row`, `row-reverse`
 Quando temos um container flex-box, por _PADRÃO_ sua flex-direction será _row_. </br>
