@@ -243,7 +243,8 @@ Esta propriedade permite que os itens cresçam, ocupando o espaço vázio dentro
 
 
 ## `flex-shrink`
-
+__Valores:__ '0', '1', '2', '3'..
+O valor padrão desta propriedade é o '1'. Vamos imaginar que você possua um container 
 
 </br>
 </br>
