@@ -233,6 +233,10 @@ __Valores:__ '0', '1', '2', '3'..
 Esta propriedade permite que os itens cresçam, ocupando o espaço vázio dentro do container. Lembre-se que o crescimento do item irá se basear na `flex-direction`. 
 > Supondo que você possua um container com 100px de largura, e nele você tem 4 itens. Porém, os mesmos 4 itens só ocupam 50% do container (50px), com o flex-grow, você poderia mandar um item específico ocupar o espaço em branco do container, ou seja, os outros 50%.
 
+</br>
+
+> Agora supondo que você aplique o flex-grow para dois itens, onde o container tem width de 100px e os mesmos só ocupam 50% (50px). Quando aplicarmos o flex-grow a dois itens, basicamente teremos o espaço vázio (50px) dividido para dois itens, ou seja, cada item irá ocupar 25px de espaço.
+
 
 </br>
 </br>
