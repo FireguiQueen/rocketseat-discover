@@ -244,7 +244,7 @@ Esta propriedade permite que os itens cresçam, ocupando o espaço vázio dentro
 
 ## `flex-shrink`
 __Valores:__ '0', '1', '2', '3'..
-O valor padrão desta propriedade é o '1'. Vamos imaginar que você possua um container 
+O valor padrão desta propriedade é o '1'. Vamos imaginar que você possua um container de 100px de largura, e os 4 itens deste container irão ser 100% da largura do container (flex-basis). Em teoria, o container não irá conseguir armazenar os 4 itens, pois a width de todos é de 100% do container.. Mas isto não ocorre pois o flex-shrink é definido como 1.  
 
 </br>
 </br>
