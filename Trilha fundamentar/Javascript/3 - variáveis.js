@@ -95,7 +95,7 @@ console.log(porta); // ferro
 
 
 // Como o escopo é local, significa que podemos utilizar do mesmo nome da variável que foi usada em outro bloco.
-// E  ambas irão continuar a existir, só que em blocos diferentes e não serão consideradas as mesmas
+// E ambas irão continuar a existir, só que em blocos diferentes e não serão consideradas as mesmas
 function aviao_01(){
     let numero_de_portas = 2
     console.log(numero_de_portas);
