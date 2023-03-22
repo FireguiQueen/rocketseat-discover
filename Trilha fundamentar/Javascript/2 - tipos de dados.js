@@ -3,7 +3,7 @@
     - Uma cadeia de caracteres
     - Utiliza-se aspas simples (' '), aspas duplas (" ") ou template strings (``)
     
-    - Mas por que existe formas diferentes para se criar uma string? 
+    - Mas por que existem formas diferentes para se criar uma string? 
       a reposta é simples, dependendo da situação, você sentirá a necessidade de utilizar (' ') ou (" ")
       em seu texto, sendo assim, caso seu texto possua aspas simples, como neste frase.:
         --> Let's do something
