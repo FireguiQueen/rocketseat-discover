@@ -116,7 +116,9 @@ console.log(oi); // Undefinid..
 var pessoa = {               // objeto
     name: 'Flora',           // propriedade
     idade: 17,               // propriedade
-    andar: function Walk(){} // método
+    andar: function Walk(){  // método
+        return `${this.name} está andando..`
+    }    
 }
 
 // Também podemos escrever um método de maneira mais simplificada num objeto
@@ -124,7 +126,7 @@ const table = {
     type: 'wood',
     height: '120cm',
     width: '160cm',
-    compactar (){    // não houve necessidade de uma "property name"
+    compactar (){    // não houve necessidade de uma "property name", a função foi colocada de maneira direta
         return 'A mesa foi compactada';
     }
 }
