@@ -23,6 +23,12 @@ Uma xícara tem uma cor, uma forma, peso, um material de composição, etc. Da m
 objetos em JavaScript podem ter propriedades, que definem suas características.
 */
 
+// Xícara transformada em um objeto:
+const cup = {
+   color: blue,
+   size_width: '4cm'
+}
+
 
 console.log('...')
 // console -> objeto
