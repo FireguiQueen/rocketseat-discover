@@ -39,15 +39,15 @@ console.log(abada) //por isto é retornado UNDEFINED.
     abada = "hm"
 }
     /* Em teoria, pelo fato do JS ler de cima para baixo, o console.log(abada) não deveria retornar nada
-     pois a variável só foi declarada depois (na linha 31). Mas por conta do hoisting, basicamente, o JS pega 
-     a variável + identificador e eleva ela em seu código (sem o valor atribuido a mesma).
-     Basicamente ao utilizar a "VAR" como variável, ele pega todas as "VAR" do seu código e coloca elas acima de tudo
-     porém sem os valores. */
+    pois a variável só foi declarada depois (na linha 31). Mas por conta do hoisting, basicamente, o JS pega variáveis VAR 
+    + identificador e eleva ela em seu código (sem o valor atribuido a mesma).
+    Basicamente ao utilizar a "VAR" como variável, ele pega todas as "VAR" do seu código e coloca elas acima de tudo
+    porém sem os valores. */
     
 
 
 
-// reatribuição de valor..
+// reatribuição de valor
 var nome = "Paulo"
 nome = "Davi"  
 
