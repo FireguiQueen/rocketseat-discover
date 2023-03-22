@@ -10,7 +10,7 @@ pessoa = 'Paulo'
 
 
 // Então temos..:
-let pessoa // Declaração
+let pessoa           // Declaração
 let pessoa = 'Paulo' // Declaração (let pessoa) + Atribuição de valor ("Paulo")
 
 // Também podemos agrupar uma declaração
