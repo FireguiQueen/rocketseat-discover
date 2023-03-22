@@ -256,7 +256,8 @@ __Valores:__ '0', '1', '2', '3'..
 A partir desta propriedade podemos definir a ordem dos itens. 
 Quanto maior o número, mais a direita ele irá ficar.. Quanto menor o número, mais a esquerda o item irá ficar. 
 
-
+</br>
+</br>
 
 
 
