@@ -106,7 +106,7 @@ function aviao_02(){
     console.log(numero_de_portas);
 } aviao_02();
 /*  Seria a mesma coisa que a pasta em seu computador.. Não pode haver dois arquivos "foto.png"
-    na mesma pasta (mesmo sendo fotos diferentes), porém, caso você crie outra pasta, cada arquivo pode ser armazenado
+    na mesma pasta, porém, caso você crie outra pasta, cada arquivo pode ser armazenado
     em uma pasta diferente. 
 */
 
