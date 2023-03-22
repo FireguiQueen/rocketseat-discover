@@ -14,7 +14,7 @@ let pessoa           // Declaração
 let pessoa = 'Paulo' // Declaração (let pessoa) + Atribuição de valor ("Paulo")
 
 
-// Também podemos agrupar uma declaração
+// Também podemos agrupar uma declaração e depois atribuir um valor
 let pessoa_1, pessoa_2, pessoa_3
 pessoa_1 = "Otavio";
 pessoa_2 = "Julia";
