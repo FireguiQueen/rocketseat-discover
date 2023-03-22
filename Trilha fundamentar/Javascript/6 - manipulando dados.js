@@ -96,9 +96,6 @@ console.log(digitos_4.replace('.','').length)
 
 
 
-
-
-
 // ADICIONANDO CASAS DECIMAIS
 let wallet = 54 
 console.log(wallet.toFixed(2))
