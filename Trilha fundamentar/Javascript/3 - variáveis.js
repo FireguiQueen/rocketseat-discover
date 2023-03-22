@@ -2,25 +2,19 @@
 
 - Utilizadas para armazenar algum valor
 
-- São nomes simbólicos (chamados "IDENTIFICADORES") para receber algum valor 
+- São nomes simbólicos para receber algum valor (chamados "IDENTIFICADORES").
     (o nome da varíavel pode ser qualquer um, contanto que respeite a sintaxe da linguagem)
 
 
-
 - Há 3 maneires para se criar uma variável
-    > var (global - pode ser reatribuido o seu valor)
-    > let (local (escopo) - pode ser reatribuido o seu valor)
+    > var   (global         - pode ser reatribuido o seu valor)
+    > let   (local (escopo) - pode ser reatribuido o seu valor)
     > const (local (escopo) - NÃO pode ser reatribuido o seu valor)
-
 
 
     Em geral, é recomendado usar const sempre que possível e reservar o uso de let para situações 
     onde a reatribuição é realmente necessária. É recomendado evitar o uso de var devido ao 
     seu escopo global e possíveis problemas de ambiguidade.
-
-
-
-
 */
 
 
