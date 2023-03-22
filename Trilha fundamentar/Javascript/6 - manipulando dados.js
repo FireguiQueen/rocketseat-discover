@@ -86,7 +86,7 @@ console.log(String(digitos_2).length) // 3 (pois há 3 caracteres na string)
 
 // Tome cuidado caso haja um valor quebrado 
 let digitos_3 = String(844.55)
-console.log(digitos_3.length) // 6 (pois há 6 caracteres - a vírgula também conta como caracter)
+console.log(digitos_3.length) // 6 (pois há 6 caracteres - o ponto final (.) também conta como caracter)
 
 // Podemos resolver isto assim.:
 let digitos_4 = String(424.22)
