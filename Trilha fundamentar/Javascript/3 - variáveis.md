@@ -34,7 +34,7 @@ console.log(`A pessoa ${pessoa_1} é muito inteligente`)
 
 
 
-- JS é "case-sensetive", ou seja, letras maiúsculas e minúsculas fazem diferença
+- Assim como diversas outras linguagens, o JS é "case-sensetive", ou seja, letras maiúsculas e minúsculas fazem diferença.
 ```js
 // São variáveis diferentes pois o Javascript analisa até mesmo letras minúsculas e maiúsculas nos identificadores.
 let Pablo = "Pablo"
