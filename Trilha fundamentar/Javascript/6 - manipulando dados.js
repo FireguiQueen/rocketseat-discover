@@ -38,10 +38,11 @@ console.log('oi' == 'oi'? 'sim, oi é igual a oi' : 'oi não é igual a oi')
 
 // Então como pode ver, dependendo do contexto precisamos ter um valor TRUE ou FALSE
 // Caso o valor não seja boolean em contextos onde um valor "TRUE" ou "FALSE" são obrigatórios
-// O próprio javascript irá converter um valor para um valor boolean
+
+// O próprio javascript irá converter o valor para um valor boolean:
 
 // FALSY (valores que são convertidos para FALSE se necessário)
-0          // 0 sozinho será fase
+0          // 0 sozinho será false
 -0         // 0 até mesmo "negativo" será false
 ""         // string sem valor será false
 undefined  // um valor que não foi definido será false
