@@ -8,25 +8,25 @@
       em seu texto, sendo assim, caso seu texto possua aspas simples, como neste frase.:
         --> Let's do something
 
-      Você irá precisar fazer o uso das aspas duplas para criar a string.
-
-      Sendo assim, você não poderia colocar.:
+      Você não poderia colocar.:
       console.log(' Let's do something ');
       
       O correto seria.:
       console.log(" Let's do something ");
 
+
       E caso seja necessário usar de ambas as aspas (duplas e simples) você irá utilizar das templates strings.:
       console.log(`Uma vez um sábio me disse "I won't die if i live first"`)
 
-      !As template strings também são muito utilizadas quando precisamos colocar mais de uma linha. 
+      -> As template strings também são muito utilizadas quando precisamos colocar mais de uma linha. 
       (pois aspas simples/duplas são para strings em uma única linha)..
       
-      !E quando precisamos chamar uma variável de maneira prática.:
+      -> E quando precisamos chamar uma variável de maneira prática.:
 */
-      // EX 00:
-      var name = "Eduardo"
-      console.log(`Olá, ${name}`);       // isto se chama interpolação
+      // Exemplo 00:
+      let name = "Eduardo"
+      console.log(`Olá, ${name}`);   // isto se chama interpolação
+      console.log('Olá, ' + name);   // isto se chama concatenação 
 
 
 console.log('Olá - aspas simples');
@@ -42,7 +42,6 @@ Podemos colocar várias linhas assim
 pois estamos usando a crase
 ...
 `);
-
 
 
 
@@ -78,7 +77,7 @@ console.log(10 / 'oi');  // NaN
 console.log(1 == 1); // true
 console.log(1 == 2); // false
 console.log(1+2 == 3? 'Caso seja "true", está mensagem irá aparecer' : 'Caso seja "false", está mensagem irá aparecer');
-// O "?" é como se fosse uma pergunta mesmo, e nesta pergunta terá duas respostas, ou é verdadeiro ou é falso.
+// O "?" é como se fosse uma pergunta, e nesta pergunta terá duas respostas, ou é verdadeiro ou é falso.
 // Caso seja verdadeiro, a primeira mensagem será printada, caso seja falso, a segunda mensagem será printada.
 // OBS: As mensagens precisam ser separadas pelo ":"
 
@@ -114,10 +113,10 @@ console.log(oi); // Undefinid..
 
 // Para criar um objeto utiliza das chaves ({})
 // Um objeto pode armazenar diversas propriedades
-var pessoa = {            // objeto
-    name: 'Flora',         // propriedade
-    idade: 17,             // propriedade
-    andar: function Walk(){}  // método
+var pessoa = {               // objeto
+    name: 'Flora',           // propriedade
+    idade: 17,               // propriedade
+    andar: function Walk(){} // método
 }
 
 // Também podemos escrever um método de maneira mais simplificada num objeto
