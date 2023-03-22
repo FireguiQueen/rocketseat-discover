@@ -6,7 +6,8 @@
 */
 
 // Convertando uma STRING para NUMBER
-let BankAccount = Number('4.242420')
+const cash = 4.242420
+let BankAccount = Number(cash)
 console.log(BankAccount, typeof BankAccount)
 
 // Cuidado ao converter strings que utilizam caracteres não numéricos
@@ -19,7 +20,7 @@ console.log(String(numbers))
 
 
 // Aqui ocorre o "type coersion"
-// pois o próprio JS converte o "55" para o tipo STRING
+// pois o próprio JS converte o "55" para o "type" STRING
 console.log(55 + 'oi')  // Resultado: 55oi
 
 // Aqui ocorre o "type conversion" pois nós mesmos estamos convertendo para outro tipo de dado
@@ -29,7 +30,7 @@ console.log(55 + Number('oi')) // Resultado: NaN (pois 'oi' não pode ser númer
 console.log(55 + Number('4'))
 
 // POR CONTA DO "TYPE COERSION", OS TIPOS DE DADOS NÃO "BOOLEANS" PODEM SER BOOLEANS
-// Isto acontece pois em determinado contexto, o valor precisa ser TRUE ou FALSE, por exemplo
+// Isto acontece pois em determinado contexto, o valor precisa ser TRUE ou FALSE, por exemplo:
 console.log('oi' == 'oi'? 'sim, oi é igual a oi' : 'oi não é igual a oi')
 // No exemplo acima, um valor boolean é obrigatório para termos uma resposta.:
 // Se o valor boolean for "TRUE", a primeira mensagem será printada "sim, oi é igual a oi"
