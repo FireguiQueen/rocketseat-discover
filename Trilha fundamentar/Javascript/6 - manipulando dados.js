@@ -88,7 +88,7 @@ console.log(String(digitos_2).length) // 3 (pois há 3 caracteres na string)
 let digitos_3 = String(844.55)
 console.log(digitos_3.length) // 6 (pois há 6 caracteres - o ponto final (.) também conta como caracter)
 
-// Podemos resolver isto assim.:
+// Podemos resolver isto assim (usando o replac).:
 let digitos_4 = String(424.22)
 console.log(digitos_4.replace('.','').length)
 
