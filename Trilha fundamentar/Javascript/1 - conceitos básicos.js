@@ -26,15 +26,20 @@ objetos em JavaScript podem ter propriedades, que definem suas características.
 // Xícara transformada em um objeto:
 const cup = {
    color: blue,
-   size_width: '4cm'
+   height: 7.5,
+   width: 15.5,
+   length: 15.5
 }
 
+// E por que Javascript é "orientado a objetos"? Aqui está o motivo.. 
+// Pois diversos "comandos" que utilizamos, na verdade são objetos e propriedades deste objeto.
 
 console.log('...')
 // console -> objeto
 // .log    -> metódo (o ponto final é utilizado para acessar propriedades)
 // ()      -> argumentos deste metódo
-// Podemos dizer que é uma função do objeto ou simplesmente "método"
+// Podemos dizer que "log" é uma função do objeto ou simplesmente "método"
+
 
 
 // Criando um objeto
