@@ -20,6 +20,7 @@ Ou seja, cada operador irá trabalhar com uma quantia especifica de operandos
 Operadores binários irão trabalhar com dois operandos, operadores unários irão trabalhar com um operando
 e operadores ternários irão trabalhar com três operandos.
 
+
 Operadores.:
 Em JavaScript, existem três tipos de operadores: binários, unários e ternários.
 
@@ -32,6 +33,7 @@ Em JavaScript, existem três tipos de operadores: binários, unários e ternári
     Ternary
     -> trabalha com três operandos
 */
+
 
 
 
@@ -57,6 +59,7 @@ const pessoa = {
 }
 delete pessoa.apelido // mandamos deletar uma propriedade do objeto "pessoa"
 console.log(pessoa)
+
 
 
 
@@ -101,6 +104,7 @@ console.log(nome)
 // Já que "nome" é um objeto podemos adicionar propriedades..:
 nome.age = 44
 console.log(nome)
+
 
 
 
