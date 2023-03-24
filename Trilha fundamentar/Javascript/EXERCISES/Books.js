@@ -106,6 +106,7 @@ console.log(booksByAugusto())
 
 
 
+
 //     • Receber o nome do autor como argumento e devolver os livros desse autor.
 
 function searchBooksByAuthor(author){
@@ -124,4 +125,4 @@ function searchBooksByAuthor(author){
     return booksBy.join(`,   `)
 }
 
-console.log(searchBooksByAuthor('Augusto Cury'))
+console.log(searchBooksByAuthor('Augusto Cury'));
