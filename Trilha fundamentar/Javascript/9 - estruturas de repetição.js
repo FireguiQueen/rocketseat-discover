@@ -119,8 +119,8 @@ const person = {
 
 /*
     Foi dito que.:
-    A variável "property" representa uma propriedade do objeto "person"
-    Para cada propriedade, ele irá executar o bloco de códigod abaixo.
+    A variável "property" representa uma propriedade do objeto "person".
+    Para cada propriedade, ele irá executar o bloco de código abaixo.
 
     Primeiro colocamos "property", então ele irá colocar a primeira propriedade do objeto.:
     "name"
