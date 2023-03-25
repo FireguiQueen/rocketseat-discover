@@ -136,3 +136,5 @@ const person = {
 for (let property in person){
     console.log(`${property}: ${person[property]}`)
 }
+
+
