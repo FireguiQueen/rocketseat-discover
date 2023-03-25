@@ -118,7 +118,7 @@ const person = {
 }
 
 /*
-    Foi dito que
+    Foi dito que.:
     A variável "property" representa uma propriedade do objeto "person"
     Para cada propriedade, ele irá executar o bloco de códigod abaixo.
 
