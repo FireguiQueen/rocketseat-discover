@@ -1005,6 +1005,7 @@ quarentaE4 += 1
 console.log(NR.slice(seis, quarentaE4))
 
 
+
 NR.splice(4, 1)
 console.log(NR)
 
@@ -1012,5 +1013,6 @@ console.log(NR)
 console.log('oi');
 
 (name => console.log(`Olá, ${name}`)) ('Flora');
+
 
 console.log("Ok, i'll study tomorrow, i promess!")
