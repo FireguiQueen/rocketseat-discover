@@ -1016,3 +1016,5 @@ console.log('oi');
 
 
 console.log("Ok, i'll study tomorrow, i promess!")
+
+
