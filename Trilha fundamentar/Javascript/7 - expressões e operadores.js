@@ -152,7 +152,7 @@ console.log(++teste_1)
 
 
 
-// Decremento: -- 
+// Decremento:  -- 
 let saldo_banco = 1 
 let saldo_banco_1 = 1 
 console.log(--saldo_banco)
@@ -162,7 +162,7 @@ console.log(saldo_banco_1--)
 
 
 
-// Exponecial: **
+// Exponecial:  **
 console.log(10 ** 2)
 console.log(3 ** 3)
 
