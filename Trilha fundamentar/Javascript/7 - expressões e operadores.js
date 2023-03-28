@@ -169,6 +169,7 @@ console.log(3 ** 3)
 
 
 
+
 // Mudando a precedência dos operadores: Grouping operator ( )
 const calc = 5 + 4 * 2 // 13 
 const calc_1 = (5 + 4) * 2 // 18
