@@ -46,7 +46,8 @@ console.log('...')
 
 
 
-// Criando um objeto
+
+// --> Criando um objeto
 const pessoa = {      // Declarando o objeto
    nome: 'Paulo',     // nome:   property name    |    "Paulo": property value
    idade: 19          // idade:  property name    |         19: property value
