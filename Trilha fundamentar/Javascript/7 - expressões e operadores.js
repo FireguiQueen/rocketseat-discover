@@ -330,7 +330,6 @@ LOGO O RESULTADO SERÁ TRUE.
 
 
 
-
 // NOT: !
 // É como se fosse um interruptor, se o valor for igual a TRUE, o "!" muda para false
 // Se for igual a FALSE, o "!" muda para true
