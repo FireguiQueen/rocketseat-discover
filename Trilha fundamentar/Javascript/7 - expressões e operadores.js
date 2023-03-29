@@ -296,8 +296,6 @@ x = x ** 4
 
 
 
-
-
 //                                  Operadores lógicos
 
 // AND: &&
