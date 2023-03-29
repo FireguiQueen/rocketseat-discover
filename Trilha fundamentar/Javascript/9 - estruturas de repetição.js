@@ -87,6 +87,7 @@ while(i <= 10){ // condição
 
 
 
+
 //                                         for... of 
 
 /* 
@@ -104,6 +105,7 @@ const name = 'Guilherme'
 for (let md of name){
     console.log(md)
 }
+
 
 
 
