@@ -37,9 +37,9 @@ const cup = {
 
 /* 
    console -> objeto
-// .log    -> metódo (o ponto final é utilizado para acessar propriedades)
-// ()      -> argumentos deste metódo
-// Podemos dizer que "log" é uma função do objeto ou simplesmente "método
+   .log    -> metódo (o ponto final é utilizado para acessar propriedades)
+   ()      -> argumentos deste metódo
+   Podemos dizer que "log" é uma função do objeto ou simplesmente "método
 */
 console.log('...')
 
