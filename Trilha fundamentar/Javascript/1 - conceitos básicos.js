@@ -65,7 +65,6 @@ console.log(pessoa.nome);
 
 // Utilize-se " // " para fazer um comentário de uma única linha
 
-
 /* 
    Utiliza " /* " para fazer um comentário de bloco 
    -> Como este.. que você está lendo agora. 
