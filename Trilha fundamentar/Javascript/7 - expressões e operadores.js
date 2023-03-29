@@ -359,7 +359,6 @@ console.log(!TemBatata == TemCreatina) // false, pois são diferentes, porque o 
 
 
 
-
 // ALGUNS CUIDADOS
 
 console.log(5 > 4 == 1)
