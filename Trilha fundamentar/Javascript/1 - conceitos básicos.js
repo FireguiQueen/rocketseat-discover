@@ -34,11 +34,15 @@ const cup = {
 // E por que Javascript é "orientado a objetos"? Aqui está o motivo.. 
 // Pois diversos "comandos" que utilizamos, na verdade são objetos e propriedades deste objeto.
 
-console.log('...')
-// console -> objeto
+
+/* 
+   console -> objeto
 // .log    -> metódo (o ponto final é utilizado para acessar propriedades)
 // ()      -> argumentos deste metódo
-// Podemos dizer que "log" é uma função do objeto ou simplesmente "método"
+// Podemos dizer que "log" é uma função do objeto ou simplesmente "método
+*/
+console.log('...')
+
 
 
 
