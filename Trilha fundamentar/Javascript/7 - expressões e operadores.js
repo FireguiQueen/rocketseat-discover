@@ -374,7 +374,7 @@ console.log(5 < 4 === true)
 
 
 
-// EXEMPLO 03
+// EXEMPLO 03.:
 console.log(typeof 5>4 == typeof !4) // false
 // Primeiro o JS analisa.:
 // Qual o tipo de dado do "5"? Ele retorna "boolean"
