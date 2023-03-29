@@ -89,7 +89,6 @@ while(i <= 10){ // condição
 
 
 //                                         for... of 
-
 /* 
     Serve para percorremos sequencialmente um objeto iterável
     Neste caso, o nosso objeto é a STRING name
@@ -110,7 +109,6 @@ for (let md of name){
 
 
 //                                          for in
-
 // Serve exclusivamente para acessar propriedades de um objeto 
 
 const person = {
