@@ -61,7 +61,7 @@ console.log(pessoa.nome);
 /* -------------------------------------------------------------------------------------- */
 
 
-//                               Comentários em JS 
+//                                  Comentários em JS 
 
 // Utilize-se " // " para fazer um comentário de uma única linha
 
