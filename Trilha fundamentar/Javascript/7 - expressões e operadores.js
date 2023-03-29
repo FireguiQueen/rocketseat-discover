@@ -366,7 +366,7 @@ console.log(5 > 4 == 1)
 // E como já sabemos, o 1 é convertido em "TRUE" caso um valor boolean seja necessário
 
 
-// EXEMPLO 02
+// EXEMPLO 02.:
 console.log(5 < 4 === true)
 // Primeiro o JS analisou "5 é menor do que 4?"  <-- FALSE
 // Logo ele fez, FALSE === TRUE? <--- FALSE
