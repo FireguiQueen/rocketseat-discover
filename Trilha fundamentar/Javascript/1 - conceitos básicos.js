@@ -67,6 +67,6 @@ console.log(pessoa.nome);
 
 
 /* 
-Utiliza " /* " para fazer um comentário de bloco 
-   Como este.. que você está lendo agora. 
+   Utiliza " /* " para fazer um comentário de bloco 
+   -> Como este.. que você está lendo agora. 
 */ 
