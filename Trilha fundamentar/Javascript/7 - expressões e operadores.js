@@ -194,7 +194,6 @@ console.log(typeof carteira1 != typeof carteira2) // false, pois ambas são do t
 
 
 
-
 //              Operadores de comparação: estreitamente igual e estreitamente diferente
 const n1 = 1
 const n2 = '1'
@@ -216,7 +215,6 @@ console.log(n1 !== n2) // true, pois eles são diferentes (o seus tipo de dados 
 
 
 
-
 // Maior: > 
 console.log(1 > 2) // false
 
@@ -230,9 +228,6 @@ console.log(1 >= 1) // true, o um não é maior que um, MAS ele É IGUAL a 1
 
 // Menor igual: <=
 console.log(2 <= 2) // true, o dois não é maior que o dois, MAS ele é IGUAL a 2
-
-
-
 
 
 
