@@ -11,6 +11,7 @@ Diga_Oi();              // Invocando a função
 
 
 
+/* ------------------------------------------------------------------------------------------------- */
 
 
 
@@ -54,7 +55,6 @@ const pessoa = {      // Declarando o objeto
 }
 console.log(pessoa.nome);
              //|-> Primeiro chamamos o Objeto (pessoa), e depois uma de suas propriedades.
-
 
 
 
