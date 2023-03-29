@@ -1,5 +1,4 @@
 /*                                   FUNÇÕES
-
 Funções são blocos de construção e são fundamentais em JavaScript ou em qualquer outra linguagem. 
 Uma função é um conjunto de instruções que executa uma tarefa ou calcula
 um valor. Para usar uma função, você deve defini-la em algum lugar no escopo do qual você quiser chamá-la.
@@ -9,6 +8,7 @@ function Diga_Oi(){     // Declarando a função
    console.log('Oi');   // Declarando o corpo da função 
 }                       // Fechando a função
 Diga_Oi();              // Invocando a função
+
 
 
 
