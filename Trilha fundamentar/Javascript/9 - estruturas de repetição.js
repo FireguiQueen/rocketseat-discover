@@ -68,7 +68,6 @@ console.log('------------------')
 
 
 //                                             while
-
 // A inicialização fica fora
 // A condição fica entre os "()" igual ao "for"
 // O que irá ocorrer após a repetição fica dentro do corpo do while
