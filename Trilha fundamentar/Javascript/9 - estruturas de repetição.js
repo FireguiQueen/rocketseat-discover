@@ -73,7 +73,6 @@ console.log('------------------')
 // A condição fica entre os "()" igual ao "for"
 // O que irá ocorrer após a repetição fica dentro do corpo do while
 
-
 /*
     I é igual a 1
     Enquanto I for menor ou igual a 10
@@ -84,6 +83,7 @@ while(i <= 10){ // condição
     console.log(i)
     i++
 }
+
 
 
 
