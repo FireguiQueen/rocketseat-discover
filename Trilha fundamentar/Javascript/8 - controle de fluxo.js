@@ -31,7 +31,6 @@ if(graus >= 25.8){
 
 
 
-
 // O "else if" é utilizado caso a condição do "IF" não seja verdadeira, mas há outras condições que você
 // deseja colocar.
 
@@ -66,6 +65,7 @@ Island.prototype.Controle = function(){
         `
     }
 }
+
 
 
 
