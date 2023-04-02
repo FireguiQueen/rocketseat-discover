@@ -107,6 +107,7 @@ for (let md of name){
 
 
 
+
 //                                          for in
 // Serve exclusivamente para acessar propriedades de um objeto 
 
