@@ -1018,7 +1018,7 @@ console.log('oi');
 console.log("Ok, i'll study tomorrow, i promess!")
 
 // Eu dou a bunda para 10mil homens  // 01/04/2023 (kk)
-// 23:59 
+// 23:59 (aproximadamente 10s)
 
 
 
