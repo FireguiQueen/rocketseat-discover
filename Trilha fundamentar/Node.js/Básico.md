@@ -9,4 +9,5 @@
 </br>
 
 # Vantagens 
-
+- Possui uma alta escalabilidade
+- Ecosistema grande
