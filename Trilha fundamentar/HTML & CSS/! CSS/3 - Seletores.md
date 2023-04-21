@@ -178,8 +178,6 @@ Porém, isto não deve ser utilizado em seu CSS, não é uma boa prática.
 Utilize !imporant apenas a bibliotecas CSS cuja você não consegue de jeito nenhum fazer estilizações da forma desejada.
 
 </br>
-</br>
-
 
 _________________________________________________________________
 
