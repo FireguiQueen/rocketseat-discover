@@ -95,24 +95,24 @@ ________________________________________________________________________________
 > Existem duas maneiras de se importar fontes para o nosso website.:
 
 ### Não recomendada
-Ir no arquivo externo CSS e digitar: 
+__Incompatibilidade:__ _Nem todos os navegadores suportam a diretiva @import da mesma maneira. Alguns navegadores podem ter problemas para exibir fontes importadas dessa maneira, o que pode levar a problemas de legibilidade ou aparência de texto._ </br>
+__Desempenho:__ _Quando você usa a diretiva @import para importar uma fonte, o navegador precisa baixar a fonte antes de renderizar o conteúdo da página. Isso pode levar a atrasos no tempo de carregamento da página e prejudicar a experiência do usuário._
 ```css
-@Import 'URL_da_fonte'
+    @Import 'URL_da_fonte'
 ```
 
 </br>
+</br>
 
 ### Recomendada:  
-## Ir na tag <head> do arquivo HTML e digitar
+Ir na tag `head` do arquivo HTML e digitar
 ```html
-<head>
     <link rel="stylesheet" href="URL_da_fonte">
-<head>
 ```
 
->Após importamos as fontes, podemos usar elas em nossa webpage. 
+> Após importamos as fontes, podemos usar elas em nossa webpage. 
 ```css
 selector{ 
-    font-family:
+    font-family: nome_da_fonte;
 }
 ```
