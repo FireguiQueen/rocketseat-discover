@@ -330,8 +330,9 @@ Usamos também o atributo `label=".."` para dar nome ao grupo que fizemos.
         <option>Cronos </option>
     </optgroup>
 </select>
-_______________________________________________________________________________
+```
 
+_______________________________________________________________________________
 
 ## Explicando atributos
 
